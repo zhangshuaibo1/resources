@@ -1,0 +1,62 @@
+# 九喵 / 9mew Resources
+
+九喵猫咪头像与动画资源库。当前版本 **v1.0.0 · 2026-10-20**，包含 **134 套形象、938 个成品图像文件**。
+
+## 下载
+
+| 文件 | 大小 | 内容 |
+| --- | ---: | --- |
+| [完整创作包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-cats-v1.0.0/9mew_cat_avatar_library_complete.zip) | 475.74 MB | 全部成品、134 张原始透明动作序列图、导出脚本、可筛选图鉴与分类资料 |
+| [产品素材包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-cats-v1.0.0/9mew_cat_avatar_library_product.zip) | 228.21 MB | 全部成品、可筛选图鉴、中英文目录和使用说明 |
+| [SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-cats-v1.0.0/SHA256SUMS.txt) | 小文件 | 两个 ZIP 和两个动态预览的校验值 |
+
+[打开 Release 下载页面](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-cats-v1.0.0)
+
+**请下载名称为 `9mew_cat_avatar_library_complete.zip` 或 `9mew_cat_avatar_library_product.zip` 的附件。** GitHub 自动生成的 `Source code (zip)` 只包含仓库说明，不是猫咪素材包。
+
+## 动态预览
+
+### 浅色主题
+
+![九喵猫咪浅色动态预览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-cats-v1.0.0/9mew_cats_motion_light.gif)
+
+### 深色主题
+
+![九喵猫咪深色动态预览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-cats-v1.0.0/9mew_cats_motion_dark.gif)
+
+## 内容与规格
+
+| 类型 | 尺寸 | 数量 |
+| --- | --- | ---: |
+| 透明 PNG | 320 × 320 | 134 |
+| 静态 WebP：透明、浅色、深色 | 160 × 160 | 402 |
+| 透明动态 WebP | 256 × 256 | 134 |
+| GIF：浅色、深色 | 256 × 256 | 268 |
+| **合计** | | **938** |
+
+每个形象选配一种动作，提供三种动态格式或主题版本，均为 4 秒循环。全库共 12 类动作：眨眼、招手、歪头、单眼眨眼、动耳朵、舔爪、点头、打哈欠、摆尾、小爪贴胸、满足呼噜、伸爪。
+
+134 个条目包括 78 个猫种条目、42 个长短毛等变种、4 个少见或发展中的类型、10 个常见家猫花色。条目数不等于独立品种数，每个条目采用一种代表性外观。来源与分类映射见下载包内的 `coverage_sources.md` 和 `catalog_research.json`。
+
+## 使用
+
+1. 下载 ZIP 并完整解压，保留文件夹结构。
+2. 打开 `preview.html`，按中英文名称、类型或动作筛选；支持深浅主题、圆形预览和动画开关。
+3. 产品接入使用 `catalog.json`，数据库保存稳定 `id`，例如 `ragdoll`。
+4. 聊天列表默认使用静态 WebP，个人资料页或用户主动开启动画时使用透明动态 WebP。
+
+完整创作包保留原始动作图和导出配置；重新导出需要 Node.js 20.9.0 或更新版本，具体步骤见包内 `README.md`。
+
+## 校验下载
+
+将 `SHA256SUMS.txt` 与下载文件放在同一目录。macOS 可运行：
+
+```sh
+shasum -a 256 9mew_cat_avatar_library_complete.zip
+```
+
+完整创作包的 SHA-256：
+
+```text
+0fff9484ef8ccb668948dcdbe474f6fcb795d358ead1ed9e52323cf7c8d269c3
+```
