@@ -2,7 +2,37 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
-## 官网场景动效
+## 官网场景动效 · v2
+
+第二版延续此前单独猫咪动画的细腻毛发、自然毛色和圆润眼神，画面以猫咪自身的小动作与互动为主。樱花粉保留在小面积配饰中，提供浅色、深色和透明版本。
+
+**[下载新版完整素材包 · 48.57 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/9mew_brand_scene_motion_v2_complete.zip)** · [打开新版 Release](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-scene-motion-v2.0.0)
+
+| 场景 | 新动作 | 动画 WebP 下载 |
+| --- | --- | --- |
+| 鼻尖默契 · 协作 | 橘白虎斑与布偶缓缓靠近、轻碰鼻尖 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/collaboration-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/collaboration-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/collaboration-transparent.webp) |
+| 安静陪伴 · 条款 | 布偶猫轻转头、慢眨眼 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/terms-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/terms-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/terms-transparent.webp) |
+| 安心蜷睡 · 隐私 | 暖棕长毛猫蜷卧、轻微起伏 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/privacy-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/privacy-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/privacy-transparent.webp) |
+| 好奇倾听 · 知识 | 英短蓝猫轻歪头、眨眼 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/knowledge-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/knowledge-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/knowledge-transparent.webp) |
+| 奶喵回应 · 助手 | 重点色奶喵轻抬前爪回应 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/assistant-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/assistant-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/assistant-transparent.webp) |
+| 舒展迎接 · 欢迎 | 橘猫缓缓伸懒腰 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/welcome-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/welcome-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/welcome-transparent.webp) |
+
+完整包包含 **86 个文件**：720×450 场景 WebP、400×400 透明方形版、480×300 深浅 GIF、静态 PNG、6 张原始动作图、离线预览、对齐记录、重导出脚本和中文说明。每个动作采用 12 幅原画组成 6 秒逐帧循环；源图按落脚位置配准，并保持共同缩放。
+
+![新版浅色猫咪动效](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/overview-light.gif)
+
+![新版深色猫咪动效](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/overview-dark.gif)
+
+[浅色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/overview-light.webp) · [深色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/overview-dark.webp) · [SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v2.0.0/9mew_scene_v2_SHA256SUMS.txt)
+
+完整解压后打开 `preview.html`，可离线切换深浅主题、播放／暂停。暂停使用 PNG 静帧，初始遵循系统的减少动态效果偏好。
+
+请选择附件 **`9mew_brand_scene_motion_v2_complete.zip`**。GitHub 自动生成的 `Source code` 下载项是仓库源码快照，完整素材在上述附件中。
+
+<details>
+<summary>第一版场景动效 · 历史下载</summary>
+
+## 第一版场景动效
 
 六个猫咪场景，每个提供浅色、深色和透明主题，以及原尺寸与网页轻量两档。8 秒无限循环，按 20 FPS 时间轴渲染。
 
@@ -24,6 +54,8 @@
 [浅色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/overview-light.webp) · [深色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/overview-dark.webp) · [附件 SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/SHA256SUMS.txt)
 
 完整解压后打开 `preview.html`，可切换主题、尺寸和动画／静态模式，默认尊重系统的减少动态效果设置。
+
+</details>
 
 ## 宽幅品牌动画
 
