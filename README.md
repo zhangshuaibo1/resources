@@ -2,6 +2,29 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 官网场景动效
+
+六个猫咪场景，每个提供浅色、深色和透明主题，以及原尺寸与网页轻量两档。8 秒无限循环，按 20 FPS 时间轴渲染。
+
+**[下载完整场景素材包 · 204.61 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/9mew_brand_scene_motion_kit_complete.zip)** · [打开 Release](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-scene-motion-v1.0.0)
+
+完整包共 87 个文件：36 份动画 WebP、18 张静态 PNG，以及原始素材、离线预览、重导出脚本和接入说明。网页轻量版为 640 × 400；无损主版为 1024 × 640。透明版本保留 alpha，可放在自定义页面背景上。
+
+| 场景 | 动作 | 网页轻量版下载 |
+| --- | --- | --- |
+| 猫咪协作 | 三只猫咪一起拼合任务拼图 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-collaboration-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-collaboration-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-collaboration-transparent.webp) |
+| 一起读条款 | 眼镜英短与暹罗猫一起阅读文件 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-terms-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-terms-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-terms-transparent.webp) |
+| 守护小秘密 | 收好信封，陪伴与守护 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-privacy-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-privacy-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-privacy-transparent.webp) |
+| 知识慢慢积累 | 缅因猫与俄罗斯蓝猫递书归档 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-knowledge-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-knowledge-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-knowledge-transparent.webp) |
+| 奶喵来帮忙 | 对话气泡、倾听和回应 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-assistant-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-assistant-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-assistant-transparent.webp) |
+| 欢迎来到九喵 | 猫咪招手，礼盒里升起樱花粉猫耳 9 | [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-welcome-light.webp) · [深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-welcome-dark.webp) · [透明](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/web-welcome-transparent.webp) |
+
+![九喵六场景浅色总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/overview-light.png)
+
+[浅色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/overview-light.webp) · [深色动态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/overview-dark.webp) · [附件 SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-motion-v1.0.0/SHA256SUMS.txt)
+
+完整解压后打开 `preview.html`，可切换主题、尺寸和动画／静态模式，默认尊重系统的减少动态效果设置。
+
 ## 宽幅品牌动画
 
 六只猫咪嬉戏后聚成樱花粉「猫耳 9 + 猫咪 mew」品牌画面。提供深浅主题，384 帧、24 fps、约 16 秒无限循环。
