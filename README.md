@@ -2,6 +2,58 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 六场景道具与动画 · v3
+
+[打开 v3 Release 下载页](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-scene-props-v3.0.0)
+
+延续前一版单独猫咪的自然毛色、细腻毛发和明亮眼神，为六个官网场景加入与猫咪共同绘制的小道具。樱花粉、奶油白、鼠尾草绿和蓝灰色统一材质与笔触。
+
+**[下载完整素材包 · 52.90 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/9mew_page_scene_props_v3_complete.zip)**
+
+完整 ZIP 包含 **122 个文件、92 份成品图像**：6 套场景的主题与尺寸版本、6 件独立道具、总览、源图、离线预览和重导出脚本。动画均为 6 秒无限循环。
+
+| 场景 | 猫咪与道具互动 | 透明动画 | 独立道具 |
+| --- | --- | --- | --- |
+| 产品 / 企业 | 布偶猫轻触笔记本键盘 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/product-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/product-prop.png) |
+| 体验 | 奶喵轻点平板按钮 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/experience-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/experience-prop.png) |
+| 知识指南 | 英短俯看指南，轻扶纸角 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/knowledge-guide-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/knowledge-guide-prop.png) |
+| 隐私 | 缅因轻合收纳匣，收好信件 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/privacy-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/privacy-prop.png) |
+| 条款 | 三花猫轻扶夹板纸页、眨眼 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/terms-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/terms-prop.png) |
+| 认识九喵 | 橘猫陪伴三猫合影相框，歪头眨眼 | [WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/about-transparent.webp) | [PNG](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/about-prop.png) |
+
+### 浅色动态总览
+
+![浅色场景](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/overview-light.gif)
+
+### 深色动态总览
+
+![深色场景](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/overview-dark.gif)
+
+[浅色道具总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/props-overview-light.png) · [深色道具总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/props-overview-dark.png)
+
+### 规格与使用
+
+- 场景 WebP / 静态 PNG：720×450，浅色、深色、透明三版。
+- 方形透明动画 / 静帧：400×400。
+- 浅色 / 深色 GIF：480×300。
+- 独立道具：400×400 透明 PNG / WebP、浅色 / 深色 PNG。独立道具文件为静态；互动动画包含猫与道具完整场景。
+- 浅色底 `#FFF8F2`、深色底 `#17141F`、樱花粉 `#E990AA`。
+- 解压后打开 `preview.html`，可离线切换主题和播放／暂停。初始遵循系统减少动态效果偏好，暂停会显示 PNG 静帧。
+
+「认识」按「认识九喵 / 关于我们」设计；「产品 / 企业」共用一组。本版为新增带道具场景，前版纯猫咪动效继续保留。
+
+请在 Assets 中选择 **`9mew_page_scene_props_v3_complete.zip`**。GitHub 自动生成的 `Source code` 下载项是仓库快照，完整素材为上述附件。
+
+标准 ZIP / DEFLATE，无加密、无分卷。[下载 SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-scene-props-v3.0.0/9mew_scene_props_v3_SHA256SUMS.txt)。
+
+完整 ZIP 的 SHA-256：
+
+```text
+bd0b6a8f1cd823e30ac3c066717a0d7c1c5f1ce0bde5e083207f1d407243ea62
+```
+
+完整 ZIP 已从公开下载地址重新下载，并通过 SHA-256、CRC 与实际解压核验。
+
 ## 官网场景动效 · v2
 
 第二版延续此前单独猫咪动画的细腻毛发、自然毛色和圆润眼神，画面以猫咪自身的小动作与互动为主。樱花粉保留在小面积配饰中，提供浅色、深色和透明版本。
