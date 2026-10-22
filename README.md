@@ -2,7 +2,32 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
-## 九喵宇宙 · 九只猫的多星球动画
+## 九喵宇宙 · 九条命的故事
+
+### 《九喵：第九次，回家》
+
+**它有九条命，却一直在寻找同一条温暖的尾巴。**
+
+以“猫的九条命”为核心，讲述同一个灵魂在九颗星球上的九段完整人生。奶喵与团团经历相遇、错过、遗忘、回头与重新认出彼此。前八世各结束一次，共八次重生；第九世的结尾仍是两只成年猫继续共同生活。
+
+**[下载完整故事包 · 163.00 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/9mew_nine_lives_story_complete.zip)** · [打开本版 Release](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-nine-lives-story-v1.0.0)
+
+完整包共 **53 个文件**，包含 **13 张原始 PNG 故事原画、完整中文图文故事书、120 秒动态分镜、深浅底故事总览、设定与后续制作脚本、生成记录和重建工具**。故事书嵌入全部插画，单独下载 HTML 即可离线阅读。
+
+| 内容 | 规格 | 下载 |
+| --- | --- | --- |
+| 离线图文故事书 | 中文九章、人物、设定、深浅阅读主题 | [story.html](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/story.html) |
+| 无声动态分镜 · MP4 | 1600 × 900，120 秒，20 fps | [下载 MP4](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/nine-lives-animatic-1600.mp4) |
+| 无声动态分镜 · WebP | 960 × 540，120 秒，单次播放 | [下载 WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/nine-lives-animatic-960.webp) |
+| 九世故事总览 | 2004 × 1164 PNG | [深色底](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/nine-lives-overview-dark.png) · [浅色底](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/nine-lives-overview-light.png) |
+
+**本版媒体为动态分镜（animatic）**：使用电影关键原画、镜头推进、交叉溶解、八次生命转场与开场重现。尚未制作连续的猫咪步态、眨眼、敲爪等完整角色表演；画面内无文字，文件无音轨。正式约三分钟角色动画的镜头与动作建议已写入包内制作脚本。深浅切换作用于故事书界面与总览底色，原画保留剧情需要的夜色和晨光。
+
+![九世故事总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/nine-lives-overview-dark.png)
+
+请选择附件 **`9mew_nine_lives_story_complete.zip`**。包采用标准 ZIP / DEFLATE，无加密、无分卷；已通过本地 CRC、完整解压与逐文件 SHA-256 核验。[下载附件校验清单](https://github.com/zhangshuaibo1/resources/releases/download/9mew-nine-lives-story-v1.0.0/9mew_nine_lives_story_SHA256SUMS.txt)。
+
+## 早期群猫宇宙视觉 · 历史素材
 
 九只猫生活在六颗各有地貌的小星球上，樱花色星路连接彼此。深靛蓝星夜与浅紫晨光两套主题，提供近景拉远的电影镜头，以及始终展示整个宇宙的全景循环。画面内无文字、数字、标志或水印；无音频。
 
