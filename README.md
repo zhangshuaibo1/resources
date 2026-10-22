@@ -2,6 +2,38 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 喵星域 · 无字宇宙猫群动画
+
+六只猫生活在三座漂浮于星海的花园：橘白与英短玩小光点，布偶与三花依偎轻蹭，缅因蜷睡、奶喵仰望星空。星光沿轨迹流动，花瓣轻轻飘动。画面内没有文字、数字、品牌标志或水印。
+
+**[下载完整素材包 · 65.23 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/9mew_starhaven_motion_complete.zip)** · [打开 Release 下载页](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-starhaven-v1.0.0)
+
+提供深色星夜与浅色晨光两套主题，均为 **2:1 宽幅、12 秒循环**。WebP / MP4 为 20fps，GIF 为 10fps；MP4 无音轨。
+
+| 格式 | 深色星夜 | 浅色晨光 |
+| --- | --- | --- |
+| 无损动画 WebP · 1600×800 | [下载 · 8.85 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark-1600.webp) | [下载 · 8.43 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-light-1600.webp) |
+| 无损动画 WebP · 960×480 | [下载 · 4.08 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark-960.webp) | [下载 · 3.90 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-light-960.webp) |
+| MP4 · 1600×800 | [下载 · 1.22 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark.mp4) | [下载 · 1.20 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-light.mp4) |
+| GIF · 640×320 | [下载 · 7.38 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark.gif) | [下载 · 7.12 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-light.gif) |
+| 静态 PNG · 1600×800 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark.png) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-light.png) |
+
+![喵星域深色定格](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/starhaven-dark.png)
+
+完整包共 **77 个文件**：10 份主要成品、3 组猫咪的 36 张已对齐透明 PNG 帧、花瓣与星光素材、原始环境和动作源图、生成记录、离线预览、中文说明与重新导出脚本。每对猫有 12 张实际姿态绘图，按固定落脚点配准后编排正反循环，20fps 为合成时间轴。
+
+解压后保留目录结构，打开 `preview.html`，可切换主题、播放或暂停。预览页响应系统的减少动态效果偏好。网页横幅可使用较小的 MP4，静帧 PNG 可作加载与减少动态效果时的回退。
+
+请选择附件 **`9mew_starhaven_motion_complete.zip`**；GitHub 自动生成的 `Source code` 下载项是仓库快照。完整 ZIP 使用标准 DEFLATE，无加密、无分卷，已从公开地址重新下载并通过 SHA-256、CRC 和实际解压核验。
+
+[下载 SHA-256 校验文件](https://github.com/zhangshuaibo1/resources/releases/download/9mew-starhaven-v1.0.0/9mew_starhaven_SHA256SUMS.txt)
+
+完整 ZIP 的 SHA-256：
+
+```text
+8ec9eb2561fe1031e55a706d78c8b1924792f89c95c416c386214509205bd98b
+```
+
 ## 六场景道具与动画 · v3
 
 [打开 v3 Release 下载页](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-scene-props-v3.0.0)
