@@ -2,6 +2,25 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 九喵宇宙 · 九只猫的多星球动画
+
+九只猫生活在六颗各有地貌的小星球上，樱花色星路连接彼此。深靛蓝星夜与浅紫晨光两套主题，提供近景拉远的电影镜头，以及始终展示整个宇宙的全景循环。画面内无文字、数字、标志或水印；无音频。
+
+**[下载完整素材包 · 114.77 MB](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/9mew_universe_motion_complete.zip)** · [全部附件与预览](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-universe-v1.0.0)
+
+| 版本 | 深色星夜 | 浅色晨光 |
+| --- | --- | --- |
+| 电影镜头 MP4 · 1600 × 900 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark-cinematic.mp4) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light-cinematic.mp4) |
+| 全景循环 MP4 · 1600 × 900 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark-loop.mp4) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light-loop.mp4) |
+| 无损动画 WebP · 1600 × 900 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark-1600.webp) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light-1600.webp) |
+| 无损动画 WebP · 960 × 540 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark-960.webp) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light-960.webp) |
+| GIF · 640 × 360 | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark.gif) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light.gif) |
+| 静态海报 PNG | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark.png) | [下载](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-light.png) |
+
+每轮 16 秒。官网优先使用约 2.2 MB 的全景 MP4；需要图片形式时使用 960 WebP。完整包包含离线 `preview.html`、透明猫咪与星球分层、原始动作表、重建脚本、说明与校验清单。
+
+![九喵宇宙 · 深色全景](https://github.com/zhangshuaibo1/resources/releases/download/9mew-universe-v1.0.0/universe-dark.png)
+
 ## 喵星域 · 无字宇宙猫群动画
 
 六只猫生活在三座漂浮于星海的花园：橘白与英短玩小光点，布偶与三花依偎轻蹭，缅因蜷睡、奶喵仰望星空。星光沿轨迹流动，花瓣轻轻飘动。画面内没有文字、数字、品牌标志或水印。
