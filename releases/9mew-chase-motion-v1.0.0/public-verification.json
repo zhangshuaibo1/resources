@@ -1,0 +1,227 @@
+{
+  "status": "PUBLIC_DOWNLOADS_AND_ZIP_EXTRACTION_PASSED",
+  "checkedAtUtc": "2026-10-23T05:20:17.633648+00:00",
+  "repository": "https://github.com/zhangshuaibo1/resources",
+  "release": "https://github.com/zhangshuaibo1/resources/releases/tag/9mew-chase-motion-v1.0.0",
+  "commit": "dcde8260cc5d78d48347fe0f8b38eb463ba09300",
+  "sourceFiles": 173,
+  "assets": [
+    {
+      "name": "9mew_chase_motion_kit_v1.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_motion_kit_v1.zip",
+      "bytes": 97167053,
+      "sha256": "55f59824f43b4bb08c81a8fff4077a56d06e89233ce0ebe5a169285b8589ebec",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 173,
+      "payloadHashesVerified": 172
+    },
+    {
+      "name": "9mew_chase_web_v1.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_web_v1.zip",
+      "bytes": 6562021,
+      "sha256": "ba6e96f652cc28ed30e51df531e4302fe9af35fc01ab2082799c736c2fab5906",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 26,
+      "payloadHashesVerified": 25
+    },
+    {
+      "name": "9mew_chase_preview_v1.html",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_preview_v1.html",
+      "bytes": 8244741,
+      "sha256": "2b9dc9615249cdb5049da01d11462e340c28fcdf083a7af123723e8abac52903",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_scene_prompt_v1.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_scene_prompt_v1.txt",
+      "bytes": 7900,
+      "sha256": "a624c3f24793154906a7f8ecce023e0260d7f5557780d697fa269bcb9e66def5",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_light_v1.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.mp4",
+      "bytes": 516666,
+      "sha256": "3542b36669a7001b774f390cdb9d2df85fa4b7ef3508c40a4f0cbe7a56e9465f",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_dark_v1.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.mp4",
+      "bytes": 642306,
+      "sha256": "aa0ad255ee94d252e2251775d76d89eaab4170a3bacda5976c99c4d18d31d882",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_light_v1.gif",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.gif",
+      "bytes": 19027839,
+      "sha256": "aa8d573639876c4c58a0658650e04ec5ab9344b11fd6162109c85de60eca9790",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_dark_v1.gif",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.gif",
+      "bytes": 32987802,
+      "sha256": "afc0351c1c003a5535064f70f04529711feebb41e348f5ee2240244e3f9e1942",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_light_v1.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.webp",
+      "bytes": 838024,
+      "sha256": "8afca375ac25fa81a309265ae87595cd99284907743d8e904bae0c0d349b1cbb",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_dark_v1.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.webp",
+      "bytes": 1149168,
+      "sha256": "015cc3fbd1185561ea09a3883e028195364f42c54a9fdf5d2d7c9d98e3684278",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_overview_v1.png",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_overview_v1.png",
+      "bytes": 521481,
+      "sha256": "12144124e1ff09311a2190f970e7e60f25a266721e01bd244dc7666446652d63",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_chase_v1_SHA256SUMS.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_v1_SHA256SUMS.txt",
+      "bytes": 1005,
+      "sha256": "e63b4b3c4ac80fd1bcfb830b02c79e55eebbbd091e5fb6f2235ca0d4b42d1e9b",
+      "unauthenticatedDownload": "PASSED"
+    }
+  ],
+  "lightweightBrowserValidation": {
+    "status": "LIGHTWEIGHT_ZIP_BROWSER_SMOKE_PASSED",
+    "checkedAt": "2026-10-23T05:19:49.825Z",
+    "zipSHA256": "ba6e96f652cc28ed30e51df531e4302fe9af35fc01ab2082799c736c2fab5906",
+    "checks": [
+      {
+        "name": "Actual extracted web/index.html loads a nonempty working page through HTTP",
+        "result": "PASS"
+      },
+      {
+        "name": "All eight declared sprite atlases requested successfully and decoded by player",
+        "result": "PASS",
+        "atlasCount": 8
+      },
+      {
+        "name": "Real frame changes and leftward movement observed",
+        "result": "PASS",
+        "before": {
+          "time": 2500,
+          "frame": 0,
+          "x": 897.9538488213432
+        },
+        "after": {
+          "time": 2766.6999999999985,
+          "frame": 4,
+          "x": 834.4249095431223
+        }
+      },
+      {
+        "name": "Bundled Chinese font loads successfully",
+        "result": "PASS",
+        "fonts": [
+          {
+            "family": "9mew Sans",
+            "status": "loaded"
+          }
+        ]
+      },
+      {
+        "name": "Lightweight docs, script-free package metadata and runtime-subset catalog are accurate",
+        "result": "PASS"
+      },
+      {
+        "name": "No HTTP 404, failed requests or JavaScript errors",
+        "result": "PASS"
+      }
+    ],
+    "browserVersion": "156.0.8078.47",
+    "badRequests": [],
+    "errors": [],
+    "requests": [
+      {
+        "path": "/web/index.html",
+        "status": 200
+      },
+      {
+        "path": "/web/demo.css",
+        "status": 200
+      },
+      {
+        "path": "/web/demo.js",
+        "status": 200
+      },
+      {
+        "path": "/web/chase-scene.js",
+        "status": 200
+      },
+      {
+        "path": "/fonts/9mew-chase.woff",
+        "status": 200
+      },
+      {
+        "path": "/catalog.json",
+        "status": 200
+      },
+      {
+        "path": "/refs/mewling_master.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/chase-run.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/chase-look-up.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/chase-leap.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/chase-float.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/chase-land.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/rest.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/mouse-run.webp",
+        "status": 200
+      },
+      {
+        "path": "/sprites/butterfly-flutter.webp",
+        "status": 200
+      },
+      {
+        "path": "/web/README.md",
+        "status": 200
+      }
+    ]
+  },
+  "remoteSourceTree": {
+    "status": "PASSED",
+    "commit": "dcde8260cc5d78d48347fe0f8b38eb463ba09300",
+    "path": "packages/9mew_chase_motion_kit_v1/",
+    "fileCount": 173,
+    "allPathsAndSizesMatched": true,
+    "treeTruncated": false
+  }
+}
