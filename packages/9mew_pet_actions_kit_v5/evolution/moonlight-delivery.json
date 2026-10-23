@@ -1,0 +1,81 @@
+{
+  "schema_version": "9mew.visual-delivery.v1",
+  "asset_id": "9mew.pet.official.appearance.moonlight",
+  "asset_version": "0.1.0",
+  "character_id": "9mew.character.naimiao",
+  "appearance_version": "naimiao.moonlight.0.1.0",
+  "review_state": "candidate",
+  "files": [
+    {
+      "path": "moonlight.png",
+      "media_kind": "static",
+      "expected_format": "png",
+      "theme": "transparent",
+      "sha256": "7d927e0f65b858b373a08f9e29a39c0cbdab9a43c16caef84703ce1bfe3a2dad"
+    },
+    {
+      "path": "moonlight.desktop.webp",
+      "media_kind": "static",
+      "expected_format": "webp",
+      "theme": "transparent",
+      "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803",
+      "max_bytes": 163840
+    },
+    {
+      "path": "moonlight.mobile.webp",
+      "media_kind": "static",
+      "expected_format": "webp",
+      "theme": "transparent",
+      "sha256": "5d5d7402c6c18ce875635bbab39aaae4a86057a1e60cda0cbef1d0043a530ae0",
+      "max_bytes": 81920
+    }
+  ],
+  "source": {
+    "reference_hashes": [
+      "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+    ],
+    "builder_prompt_sha256": "b95d31c1e378e50ec87069e18c88f82d53ff2baf7bf03835d0fa9efb0675fb16",
+    "prompt_sha256": "03bff4e7b04a1773ad38fb3b1614c7f4ecca8f2d3c89c9b29a88368196b952b9",
+    "actual_tool_prompt": "Use case: identity-preserve. The supplied image is the edit target and selected character identity reference. Preserve the exact face, proportions, pose and expression. This output is a single full-body transparent character image, not a contact sheet.\n\nAsset type: static. Placement: pet appearance preview, no baked text.\n\nPrimary request: Edit the selected first kitten into a gentle moonlight celestial cultivation appearance. Keep precisely the same feline face, expression, proportions, body pose and signature scarf. A refined mythic spirit-cat candidate, still adorable and elegant.\n\nIdentity mode: preserve. Identity: cream-white fine short fur and recognizable feline cheek/chest structure; large glassy gray-brown eyes with readable iris and pupil; preserve face layout; soft triangular ears, blush inner ears, tiny dusty-pink nose and short feline muzzle; small sakura silk scarf and tiny warm-gold four-point star clasp; neat paws and pink pads, naturally tapered curled tail; graceful feline body and welcoming curious expression\n\nCreative branch: cultivation; celestial universe, cultivation, mythology and fantasy are valid when requested.\n\nAllowed changes: coat_color: Preserve cream-white fur with only a subtle warm pearl and pale gold rim sheen, no full-body recoloring.; coat_pattern: Tiny understated gold-lavender cloud wisps along the tail tip only.; aura: A slim floating pearly crescent arc behind the upper body, with a little soft stardust; it does not intersect the head or cover the ears, no giant halo.; accessories: Keep the pink scarf and original four-point gold star. Add a tiny jade-and-pearl charm beside the clasp, proportionate to a kitten; no armor, crowns or human clothing.\n\nStyle: refined tactile soft-3D cat art; fine fur, elegant feline poses, satin/pearl/linen props; coherent contact and generous margins.\n\nPalette: cream #FFF5EC, sakura #F6A9C2, mint #BDE2D3; midnight #101321/#171C35 for dark scenes. Approved project tokens take precedence.\n\nRequested framing: 1:1. Themes: transparent. Map these intentions only to provider-supported controls.\n\nConstraints: no text, guessed logo, fake interface, numeric claims, human hands, unintended extra limbs/tails or cropped ears/paws. Preserve readable iris eyes and face identity.\n\nFantasy anatomy may change only where explicitly listed; keep count, attachment and silhouette deliberate.\n\nDeliver actual alpha if the chosen capability supports it; never draw a checkerboard or opaque backdrop and call it transparent.",
+    "tool_name": "image_gen.imagegen",
+    "actual_parameters": {
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_visual_system_v1/illustrations/mewling_master.png"
+      ]
+    },
+    "provider": null,
+    "model": null,
+    "model_version": null,
+    "actual_cost": null,
+    "metadata_note": "Tool name, supplied input and actual output are recorded. Provider/model/version/cost were not exposed; null does not mean zero."
+  },
+  "runtime_evidence": [],
+  "visual_review": {
+    "status": "candidate_preview_reviewed_not_approved",
+    "identity": "Face, pose, scarf and star clasp remain recognizable from the selected reference.",
+    "limits": "The generated aura is more prominent than the small-effect brief; simplify for compact avatars before production. No activation or progression event is claimed."
+  },
+  "appearance_candidate": {
+    "character_id": "9mew.character.naimiao",
+    "parent_appearance_version": "naimiao.cream.1.0.0",
+    "candidate_appearance_version": "naimiao.moonlight.0.1.0",
+    "state": "candidate",
+    "proof_mode": "concept_only",
+    "event_ref": null,
+    "branch": "cultivation",
+    "allowed_changes": [
+      "coat_color",
+      "coat_pattern",
+      "aura",
+      "accessories"
+    ],
+    "changes": {
+      "coat_color": "Preserve cream-white fur with only a subtle warm pearl and pale gold rim sheen, no full-body recoloring.",
+      "coat_pattern": "Tiny understated gold-lavender cloud wisps along the tail tip only.",
+      "aura": "A slim floating pearly crescent arc behind the upper body, with a little soft stardust; it does not intersect the head or cover the ears, no giant halo.",
+      "accessories": "Keep the pink scarf and original four-point gold star. Add a tiny jade-and-pearl charm beside the clasp, proportionate to a kitten; no armor, crowns or human clothing."
+    },
+    "activation": "not executed; owning service must verify event, identity, version, audience and approval"
+  }
+}

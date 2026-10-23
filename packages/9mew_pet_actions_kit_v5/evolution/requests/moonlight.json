@@ -1,0 +1,41 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "naimiao-moonlight-concept-001",
+  "task": "evolve-appearance",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "base_appearance_version": "naimiao.cream.1.0.0",
+  "appearance_version": "naimiao.moonlight.0.1.0",
+  "proof_mode": "concept_only",
+  "event_ref": null,
+  "branch": "cultivation",
+  "brief": "Edit the selected first kitten into a gentle moonlight celestial cultivation appearance. Keep precisely the same feline face, expression, proportions, body pose and signature scarf. A refined mythic spirit-cat candidate, still adorable and elegant.",
+  "allowed_changes": [
+    "coat_color",
+    "coat_pattern",
+    "aura",
+    "accessories"
+  ],
+  "changes": {
+    "coat_color": "Preserve cream-white fur with only a subtle warm pearl and pale gold rim sheen, no full-body recoloring.",
+    "coat_pattern": "Tiny understated gold-lavender cloud wisps along the tail tip only.",
+    "aura": "A slim floating pearly crescent arc behind the upper body, with a little soft stardust; it does not intersect the head or cover the ears, no giant halo.",
+    "accessories": "Keep the pink scarf and original four-point gold star. Add a tiny jade-and-pearl charm beside the clasp, proportionate to a kitten; no armor, crowns or human clothing."
+  },
+  "target": {
+    "asset_id": "9mew.pet.official.appearance.moonlight",
+    "asset_version": "0.1.0",
+    "media_kind": "static",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "1:1",
+    "placement": "pet appearance preview, no baked text"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 1
+  },
+  "authorization_ref": "current-user-request:9mew-visual-skill-and-fantasy-appearance",
+  "additional_references": []
+}

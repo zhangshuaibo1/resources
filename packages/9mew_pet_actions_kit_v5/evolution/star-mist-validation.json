@@ -1,0 +1,65 @@
+{
+  "schema_version": "9mew.visual-validation.v1",
+  "asset_id": "9mew.pet.official.appearance.star-mist",
+  "asset_version": "0.1.0",
+  "status": "TECHNICAL_CHECKS_PASSED",
+  "files": [
+    {
+      "path": "star-mist.png",
+      "bytes": 1837892,
+      "sha256": "537c676e4b6defc032c62e3357efd5b1cb7fecfd901c4d2ed24ce718e457c735",
+      "format": "png",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    },
+    {
+      "path": "star-mist.desktop.webp",
+      "bytes": 152232,
+      "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90",
+      "format": "webp",
+      "width": 896,
+      "height": 896,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    },
+    {
+      "path": "star-mist.mobile.webp",
+      "bytes": 59442,
+      "sha256": "09eaac82221cbe81f49c8710d4f032576f94d8fbae62336dd688bb650a67b547",
+      "format": "webp",
+      "width": 512,
+      "height": 512,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    }
+  ],
+  "declared_review_state": "candidate",
+  "approval_verified": false,
+  "appearance_activation": "not_executed",
+  "scope": "File integrity, available complete raster decode, and SVG/GLB structural checks only.",
+  "remaining": [
+    "Review actual likeness, anatomy, composition and style.",
+    "Verify browser motion/model playback and target-device performance when applicable.",
+    "Obtain applicable visual/content review and authoritative activation; technical checks do not grant approval."
+  ]
+}

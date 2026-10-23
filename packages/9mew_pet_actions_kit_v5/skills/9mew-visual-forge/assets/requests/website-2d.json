@@ -1,0 +1,55 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "website-naimiao-blink-001",
+  "task": "character-animation",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "branch": "natural",
+  "brief": "Create the actual successive eyelid poses for a graceful blink by the selected cream kitten. Keep face, fur, scarf, body and limbs recognizable and steady; the eyelids genuinely close and reopen. This is source art for an actual 2D pet action, not a whole-image bob.",
+  "allowed_changes": [
+    "expression"
+  ],
+  "changes": {
+    "expression": "Natural feline eyelids close and reopen; do not draw improvised covering shapes over the master."
+  },
+  "animation": {
+    "action_id": "blink",
+    "category": "daily",
+    "columns": 4,
+    "rows": 2,
+    "playback": "loop",
+    "duration_ms": 3000,
+    "start_pose": "Original seated raised-paw pose with both eyes naturally open.",
+    "end_pose": "Return to the same open-eyed seated pose.",
+    "camera": "Locked frontal slight three-quarter camera; match reference face proportions.",
+    "anchor_policy": "Keep root position, whole-cat scale and paw ground contact stable in every cell.",
+    "phases": [
+      "Eyes open, calm gaze.",
+      "Upper eyelids lower slightly.",
+      "Eyelids halfway closed.",
+      "Eyes gently fully closed, no facial distortion.",
+      "Brief comfortable closed-eye hold.",
+      "Eyelids reopen halfway.",
+      "Eyelids nearly open.",
+      "Eyes fully open, identical stance to start."
+    ]
+  },
+  "target": {
+    "asset_id": "9mew.motion.blink",
+    "asset_version": "0.4.0",
+    "media_kind": "character-animation-2d",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "2:1",
+    "placement": "Website pet action source sheet, followed by transparent frame playback and encoded animation export.",
+    "required_clips": [
+      "blink"
+    ]
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "additional_references": []
+}

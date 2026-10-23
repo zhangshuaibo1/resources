@@ -1,0 +1,65 @@
+{
+  "schema_version": "9mew.visual-validation.v1",
+  "asset_id": "9mew.pet.official.appearance.moonlight",
+  "asset_version": "0.1.0",
+  "status": "TECHNICAL_CHECKS_PASSED",
+  "files": [
+    {
+      "path": "moonlight.png",
+      "bytes": 1941449,
+      "sha256": "7d927e0f65b858b373a08f9e29a39c0cbdab9a43c16caef84703ce1bfe3a2dad",
+      "format": "png",
+      "width": 1254,
+      "height": 1254,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    },
+    {
+      "path": "moonlight.desktop.webp",
+      "bytes": 152168,
+      "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803",
+      "format": "webp",
+      "width": 896,
+      "height": 896,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    },
+    {
+      "path": "moonlight.mobile.webp",
+      "bytes": 60200,
+      "sha256": "5d5d7402c6c18ce875635bbab39aaae4a86057a1e60cda0cbef1d0043a530ae0",
+      "format": "webp",
+      "width": 512,
+      "height": 512,
+      "frames": 1,
+      "unique_decoded_frames": 1,
+      "duration_ms": 0,
+      "has_transparency": true,
+      "decode_status": "all_frames_decoded",
+      "partial": false,
+      "errors": [],
+      "technical_status": "passed"
+    }
+  ],
+  "declared_review_state": "candidate",
+  "approval_verified": false,
+  "appearance_activation": "not_executed",
+  "scope": "File integrity, available complete raster decode, and SVG/GLB structural checks only.",
+  "remaining": [
+    "Review actual likeness, anatomy, composition and style.",
+    "Verify browser motion/model playback and target-device performance when applicable.",
+    "Obtain applicable visual/content review and authoritative activation; technical checks do not grant approval."
+  ]
+}

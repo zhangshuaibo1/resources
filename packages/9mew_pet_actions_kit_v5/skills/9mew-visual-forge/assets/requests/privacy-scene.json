@@ -1,0 +1,39 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "privacy-garden-001",
+  "task": "scene",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "branch": "natural",
+  "brief": "The selected kitten quietly shelters a sleeping gray kitten under one elegant soft petal canopy in a small spirit garden. One gentle caring action, no shields, locks or interface.",
+  "allowed_changes": [
+    "pose",
+    "environment",
+    "lighting"
+  ],
+  "changes": {
+    "pose": "A relaxed seated posture, gently leaning toward the sleeping companion.",
+    "environment": "One restrained pearly petal canopy and a tiny mint leaf.",
+    "lighting": "Soft warm studio light with a gentle cool rim that also reads on a dark background."
+  },
+  "target": {
+    "asset_id": "9mew.scene.privacy-garden",
+    "asset_version": "0.1.0",
+    "media_kind": "static",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "3:2",
+    "placement": "privacy page header; legal text stays in HTML"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "additional_references": [
+    {
+      "path": "assets/privacy-reference.webp",
+      "role": "style-and-composition"
+    }
+  ]
+}

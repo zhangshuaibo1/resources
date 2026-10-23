@@ -1,0 +1,40 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "website-naimiao-3d-001",
+  "task": "model3d-brief",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "branch": "natural",
+  "brief": "Build a real website pet matching the selected cream kitten: expressive iris eyes, rounded feline muzzle, ear rims, pink paw pads, silk scarf and four-point star, graceful curled tail. Preserve the recognizable sitting/greeting silhouette.",
+  "allowed_changes": [
+    "pose",
+    "expression"
+  ],
+  "changes": {
+    "pose": "Use a coherent base sitting pose suitable for real Idle, Blink, Greet and Look clips.",
+    "expression": "Keep the welcoming face; implement actual controllable blink rather than replacing its identity."
+  },
+  "target": {
+    "asset_id": "9mew.pet.official.model3d",
+    "asset_version": "0.1.0",
+    "media_kind": "model3d",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "aspect_ratio": "3:4",
+    "placement": "website pet, user-initiated 3D interaction",
+    "required_clips": [
+      "Idle",
+      "Blink",
+      "Greet",
+      "Look"
+    ]
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "additional_references": [],
+  "policy_note": "Legacy request compatibility example. Current policy returns deferred_by_visual_policy with no provider execution; do not use as an active website job."
+}

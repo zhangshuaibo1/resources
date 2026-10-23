@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "decidedOn": "2026-10-22",
+  "authority": "explicit user instructions in this conversation",
+  "brand": {
+    "nameZh": "九喵",
+    "nameEn": "9mew",
+    "universeZh": "九喵宇宙",
+    "worldview": [
+      "修仙",
+      "神话",
+      "幻想",
+      "宇宙星域"
+    ],
+    "assistant": "奶喵",
+    "species": "喵灵",
+    "visualSkill": "九喵星绘"
+  },
+  "modelTiers": [
+    {
+      "nameZh": "喵学徒",
+      "nameEn": "Apprentice Mew"
+    },
+    {
+      "nameZh": "喵大师",
+      "nameEn": "Master Mew"
+    },
+    {
+      "nameZh": "喵真人",
+      "nameEn": "Perfected Mew"
+    },
+    {
+      "nameZh": "喵仙帝",
+      "nameEn": "Immortal Emperor Mew"
+    }
+  ],
+  "tierPolicy": "Display labels only; retain existing immutable group IDs, real cost bindings and permission boundaries.",
+  "selectedCharacterReference": {
+    "src": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+    "status": "selected_reference_by_user",
+    "derivativeApproval": "individual review remains required"
+  },
+  "suggestedPetStages": [
+    {
+      "zh": "启灵期",
+      "en": "Awakened"
+    },
+    {
+      "zh": "凝星期",
+      "en": "Starbound"
+    },
+    {
+      "zh": "化境期",
+      "en": "Transcendent"
+    }
+  ],
+  "separateStateDomains": [
+    "pet growth",
+    "appearance revision",
+    "agent improvement",
+    "model service tier",
+    "permissions",
+    "wallet and budget"
+  ],
+  "website3DReview": {
+    "state": "rejected_by_user",
+    "modelSha256": "ec932f994da5d7aea7fee2388c2bed80c41726dfc5a3d52c6b9f9873f62a3633",
+    "currentWebsiteRepresentation": "faithful 2D character-action frames with the selected original as static fallback",
+    "newModelStatus": "deferred_not_in_current_scope"
+  },
+  "currentVisualDirection": {
+    "medium": "2d",
+    "priority": "preserve image quality and character identity while delivering actual requested pet actions",
+    "websiteAppearanceVersion": "0.4.0",
+    "future3D": "deferred_optional_upgrade_not_current_gap",
+    "requiredMotion": "actual locomotion, jumping, expressions and daily behavior; availability comes from pet-actions/catalog.json",
+    "staticFallbackCompletesRequiredMotion": false
+  },
+  "updatedOn": "2026-10-23"
+}

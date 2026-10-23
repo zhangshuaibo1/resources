@@ -1,0 +1,77 @@
+{
+  "schema_version": "9mew.visual-job.v1",
+  "job_id": "naimiao-star-mist-concept-001",
+  "task": "evolve-appearance",
+  "execution_status": "prepared_only",
+  "character_id": "9mew.character.naimiao",
+  "target": {
+    "asset_id": "9mew.pet.official.appearance.star-mist",
+    "asset_version": "0.1.0",
+    "media_kind": "static",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "1:1",
+    "placement": "pet appearance preview, no baked text"
+  },
+  "prompt": "Asset type: static. Placement: pet appearance preview, no baked text.\n\nPrimary request: Edit the selected first kitten into an elegant star-mist cultivation spirit appearance. Keep it unmistakably the same kitten, same pose and expression. This is a visual concept for the 9mew fantasy universe.\n\nIdentity mode: preserve. Identity: cream-white fine short fur and recognizable feline cheek/chest structure; large glassy gray-brown eyes with readable iris and pupil; preserve face layout; soft triangular ears, blush inner ears, tiny dusty-pink nose and short feline muzzle; small sakura silk scarf and tiny warm-gold four-point star clasp; neat paws and pink pads, naturally tapered curled tail; graceful feline body and welcoming curious expression\n\nCreative branch: mist; celestial universe, cultivation, mythology and fantasy are valid when requested.\n\nAllowed changes: coat_color: Keep cream-white face, chest and paws; add a very subtle pale lilac-to-mint sheen only on the outer haunch and tail tip.; coat_pattern: A few tiny pearlescent star freckles at outer shoulders and tail; no text or symbols resembling letters.; aura: One graceful translucent lilac mist ribbon loosely curls around the tail with generous transparent space; preserve its entire silhouette.; accessories: Keep original sakura silk scarf and small gold four-point star clasp; add one very tiny pearl orbit around the clasp.\n\nStyle: refined tactile soft-3D cat art; fine fur, elegant feline poses, satin/pearl/linen props; coherent contact and generous margins.\n\nPalette: cream #FFF5EC, sakura #F6A9C2, mint #BDE2D3; midnight #101321/#171C35 for dark scenes. Approved project tokens take precedence.\n\nRequested framing: 1:1. Themes: transparent. Map these intentions only to provider-supported controls.\n\nConstraints: no text, guessed logo, fake interface, numeric claims, human hands, unintended extra limbs/tails or cropped ears/paws. Preserve readable iris eyes and face identity.\n\nFantasy anatomy may change only where explicitly listed; keep count, attachment and silhouette deliberate.\n\nDeliver actual alpha if the chosen capability supports it; never draw a checkerboard or opaque backdrop and call it transparent.",
+  "prompt_sha256": "372df7cc980d32e68184ae6e8d9dc382a465c7e6243d455658c0f12e914a438e",
+  "references": [
+    {
+      "local_path": "/workspace/scratch/1b78c1eefe5a/output/9mew_complete_kit_v2/skills/9mew-visual-forge/assets/naimiao-master.png",
+      "relative_path": "assets/naimiao-master.png",
+      "role": "identity",
+      "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "bytes": 1514762,
+      "view_required": true,
+      "transmission_permission": "must be established by the calling environment"
+    }
+  ],
+  "appearance_candidate": {
+    "character_id": "9mew.character.naimiao",
+    "parent_appearance_version": "naimiao.cream.1.0.0",
+    "candidate_appearance_version": "naimiao.star-mist.0.1.0",
+    "state": "candidate",
+    "proof_mode": "concept_only",
+    "event_ref": null,
+    "branch": "mist",
+    "allowed_changes": [
+      "coat_color",
+      "coat_pattern",
+      "aura",
+      "accessories"
+    ],
+    "changes": {
+      "coat_color": "Keep cream-white face, chest and paws; add a very subtle pale lilac-to-mint sheen only on the outer haunch and tail tip.",
+      "coat_pattern": "A few tiny pearlescent star freckles at outer shoulders and tail; no text or symbols resembling letters.",
+      "aura": "One graceful translucent lilac mist ribbon loosely curls around the tail with generous transparent space; preserve its entire silhouette.",
+      "accessories": "Keep original sakura silk scarf and small gold four-point star clasp; add one very tiny pearl orbit around the clasp."
+    },
+    "activation": "not executed; owning service must verify event, identity, version, audience and approval"
+  },
+  "local_audit_only": {
+    "proof_mode": "concept_only",
+    "event_ref": null,
+    "authorization_ref": "current-user-request:9mew-visual-skill-and-fantasy-appearance",
+    "permission_verification": "not performed by this offline builder"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 1
+  },
+  "provider_execution": {
+    "provider": null,
+    "model": null,
+    "model_version": null,
+    "actual_parameters": {},
+    "actual_cost": null,
+    "provider_job_id": null
+  },
+  "handoff": [
+    "View references before generation.",
+    "Check actual provider capability and existing valid authorization.",
+    "Keep local audit fields out of the provider prompt.",
+    "Save outputs as candidates and inspect actual files.",
+    "Do not activate appearances, change model tiers, balances, progression or permissions."
+  ]
+}

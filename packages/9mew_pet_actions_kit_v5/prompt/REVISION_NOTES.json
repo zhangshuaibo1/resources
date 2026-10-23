@@ -1,0 +1,34 @@
+{
+  "revision": "v5",
+  "canonicalPrompt": "9mew_task_prompt_v5.txt",
+  "previousPromptSha256": "fc63bbd4f419ca4d0a4f9f9ba677b6798ed32f434ad7d554e18f9d3c44e107af",
+  "currentPromptSha256": "acbbf0f57780d8ea57853cb42072c4619d6cb9f056f628973e5c6a8af56d0d67",
+  "unchangedBusinessSections": "Sections 0–20 are byte-identical to v4.",
+  "basis": "User explicitly requires rich actual 2D pet actions including jumping, movement, emotions and daily behaviors.",
+  "currentVisualRoute": [
+    "character-animation-2d required for requested pet actions",
+    "static master as fallback",
+    "motion-poster as separate decorative supplement"
+  ],
+  "threeDPolicy": {
+    "status": "deferred",
+    "currentDeliveryRequirement": false,
+    "blocksCurrentDoD": false
+  },
+  "websiteAppearance": {
+    "appearanceId": "9mew.naimiao.website",
+    "appearanceVersion": "0.4.0",
+    "characterId": "9mew.character.naimiao",
+    "sourceIllustrationId": "mewling_master",
+    "approval": "prototype; not production activated"
+  },
+  "changes": [
+    "Actual character movement replaces optional-action completion criteria.",
+    "Original appearance preserved; no new 3D.",
+    "Sprite source poses, frame timing, animation exports, runtime and measured validation are distinct deliverables.",
+    "Source, mirror-derived and semantic alias counts are distinct.",
+    "Portable Skill gains animation workflow, requests and catalog validation.",
+    "Full prompt and package consistently named v5."
+  ],
+  "scope": "Local visual assets, source code and portable Skill. No backend behavior, growth settlement, production deployment, paid API or live financial action implied."
+}

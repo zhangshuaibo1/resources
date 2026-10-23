@@ -1,0 +1,31 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "website-naimiao-motion-poster-legacy",
+  "task": "motion-poster",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "branch": "natural",
+  "brief": "Use the selected original kitten as a high-quality 2D website pet. Preserve its pixels, face, fur, scarf, paws and tail. Add only restrained whole-image motion and sparse separate celestial accents if these improve the page; retain the original still whenever motion reduces quality.",
+  "allowed_changes": [
+    "environment"
+  ],
+  "changes": {
+    "environment": "Separate soft star accents and a subtle shadow around the unchanged original; no face deformation or fabricated limb motion."
+  },
+  "target": {
+    "asset_id": "9mew.pet.official.planar",
+    "asset_version": "0.3.0",
+    "media_kind": "motion-poster",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "aspect_ratio": "1:1",
+    "placement": "website 2D pet, graceful restrained motion with pause and static fallback"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "additional_references": []
+}

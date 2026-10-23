@@ -1,0 +1,6 @@
+@font-face{
+  font-family:"9mew Review Sans";
+  src:url("vendor/9mew-review-sc.woff") format("woff");
+  font-style:normal;font-weight:100 900;font-display:swap;
+}
+:root{font-family:"9mew Review Sans","PingFang SC","Microsoft YaHei",system-ui,sans-serif}

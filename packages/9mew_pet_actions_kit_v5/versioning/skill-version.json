@@ -1,0 +1,123 @@
+{
+  "skill": "9mew-visual-forge",
+  "version": "0.3.0",
+  "commit": "b8b3332bd8ca9677288b8a04f40c69550634761b",
+  "previousCommit": "c5a847344fc47874daf7b9b82d3e29aa7e2988a0",
+  "branch": "main",
+  "fileCount": 21,
+  "bundle": "versioning/9mew-visual-forge.bundle",
+  "bundleBytes": 1769279,
+  "bundleSha256": "423aada54cc80b2f9b817dd05dbb53458c34c615987fc9caff6dcb8b17be4226",
+  "gitBundleVerified": true,
+  "workingTree": "clean",
+  "remotePublication": "not_performed",
+  "globalInstallation": "blocked_by_automatic_approval; not_bypassed",
+  "scope": "Portable Skill v0.3.0 committed in local Git; rich actual 2D character actions are required, quality first, 3D deferred.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9115,
+      "sha256": "22b98ae9e301d9b71b18fdeb97f06c1edd87f7d8f376fd4593e0bcec1465bbc8"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 251,
+      "sha256": "4f1c29d07aa2af58599e631b19d9e815234133191211627aa28441d1039f61fd"
+    },
+    {
+      "path": "assets/collaboration-reference.webp",
+      "bytes": 124038,
+      "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+    },
+    {
+      "path": "assets/identity.json",
+      "bytes": 6714,
+      "sha256": "b109c2b770f79fbe60cf0479b3e80f18dc376a22d8d89ccbd5659e7bb29521f1"
+    },
+    {
+      "path": "assets/naimiao-master.png",
+      "bytes": 1514762,
+      "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+    },
+    {
+      "path": "assets/privacy-reference.webp",
+      "bytes": 126092,
+      "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f"
+    },
+    {
+      "path": "assets/requests/evolve-astral.json",
+      "bytes": 1321,
+      "sha256": "addd4281e358b1d2b83eb241c4ec05ec74d70a3964be62dfc5f97980ba83f213"
+    },
+    {
+      "path": "assets/requests/privacy-scene.json",
+      "bytes": 1210,
+      "sha256": "b875f8e8fbed3d33f799f4b20f5a3ff908ce6df1f8d66fe4a661f09a6ad40892"
+    },
+    {
+      "path": "assets/requests/website-2d.json",
+      "bytes": 1988,
+      "sha256": "a6623914d161f19f3017c73a6a4769da57780169f5487f8f11bf2e993608b4f8"
+    },
+    {
+      "path": "assets/requests/website-3d.json",
+      "bytes": 1381,
+      "sha256": "bf6a71a428bd8e7acee93118b49ff8e80f97a5f6691b076896fbce4c15f4c398"
+    },
+    {
+      "path": "assets/requests/website-jump.json",
+      "bytes": 2210,
+      "sha256": "ba059ed42010028a4be01be4a34b1995ae24598d11de7547db6d03506d59fc19"
+    },
+    {
+      "path": "assets/requests/website-motion-poster.json",
+      "bytes": 1132,
+      "sha256": "5487c12e64a1b38f2e26e703f99d91555a14c320965c4eb1bdb3dfd736b0a463"
+    },
+    {
+      "path": "references/animation-workflow.md",
+      "bytes": 8240,
+      "sha256": "2326a57a3ab6fe35582e785277825c97f47f04f591554c1349b7b3f090fd2eb2"
+    },
+    {
+      "path": "references/evolution-contract.md",
+      "bytes": 7119,
+      "sha256": "dce639fae8a0fc9c545427c97e4b95945a6eacb4a3d655fafac1812041377ad6"
+    },
+    {
+      "path": "references/likeness-review.md",
+      "bytes": 3108,
+      "sha256": "2fd65ba3e36aa495e4bc053cf73b5869d63fc34bfd94c67d50abbeebb0b46afc"
+    },
+    {
+      "path": "references/output-contract.md",
+      "bytes": 7577,
+      "sha256": "98f8685e5bebb54ba59f2a769b453c95c3b582de6d9d2773c879e75efa70290c"
+    },
+    {
+      "path": "references/prompt-recipes.md",
+      "bytes": 6066,
+      "sha256": "baef2a533b1bd15ec91b571bea502d49317436691577c38b8c72a6296171e7d4"
+    },
+    {
+      "path": "references/style-bible.md",
+      "bytes": 8639,
+      "sha256": "46b1b0f4e42fdf0d05e150b4581cf76acff6ebb31f32f0f706805d943c837f26"
+    },
+    {
+      "path": "scripts/build_visual_job.py",
+      "bytes": 19121,
+      "sha256": "d36217ca677b986a040e8d61e56bb1bd45ad2bdcdf9686ae2001a937e65a6c8e"
+    },
+    {
+      "path": "scripts/validate_action_catalog.py",
+      "bytes": 9889,
+      "sha256": "27e8d3053abbb8bd6c76a2f7026d3dbc6deba9007928e9853b88482b730e6d51"
+    },
+    {
+      "path": "scripts/validate_visual_delivery.py",
+      "bytes": 15508,
+      "sha256": "6fed79bf869e25f959bd406700ba74d0b46f7f0aa67faf81a9e4e39ef94dc004"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "9mew.visual-delivery.v1",
+  "asset_id": "9mew.pet.official.appearance.star-mist",
+  "asset_version": "0.1.0",
+  "character_id": "9mew.character.naimiao",
+  "appearance_version": "naimiao.star-mist.0.1.0",
+  "review_state": "candidate",
+  "files": [
+    {
+      "path": "star-mist.png",
+      "media_kind": "static",
+      "expected_format": "png",
+      "theme": "transparent",
+      "sha256": "537c676e4b6defc032c62e3357efd5b1cb7fecfd901c4d2ed24ce718e457c735"
+    },
+    {
+      "path": "star-mist.desktop.webp",
+      "media_kind": "static",
+      "expected_format": "webp",
+      "theme": "transparent",
+      "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90",
+      "max_bytes": 163840
+    },
+    {
+      "path": "star-mist.mobile.webp",
+      "media_kind": "static",
+      "expected_format": "webp",
+      "theme": "transparent",
+      "sha256": "09eaac82221cbe81f49c8710d4f032576f94d8fbae62336dd688bb650a67b547",
+      "max_bytes": 81920
+    }
+  ],
+  "source": {
+    "reference_hashes": [
+      "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+    ],
+    "builder_prompt_sha256": "372df7cc980d32e68184ae6e8d9dc382a465c7e6243d455658c0f12e914a438e",
+    "prompt_sha256": "6d899e23e6b6ed12eaaecf2dda07a7e0172d872486b4f35263ad36d77323b333",
+    "actual_tool_prompt": "Use case: identity-preserve. The supplied image is the edit target and selected character identity reference. Preserve the exact face, proportions, pose and expression. This output is a single full-body transparent character image, not a contact sheet.\n\nAsset type: static. Placement: pet appearance preview, no baked text.\n\nPrimary request: Edit the selected first kitten into an elegant star-mist cultivation spirit appearance. Keep it unmistakably the same kitten, same pose and expression. This is a visual concept for the 9mew fantasy universe.\n\nIdentity mode: preserve. Identity: cream-white fine short fur and recognizable feline cheek/chest structure; large glassy gray-brown eyes with readable iris and pupil; preserve face layout; soft triangular ears, blush inner ears, tiny dusty-pink nose and short feline muzzle; small sakura silk scarf and tiny warm-gold four-point star clasp; neat paws and pink pads, naturally tapered curled tail; graceful feline body and welcoming curious expression\n\nCreative branch: mist; celestial universe, cultivation, mythology and fantasy are valid when requested.\n\nAllowed changes: coat_color: Keep cream-white face, chest and paws; add a very subtle pale lilac-to-mint sheen only on the outer haunch and tail tip.; coat_pattern: A few tiny pearlescent star freckles at outer shoulders and tail; no text or symbols resembling letters.; aura: One graceful translucent lilac mist ribbon loosely curls around the tail with generous transparent space; preserve its entire silhouette.; accessories: Keep original sakura silk scarf and small gold four-point star clasp; add one very tiny pearl orbit around the clasp.\n\nStyle: refined tactile soft-3D cat art; fine fur, elegant feline poses, satin/pearl/linen props; coherent contact and generous margins.\n\nPalette: cream #FFF5EC, sakura #F6A9C2, mint #BDE2D3; midnight #101321/#171C35 for dark scenes. Approved project tokens take precedence.\n\nRequested framing: 1:1. Themes: transparent. Map these intentions only to provider-supported controls.\n\nConstraints: no text, guessed logo, fake interface, numeric claims, human hands, unintended extra limbs/tails or cropped ears/paws. Preserve readable iris eyes and face identity.\n\nFantasy anatomy may change only where explicitly listed; keep count, attachment and silhouette deliberate.\n\nDeliver actual alpha if the chosen capability supports it; never draw a checkerboard or opaque backdrop and call it transparent.",
+    "tool_name": "image_gen.imagegen",
+    "actual_parameters": {
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_visual_system_v1/illustrations/mewling_master.png"
+      ]
+    },
+    "provider": null,
+    "model": null,
+    "model_version": null,
+    "actual_cost": null,
+    "metadata_note": "Tool name, supplied input and actual output are recorded. Provider/model/version/cost were not exposed; null does not mean zero."
+  },
+  "runtime_evidence": [],
+  "visual_review": {
+    "status": "candidate_preview_reviewed_not_approved",
+    "identity": "Face, pose, scarf and star clasp remain recognizable from the selected reference.",
+    "limits": "The generated aura is more prominent than the small-effect brief; simplify for compact avatars before production. No activation or progression event is claimed."
+  },
+  "appearance_candidate": {
+    "character_id": "9mew.character.naimiao",
+    "parent_appearance_version": "naimiao.cream.1.0.0",
+    "candidate_appearance_version": "naimiao.star-mist.0.1.0",
+    "state": "candidate",
+    "proof_mode": "concept_only",
+    "event_ref": null,
+    "branch": "mist",
+    "allowed_changes": [
+      "coat_color",
+      "coat_pattern",
+      "aura",
+      "accessories"
+    ],
+    "changes": {
+      "coat_color": "Keep cream-white face, chest and paws; add a very subtle pale lilac-to-mint sheen only on the outer haunch and tail tip.",
+      "coat_pattern": "A few tiny pearlescent star freckles at outer shoulders and tail; no text or symbols resembling letters.",
+      "aura": "One graceful translucent lilac mist ribbon loosely curls around the tail with generous transparent space; preserve its entire silhouette.",
+      "accessories": "Keep original sakura silk scarf and small gold four-point star clasp; add one very tiny pearl orbit around the clasp."
+    },
+    "activation": "not executed; owning service must verify event, identity, version, audience and approval"
+  }
+}

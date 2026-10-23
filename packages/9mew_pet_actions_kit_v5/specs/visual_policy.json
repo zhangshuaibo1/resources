@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "2d-quality-first.2",
+  "currentMedium": "2d",
+  "qualityPriority": [
+    "selected character identity and image quality",
+    "actual requested action performance and coherent anatomy",
+    "accessibility and static fallback",
+    "measured runtime performance",
+    "asset breadth"
+  ],
+  "identityReference": {
+    "src": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "websiteAppearanceVersion": "0.4.0",
+  "allowedCurrentOutputKinds": [
+    "static-illustration",
+    "motion-poster",
+    "character-animation-2d",
+    "action-alias",
+    "code-native-ui"
+  ],
+  "currentCharacterMotion": "Actual 2D pet-action sequences are required. Availability and source/derived counts come from pet-actions/catalog.json; still fallback and decorative motion-posters do not satisfy missing character actions.",
+  "future3D": {
+    "state": "deferred",
+    "blocksCurrentDelivery": false,
+    "automaticRetry": false,
+    "requirements": [
+      "actually available and authorized modeling tool",
+      "same-character visual evidence from actual geometry",
+      "editable source and reproducible export",
+      "acceptable runtime/device and animation evidence",
+      "appropriate rights and cost authorization"
+    ]
+  },
+  "packaging": "No old GLB, Blender files, 3D-derived pet renders, model viewer or 3D runtime in this package; previous archive remains history.",
+  "catalog": "pet-actions/catalog.json",
+  "sourceActionCounting": "Independent source sequences, mirror derivatives and reused semantic bindings are separate; formats/themes and repeated timeline cycles do not create new original actions.",
+  "staticFallbackCompletesRequestedActions": false,
+  "productionApproval": false,
+  "runtimePolicy": {
+    "default": "gentle idle; load actual frames on demand",
+    "strongActions": "user-triggered finite sequences",
+    "pause": [
+      "user pause",
+      "reduced motion",
+      "hidden page",
+      "offscreen"
+    ],
+    "failedAction": "preserve original poster, keep action incomplete until corrected",
+    "backendTruth": "animation selection does not create speech, tasks, rewards, payment or evolution events"
+  }
+}

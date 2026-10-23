@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "revision": "v5",
+  "phase": "pilot",
+  "status": "PILOT_ACTIONS_RUNTIME_CHECKS_PASSED",
+  "executedAt": "2026-10-23T01:48:26.496Z",
+  "testScriptSHA256": "eb2badbce79e6a436586f8c999560482097217a90ebdcefd56209798be919ceb",
+  "catalogSHA256": "a13c3abf22b39db4874189b1303d738ab39935af8469743a048322e7da113abd",
+  "checks": [
+    {
+      "name": "catalog controls match delivered actions",
+      "result": "PASS"
+    },
+    {
+      "name": "all declared frame URLs decode",
+      "result": "PASS"
+    },
+    {
+      "name": "actual distinct frame changes for every action",
+      "result": "PASS",
+      "actions": [
+        {
+          "id": "blink",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "wave",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "tail-swish",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "listen",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "walk-right",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "run-right",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "jump",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "happy",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "angry",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "sad",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "surprised",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "excited",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "nuzzle",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "groom",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "sleep",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "stretch",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "knead",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "yawn",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "roll",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "pounce",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "walk-left",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": true
+        },
+        {
+          "id": "run-left",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": true
+        }
+      ]
+    },
+    {
+      "name": "pause freezes character frame",
+      "result": "PASS"
+    },
+    {
+      "name": "one-shot returns to idle and can replay",
+      "result": "PASS"
+    },
+    {
+      "name": "browser reduced-motion renders original poster",
+      "result": "PASS"
+    },
+    {
+      "name": "hidden visibility event pauses time",
+      "result": "PASS"
+    },
+    {
+      "name": "offscreen player pauses",
+      "result": "PASS"
+    },
+    {
+      "name": "light dark and mobile layout without horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "website pet actions keyboard and form avoidance",
+      "result": "PASS"
+    },
+    {
+      "name": "missing frame keeps original poster",
+      "result": "PASS"
+    },
+    {
+      "name": "no page JavaScript errors",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Local Chromium only; not real mobile hardware performance.",
+    "Visibility listener is tested with a simulated visibilitychange event.",
+    "Visual identity and animation aesthetics require separate human review.",
+    "No production deployment, AI, growth, financial or administrative APIs exercised."
+  ],
+  "sources": {
+    "PetActionPlayer.tsx": "7b22644b8f1f46eff099080f7c1c0931344acfc58eb7ce3c72dc80d5a45ce60e",
+    "pet-action-types.ts": "5aadbb8defb2f641488a0af288f9d6768726a8721bbcba54546854a46c426231",
+    "pet-action-player.css": "e0bff5a1581e82131476f0f57249f007907f037acec978442e78e55d69e55625",
+    "WebsitePet.tsx": "c23fff5e358b3d517ff9342a542c1b67d56b50ed1e56a29f07ef8e70fa2372e1",
+    "website-pet.css": "646d4f577afda6bfcc418667f01be81d0b6d71e6eb12c928ba50219ba92a78de",
+    "actions-demo.tsx": "add0199f80b8a9340bdb209b7db1bb36cd7aae160c5c3e011588cc683f368cd1",
+    "actions-demo.css": "b72bc0410794278f9164eaf8f05b0a3880c88f929d4e6314d4243d637821e16e",
+    "website-pet-appearance-catalog.json": "b2165be44f7233be4228af0e04128fb773851a026060ee7d9f2cf28646bb43b8",
+    "vendor/actions-demo.bundle.js": "458f4fa9bd099872a6462b22d5189bc3aaacf77028368d9db2bd7a51ecff3c44",
+    "vendor/website-pet-demo.bundle.js": "9e291988d6d0ae408b6b06d460b1e0978a1ec8e3e121d2cb5da5910fa744647b"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "九喵星绘"
+  short_description: "Create faithful 2D cats, real pet actions and fantasy forms."
+  default_prompt: "Use $9mew-visual-forge to create faithful 2D cat art, real pet actions and fantasy appearance revisions."

@@ -1,0 +1,39 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "naimiao-astral-concept-001",
+  "task": "evolve-appearance",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "base_appearance_version": "naimiao.cream.1.0.0",
+  "appearance_version": "naimiao.astral.0.1.0",
+  "proof_mode": "concept_only",
+  "event_ref": null,
+  "branch": "astral",
+  "brief": "Create an elegant candidate astral appearance of the same selected kitten for a pet evolution preview. Keep the base identity visible.",
+  "allowed_changes": [
+    "coat_pattern",
+    "aura",
+    "accessories"
+  ],
+  "changes": {
+    "coat_pattern": "Sparse subtle star freckles at the tail tip and outer shoulders; keep cream face/chest.",
+    "aura": "A delicate lavender/mint celestial glow near the tail, without hiding its shape.",
+    "accessories": "Retain sakura scarf and gold four-point star; add one tiny pearl orbit around the clasp."
+  },
+  "target": {
+    "asset_id": "9mew.pet.official.appearance.astral",
+    "asset_version": "0.1.0",
+    "media_kind": "static",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "1:1",
+    "placement": "pet appearance preview, no baked text"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "authorization_ref": null,
+  "additional_references": []
+}

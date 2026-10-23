@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0",
+  "characterId": "9mew.character.naimiao",
+  "reference": "illustrations/mewling_master.png",
+  "referenceSha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+  "generator": "image_gen.imagegen (built-in; model version not exposed)",
+  "cost": "not exposed",
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "blink",
+      "source": "pet-actions/sheets/social/blink.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Correct the provided 8-frame blinking kitten sprite sheet (first reference) for production use. Keep the character exactly matching the second reference's face, furry cream-white coat, pink silk scarf, golden FOUR-POINT star and curved fluffy tail. Preserve the eight existing blink phases: open, slightly closed, half-closed, fully closed, closed, half-open, almost-open, open. Preserve the seated raised-paw pose and head tilt across all frames. THIS CORRECTION IS ABOUT SPACING AND CONSISTENCY: each cat MUST be substantially smaller within its own square cell, occupying only 68% of the cell height, with at least 16% fully transparent space ABOVE and BELOW. The previous sheet clipped the bottom paws. This one must show every whole cat, paws and tail, completely uncut with visible empty margin on all four sides in every tile. All eight cats exact same scale and horizontal/vertical alignment relative to their cells, same body silhouette. Layout exactly 4 equal columns and 2 equal rows, reading left to right then top to bottom; landscape 2:1 image. No frames, no grid lines, no lettering, no ground, no shadow, no props, no extra elements. True transparent alpha. Fine kitten fur and gentle beautiful closed-eye expression. This is eight sequential keyframes, not separate redesigned cats.",
+      "references": [
+        "blink rejected spacing candidate",
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Spacing correction; true eyelid stages; production needs human approval",
+      "rejectedCandidate": {
+        "source": "generated_images/exec-72d68719-58a0-4464-b5c1-87ed3cb30c03.png",
+        "reason": "Bottom-row paws clipped",
+        "prompt": "Create a production-quality transparent 2D sprite animation sheet of the exact kitten from the provided reference. This is an edit of the SAME CHARACTER, not a redesign. Preserve its very beautiful tactile cream-white fine fluffy fur, broad round face, broad cheek volume, gray-brown irises with shaped lids, tiny dusty pink nose, outward ears with pink recesses, compact seated body, small sakura pink silk scarf, tiny golden four-point star clasp and full fluffy curled tail. Match the original polish and soft volumetric painted lighting. Preserve the original face proportions and gentle clockwise head tilt. No 3D model, no flat vector icon.\nOUTPUT LAYOUT: exactly 4 columns × 2 rows, 8 equal square cells, read left to right top to bottom. Wide canvas 2048×1024 if available. Every cell contains precisely ONE complete full-body cat with tail and ears intact, ample transparent margin around. All cats same scale, same seated raised-left-forepaw pose as reference, same camera, same root center and ground baseline. Cat occupies 75% of its cell. Transparent alpha background; NO checkerboard painted, NO labels, numbers, text, grids, lines, props, shadows, glow, stars or backdrop.\nANIMATION ACTION: a very gentle natural blink, eyelids must actually close while the head, raised paw, torso, tail stay in identical positions. Frame1 eyes fully open (exact reference expression); frame2 upper eyelids lower 20%; frame3 upper/lower lids half close, keep round furry face; frame4 eyes fully and gently shut in two fine curved eyelids, no pupils visible; frame5 hold fully gently shut; frame6 eyes half open; frame7 almost open; frame8 fully open matching frame1. Only eyelids and tiny ear-tip settling change. Maintain all fine facial anatomy, never paint a crude eyelid patch over eyes. The closed-eye frames should be genuinely distinct cute natural feline expressions, not eight copies with identical open eyes.\nTreat this as eight consecutive animation keyframes of one identical beautiful pet. Anatomically exactly four paws, one tail, two ears. Highest priority: selected identity fidelity and beautiful fur."
+      },
+      "sha256": "62a0301262949c8e12676e149da81f639f48f39f4d15a0788b3993c357ffc644"
+    },
+    {
+      "id": "happy",
+      "source": "pet-actions/sheets/social/happy.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: a gentle joyful pet greeting. Eight frames: 1 relaxed seated with two front paws grounded and open friendly eyes; 2 head lifts slightly eyes warm; 3 happy eye-smile, mouth a tiny feline parted smile; 4 eyes contentedly closed, face tips slightly upward, one paw gently touches its own chest; 5 same contented face with tiny head tilt to other side; 6 paw lowers and eyes half-open; 7 eyes open, face relaxes; 8 back to relaxed first pose. Keep body seated, feet grounded, only head/eyelids/forepaw/tail actually move. No human grin, no teeth.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "a3be61b09a1d5bd5e1aec83319c3df0ecf4922f01a46a803aa3b83dd015b8d83"
+    },
+    {
+      "id": "angry",
+      "source": "pet-actions/sheets/social/angry.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: a cute small feline huff, never frightening. Eight frames: 1 relaxed seated two forepaws down; 2 ears rotate outward and eyes narrow a little; 3 head lowers, soft cheek fluff puffs slightly, tiny closed pout; 4 one front paw rises just above ground, ears sideways, firm narrowed eyes; 5 paw gently taps ground, small head huff to side; 6 face still pouty, tail tip flicks the other way; 7 ears return, eyes soften; 8 return relaxed seated first pose. Express anger entirely with actual feline lids, ears, mouth and paws. No human brows, no red symbols, no steam, no violence.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "26f19f069cef5b765a648ed9ce65b42e07cba863c3bced15c42244d801663853"
+    },
+    {
+      "id": "sad",
+      "source": "pet-actions/sheets/social/sad.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: a tender little sad/comfort-needed expression. Eight frames: 1 relaxed seated with front paws together; 2 ears lower outward slightly, gaze becomes soft; 3 head dips, eyes look up through gentle upper lids; 4 head lowers a little farther, tail curls closer to body, shoulders sink; 5 one forepaw draws close to chest, watery eyes but NO falling tears; 6 kitten looks toward viewer, paw returns; 7 ears slowly lift, head rises; 8 return calm seated first pose. Keep cat cute and elegant, maintain exactly original eye/face anatomy. No exaggerated crying, no props. Natural ear/head/paw articulation must be visible.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "8fb669591443323f7720dd746373a5713d9d94d5c1b88b74287a91e7dcc28567"
+    },
+    {
+      "id": "wave",
+      "source": "pet-actions/sheets/social/wave.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: an elegant friendly forepaw wave. Eight sequential frames: 1 seated with both front paws grounded, smiling eyes open; 2 viewer-left front paw begins lifting at elbow; 3 raised paw shows soft pink pads, wrist bent naturally; 4 raised paw angles outward, hello gesture; 5 raised paw angles inward and head tilts a little; 6 paw angles outward once more, contented half closed eyes; 7 paw lowers naturally; 8 returns both forepaws on ground. Keep torso/grounded feet/body size stable. One paw genuinely changes position around shoulder/elbow/wrist, no human fingers. Tail stays softly curled. Full cat in each cell with large empty margin all sides.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "b058f9971971e94355da32c96f35ccf8d03434088ca5f0705627df8e5dbceac1"
+    },
+    {
+      "id": "listen",
+      "source": "pet-actions/sheets/social/listen.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: curious listening and attentive head tilt. Eight sequential frames: 1 seated with two forepaws grounded, face front; 2 one ear rotates toward a sound at viewer-left, eyes look left; 3 head tilts slightly left, ears perk; 4 kitten lifts head and looks up, curious open eyes; 5 turns its head slightly to viewer-right, ears oriented right; 6 small head tilt to right, one paw rises a little from floor; 7 paw settles, face returns; 8 calm first pose. Body remains seated with clear four-paw anatomy, no whole-body translation. Actual ears, gaze, head and paw respond. No question marks or symbols.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "8053a3ad89b5fdb3a0ef27771724c591b7acc9cf26d9114f4bc55653bde9dd7d"
+    },
+    {
+      "id": "tail-swish",
+      "source": "pet-actions/sheets/social/tail-swish.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: a clearly animated fluffy tail swish. Eight sequential frames of the same seated kitten, face calm and all paws grounded. Keep head/body EXACTLY in same position and scale. 1 thick fluffy tail curled up on viewer-right; 2 tail root pivots a little and curl tilts outward right; 3 full tail gently extends toward right side in a low graceful curve; 4 tail tip curves upward at far right; 5 tail begins curling back toward flank; 6 tail tip moves inward near body; 7 tail curl returns upward; 8 same upright curled tail as frame1. Preserve one single thick soft fluffy tail and its real attachment near the haunch. Do not introduce a second tail or a separate detached tail. Give every tile generous horizontal room, never crop tail tip.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated key poses; frame stabilization and animation QA pending",
+      "sha256": "5c3a394b108a5548eef0add67a85ca7111a25bdd165cdbf34b6260a1d39f93a1"
+    },
+    {
+      "id": "surprised",
+      "source": "pet-actions/sheets/social/surprised.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: sweet curiosity and a little surprise. Eight sequential frames: 1 seated, calm eyes, both front paws down; 2 gaze lifts, ears orient upward; 3 eyes become rounder but keep original shaped lids, tiny mouth parts; 4 one paw lifts toward chest and head rises a little, attentive surprised expression; 5 both front paws hover just above ground briefly while seated, bright curious gaze; 6 one paw settles, mouth closes; 7 other paw settles, head tilts; 8 calm original seated pose. Surprise shown entirely by natural eyes, ears, mouth and small paw motions. No cartoon exclamation marks, no huge bulging eyes, no frightening expression.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated poses reviewed; animation QA pending",
+      "sha256": "1681d37882ba45dc82fe55a246f36d4bb7359b8e32f8c28967042f80ae1979ac"
+    },
+    {
+      "id": "excited",
+      "source": "pet-actions/sheets/social/excited.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: joyful excited celebration. Eight sequential frames: 1 seated, eyes bright and both forepaws down; 2 body sits a little taller, forepaws begin lifting; 3 both front paws lift in front of chest, small joyful open feline mouth; 4 forepaws raised up around shoulder height, eyes smiling; 5 both paws reach a little higher as the kitten stretches upward from seated haunches, tail tip flicks; 6 forepaws lower a little with happy closed eyes; 7 paws return toward ground; 8 relaxed happy seated pose. A sweet cat raising its paws, NOT a human in a cat costume. Exactly four legs, grounded hind feet, short feline joints, no high leap or scenery. Preserve original lovely face and fur.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Generated poses reviewed; animation QA pending",
+      "sha256": "308acacbed850acde6ef0318902c0d49d9f199ba0bb49023c7946c630a8a75f7"
+    },
+    {
+      "id": "nuzzle",
+      "source": "pet-actions/sheets/social/nuzzle.png",
+      "layout": {
+        "columns": 4,
+        "rows": 2
+      },
+      "prompt": "Create a beautiful production transparent 2D character animation sprite sheet. Use EXACTLY the same cream-white fluffy kitten from the reference, preserving its broad round face, gray-brown eyes inside feline eyelids, pink tiny nose, big outward ears, short plush body, small pink silk scarf with gold FOUR-POINT star clasp, and thick fluffy curled tail. Same identity and fine strand fur with beautiful soft lighting, not a redesign or crude vector. One identical character through consecutive keyframes.\nSPRITE LAYOUT exactly 4 columns × 2 rows, EIGHT equal square cells in a 2:1 landscape canvas. Every full cat completely within its own cell, with generous completely transparent empty margin above ears and below feet and on both sides of tail. Cat maximum 70% of cell height; never clip paws or ears. Identical camera, same baseline and consistent body/face size for all frames. Read left to right then top to bottom. No labels, text, symbols, border, background, shadow, props or special effects. True transparent alpha. Grounded seated kitten, front slightly 3/4 as original. Exactly one tail, two ears, four paws. Choose graceful natural feline gestures, not human arms/hands.\nACTION: affectionate cheek and shoulder nuzzling toward the viewer, no external object. Eight frames: 1 seated with two front paws grounded; 2 head gently tilts down-left, eyes soften; 3 eyes close and left cheek leans toward lifted shoulder, forepaws stay on floor; 4 head presses adorably against own left shoulder, neck bends, soft contented mouth; 5 head lifts through center with half-closed eyes; 6 head tilts down-right and cheek meets other shoulder; 7 closes eyes in that cozy position; 8 returns to upright seated with softly open eyes. Genuine feline head/neck/shoulder articulation while torso rooted. Full fluffy tail curls near body. No person, no hands, no hearts, no props, no symbols. Elegant compact posture.",
+      "references": [
+        "illustrations/mewling_master.png"
+      ],
+      "status": "prototype",
+      "review": "Frames 5 and 6 (0-based) mirror the torso; exclude from playable sequence. Play 0,1,2,3,4,3,1,7.",
+      "sha256": "39cf44c05926f6a8a843518fef6758f9562916638fd8f92914252c8e37e08b10"
+    }
+  ]
+}

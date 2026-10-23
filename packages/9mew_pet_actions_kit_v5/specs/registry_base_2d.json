@@ -1,0 +1,3415 @@
+{
+  "schemaVersion": 1,
+  "assetVersion": "0.4.0",
+  "basePath": "./",
+  "preparedOn": "2026-10-23",
+  "reviewState": "Actual 2D action prototypes are assembled from the current catalog; production approval is not inferred. Original identity retained; 3D deferred.",
+  "countingRule": "Keep the original 64 semantic plan entries. Add actual catalog action assets separately; source sequences, mirror derivatives, semantic reuse aliases and format/theme variants are counted separately.",
+  "palette": {
+    "status": "proposed_fallback; approved existing tokens take precedence",
+    "sakura": "#F6A9C2",
+    "cream": "#FFF5EC",
+    "mint": "#BDE2D3",
+    "midnight": "#101321",
+    "nightSurface": "#171C35"
+  },
+  "assets": [
+    {
+      "id": "9mew.brand.mark",
+      "version": "0.1.0",
+      "title": {
+        "zh": "猫耳数字9标识",
+        "en": "Cat-eared nine mark"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "brand",
+      "decorative": true,
+      "alt": {
+        "zh": "猫耳数字9标识",
+        "en": "Cat-eared nine mark"
+      },
+      "placements": [
+        "网站导航、favicon、加载占位、应用内品牌标识"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_and_audit",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.brand.wordmark",
+      "version": "0.1.0",
+      "title": {
+        "zh": "九喵字标",
+        "en": "9mew wordmark"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "brand",
+      "decorative": true,
+      "alt": {
+        "zh": "九喵字标",
+        "en": "9mew wordmark"
+      },
+      "placements": [
+        "官网页眉、登录页、产品页脚及深色背景品牌签名"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_and_audit",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.brand.app-icon",
+      "version": "0.1.0",
+      "title": {
+        "zh": "应用图标",
+        "en": "App icon"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "brand",
+      "decorative": true,
+      "alt": {
+        "zh": "应用图标",
+        "en": "App icon"
+      },
+      "placements": [
+        "应用图标、PWA、桌面安装与下载卡"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_and_audit",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.brand.social-cover",
+      "version": "0.1.0",
+      "title": {
+        "zh": "品牌分享封面",
+        "en": "Social cover"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "brand",
+      "decorative": true,
+      "alt": {
+        "zh": "品牌分享封面",
+        "en": "Social cover"
+      },
+      "placements": [
+        "Open Graph、分享封面、公告封面"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {},
+      "sourceStrategy": "generate_background_then_layout",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.character.naimiao",
+      "version": "0.1.0",
+      "title": {
+        "zh": "奶喵角色概念",
+        "en": "Naimiao character concept"
+      },
+      "status": "prototype",
+      "approvalState": "selected-reference",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "戴樱花粉围巾、星形扣的奶油白小猫。",
+        "en": "A cream kitten wearing a sakura scarf and a small star clasp."
+      },
+      "placements": [
+        "奶喵主角色、官网官方喵灵、角色风格母版"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 138650,
+            "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+            "srcSet": [
+              {
+                "src": "illustrations/mewling_master.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 39696,
+                "sha256": "b5d16986612a7b36eb1712d130a63278bec9841e25921e40808e6e0881ce1e97"
+              },
+              {
+                "src": "illustrations/mewling_master.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 138650,
+                "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 138650,
+            "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+            "srcSet": [
+              {
+                "src": "illustrations/mewling_master.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 39696,
+                "sha256": "b5d16986612a7b36eb1712d130a63278bec9841e25921e40808e6e0881ce1e97"
+              },
+              {
+                "src": "illustrations/mewling_master.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 138650,
+                "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "create_canonical_reference_and_3d",
+      "sourceIllustrationId": "mewling_master",
+      "sourceFile": {
+        "src": "illustrations/mewling_master.png",
+        "width": 1254,
+        "height": 1254,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5028,
+        "bytes": 1514762,
+        "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "User explicitly selected the first image as the identity reference. This does not approve all derivatives or deploy an appearance.",
+      "characterId": "9mew.character.naimiao",
+      "appearanceVersion": "naimiao.cream.1.0.0"
+    },
+    {
+      "id": "9mew.character.ragdoll",
+      "version": "0.1.0",
+      "title": {
+        "zh": "布偶猫角色",
+        "en": "Ragdoll character"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "character",
+      "decorative": true,
+      "alt": {
+        "zh": "布偶猫角色",
+        "en": "Ragdoll character"
+      },
+      "placements": [
+        "协作与社区的布偶猫配角"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "create_canonical_reference",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.character.maine-coon",
+      "version": "0.1.0",
+      "title": {
+        "zh": "缅因猫角色",
+        "en": "Maine Coon character"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "character",
+      "decorative": true,
+      "alt": {
+        "zh": "缅因猫角色",
+        "en": "Maine Coon character"
+      },
+      "placements": [
+        "协作与探索场景的缅因猫配角"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "create_canonical_reference",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.character.british-shorthair",
+      "version": "0.1.0",
+      "title": {
+        "zh": "英短角色",
+        "en": "British Shorthair character"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "character",
+      "decorative": true,
+      "alt": {
+        "zh": "英短角色",
+        "en": "British Shorthair character"
+      },
+      "placements": [
+        "知识、条款与安静陪伴的英短配角"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "create_canonical_reference",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.avatar.catalog",
+      "version": "0.1.0",
+      "title": {
+        "zh": "既有头像目录",
+        "en": "Existing avatar catalog"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "avatar",
+      "decorative": true,
+      "alt": {
+        "zh": "既有头像目录",
+        "en": "Existing avatar catalog"
+      },
+      "placements": [
+        "注册预选头像、成员列表、群聊与个人档案"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_and_audit",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.home-universe",
+      "version": "0.1.0",
+      "title": {
+        "zh": "九喵宇宙首页",
+        "en": "Universe homepage"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "四只猫在月弧星园中嬉戏，左侧留出页面文字空间。",
+        "en": "Four cats play in a crescent star garden, leaving space at left for page text."
+      },
+      "placements": [
+        "官网首页宽幅主视觉"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "light": {
+          "poster": {
+            "src": "illustrations/hero_universe_light.desktop.webp",
+            "width": 1536,
+            "height": 863,
+            "mime": "image/webp",
+            "bytes": 84424,
+            "sha256": "9a07c99419057823ddf9ed85162f620b5069f3c8d6dc320b0445e15f0d67958b",
+            "srcSet": [
+              {
+                "src": "illustrations/hero_universe_light.mobile.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 28546,
+                "sha256": "2ba77978fcd7ab09473b55572f0be5b4bc7441bcfc3c62b062bcde75b225529b"
+              },
+              {
+                "src": "illustrations/hero_universe_light.desktop.webp",
+                "width": 1536,
+                "height": 863,
+                "bytes": 84424,
+                "sha256": "9a07c99419057823ddf9ed85162f620b5069f3c8d6dc320b0445e15f0d67958b"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/hero_universe_light.desktop.webp",
+            "width": 1536,
+            "height": 863,
+            "mime": "image/webp",
+            "bytes": 84424,
+            "sha256": "9a07c99419057823ddf9ed85162f620b5069f3c8d6dc320b0445e15f0d67958b",
+            "srcSet": [
+              {
+                "src": "illustrations/hero_universe_light.mobile.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 28546,
+                "sha256": "2ba77978fcd7ab09473b55572f0be5b4bc7441bcfc3c62b062bcde75b225529b"
+              },
+              {
+                "src": "illustrations/hero_universe_light.desktop.webp",
+                "width": 1536,
+                "height": 863,
+                "bytes": 84424,
+                "sha256": "9a07c99419057823ddf9ed85162f620b5069f3c8d6dc320b0445e15f0d67958b"
+              }
+            ]
+          }
+        },
+        "dark": {
+          "poster": {
+            "src": "illustrations/hero_universe_dark.desktop.webp",
+            "width": 1536,
+            "height": 864,
+            "mime": "image/webp",
+            "bytes": 110446,
+            "sha256": "dd9ac6bbb1394d43a4b5e84014d3b1e28cf520faa04e71cc9143ee18e3c14867",
+            "srcSet": [
+              {
+                "src": "illustrations/hero_universe_dark.mobile.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 38896,
+                "sha256": "9a03d4a412dc942eeedebf0ca23ec1290f7692cfa3cffcd8e90ae1313a8b8bec"
+              },
+              {
+                "src": "illustrations/hero_universe_dark.desktop.webp",
+                "width": 1536,
+                "height": 864,
+                "bytes": 110446,
+                "sha256": "dd9ac6bbb1394d43a4b5e84014d3b1e28cf520faa04e71cc9143ee18e3c14867"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/hero_universe_dark.desktop.webp",
+            "width": 1536,
+            "height": 864,
+            "mime": "image/webp",
+            "bytes": 110446,
+            "sha256": "dd9ac6bbb1394d43a4b5e84014d3b1e28cf520faa04e71cc9143ee18e3c14867",
+            "srcSet": [
+              {
+                "src": "illustrations/hero_universe_dark.mobile.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 38896,
+                "sha256": "9a03d4a412dc942eeedebf0ca23ec1290f7692cfa3cffcd8e90ae1313a8b8bec"
+              },
+              {
+                "src": "illustrations/hero_universe_dark.desktop.webp",
+                "width": 1536,
+                "height": 864,
+                "bytes": 110446,
+                "sha256": "dd9ac6bbb1394d43a4b5e84014d3b1e28cf520faa04e71cc9143ee18e3c14867"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "hero_universe",
+      "themePolicy": "Two distinct generated light/dark images of the same composition.",
+      "copySafeArea": "left 35–38%; text must be actual localized HTML",
+      "mobilePolicy": "Mobile exports preserve the wide composition. Stack text above/below; do not use cover cropping that cuts the cats."
+    },
+    {
+      "id": "9mew.scene.product",
+      "version": "0.1.0",
+      "title": {
+        "zh": "产品协作",
+        "en": "Product collaboration"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "四只不同外貌的猫一起搭建珠光星环。",
+        "en": "Four distinctive cats cooperatively assemble a pearl-like constellation ring."
+      },
+      "placements": [
+        "产品介绍页"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_collaboration",
+      "sourceFile": {
+        "src": "illustrations/scene_collaboration.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4218,
+        "bytes": 2418991,
+        "sha256": "83f78fdbc296bd8595669626fe9b6c30c18269debba861ad7498f29386f07fbe"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.enterprise",
+      "version": "0.1.0",
+      "title": {
+        "zh": "企业协作",
+        "en": "Enterprise collaboration"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "四只不同外貌的猫一起搭建珠光星环。",
+        "en": "Four distinctive cats cooperatively assemble a pearl-like constellation ring."
+      },
+      "placements": [
+        "企业与机构页"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_collaboration",
+      "sourceFile": {
+        "src": "illustrations/scene_collaboration.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4218,
+        "bytes": 2418991,
+        "sha256": "83f78fdbc296bd8595669626fe9b6c30c18269debba861ad7498f29386f07fbe"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.experience",
+      "version": "0.1.0",
+      "title": {
+        "zh": "体验入口",
+        "en": "Explore and try"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫探索珠光拱门与薄荷色踏石。",
+        "en": "Two cats explore a pearly arch and mint stepping stones."
+      },
+      "placements": [
+        "体验入口、试用介绍"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_star_mews.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 131950,
+            "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_star_mews.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 43008,
+                "sha256": "afb6dd03f082a2b82334adb28abaad35392c147eedc545b71cd9c3e58f594029"
+              },
+              {
+                "src": "illustrations/scene_star_mews.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 131950,
+                "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_star_mews.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 131950,
+            "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_star_mews.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 43008,
+                "sha256": "afb6dd03f082a2b82334adb28abaad35392c147eedc545b71cd9c3e58f594029"
+              },
+              {
+                "src": "illustrations/scene_star_mews.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 131950,
+                "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_star_mews",
+      "sourceFile": {
+        "src": "illustrations/scene_star_mews.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4348,
+        "bytes": 2267350,
+        "sha256": "025e080d05f98b202ad7563a8f2b2de50f5ee2606fc8262d8eba29b96bd997f5"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.knowledge-guide",
+      "version": "0.1.0",
+      "title": {
+        "zh": "知识指南",
+        "en": "Knowledge guide"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫探索书页上生长的星枝。",
+        "en": "Two cats explore star-shaped branches rising from a book."
+      },
+      "placements": [
+        "知识指南与入门教程"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_knowledge.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 99508,
+            "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_knowledge.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 32076,
+                "sha256": "13250870e8453243c20cc652a1d32340d5ff4aa344de62164a00a645b05f4125"
+              },
+              {
+                "src": "illustrations/scene_knowledge.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 99508,
+                "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_knowledge.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 99508,
+            "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_knowledge.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 32076,
+                "sha256": "13250870e8453243c20cc652a1d32340d5ff4aa344de62164a00a645b05f4125"
+              },
+              {
+                "src": "illustrations/scene_knowledge.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 99508,
+                "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_knowledge",
+      "sourceFile": {
+        "src": "illustrations/scene_knowledge.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5099,
+        "bytes": 2125008,
+        "sha256": "68362b7a473a81fd3d501c8ca260843b574852e0c64dc8c7710488bfdd3a22b1"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.privacy",
+      "version": "0.1.0",
+      "title": {
+        "zh": "隐私与守护",
+        "en": "Privacy and care"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "白猫在柔软花瓣庇护下守护熟睡的小猫。",
+        "en": "A white cat shelters a sleeping kitten beneath soft petals."
+      },
+      "placements": [
+        "隐私说明页"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_privacy.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 126092,
+            "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_privacy.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 37424,
+                "sha256": "093c64a483e9e134521aec36ffd6345232eed0841ea2fa884f2bbd829ddb712a"
+              },
+              {
+                "src": "illustrations/scene_privacy.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 126092,
+                "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_privacy.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 126092,
+            "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_privacy.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 37424,
+                "sha256": "093c64a483e9e134521aec36ffd6345232eed0841ea2fa884f2bbd829ddb712a"
+              },
+              {
+                "src": "illustrations/scene_privacy.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 126092,
+                "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_privacy",
+      "sourceFile": {
+        "src": "illustrations/scene_privacy.png",
+        "width": 1254,
+        "height": 1254,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.3938,
+        "bytes": 1827583,
+        "sha256": "67dc4ef91f78de18e6aaec6d5614fecdeb6901d9cd911b8b25a9c9d63b787d08"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.terms",
+      "version": "0.1.0",
+      "title": {
+        "zh": "条款与约定",
+        "en": "Terms and agreement"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫在空白纸页旁轻触前爪。",
+        "en": "Two cats touch paws beside blank paper."
+      },
+      "placements": [
+        "使用条款页"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_terms.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 104962,
+            "sha256": "25c83fa5d5e86f15439a7648d5ef928bb259f9c532529dd03959b920c03d0531",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_terms.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 33564,
+                "sha256": "eef1675051f813be542697c3fbaa6aa2977b3b2effcda8e88aff97b2c7ba870a"
+              },
+              {
+                "src": "illustrations/scene_terms.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 104962,
+                "sha256": "25c83fa5d5e86f15439a7648d5ef928bb259f9c532529dd03959b920c03d0531"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_terms.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 104962,
+            "sha256": "25c83fa5d5e86f15439a7648d5ef928bb259f9c532529dd03959b920c03d0531",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_terms.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 33564,
+                "sha256": "eef1675051f813be542697c3fbaa6aa2977b3b2effcda8e88aff97b2c7ba870a"
+              },
+              {
+                "src": "illustrations/scene_terms.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 104962,
+                "sha256": "25c83fa5d5e86f15439a7648d5ef928bb259f9c532529dd03959b920c03d0531"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_terms",
+      "sourceFile": {
+        "src": "illustrations/scene_terms.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.407,
+        "bytes": 2346760,
+        "sha256": "31d6c9eb75bb6e0d9c1998d8cbda99a679fe8bb09e2eddbe913d3a7e415e5393"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.about",
+      "version": "0.1.0",
+      "title": {
+        "zh": "认识九喵",
+        "en": "About 9mew"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "九只外貌各异的猫围坐在月弧上。",
+        "en": "Nine visually distinct cats gather on a crescent ledge."
+      },
+      "placements": [
+        "认识九喵、团队与品牌故事"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "WEBSITE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_about_family.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 130098,
+            "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_about_family.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 40486,
+                "sha256": "79236c8a27e67869e5a4eabce5c1afab29cf7969adc1b7fb73aa1662151bafab"
+              },
+              {
+                "src": "illustrations/scene_about_family.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 130098,
+                "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_about_family.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 130098,
+            "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_about_family.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 40486,
+                "sha256": "79236c8a27e67869e5a4eabce5c1afab29cf7969adc1b7fb73aa1662151bafab"
+              },
+              {
+                "src": "illustrations/scene_about_family.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 130098,
+                "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_about_family",
+      "sourceFile": {
+        "src": "illustrations/scene_about_family.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.2918,
+        "bytes": 2823405,
+        "sha256": "0b7dd1c908e938d9d37ec54eec31f0d00d84dc1c6c0ec7321af36e255a0499e0"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.mixed-chat",
+      "version": "0.1.0",
+      "title": {
+        "zh": "人与Agent协作群聊",
+        "en": "Mixed collaboration chat"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "四只不同外貌的猫一起搭建珠光星环。",
+        "en": "Four distinctive cats cooperatively assemble a pearl-like constellation ring."
+      },
+      "placements": [
+        "混合群聊空态、协作功能介绍"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_collaboration.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 124038,
+            "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_collaboration.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 42240,
+                "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888"
+              },
+              {
+                "src": "illustrations/scene_collaboration.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 124038,
+                "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_collaboration",
+      "sourceFile": {
+        "src": "illustrations/scene_collaboration.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4218,
+        "bytes": 2418991,
+        "sha256": "83f78fdbc296bd8595669626fe9b6c30c18269debba861ad7498f29386f07fbe"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.knowledge-base",
+      "version": "0.1.0",
+      "title": {
+        "zh": "知识库",
+        "en": "Knowledge library"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫探索书页上生长的星枝。",
+        "en": "Two cats explore star-shaped branches rising from a book."
+      },
+      "placements": [
+        "知识库首页与空态"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "KB",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_knowledge.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 99508,
+            "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_knowledge.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 32076,
+                "sha256": "13250870e8453243c20cc652a1d32340d5ff4aa344de62164a00a645b05f4125"
+              },
+              {
+                "src": "illustrations/scene_knowledge.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 99508,
+                "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_knowledge.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 99508,
+            "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_knowledge.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 32076,
+                "sha256": "13250870e8453243c20cc652a1d32340d5ff4aa344de62164a00a645b05f4125"
+              },
+              {
+                "src": "illustrations/scene_knowledge.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 99508,
+                "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_knowledge",
+      "sourceFile": {
+        "src": "illustrations/scene_knowledge.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5099,
+        "bytes": 2125008,
+        "sha256": "68362b7a473a81fd3d501c8ca260843b574852e0c64dc8c7710488bfdd3a22b1"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.knowledge-graph",
+      "version": "0.1.0",
+      "title": {
+        "zh": "知识图谱",
+        "en": "Knowledge graph"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "知识图谱",
+        "en": "Knowledge graph"
+      },
+      "placements": [
+        "知识图谱能力介绍"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "KB",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.skill-management",
+      "version": "0.1.0",
+      "title": {
+        "zh": "技能管理",
+        "en": "Skill management"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫共同制作发光的星形作品。",
+        "en": "Two cats create a luminous star sculpture together."
+      },
+      "placements": [
+        "个人技能与机构分享"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "SKILL",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_studio.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 119942,
+            "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_studio.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 38400,
+                "sha256": "0044336983ef8ffc9bb6ac2e5876c834b43015b9f57341af505a476b2cc0ecc8"
+              },
+              {
+                "src": "illustrations/scene_studio.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 119942,
+                "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_studio.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 119942,
+            "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_studio.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 38400,
+                "sha256": "0044336983ef8ffc9bb6ac2e5876c834b43015b9f57341af505a476b2cc0ecc8"
+              },
+              {
+                "src": "illustrations/scene_studio.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 119942,
+                "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_studio",
+      "sourceFile": {
+        "src": "illustrations/scene_studio.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.3821,
+        "bytes": 2419334,
+        "sha256": "85dcce14041304fa2e6267ac48bbcc0692040742510c6aade11cabb826153138"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.skill-market",
+      "version": "0.1.0",
+      "title": {
+        "zh": "技能市场",
+        "en": "Skill marketplace"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "技能市场",
+        "en": "Skill marketplace"
+      },
+      "placements": [
+        "技能市场介绍与未上线占位"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "SKILL",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.studio-image",
+      "version": "0.1.0",
+      "title": {
+        "zh": "设计工作室",
+        "en": "Design studio"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫共同制作发光的星形作品。",
+        "en": "Two cats create a luminous star sculpture together."
+      },
+      "placements": [
+        "图片设计工作室"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "DS",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_studio.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 119942,
+            "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_studio.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 38400,
+                "sha256": "0044336983ef8ffc9bb6ac2e5876c834b43015b9f57341af505a476b2cc0ecc8"
+              },
+              {
+                "src": "illustrations/scene_studio.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 119942,
+                "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_studio.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 119942,
+            "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_studio.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 38400,
+                "sha256": "0044336983ef8ffc9bb6ac2e5876c834b43015b9f57341af505a476b2cc0ecc8"
+              },
+              {
+                "src": "illustrations/scene_studio.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 119942,
+                "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_studio",
+      "sourceFile": {
+        "src": "illustrations/scene_studio.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.3821,
+        "bytes": 2419334,
+        "sha256": "85dcce14041304fa2e6267ac48bbcc0692040742510c6aade11cabb826153138"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.studio-video",
+      "version": "0.1.0",
+      "title": {
+        "zh": "视频工作室",
+        "en": "Video studio"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "视频工作室",
+        "en": "Video studio"
+      },
+      "placements": [
+        "视频工作室"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "DS",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.star-mews",
+      "version": "0.1.0",
+      "title": {
+        "zh": "星域喵入口",
+        "en": "Star Mews gateway"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "两只猫探索珠光拱门与薄荷色踏石。",
+        "en": "Two cats explore a pearly arch and mint stepping stones."
+      },
+      "placements": [
+        "星域喵目录和下载页"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "EDGE",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_star_mews.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 131950,
+            "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_star_mews.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 43008,
+                "sha256": "afb6dd03f082a2b82334adb28abaad35392c147eedc545b71cd9c3e58f594029"
+              },
+              {
+                "src": "illustrations/scene_star_mews.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 131950,
+                "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_star_mews.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 131950,
+            "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_star_mews.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 43008,
+                "sha256": "afb6dd03f082a2b82334adb28abaad35392c147eedc545b71cd9c3e58f594029"
+              },
+              {
+                "src": "illustrations/scene_star_mews.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 131950,
+                "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_star_mews",
+      "sourceFile": {
+        "src": "illustrations/scene_star_mews.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4348,
+        "bytes": 2267350,
+        "sha256": "025e080d05f98b202ad7563a8f2b2de50f5ee2606fc8262d8eba29b96bd997f5"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.finance-preview",
+      "version": "0.1.0",
+      "title": {
+        "zh": "金融板块概念",
+        "en": "Finance concept"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "金融板块概念",
+        "en": "Finance concept"
+      },
+      "placements": [
+        "金融板块申请与未上线说明"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FINANCE",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.pet-adoption",
+      "version": "0.1.0",
+      "title": {
+        "zh": "喵灵领养",
+        "en": "Mewling adoption"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "戴樱花粉围巾、星形扣的奶油白小猫。",
+        "en": "A cream kitten wearing a sakura scarf and a small star clasp."
+      },
+      "placements": [
+        "领养介绍和角色选择"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 138650,
+            "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+            "srcSet": [
+              {
+                "src": "illustrations/mewling_master.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 39696,
+                "sha256": "b5d16986612a7b36eb1712d130a63278bec9841e25921e40808e6e0881ce1e97"
+              },
+              {
+                "src": "illustrations/mewling_master.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 138650,
+                "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024,
+            "mime": "image/webp",
+            "bytes": 138650,
+            "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+            "srcSet": [
+              {
+                "src": "illustrations/mewling_master.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 39696,
+                "sha256": "b5d16986612a7b36eb1712d130a63278bec9841e25921e40808e6e0881ce1e97"
+              },
+              {
+                "src": "illustrations/mewling_master.desktop.webp",
+                "width": 1024,
+                "height": 1024,
+                "bytes": 138650,
+                "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "mewling_master",
+      "sourceFile": {
+        "src": "illustrations/mewling_master.png",
+        "width": 1254,
+        "height": 1254,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5028,
+        "bytes": 1514762,
+        "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.pet-plaza",
+      "version": "0.1.0",
+      "title": {
+        "zh": "喵灵广场",
+        "en": "Mewling plaza"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "九只外貌各异的猫围坐在月弧上。",
+        "en": "Nine visually distinct cats gather on a crescent ledge."
+      },
+      "placements": [
+        "喵灵广场与互访"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ib",
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "illustrations/scene_about_family.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 130098,
+            "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_about_family.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 40486,
+                "sha256": "79236c8a27e67869e5a4eabce5c1afab29cf7969adc1b7fb73aa1662151bafab"
+              },
+              {
+                "src": "illustrations/scene_about_family.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 130098,
+                "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b"
+              }
+            ]
+          },
+          "still": {
+            "src": "illustrations/scene_about_family.desktop.webp",
+            "width": 1024,
+            "height": 683,
+            "mime": "image/webp",
+            "bytes": 130098,
+            "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b",
+            "srcSet": [
+              {
+                "src": "illustrations/scene_about_family.mobile.webp",
+                "width": 512,
+                "height": 341,
+                "bytes": 40486,
+                "sha256": "79236c8a27e67869e5a4eabce5c1afab29cf7969adc1b7fb73aa1662151bafab"
+              },
+              {
+                "src": "illustrations/scene_about_family.desktop.webp",
+                "width": 1024,
+                "height": 683,
+                "bytes": 130098,
+                "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b"
+              }
+            ]
+          }
+        }
+      },
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "sourceIllustrationId": "scene_about_family",
+      "sourceFile": {
+        "src": "illustrations/scene_about_family.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.2918,
+        "bytes": 2823405,
+        "sha256": "0b7dd1c908e938d9d37ec54eec31f0d00d84dc1c6c0ec7321af36e255a0499e0"
+      },
+      "themePolicy": "Shared transparent cutout; identical file reused on light/dark. Page surface provides theme.",
+      "reviewLimit": "Proposed new visual sample; original approved mascot and brand assets take precedence."
+    },
+    {
+      "id": "9mew.scene.startrail",
+      "version": "0.1.0",
+      "title": {
+        "zh": "星轨故事",
+        "en": "Startrail story"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "星轨故事",
+        "en": "Startrail story"
+      },
+      "placements": [
+        "星轨档案与成长树空态"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.scene.nine-chapters",
+      "version": "0.1.0",
+      "title": {
+        "zh": "九章故事世界",
+        "en": "Nine-chapter story world"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "scene",
+      "decorative": true,
+      "alt": {
+        "zh": "九章故事世界",
+        "en": "Nine-chapter story world"
+      },
+      "placements": [
+        "九条命品牌故事、九星域及星旅九章"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-II",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_generate",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.motion.idle",
+      "version": "0.2.0",
+      "title": {
+        "zh": "呼吸待机",
+        "en": "Idle breathing"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "呼吸待机",
+        "en": "Idle breathing"
+      },
+      "placements": [],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "motionTrigger": "Explicit preview or a permitted UI event; no business event is created by animation.",
+      "productionState": "2d_character_action_planned",
+      "note": "The original requirement is articulated breathing idle. Default blink/tail behavior can provide a runtime idle but is not completion of this separate breathing source action."
+    },
+    {
+      "id": "9mew.motion.blink",
+      "version": "0.2.0",
+      "title": {
+        "zh": "眨眼",
+        "en": "Blink"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "眨眼",
+        "en": "Blink"
+      },
+      "placements": [],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "motionTrigger": "Explicit preview or a permitted UI event; no business event is created by animation.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.greet",
+      "version": "0.2.0",
+      "title": {
+        "zh": "挥爪招呼",
+        "en": "Wave greeting"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "挥爪招呼",
+        "en": "Wave greeting"
+      },
+      "placements": [],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "motionTrigger": "Explicit preview or a permitted UI event; no business event is created by animation.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.think",
+      "version": "0.1.0",
+      "title": {
+        "zh": "思考",
+        "en": "Thinking"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "思考",
+        "en": "Thinking"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：think"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.listen",
+      "version": "0.1.0",
+      "title": {
+        "zh": "倾听",
+        "en": "Listening"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "倾听",
+        "en": "Listening"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：listen"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.speak",
+      "version": "0.1.0",
+      "title": {
+        "zh": "说话",
+        "en": "Speaking"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "说话",
+        "en": "Speaking"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：speak"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.work",
+      "version": "0.1.0",
+      "title": {
+        "zh": "工作",
+        "en": "Working"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "工作",
+        "en": "Working"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：work"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.cooperate",
+      "version": "0.1.0",
+      "title": {
+        "zh": "协作",
+        "en": "Cooperating"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "协作",
+        "en": "Cooperating"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：cooperate"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.celebrate",
+      "version": "0.1.0",
+      "title": {
+        "zh": "庆祝",
+        "en": "Celebrating"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "庆祝",
+        "en": "Celebrating"
+      },
+      "placements": [],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "motionTrigger": "Explicit user play in the review kit; production trigger must follow actual task state.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.sleep",
+      "version": "0.1.0",
+      "title": {
+        "zh": "睡眠",
+        "en": "Sleeping"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "睡眠",
+        "en": "Sleeping"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：sleep"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.comfort",
+      "version": "0.1.0",
+      "title": {
+        "zh": "安慰",
+        "en": "Comforting"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "安慰",
+        "en": "Comforting"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：comfort"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.motion.evolve",
+      "version": "0.1.0",
+      "title": {
+        "zh": "进化",
+        "en": "Evolving"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "进化",
+        "en": "Evolving"
+      },
+      "placements": [
+        "官网角色/产品状态/喵灵动作：evolve"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-II",
+      "variants": {},
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action.",
+      "productionState": "2d_character_action_planned",
+      "note": "Planning entry only until a matching actual catalog action or explicit semantic reuse binding is assembled. No current media is inferred from this base registry."
+    },
+    {
+      "id": "9mew.state.empty-chat",
+      "version": "0.1.0",
+      "title": {
+        "zh": "暂无会话",
+        "en": "Empty chat"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "暂无会话",
+        "en": "Empty chat"
+      },
+      "placements": [
+        "尚未开始的会话"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 625,
+            "sha256": "69444f33a5f93cea7000309678bc0e54a157adf4aa6408abf3e2368f18b01ca7",
+            "src": "ui/empty-chat.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 625,
+            "sha256": "69444f33a5f93cea7000309678bc0e54a157adf4aa6408abf3e2368f18b01ca7",
+            "src": "ui/empty-chat.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 625,
+            "sha256": "823e285ddd26c9cc883d872fcc88462050b33b8f6248421a020c2a18327e1816",
+            "src": "ui/empty-chat.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 625,
+            "sha256": "823e285ddd26c9cc883d872fcc88462050b33b8f6248421a020c2a18327e1816",
+            "src": "ui/empty-chat.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.empty-knowledge",
+      "version": "0.1.0",
+      "title": {
+        "zh": "暂无知识内容",
+        "en": "Empty knowledge"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "暂无知识内容",
+        "en": "Empty knowledge"
+      },
+      "placements": [
+        "空知识库"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 826,
+            "sha256": "4d266c56cff0357f6587dc9355a187a7919ee0eae64f42c5d2c7bd0140717bd0",
+            "src": "ui/empty-knowledge.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 826,
+            "sha256": "4d266c56cff0357f6587dc9355a187a7919ee0eae64f42c5d2c7bd0140717bd0",
+            "src": "ui/empty-knowledge.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 826,
+            "sha256": "85f6e173c9c366f465baacd0def6d81b208184b849e81409ad667407bc5b8f25",
+            "src": "ui/empty-knowledge.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 826,
+            "sha256": "85f6e173c9c366f465baacd0def6d81b208184b849e81409ad667407bc5b8f25",
+            "src": "ui/empty-knowledge.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.empty-tasks",
+      "version": "0.1.0",
+      "title": {
+        "zh": "暂无任务",
+        "en": "Empty tasks"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "暂无任务",
+        "en": "Empty tasks"
+      },
+      "placements": [
+        "暂无任务"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 1027,
+            "sha256": "42ad48b89b2bed7d1e39dc139c0f0fcfa2bd286a9e8b2f4fb2b0b92699b7db57",
+            "src": "ui/empty-tasks.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 1027,
+            "sha256": "42ad48b89b2bed7d1e39dc139c0f0fcfa2bd286a9e8b2f4fb2b0b92699b7db57",
+            "src": "ui/empty-tasks.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 1027,
+            "sha256": "0b58dab79930c4d902d3e1a7f660d9572ed2d6c848d33fa557ff78618667bedc",
+            "src": "ui/empty-tasks.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 1027,
+            "sha256": "0b58dab79930c4d902d3e1a7f660d9572ed2d6c848d33fa557ff78618667bedc",
+            "src": "ui/empty-tasks.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.empty-search",
+      "version": "0.1.0",
+      "title": {
+        "zh": "没有搜索结果",
+        "en": "No search results"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "没有搜索结果",
+        "en": "No search results"
+      },
+      "placements": [
+        "搜索无结果"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 605,
+            "sha256": "6d5dae6f5ecda899534a17615461b4e48f692fee4183b508b19e92f558c3706f",
+            "src": "ui/empty-search.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 605,
+            "sha256": "6d5dae6f5ecda899534a17615461b4e48f692fee4183b508b19e92f558c3706f",
+            "src": "ui/empty-search.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 605,
+            "sha256": "c498196086dd349777b17336db14754d4f9ca60e4b5f51e56fd467a8bb817923",
+            "src": "ui/empty-search.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 605,
+            "sha256": "c498196086dd349777b17336db14754d4f9ca60e4b5f51e56fd467a8bb817923",
+            "src": "ui/empty-search.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.empty-admin",
+      "version": "0.1.0",
+      "title": {
+        "zh": "暂无管理配置",
+        "en": "Empty configuration"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "暂无管理配置",
+        "en": "Empty configuration"
+      },
+      "placements": [
+        "管理台尚无配置"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "ADMIN",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 816,
+            "sha256": "e6541108b7bc9024034e127d853b993f90ada11ea8f1e3aa25a04b6a49e9b1ec",
+            "src": "ui/empty-admin.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 816,
+            "sha256": "e6541108b7bc9024034e127d853b993f90ada11ea8f1e3aa25a04b6a49e9b1ec",
+            "src": "ui/empty-admin.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 816,
+            "sha256": "382a132a137988d81546d69b62f330af69f653af1a6f4795609fe2720851b136",
+            "src": "ui/empty-admin.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 816,
+            "sha256": "382a132a137988d81546d69b62f330af69f653af1a6f4795609fe2720851b136",
+            "src": "ui/empty-admin.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.loading",
+      "version": "0.1.0",
+      "title": {
+        "zh": "处理中",
+        "en": "Processing"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "处理中",
+        "en": "Processing"
+      },
+      "placements": [
+        "处理进行中"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 480,
+            "sha256": "216e6e0ad33524a0025d31945b401ff7e6139527c9520a8fbc80e38cc497ec68",
+            "src": "ui/loading.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 480,
+            "sha256": "216e6e0ad33524a0025d31945b401ff7e6139527c9520a8fbc80e38cc497ec68",
+            "src": "ui/loading.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "motion": {
+            "width": 32,
+            "height": 32,
+            "bytes": 795,
+            "sha256": "87ec83427c4e4d8cd96b6e1540198f841143cdb6dd2b87b04b570fe63873b0d2",
+            "src": "ui/loading.light.animated.svg",
+            "mime": "image/svg+xml",
+            "loop": true,
+            "duration": 1.3
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 480,
+            "sha256": "5cf6a18108ed3e14a21fcd4cac62f2d0d590b276cda40a3239353b308f905c82",
+            "src": "ui/loading.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 480,
+            "sha256": "5cf6a18108ed3e14a21fcd4cac62f2d0d590b276cda40a3239353b308f905c82",
+            "src": "ui/loading.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "motion": {
+            "width": 32,
+            "height": 32,
+            "bytes": 790,
+            "sha256": "382b0cbb1a5a7c3977d1a3aaf5e8aa228bfc3477ec6afe7932783b4bb041d0c5",
+            "src": "ui/loading.dark.animated.svg",
+            "mime": "image/svg+xml",
+            "loop": true,
+            "duration": 1.3
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.success",
+      "version": "0.1.0",
+      "title": {
+        "zh": "操作已成功",
+        "en": "Success"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "操作已成功",
+        "en": "Success"
+      },
+      "placements": [
+        "操作成功"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 478,
+            "sha256": "8c70b864914640a2ad81ab5196fe52f896c143df30a4ea17e01d3277d5e0c485",
+            "src": "ui/success.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 478,
+            "sha256": "8c70b864914640a2ad81ab5196fe52f896c143df30a4ea17e01d3277d5e0c485",
+            "src": "ui/success.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "motion": {
+            "width": 32,
+            "height": 32,
+            "bytes": 837,
+            "sha256": "e8e301c9a6d63d3ef5efce5d6e81dd3e038db01dbb40cb70f2ae0e6bff2b1698",
+            "src": "ui/success.light.animated.svg",
+            "mime": "image/svg+xml",
+            "loop": false,
+            "duration": 0.56
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 478,
+            "sha256": "5bfe7726c97b39e152fa72c0002afe657ccce8493223e3310838ff7106762d83",
+            "src": "ui/success.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 478,
+            "sha256": "5bfe7726c97b39e152fa72c0002afe657ccce8493223e3310838ff7106762d83",
+            "src": "ui/success.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "motion": {
+            "width": 32,
+            "height": 32,
+            "bytes": 832,
+            "sha256": "9e24cc47cd6a5d5f46fc3149b1a9e7f29b511a86931d82a1fba7fc3d5a1d0145",
+            "src": "ui/success.dark.animated.svg",
+            "mime": "image/svg+xml",
+            "loop": false,
+            "duration": 0.56
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.network-error",
+      "version": "0.1.0",
+      "title": {
+        "zh": "网络连接不可用",
+        "en": "Network unavailable"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "网络连接不可用",
+        "en": "Network unavailable"
+      },
+      "placements": [
+        "网络中断或请求失败"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 610,
+            "sha256": "500da7309ef4074f8a4c99fe69102d911177daae3e159202af490f9e015342fc",
+            "src": "ui/network-error.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 610,
+            "sha256": "500da7309ef4074f8a4c99fe69102d911177daae3e159202af490f9e015342fc",
+            "src": "ui/network-error.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 610,
+            "sha256": "a0889880ac53be7895edf0b4508f574fab1940e7ca1cffb5e615f2a67d989d76",
+            "src": "ui/network-error.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 610,
+            "sha256": "a0889880ac53be7895edf0b4508f574fab1940e7ca1cffb5e615f2a67d989d76",
+            "src": "ui/network-error.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.permission-denied",
+      "version": "0.1.0",
+      "title": {
+        "zh": "没有访问权限",
+        "en": "Access denied"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "没有访问权限",
+        "en": "Access denied"
+      },
+      "placements": [
+        "当前无访问权限"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 542,
+            "sha256": "72de4c5e40437c9ca601ac9b4f7a85be208e6963bbeb0d321b4b37d55a5be2ca",
+            "src": "ui/permission-denied.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 542,
+            "sha256": "72de4c5e40437c9ca601ac9b4f7a85be208e6963bbeb0d321b4b37d55a5be2ca",
+            "src": "ui/permission-denied.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 542,
+            "sha256": "41f98024cf94266d9f3b9b224a47c1b222975b11fb65efad07485c986b5cc2da",
+            "src": "ui/permission-denied.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 542,
+            "sha256": "41f98024cf94266d9f3b9b224a47c1b222975b11fb65efad07485c986b5cc2da",
+            "src": "ui/permission-denied.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.not-found",
+      "version": "0.1.0",
+      "title": {
+        "zh": "资源不存在",
+        "en": "Resource not found"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "资源不存在",
+        "en": "Resource not found"
+      },
+      "placements": [
+        "页面或资源不存在"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 700,
+            "sha256": "df573a01e12f7f240dcf3921fa2b87800744783deb842632cea8fb59898cc0e7",
+            "src": "ui/not-found.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 700,
+            "sha256": "df573a01e12f7f240dcf3921fa2b87800744783deb842632cea8fb59898cc0e7",
+            "src": "ui/not-found.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 700,
+            "sha256": "18aedc3eba9b3fa35a4f6265ca94099479e8d2210161ebb2f093d01e21e59696",
+            "src": "ui/not-found.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 700,
+            "sha256": "18aedc3eba9b3fa35a4f6265ca94099479e8d2210161ebb2f093d01e21e59696",
+            "src": "ui/not-found.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.approval-waiting",
+      "version": "0.1.0",
+      "title": {
+        "zh": "等待审批",
+        "en": "Awaiting approval"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "等待审批",
+        "en": "Awaiting approval"
+      },
+      "placements": [
+        "等待有权限者审批"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 824,
+            "sha256": "e9b2481cafb583f0ca4d4f73ab12dcc85e6cc3d6063962247b0647fb897d34a5",
+            "src": "ui/approval-waiting.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 824,
+            "sha256": "e9b2481cafb583f0ca4d4f73ab12dcc85e6cc3d6063962247b0647fb897d34a5",
+            "src": "ui/approval-waiting.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 824,
+            "sha256": "2c92430029771de82085447ebd489c7370bb3628bf3e7e73df58183842fbf0b0",
+            "src": "ui/approval-waiting.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 824,
+            "sha256": "2c92430029771de82085447ebd489c7370bb3628bf3e7e73df58183842fbf0b0",
+            "src": "ui/approval-waiting.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.coming-soon",
+      "version": "0.1.0",
+      "title": {
+        "zh": "即将开放",
+        "en": "Coming soon"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "即将开放",
+        "en": "Coming soon"
+      },
+      "placements": [
+        "能力尚未上线"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 685,
+            "sha256": "6c8687f8a9506494a177a0f5980fc8304e2a07acb6c6652800c5d4a6656c84cb",
+            "src": "ui/coming-soon.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 685,
+            "sha256": "6c8687f8a9506494a177a0f5980fc8304e2a07acb6c6652800c5d4a6656c84cb",
+            "src": "ui/coming-soon.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 685,
+            "sha256": "047551c732bd30ba16afe99ca41e952090ecd4d031b9272c22bee3666fe79c9d",
+            "src": "ui/coming-soon.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 685,
+            "sha256": "047551c732bd30ba16afe99ca41e952090ecd4d031b9272c22bee3666fe79c9d",
+            "src": "ui/coming-soon.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.auth-welcome",
+      "version": "0.1.0",
+      "title": {
+        "zh": "欢迎登录",
+        "en": "Welcome"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "欢迎登录",
+        "en": "Welcome"
+      },
+      "placements": [
+        "注册/登录引导"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 570,
+            "sha256": "61a790dc5489ee932a49cc61eac1b3568ef4b4702e161049288e3746a3e7a7b6",
+            "src": "ui/auth-welcome.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 570,
+            "sha256": "61a790dc5489ee932a49cc61eac1b3568ef4b4702e161049288e3746a3e7a7b6",
+            "src": "ui/auth-welcome.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 570,
+            "sha256": "0374c8f68e6355b36188bb4392d3bef54650e137aa6eefaeb7808e6d3ffd62e2",
+            "src": "ui/auth-welcome.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 570,
+            "sha256": "0374c8f68e6355b36188bb4392d3bef54650e137aa6eefaeb7808e6d3ffd62e2",
+            "src": "ui/auth-welcome.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.state.auth-error",
+      "version": "0.1.0",
+      "title": {
+        "zh": "登录未完成",
+        "en": "Sign-in failed"
+      },
+      "status": "prototype",
+      "approvalState": "proposed",
+      "kind": "ui-state",
+      "decorative": true,
+      "alt": {
+        "zh": "登录未完成",
+        "en": "Sign-in failed"
+      },
+      "placements": [
+        "登录失败/过期/可重试"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "CORE",
+      "variants": {
+        "light": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 587,
+            "sha256": "f046f145b4927df79477adf7cbe5c71d94deacca0084b9ae5fa9b1bab53879f4",
+            "src": "ui/auth-error.light.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 587,
+            "sha256": "f046f145b4927df79477adf7cbe5c71d94deacca0084b9ae5fa9b1bab53879f4",
+            "src": "ui/auth-error.light.svg",
+            "mime": "image/svg+xml"
+          }
+        },
+        "dark": {
+          "poster": {
+            "width": 32,
+            "height": 32,
+            "bytes": 587,
+            "sha256": "c3183d5fd1f1aca3d71de404eb130acd32b3a2f44b222956fcb32ad25ffcb437",
+            "src": "ui/auth-error.dark.svg",
+            "mime": "image/svg+xml"
+          },
+          "still": {
+            "width": 32,
+            "height": 32,
+            "bytes": 587,
+            "sha256": "c3183d5fd1f1aca3d71de404eb130acd32b3a2f44b222956fcb32ad25ffcb437",
+            "src": "ui/auth-error.dark.svg",
+            "mime": "image/svg+xml"
+          }
+        }
+      },
+      "sourceStrategy": "create_or_reuse",
+      "usageLimit": "Decorative companion to real localized status; never create or assert business state."
+    },
+    {
+      "id": "9mew.symbol.shrimp",
+      "version": "0.1.0",
+      "title": {
+        "zh": "虾米计量符号",
+        "en": "Shrimp unit"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "虾米计量符号",
+        "en": "Shrimp unit"
+      },
+      "placements": [
+        "虾米计量符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.fish",
+      "version": "0.1.0",
+      "title": {
+        "zh": "小鱼干计量符号",
+        "en": "Dried-fish unit"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "小鱼干计量符号",
+        "en": "Dried-fish unit"
+      },
+      "placements": [
+        "小鱼干计量符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.koi",
+      "version": "0.1.0",
+      "title": {
+        "zh": "锦鲤计量符号",
+        "en": "Koi unit"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "锦鲤计量符号",
+        "en": "Koi unit"
+      },
+      "placements": [
+        "锦鲤展示分组符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.shark",
+      "version": "0.1.0",
+      "title": {
+        "zh": "鲨鱼计量符号",
+        "en": "Shark unit"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "鲨鱼计量符号",
+        "en": "Shark unit"
+      },
+      "placements": [
+        "鲨鱼展示分组符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.whale",
+      "version": "0.1.0",
+      "title": {
+        "zh": "鲸鱼计量符号",
+        "en": "Whale unit"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "鲸鱼计量符号",
+        "en": "Whale unit"
+      },
+      "placements": [
+        "鲸鱼展示分组符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "FOUNDATION",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.stardust",
+      "version": "0.1.0",
+      "title": {
+        "zh": "星尘符号",
+        "en": "Stardust symbol"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "星尘符号",
+        "en": "Stardust symbol"
+      },
+      "placements": [
+        "星尘成长积分符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.bond",
+      "version": "0.1.0",
+      "title": {
+        "zh": "羁绊符号",
+        "en": "Bond symbol"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "羁绊符号",
+        "en": "Bond symbol"
+      },
+      "placements": [
+        "羁绊关系进度符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.symbol.vitality",
+      "version": "0.1.0",
+      "title": {
+        "zh": "活力符号",
+        "en": "Vitality symbol"
+      },
+      "status": "planned",
+      "approvalState": "proposed",
+      "kind": "symbol",
+      "decorative": true,
+      "alt": {
+        "zh": "活力符号",
+        "en": "Vitality symbol"
+      },
+      "placements": [
+        "活力节奏资源符号"
+      ],
+      "plannedSemanticAsset": true,
+      "phase": "PET-Ia",
+      "variants": {},
+      "sourceStrategy": "reuse_if_verified_else_vector_authoring",
+      "productionState": "planned_or_existing_master_inventory_pending",
+      "note": "Design coverage only. No fake media path. Review existing approved masters before creating a new asset."
+    },
+    {
+      "id": "9mew.motion.look",
+      "version": "0.2.0",
+      "title": {
+        "zh": "环顾观察",
+        "en": "Looking around"
+      },
+      "status": "planned",
+      "approvalState": "not_reviewed",
+      "kind": "motion",
+      "decorative": true,
+      "alt": {
+        "zh": "喵灵轻轻转头观察。",
+        "en": "Mewling gently looks around."
+      },
+      "placements": [],
+      "plannedSemanticAsset": false,
+      "variants": {},
+      "motionTrigger": "Explicit preview or a permitted UI event; no business event is created by animation.",
+      "productionState": "2d_character_action_planned",
+      "note": "A dedicated look-around sequence remains planned. Listening may include head movement but is not silently counted as this independent source action.",
+      "sourceStrategy": "Produce actual faithful 2D action art, assemble timed frames and verify playback; a static fallback does not complete a requested action."
+    },
+    {
+      "id": "9mew.pet.official.appearance.star-mist",
+      "version": "0.1.0",
+      "title": {
+        "zh": "奶喵 · 星雾灵相（候选）",
+        "en": "Naimiao · Star Mist candidate"
+      },
+      "status": "prototype",
+      "approvalState": "candidate",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "同一奶喵身份的星雾灵相幻想外观。",
+        "en": "A fantasy appearance candidate preserving Naimiao identity."
+      },
+      "placements": [
+        "外观候选评审",
+        "宠物灵相预览"
+      ],
+      "plannedSemanticAsset": false,
+      "characterId": "9mew.character.naimiao",
+      "appearanceVersion": "naimiao.star-mist.0.1.0",
+      "sourceFile": {
+        "src": "evolution/star-mist.png",
+        "mime": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "hasTransparency": true,
+        "transparentPixelFraction": 0.4011,
+        "bytes": 1837892,
+        "sha256": "537c676e4b6defc032c62e3357efd5b1cb7fecfd901c4d2ed24ce718e457c735"
+      },
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "evolution/star-mist.desktop.webp",
+            "mime": "image/webp",
+            "width": 896,
+            "height": 896,
+            "bytes": 152232,
+            "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90",
+            "srcSet": [
+              {
+                "src": "evolution/star-mist.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 59442,
+                "sha256": "09eaac82221cbe81f49c8710d4f032576f94d8fbae62336dd688bb650a67b547"
+              },
+              {
+                "src": "evolution/star-mist.desktop.webp",
+                "width": 896,
+                "height": 896,
+                "bytes": 152232,
+                "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90"
+              }
+            ]
+          },
+          "still": {
+            "src": "evolution/star-mist.desktop.webp",
+            "mime": "image/webp",
+            "width": 896,
+            "height": 896,
+            "bytes": 152232,
+            "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90",
+            "srcSet": [
+              {
+                "src": "evolution/star-mist.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 59442,
+                "sha256": "09eaac82221cbe81f49c8710d4f032576f94d8fbae62336dd688bb650a67b547"
+              },
+              {
+                "src": "evolution/star-mist.desktop.webp",
+                "width": 896,
+                "height": 896,
+                "bytes": 152232,
+                "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90"
+              }
+            ]
+          }
+        }
+      },
+      "themePolicy": "Actual transparent cutout shared across light/dark; check small-size contrast.",
+      "deliveryManifest": "evolution/star-mist-delivery.json",
+      "activation": "not_executed",
+      "reviewLimit": "Candidate only. The aura is more prominent than the brief; simplify for compact avatars before production. No new progression event is asserted."
+    },
+    {
+      "id": "9mew.pet.official.appearance.moonlight",
+      "version": "0.1.0",
+      "title": {
+        "zh": "奶喵 · 月华灵相（候选）",
+        "en": "Naimiao · Moonlight candidate"
+      },
+      "status": "prototype",
+      "approvalState": "candidate",
+      "kind": "illustration",
+      "decorative": true,
+      "alt": {
+        "zh": "同一奶喵身份的月华灵相幻想外观。",
+        "en": "A fantasy appearance candidate preserving Naimiao identity."
+      },
+      "placements": [
+        "外观候选评审",
+        "宠物灵相预览"
+      ],
+      "plannedSemanticAsset": false,
+      "characterId": "9mew.character.naimiao",
+      "appearanceVersion": "naimiao.moonlight.0.1.0",
+      "sourceFile": {
+        "src": "evolution/moonlight.png",
+        "mime": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "hasTransparency": true,
+        "transparentPixelFraction": 0.3642,
+        "bytes": 1941449,
+        "sha256": "7d927e0f65b858b373a08f9e29a39c0cbdab9a43c16caef84703ce1bfe3a2dad"
+      },
+      "variants": {
+        "neutral": {
+          "poster": {
+            "src": "evolution/moonlight.desktop.webp",
+            "mime": "image/webp",
+            "width": 896,
+            "height": 896,
+            "bytes": 152168,
+            "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803",
+            "srcSet": [
+              {
+                "src": "evolution/moonlight.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 60200,
+                "sha256": "5d5d7402c6c18ce875635bbab39aaae4a86057a1e60cda0cbef1d0043a530ae0"
+              },
+              {
+                "src": "evolution/moonlight.desktop.webp",
+                "width": 896,
+                "height": 896,
+                "bytes": 152168,
+                "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803"
+              }
+            ]
+          },
+          "still": {
+            "src": "evolution/moonlight.desktop.webp",
+            "mime": "image/webp",
+            "width": 896,
+            "height": 896,
+            "bytes": 152168,
+            "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803",
+            "srcSet": [
+              {
+                "src": "evolution/moonlight.mobile.webp",
+                "width": 512,
+                "height": 512,
+                "bytes": 60200,
+                "sha256": "5d5d7402c6c18ce875635bbab39aaae4a86057a1e60cda0cbef1d0043a530ae0"
+              },
+              {
+                "src": "evolution/moonlight.desktop.webp",
+                "width": 896,
+                "height": 896,
+                "bytes": 152168,
+                "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803"
+              }
+            ]
+          }
+        }
+      },
+      "themePolicy": "Actual transparent cutout shared across light/dark; check small-size contrast.",
+      "deliveryManifest": "evolution/moonlight-delivery.json",
+      "activation": "not_executed",
+      "reviewLimit": "Candidate only. The aura is more prominent than the brief; simplify for compact avatars before production. No new progression event is asserted."
+    }
+  ],
+  "entryPoints": {
+    "websitePetDemo": "integration/website-pet-demo.html",
+    "planarPetDemo": "integration/planar-pet-demo.html",
+    "gallery": "integration/review.html",
+    "motionSource": "motion-2d/naimiao-starlight.html",
+    "skill": "skills/9mew-visual-forge/SKILL.md",
+    "prompt": "9mew_task_prompt_v5.txt",
+    "actionsDemo": "integration/actions-demo.html",
+    "actionCatalog": "pet-actions/catalog.json",
+    "actionGuide": "docs/action-production-guide.md",
+    "assetStatus": "docs/asset-status-v5.md"
+  },
+  "selectedReference": {
+    "src": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+    "scope": "character identity reference selected by user"
+  },
+  "renderPolicy": "specs/visual_policy.json",
+  "kitVersion": "v5",
+  "semanticActionBindings": {
+    "9mew.motion.greet": {
+      "actionId": "wave",
+      "bindingKind": "semantic-reuse",
+      "meaning": "同一挥爪动作复用为招呼，不增加独立源动作数。"
+    },
+    "9mew.motion.celebrate": {
+      "actionId": "excited",
+      "bindingKind": "semantic-reuse",
+      "meaning": "兴奋动作复用为庆祝展示，不代表真实任务或成长成功。"
+    },
+    "9mew.motion.comfort": {
+      "actionId": "nuzzle",
+      "bindingKind": "semantic-reuse",
+      "meaning": "亲昵蹭蹭复用于安慰语境，不宣称识别用户情绪或产生真实心理效果。"
+    }
+  }
+}

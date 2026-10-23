@@ -1,0 +1,8 @@
+.pet-action-player{--pet-travel:0px;position:relative;isolation:isolate;display:grid;place-items:center;width:100%;height:100%;min-width:0;overflow:hidden;contain:layout paint}
+.pet-action-player__aura{position:absolute;z-index:-1;width:65%;aspect-ratio:1;border-radius:50%;background:radial-gradient(ellipse,#f4cddd66,transparent 68%);pointer-events:none}
+.pet-action-player__travel{width:100%;height:100%;display:grid;place-items:center;transform:translateX(var(--pet-travel,0px))}
+.pet-action-player__image{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;max-width:none!important;transition:none!important;animation:none!important}
+.pet-action-player.is-compact .pet-action-player__aura{display:none}
+.pet-action-player[data-reduced-motion=true] .pet-action-player__travel{transform:none}
+[data-theme=dark] .pet-action-player__aura{background:radial-gradient(ellipse,#bc7ca433,transparent 68%)}
+@media(prefers-reduced-motion:reduce){.pet-action-player__travel{transform:none!important}}

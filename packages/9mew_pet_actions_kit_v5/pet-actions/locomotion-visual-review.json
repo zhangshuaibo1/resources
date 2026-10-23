@@ -1,0 +1,2865 @@
+{
+  "schema_version": 1,
+  "kit_version": "5",
+  "reviewer": "pet_locomotion_art_v5",
+  "reviewed_at_utc": "2026-10-23T01:55:55.625Z",
+  "overall_result": "NO_BLOCKING_ASSET_DEFECT_OBSERVED; PASS_FOR_LIGHTWEIGHT_8_KEYFRAME_2D_USE_WITH_ACTION_SPECIFIC_LIMITS",
+  "scope": {
+    "actions": 10,
+    "webp_animations": 10,
+    "themed_gifs": 20,
+    "source_frame_files": 80,
+    "authored_frames_per_action": 8,
+    "reviewed_media": "Actual encoded animated WebP and both light/dark GIF files plus per-frame WebP files",
+    "not_reviewed": [
+      "Live browser playback at intended widget size",
+      "Runtime translation, collision, input interruption or state-machine transitions",
+      "Left-mirrored actions created by parent",
+      "Accessibility/reduced-motion runtime behavior",
+      "High-frame-rate interpolation or skeletal animation"
+    ]
+  },
+  "method": {
+    "tools": [
+      "Node.js sharp for decode, proportional resize and mechanical contact-sheet composition",
+      "view_image for visual review of all ten WebP contact sheets and all ten actual-GIF contact sheets"
+    ],
+    "visual_layout": "For each action, eight decoded frames at 256x256 arranged 4x2 on a light background and again on a dark background.",
+    "webp_alpha_checked": true,
+    "gif_all_frames_decoded": true,
+    "frame_order_check": "Each decoded animation frame was compared against all eight frame files at 64x64; closest match was the same 1-based source frame for every reviewed WebP and GIF page.",
+    "timings": "Read actual frame delay arrays and loop metadata from each encoded file. Temporal smoothness conclusions are limited to ordered-frame inspection and timing metadata, not claimed live playback.",
+    "quantitative_note": "MAE and bounding boxes detect file/sequence/crop issues; they are not a biological motion or perceptual smoothness certification."
+  },
+  "global_observations": [
+    "All ten WebP files decode as eight 512x512 RGBA pages with transparent background pixels.",
+    "All twenty GIF files decode as eight 320x320 pages; decoded GIF pixels are fully opaque because these are deliberate light/dark flattened variants.",
+    "All decoded sequences preserve order 1 through 8 and the GIF/WebP delays agree.",
+    "No alpha>128 subject pixels touch the outer two-pixel frame boundary in the eighty reviewed WebP pages. Visual review also found no cropped paw, ear or tail silhouette.",
+    "No extra limb, false lettering, prop or colored-alpha debris was observed on the reviewed actual light/dark composites.",
+    "The asset set consists of eight keyframes per action. It should not be described as rigged animation, 60 fps authored motion or a biologically validated movement simulation."
+  ],
+  "actions": [
+    {
+      "action": "jump",
+      "verdict": "PASS_WITH_KEYFRAME_LIMITS",
+      "named_action_readable": true,
+      "observations": [
+        "Frames 2–3 clearly change from crouch to push-off; frames 4–5 tuck the paws in the air; frame 6 extends toward landing; frames 7–8 settle.",
+        "Actual encoded frames have visible vertical flight clearance and complete ears, paws and tail on both light and dark backgrounds."
+      ],
+      "limits": [
+        "Head angle and apparent face size vary slightly between takeoff, tucked and settled poses; this is not a rigid character rig.",
+        "Only eight authored poses are present. The observed phase order supports a jump, but no real-time browser playback or 60 fps interpolation was evaluated."
+      ],
+      "loop": "Frame 8 returns to a similar grounded pose as frame 1. The seam is not pixel-identical; the final 650 ms hold softens the restart.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/jump.webp",
+          "sha256": "2e4f57ab9045a6e3d42533d6a88059a9c757808c5d45dd40fd179d1a37654c3d",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            250,
+            180,
+            90,
+            110,
+            180,
+            100,
+            140,
+            650
+          ],
+          "loop": 0,
+          "total_duration_ms": 1700
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/jump-light.gif",
+            "sha256": "b325588987d1d051efb8d028179757565907e1e08c1865852fa70e192e195124",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              250,
+              180,
+              90,
+              110,
+              180,
+              100,
+              140,
+              650
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.361083984375
+          },
+          {
+            "theme": "dark",
+            "path": "animations/jump-dark.gif",
+            "sha256": "25a68552bf4c425d98f934bd8626fe362270f9bc98129b794ea49e6cd8907f98",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              250,
+              180,
+              90,
+              110,
+              180,
+              100,
+              140,
+              650
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.73004150390625
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/jump/000.webp",
+            "sha256": "5772d42062d33ef22b995093a22ebd8996b563585cac44ef394912179d3a68c4"
+          },
+          {
+            "frame": 2,
+            "path": "frames/jump/001.webp",
+            "sha256": "3aa74341e9170945624cceeba8a9c4e954cdc298fb9271eebf1e8d8b6283d92e"
+          },
+          {
+            "frame": 3,
+            "path": "frames/jump/002.webp",
+            "sha256": "5d44459fe5467b3ce7f1daad2057161c214f408ca14a25b5391fd020503716a5"
+          },
+          {
+            "frame": 4,
+            "path": "frames/jump/003.webp",
+            "sha256": "2cefa58375fa9a498cda18c7bfbcfd8bc3d182a2c807e0b2b0a398d1dfbd679a"
+          },
+          {
+            "frame": 5,
+            "path": "frames/jump/004.webp",
+            "sha256": "540caa6961ec43392ad89f36bc23602025f85baee3ea436c80a361977f791b85"
+          },
+          {
+            "frame": 6,
+            "path": "frames/jump/005.webp",
+            "sha256": "327cedd1eec10e5d748fc8f0c3cfc54b997f4db74d4acc15831388e65bb793ae"
+          },
+          {
+            "frame": 7,
+            "path": "frames/jump/006.webp",
+            "sha256": "84b5bf567a3cee9e1c245509d0defde0c8c4937dce5208b340fa0f665f5a18bb"
+          },
+          {
+            "frame": 8,
+            "path": "frames/jump/007.webp",
+            "sha256": "bc153a605aa961ef331e0e4b1a6a1958d8487eed4f892483dd2627e9f40854ca"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "e406513c4d4556f6844c196ad9e5fb4c20643fd9a5634449917f77286244d432",
+            "bbox_alpha_over_128": [
+              104,
+              156,
+              371,
+              457
+            ],
+            "alpha_zero_pixels": 203792,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 7.00665283203125
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "80394fe053f2ccbff9e612cb0dd422bb709f4004f6ec62b7a360dd4ec8b938ab",
+            "bbox_alpha_over_128": [
+              101,
+              207,
+              421,
+              458
+            ],
+            "alpha_zero_pixels": 199389,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 8.208740234375
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "49da43f00962f8080aa681d8cdbe7793682bf7d5b6a953b67edd0b503a75c8b5",
+            "bbox_alpha_over_128": [
+              105,
+              88,
+              389,
+              417
+            ],
+            "alpha_zero_pixels": 196405,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 9.49871826171875
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "e58972a61c2d1edd6757369e3ecc6812d2dc8df071ac83d408ff72bfcc44a1e0",
+            "bbox_alpha_over_128": [
+              150,
+              35,
+              373,
+              365
+            ],
+            "alpha_zero_pixels": 207097,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 7.7916259765625
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "6a1deec9c62d396ea1d4ab78f29b10d4c1583795df1556d95174f793e62d6395",
+            "bbox_alpha_over_128": [
+              114,
+              77,
+              424,
+              345
+            ],
+            "alpha_zero_pixels": 205765,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 7.60595703125
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "f4bd65bd127225eb334160e40c83c76dae1ed236dabb1e13d01d5fceec6aa2e4",
+            "bbox_alpha_over_128": [
+              102,
+              91,
+              410,
+              392
+            ],
+            "alpha_zero_pixels": 192890,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 10.741455078125
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "a513dcc4fbafad0f2f66ba1a0b290ed06982b244b4f1f4ea31865e5e5a9c94af",
+            "bbox_alpha_over_128": [
+              98,
+              208,
+              427,
+              456
+            ],
+            "alpha_zero_pixels": 195170,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 8.76385498046875
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "9d2f927678ca4946d9231d41d27b08e4ee348b2e1f2a2452320e7503b78bda7b",
+            "bbox_alpha_over_128": [
+              103,
+              156,
+              391,
+              457
+            ],
+            "alpha_zero_pixels": 196028,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 8.7637939453125
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 8.989095052083334,
+        "frame_transition_mean_abs_rgb_128": [
+          23.554585774739582,
+          37.050252278645836,
+          26.285502115885418,
+          22.919718424479168,
+          16.747599283854168,
+          40.441487630208336,
+          24.053670247395832,
+          8.989095052083334
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/jump.png",
+            "sha256": "b38653422c7c0c8d8b5fcfb23488a1e256ad44f77de8543d3b6e479bde1af92f",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/jump-gif.png",
+            "sha256": "6832cc7485371f54d10b925d38af4fe84b86d74fe34ff430dde00453690ca8b7",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "walk-right",
+      "verdict": "PASS_FOR_STYLIZED_MOVEMENT_WITH_GAIT_LIMIT",
+      "named_action_readable": true,
+      "observations": [
+        "Eight decoded poses show forepaw and hindpaw changes while maintaining the right-facing three-quarter view.",
+        "Feet stay near a common ground baseline and the full tail and ear tips remain inside the frame."
+      ],
+      "limits": [
+        "The forward foreleg appears in a similar reach in several poses; this is a stylized walking-in-place cycle, not a verified anatomical four-beat gait or foot-lock simulation.",
+        "Actual movement across a page requires runtime translation and was not checked here."
+      ],
+      "loop": "Frames 8 and 1 are visually close in direction and stance. The encoded cycle is 960 ms.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/walk-right.webp",
+          "sha256": "2b1abec2860a6a09be83ad421b29cf7b2f75db9713a125998a259526bdaf10e1",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": 0,
+          "total_duration_ms": 960
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/walk-right-light.gif",
+            "sha256": "d57e73afe4d30f79493dcdb6d49f81e691e11bd3955c8b7fb8090b05f5b63263",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.400634765625
+          },
+          {
+            "theme": "dark",
+            "path": "animations/walk-right-dark.gif",
+            "sha256": "42d6b174cd8568ff57978c0c53a851e1e10514be20bed90c2f6bf2f0cdc8297a",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.9556884765625
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/walk-right/000.webp",
+            "sha256": "3c90f584917f319c6775d1529ef59f50b5dd21351925a24aeeca54aecf1482a0"
+          },
+          {
+            "frame": 2,
+            "path": "frames/walk-right/001.webp",
+            "sha256": "83408f6f8ebdacf910dd1dae761c34a797ce4f0a57b58803ea45578c30b2e339"
+          },
+          {
+            "frame": 3,
+            "path": "frames/walk-right/002.webp",
+            "sha256": "9d1b13e6fba553656ea31204829960aa59b89316b08ae64f5ab54b1457aa1bf1"
+          },
+          {
+            "frame": 4,
+            "path": "frames/walk-right/003.webp",
+            "sha256": "aa2235153acc6ccaf67408ce0efb3be93bff66026cdabb79691d82ff270906d5"
+          },
+          {
+            "frame": 5,
+            "path": "frames/walk-right/004.webp",
+            "sha256": "da61c812c49e21491d5e55b8cb55c1068a62a7551cb76e4905f41b80854cefe1"
+          },
+          {
+            "frame": 6,
+            "path": "frames/walk-right/005.webp",
+            "sha256": "7907f29a163cb54290c2255e54f3dbba337ab5afa5b0281585eaaf386b210cc0"
+          },
+          {
+            "frame": 7,
+            "path": "frames/walk-right/006.webp",
+            "sha256": "045030cacb1245f5a6f0de085440aaae1f40dd8a86617f8267054522b30ae610"
+          },
+          {
+            "frame": 8,
+            "path": "frames/walk-right/007.webp",
+            "sha256": "d398ea368b60851f8050395a9d1799af71d8a9f72ee56ca2466240bfe7829d71"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "aa681fad21004a80562daba25e0e09ac50210b26193fdf6ac307b18fd4ac2c22",
+            "bbox_alpha_over_128": [
+              80,
+              142,
+              431,
+              457
+            ],
+            "alpha_zero_pixels": 161596,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 14.69244384765625
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "11fbd7b6a80e8bc7a339a02e481552a03c08fb4284f3af8070155bab9ce20e32",
+            "bbox_alpha_over_128": [
+              74,
+              137,
+              430,
+              457
+            ],
+            "alpha_zero_pixels": 161669,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 17.34869384765625
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "f9636a152598805c5b195379417a8b3be320fec4851b35b0b118fdb97afcbf8f",
+            "bbox_alpha_over_128": [
+              74,
+              137,
+              428,
+              457
+            ],
+            "alpha_zero_pixels": 149347,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 15.65771484375
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "23ca71e75ebcc71b5d284a41d3851bf1202a41ecc7e8f1b44b5f096d62889ebe",
+            "bbox_alpha_over_128": [
+              77,
+              141,
+              428,
+              457
+            ],
+            "alpha_zero_pixels": 156569,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 16.42938232421875
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "75d0fe23587277402df2ca5a76fd2b7d0597d69d7b2fd4fe4cb81b23c1dee83f",
+            "bbox_alpha_over_128": [
+              81,
+              140,
+              433,
+              457
+            ],
+            "alpha_zero_pixels": 157852,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 17.88226318359375
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "37549be0d37c8c6cfc5d226ebbecb9385824dc47a16567b2893065ae0a45883f",
+            "bbox_alpha_over_128": [
+              78,
+              139,
+              432,
+              457
+            ],
+            "alpha_zero_pixels": 156101,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 18.531005859375
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "0da34b7a207cad5ceffceba1c906e453d0c7cfcf13d4d5de5e9b670101d0abb6",
+            "bbox_alpha_over_128": [
+              74,
+              142,
+              427,
+              457
+            ],
+            "alpha_zero_pixels": 147326,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 17.98687744140625
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "de599ed33d3aef833c0285f1cfbbe5fbb792e62d83f4cad119c635a9e7ace447",
+            "bbox_alpha_over_128": [
+              77,
+              142,
+              430,
+              456
+            ],
+            "alpha_zero_pixels": 151978,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 18.5675048828125
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 6.269388834635417,
+        "frame_transition_mean_abs_rgb_128": [
+          12.349405924479166,
+          7.35205078125,
+          9.53643798828125,
+          8.957743326822916,
+          9.937784830729166,
+          10.213297526041666,
+          7.667215983072917,
+          6.269388834635417
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/walk-right.png",
+            "sha256": "28e523337290b6e90cacbf5d0ab461d0d6b5a885da902a0ca5f90a91a70665d3",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/walk-right-gif.png",
+            "sha256": "cde485c38c159dfdeaae9bce07423311c9134a099298cd8a316c9edc94f66f8f",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "run-right",
+      "verdict": "PASS_FOR_STYLIZED_LIGHT_RUN",
+      "named_action_readable": true,
+      "observations": [
+        "The body alternates gathered and extended paw poses with short suspended-looking phases; it reads more energetic than the walk.",
+        "No clipped paw or extra limb was observed in actual decoded WebP or the two GIF variants."
+      ],
+      "limits": [
+        "Motion reads as a light bounding run; it does not establish a biologically precise diagonal trot.",
+        "The eight poses play in a 640 ms cycle. Limited frame count remains visible in slow inspection."
+      ],
+      "loop": "Frame 8 is a reaching airborne pose followed by the contact-like first pose, consistent with a repeatable run-in-place cycle.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/run-right.webp",
+          "sha256": "f9ea0de0ea59bc69407503b243d1a7f57ecceeb1859fa330bcd096e2dbb3ab65",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ],
+          "loop": 0,
+          "total_duration_ms": 640
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/run-right-light.gif",
+            "sha256": "0d4b255a6d9bee36397bf2f31433595532fdd8fbf9c55ac6e745559e5e049402",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              80,
+              80,
+              80,
+              80,
+              80,
+              80,
+              80,
+              80
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.340576171875
+          },
+          {
+            "theme": "dark",
+            "path": "animations/run-right-dark.gif",
+            "sha256": "1415eb58d91057c34af06993a3073ecb5af434cdc555d8648b5307524b7f43d3",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              80,
+              80,
+              80,
+              80,
+              80,
+              80,
+              80,
+              80
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.751220703125
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/run-right/000.webp",
+            "sha256": "d179f53558c23afb67ef97cf21089c2bdaebabfcfd69d381da5ae10dc0964e50"
+          },
+          {
+            "frame": 2,
+            "path": "frames/run-right/001.webp",
+            "sha256": "72a8edfb74484b912cb9f06f9a87aac4191eaf796ec47a2447cd9ba13b6fcd9e"
+          },
+          {
+            "frame": 3,
+            "path": "frames/run-right/002.webp",
+            "sha256": "a3cd14107317b37b955a0fb423e92ce40571fdc75a7683e02867496876043719"
+          },
+          {
+            "frame": 4,
+            "path": "frames/run-right/003.webp",
+            "sha256": "7ad728835a5c40f6a0ce7ac77da77b3a63b4f98826c559039127f60c34992036"
+          },
+          {
+            "frame": 5,
+            "path": "frames/run-right/004.webp",
+            "sha256": "ba98a643ea540de104c944b2e20d3a16b64ad4260b652a72944a3e25a731168d"
+          },
+          {
+            "frame": 6,
+            "path": "frames/run-right/005.webp",
+            "sha256": "63a982d06e9628524efd32c41029434a1c2f52eacabf903913def6594c60b9a0"
+          },
+          {
+            "frame": 7,
+            "path": "frames/run-right/006.webp",
+            "sha256": "236fde0c5042a30bc214e37ec4b05a6d9bca51727b510aae8ddb0b65892a91b9"
+          },
+          {
+            "frame": 8,
+            "path": "frames/run-right/007.webp",
+            "sha256": "2c3f55ea6247a5cd21bca471654ea0697a3dcbb2ff02b4c939fec71de6f8e0b2"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "8e35b8cd551fe72313add293ed85ff755e5738cd139e4e6cdc3729df5eaaf0ec",
+            "bbox_alpha_over_128": [
+              107,
+              192,
+              419,
+              457
+            ],
+            "alpha_zero_pixels": 182359,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 11.05029296875
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "bc44678a63d4dbf451a6e7c5650f2fc491510602481854cf6350601f3ea32502",
+            "bbox_alpha_over_128": [
+              82,
+              187,
+              401,
+              450
+            ],
+            "alpha_zero_pixels": 171431,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 11.76263427734375
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "00e44990e3f584cd02749b70999b6f99ecf5866e797768660f4a54a83bfb53fe",
+            "bbox_alpha_over_128": [
+              68,
+              186,
+              423,
+              442
+            ],
+            "alpha_zero_pixels": 165256,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 13.15850830078125
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "225231b37e6df1e341c4f8c19cf604e4ca8cab1076e23f3cbe54bd5ef21b343b",
+            "bbox_alpha_over_128": [
+              90,
+              198,
+              410,
+              438
+            ],
+            "alpha_zero_pixels": 181697,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 11.84686279296875
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "cb35f6f3cab222d44719540c077b200d29b19c19b520ad4fcc2f4537433a4d35",
+            "bbox_alpha_over_128": [
+              99,
+              205,
+              425,
+              457
+            ],
+            "alpha_zero_pixels": 179038,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 11.50738525390625
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "74bedda3ab655e914d8c9c49f9810ed9cef9fe030cf44c3a7a9590d57349e998",
+            "bbox_alpha_over_128": [
+              97,
+              201,
+              433,
+              450
+            ],
+            "alpha_zero_pixels": 170013,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 11.1234130859375
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "6d721bedbd76a995a0ba82cf9145219f5d5a5b90474085eeff816cfba6aac1fa",
+            "bbox_alpha_over_128": [
+              100,
+              198,
+              424,
+              442
+            ],
+            "alpha_zero_pixels": 178622,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 10.8536376953125
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "0518284d30e68ca569742a31e0459fa489570ad989f33d9b6a84776bacfefd68",
+            "bbox_alpha_over_128": [
+              95,
+              205,
+              410,
+              439
+            ],
+            "alpha_zero_pixels": 184893,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 11.35260009765625
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 10.921223958333334,
+        "frame_transition_mean_abs_rgb_128": [
+          13.36834716796875,
+          14.532185872395834,
+          12.341227213541666,
+          15.349650065104166,
+          10.3621826171875,
+          12.3642578125,
+          10.300801595052084,
+          10.921223958333334
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/run-right.png",
+            "sha256": "274c7b30bfe36c105f3820ed136c2d957c1d7e631be67c0c2f9deaff745464a9",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/run-right-gif.png",
+            "sha256": "c3bd8c812072c5458ca5576ba6a18d9fb970a954a9e7ad3fe40bbf5979b68a5e",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "stretch",
+      "verdict": "PASS_WITH_RECOVERY_POSE_LIMIT",
+      "named_action_readable": true,
+      "observations": [
+        "The sequence shows sit, forepaw reach, raised hips/chest-down stretch, rounded back and return to sit.",
+        "Paw tips, raised tail and ears remain complete. No added prop or extra limb is present."
+      ],
+      "limits": [
+        "Return-to-sit frames 7–8 change head tilt and tail-side silhouette relatively abruptly; this remains a discrete keyframe transition.",
+        "Large pose changes are not interpolated. It should be presented as a lightweight 2D action, not continuous skeletal animation."
+      ],
+      "loop": "Frame 8 and frame 1 both sit with broadly compatible posture; tail shape and facial pose differ slightly.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/stretch.webp",
+          "sha256": "6f670fe0caa843635f6fb120678ce7362f5ec95baecd1d96bee87939589bf238",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            280,
+            180,
+            220,
+            360,
+            360,
+            220,
+            180,
+            700
+          ],
+          "loop": 0,
+          "total_duration_ms": 2500
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/stretch-light.gif",
+            "sha256": "fd2e8f0ecbb67912742e8ff81a4a7ec29d0918b52c5d938ddacaee9f67a8d9fd",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              280,
+              180,
+              220,
+              360,
+              360,
+              220,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.4547119140625
+          },
+          {
+            "theme": "dark",
+            "path": "animations/stretch-dark.gif",
+            "sha256": "8024269dbac0c3354e122612ec3819683cca95b354a7bd3ec39839af452269bc",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              280,
+              180,
+              220,
+              360,
+              360,
+              220,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.88519287109375
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/stretch/000.webp",
+            "sha256": "85b42250c6a7f2561f6eef0562654d65590811a7182037d7da904920ba2ecc78"
+          },
+          {
+            "frame": 2,
+            "path": "frames/stretch/001.webp",
+            "sha256": "fb64cd0ff2aa186c115506d037b71c10bf87bbe4d41aa69cc50ea68f0978398b"
+          },
+          {
+            "frame": 3,
+            "path": "frames/stretch/002.webp",
+            "sha256": "22f6d256e2cba96c0d55000d9a3cde8735c38e5a6d781b53fdbf7bcf2bea8e86"
+          },
+          {
+            "frame": 4,
+            "path": "frames/stretch/003.webp",
+            "sha256": "347600a96611422ddfc901fecb37410a0adf54670ab39fe73f073ac2eb694deb"
+          },
+          {
+            "frame": 5,
+            "path": "frames/stretch/004.webp",
+            "sha256": "b3c2129f8bf93923ecd835e6609b62289ee664970b6775283df90329d2326d80"
+          },
+          {
+            "frame": 6,
+            "path": "frames/stretch/005.webp",
+            "sha256": "21bf6dd34b1ec338488d5309bddadb38177de006369d3761fd23e937e984a000"
+          },
+          {
+            "frame": 7,
+            "path": "frames/stretch/006.webp",
+            "sha256": "8e0f08aa8a249ab24201bc6f9ab7d499024a99a8eb9f7011c957f397b8d342be"
+          },
+          {
+            "frame": 8,
+            "path": "frames/stretch/007.webp",
+            "sha256": "64cade7ad296b201f6eb591549a975e5942d0761ee1e6f5785e9b71d8a824af5"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "2290eecf660e1e8746b736b919ccb396d80374fd648b089a069119fa8cf5500f",
+            "bbox_alpha_over_128": [
+              161,
+              105,
+              445,
+              458
+            ],
+            "alpha_zero_pixels": 174017,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 11.33349609375
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "bd946603d85be7f520df832710afe09486c437eb9b88d3c4d307063c4a736431",
+            "bbox_alpha_over_128": [
+              98,
+              123,
+              453,
+              458
+            ],
+            "alpha_zero_pixels": 155750,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 15.678955078125
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "abf343eb88ea9b69d2d173bd293ed5902ff83e42c06eea817955949b1c75ff04",
+            "bbox_alpha_over_128": [
+              95,
+              103,
+              479,
+              457
+            ],
+            "alpha_zero_pixels": 158473,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 14.12933349609375
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "148128927adb58c3455f7ae9a6f4794a3993b2045beb304c348566afc162c511",
+            "bbox_alpha_over_128": [
+              93,
+              107,
+              441,
+              458
+            ],
+            "alpha_zero_pixels": 173941,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 12.174072265625
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "46bda1216bdb74ad8c4f943742b2deb2c58f29ae4eb5b4cc826414350212eadd",
+            "bbox_alpha_over_128": [
+              110,
+              101,
+              448,
+              458
+            ],
+            "alpha_zero_pixels": 149595,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 14.69647216796875
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "3543787da2a43ae873af99adafa61f7077926226cc11fbb22baaf6477be6e5f9",
+            "bbox_alpha_over_128": [
+              90,
+              131,
+              509,
+              458
+            ],
+            "alpha_zero_pixels": 130754,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 17.5289306640625
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "1888c30e9dac4f34129007f35628ef062a95e1ded17869fe82828b8d55588c35",
+            "bbox_alpha_over_128": [
+              97,
+              121,
+              388,
+              457
+            ],
+            "alpha_zero_pixels": 164370,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 13.6689453125
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "0a6cabeae0f23f99d5c7e6e12733403cb4602273db0903dd691fa45c16ca7459",
+            "bbox_alpha_over_128": [
+              123,
+              107,
+              426,
+              457
+            ],
+            "alpha_zero_pixels": 157161,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 13.26275634765625
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 22.482686360677082,
+        "frame_transition_mean_abs_rgb_128": [
+          39.903401692708336,
+          20.952494303385418,
+          16.312662760416668,
+          33.579915364583336,
+          33.404134114583336,
+          40.424519856770836,
+          27.579996744791668,
+          22.482686360677082
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/stretch.png",
+            "sha256": "9225a292fc0e5ceafcc57f7585dedd4d976f65f9a0843145d356909ffa897a36",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/stretch-gif.png",
+            "sha256": "55c8ddf1206d4379ed33384fdd1f91a58a7de8962cda053a655a5842606ab189",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "groom",
+      "verdict": "PASS_FOR_LIGHTWEIGHT_PET_ACTION",
+      "named_action_readable": true,
+      "observations": [
+        "Frames 2–4 raise one forepaw and lower the head toward it; frame 5 wipes the cheek; frames 6–8 return through a second lick and seated pose.",
+        "The raised paw does not also remain duplicated on the ground. Face and paw contact are readable at 256 px preview size."
+      ],
+      "limits": [
+        "Licking/tongue detail is small at normal pet size and depends on the tiny authored keyframes.",
+        "Some neck-angle changes are stepped; no in-between animation was generated in this QA."
+      ],
+      "loop": "The first and final seated poses are close; this has one of the smaller observed first/last differences in this set.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/groom.webp",
+          "sha256": "2f309ffd21ba10d76b822f9b941fa77c55d11378080cd7f2f4253a5f19823d29",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            280,
+            180,
+            220,
+            260,
+            240,
+            240,
+            180,
+            700
+          ],
+          "loop": 0,
+          "total_duration_ms": 2300
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/groom-light.gif",
+            "sha256": "e2d63b773032cbc1c62042a705343aaf5085dfc4071e16d6f9c912ef3d699028",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              280,
+              180,
+              220,
+              260,
+              240,
+              240,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.507080078125
+          },
+          {
+            "theme": "dark",
+            "path": "animations/groom-dark.gif",
+            "sha256": "6e32484e27091ac27a042045ad1dfd4760820558e5330964c4c84bc6fbac0d68",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              280,
+              180,
+              220,
+              260,
+              240,
+              240,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.96734619140625
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/groom/000.webp",
+            "sha256": "0d1e14e68eb7f9981219de2e3d6aa6bfdef77858918385e3f29ecd065d7002a7"
+          },
+          {
+            "frame": 2,
+            "path": "frames/groom/001.webp",
+            "sha256": "1604ece2c3e1b9b898c0fb584da3c7dd8691a35243e12889de6fbf7f8bef0697"
+          },
+          {
+            "frame": 3,
+            "path": "frames/groom/002.webp",
+            "sha256": "cc4f514dda38eba8697f2eeb58491de3c70750962fb9ee565ecdb136c4b22ef7"
+          },
+          {
+            "frame": 4,
+            "path": "frames/groom/003.webp",
+            "sha256": "82bd6d4b6e60aa6642fea7179fd8b8bc25a817978aad6bb0bc7b059f0e897233"
+          },
+          {
+            "frame": 5,
+            "path": "frames/groom/004.webp",
+            "sha256": "66d3581b4a19fffe48a9215182ff2b34e98ca1fa70d1b514cd2f355e101aa058"
+          },
+          {
+            "frame": 6,
+            "path": "frames/groom/005.webp",
+            "sha256": "6f5f95068271002d2b1f556378e24dab2bfca2c7e1fc1b857a9339e94bcb1e50"
+          },
+          {
+            "frame": 7,
+            "path": "frames/groom/006.webp",
+            "sha256": "44c3dbe739b88b49b2b1c4af4865b4949574006e25a3aa043e7c49e1d6019c49"
+          },
+          {
+            "frame": 8,
+            "path": "frames/groom/007.webp",
+            "sha256": "596cc979183be07c7f493430cb7c434444ed11e3edb60411dfcab0cfc4dba4a1"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "c3ae5791250ab8842521ed22978a618c937c3a3e21344285cba41c2be0415ceb",
+            "bbox_alpha_over_128": [
+              132,
+              73,
+              453,
+              457
+            ],
+            "alpha_zero_pixels": 139996,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 13.21075439453125
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "af1f149e6c47e5275b30f79dd3f43a79ab8f46a2db3b629e03000622e0cbb4d7",
+            "bbox_alpha_over_128": [
+              136,
+              78,
+              453,
+              457
+            ],
+            "alpha_zero_pixels": 129985,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 15.05657958984375
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "bf7a25425dbea01be34dc26d8424de12d399e93dd788e01a713c530192eaf609",
+            "bbox_alpha_over_128": [
+              131,
+              98,
+              452,
+              457
+            ],
+            "alpha_zero_pixels": 137398,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 15.03326416015625
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "7b0b83174174f002f57799dcfb81133f1a0f531922750bea5c20702608dc318b",
+            "bbox_alpha_over_128": [
+              130,
+              86,
+              450,
+              457
+            ],
+            "alpha_zero_pixels": 144263,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 13.11920166015625
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "52a6824366b3195249aad2b110db0b2730b841b33deea7fe7e6f95d37e4826cc",
+            "bbox_alpha_over_128": [
+              135,
+              68,
+              456,
+              458
+            ],
+            "alpha_zero_pixels": 121913,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 12.18243408203125
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "12a2fb14e930dfb2b3b53d11cd138464fbad2f862c87f0400e6455962d1cfd08",
+            "bbox_alpha_over_128": [
+              136,
+              73,
+              453,
+              457
+            ],
+            "alpha_zero_pixels": 111292,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 14.6854248046875
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "bbc862967d4141a15ccea90eb616910c81f1d36f06f0f5033096219e662e18d0",
+            "bbox_alpha_over_128": [
+              135,
+              74,
+              455,
+              457
+            ],
+            "alpha_zero_pixels": 117382,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 14.31414794921875
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "92f76e9c6230967c4464943f5bd9470adba4ef62d23ee4e723ecb96cbe9848d2",
+            "bbox_alpha_over_128": [
+              132,
+              72,
+              450,
+              457
+            ],
+            "alpha_zero_pixels": 130149,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 13.87701416015625
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 1.8686116536458333,
+        "frame_transition_mean_abs_rgb_128": [
+          7.965433756510417,
+          12.171244303385416,
+          5.09051513671875,
+          14.41497802734375,
+          9.092671712239584,
+          13.79119873046875,
+          11.078938802083334,
+          1.8686116536458333
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/groom.png",
+            "sha256": "6c609cd6d595876852bf16b6bc4ce04e3fce775ed056ee7395349232606af48a",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/groom-gif.png",
+            "sha256": "35f52bc43027cbb6ae402279946d87acd55ca3d88321a7027b4be013929e8e13",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "sleep",
+      "verdict": "PASS_AS_SLEEP_WITH_SUBTLE_SETTLING_MOTION",
+      "named_action_readable": true,
+      "observations": [
+        "All eight frames remain lying down with closed eyelids and head supported by front paws; there is no abrupt reset to sitting.",
+        "Small head/ear/back variations are present and both theme variants preserve a clean full silhouette."
+      ],
+      "limits": [
+        "Head/ear movement around frames 4–5 is more obvious than the tiny chest movement. Describe this as sleeping with subtle settling/breath-like motion, not a calibrated physiological breathing animation.",
+        "The 4000 ms loop uses eight authored poses and is deliberately quiet."
+      ],
+      "loop": "Final and first sleeping poses are close; the whole cycle stays in a sleeping state.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/sleep.webp",
+          "sha256": "1959aff51b4af5d4eec563e20f0905d9f98a299eb66e053ce43954fbcf41c3aa",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500
+          ],
+          "loop": 0,
+          "total_duration_ms": 4000
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/sleep-light.gif",
+            "sha256": "73ebfb536ed74de2c89a3816099fb2be08cf34c2ac78b92af967a37419e20595",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              500,
+              500,
+              500,
+              500,
+              500,
+              500,
+              500,
+              500
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.497314453125
+          },
+          {
+            "theme": "dark",
+            "path": "animations/sleep-dark.gif",
+            "sha256": "7b5dd0acb8ff0d86125b02d2f6f2fa9dffd7c2ff08128aa436b6d32527cc7c76",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              500,
+              500,
+              500,
+              500,
+              500,
+              500,
+              500,
+              500
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.840576171875
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/sleep/000.webp",
+            "sha256": "201bde0cf1f2db84ffda405ee9ab10fea0ee459c70b74ba18c7f5eab3651fba8"
+          },
+          {
+            "frame": 2,
+            "path": "frames/sleep/001.webp",
+            "sha256": "9dab0fbb3c965e8c5c87ebdaa359f5bde2fca9c9cfdad22191a71167822bcc4c"
+          },
+          {
+            "frame": 3,
+            "path": "frames/sleep/002.webp",
+            "sha256": "9e6b1245bd5592e976d47465d747b68f2bea78abab3c17d297c6e302fbef2ed0"
+          },
+          {
+            "frame": 4,
+            "path": "frames/sleep/003.webp",
+            "sha256": "d76fcfc760b04c49a02ccda7fb69e31b1aab61c246ed5f748cde764ac71bf7b3"
+          },
+          {
+            "frame": 5,
+            "path": "frames/sleep/004.webp",
+            "sha256": "574956e28db06120951d9788892d591bc6d41c60d12b3c6d037248a08877e824"
+          },
+          {
+            "frame": 6,
+            "path": "frames/sleep/005.webp",
+            "sha256": "b3f7def91597679a872a8cb3dfea4b27c00c7fb62f41ac01df6b2d1bf34741d5"
+          },
+          {
+            "frame": 7,
+            "path": "frames/sleep/006.webp",
+            "sha256": "ce0a31cfc1ce29ce42668bb72b8a8f74f05360315d811cb97b9b7f450a31ac2e"
+          },
+          {
+            "frame": 8,
+            "path": "frames/sleep/007.webp",
+            "sha256": "0e5c62ca283eb5cadb42b401c36a53a1a0c1d194f714985379584e904fbf25cc"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "f355a2ffa3a52d1da8be1f51f0125fee2e66f25c8354d915c5e3c2648a12c037",
+            "bbox_alpha_over_128": [
+              53,
+              155,
+              470,
+              458
+            ],
+            "alpha_zero_pixels": 156738,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 10.26507568359375
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "83e0b83074a799f97d59726b162988b946dcba8ea6f125381a61e7c5451d4523",
+            "bbox_alpha_over_128": [
+              52,
+              159,
+              469,
+              458
+            ],
+            "alpha_zero_pixels": 156958,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 10.84173583984375
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "ba981d036f9f412b619b05f56685a0cb46ae926d30941a9e431dfdc1d4442908",
+            "bbox_alpha_over_128": [
+              52,
+              160,
+              469,
+              458
+            ],
+            "alpha_zero_pixels": 158383,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 10.25921630859375
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "ff9bd341a3634f66ce5378765a3aae8447aba29f9ea86e9db586f12a30311232",
+            "bbox_alpha_over_128": [
+              52,
+              159,
+              468,
+              458
+            ],
+            "alpha_zero_pixels": 159005,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 10.0458984375
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "efa86893e1be05b28372cca3549eb13a5dfe1a3c54775d0e14c1916a3c026922",
+            "bbox_alpha_over_128": [
+              53,
+              119,
+              470,
+              458
+            ],
+            "alpha_zero_pixels": 126728,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 14.07952880859375
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "8d1b2f4f4e5e6d01e39ad109c2787dd723cd9b48beaf2b3a6f43adaa14a0967d",
+            "bbox_alpha_over_128": [
+              50,
+              145,
+              468,
+              458
+            ],
+            "alpha_zero_pixels": 129115,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 13.42266845703125
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "e5e7d187c0b13704d8d247f6e8f5134d60cd265dcb831f69bbc601b5c89c9ede",
+            "bbox_alpha_over_128": [
+              50,
+              145,
+              470,
+              458
+            ],
+            "alpha_zero_pixels": 127760,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 12.3282470703125
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "c12b00e64c404618ba74dc836a8385010f885d58051a263c8e1927d0ccdc8b63",
+            "bbox_alpha_over_128": [
+              53,
+              154,
+              469,
+              458
+            ],
+            "alpha_zero_pixels": 136619,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 12.475341796875
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 1.9198201497395833,
+        "frame_transition_mean_abs_rgb_128": [
+          2.5757039388020835,
+          1.4162801106770833,
+          3.4812215169270835,
+          10.57586669921875,
+          8.3486328125,
+          3.666015625,
+          5.51922607421875,
+          1.9198201497395833
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/sleep.png",
+            "sha256": "a2107bb796b1b5e0b5342b82e5175a8a3b5d2b0f0f4991665a4ca5b48a10a145",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/sleep-gif.png",
+            "sha256": "6e5ae5fee2a91b5c3c754441c848967529c47601240988df8f0d69836b3d245d",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "knead",
+      "verdict": "PASS_FOR_STYLIZED_KNEADING",
+      "named_action_readable": true,
+      "observations": [
+        "The actual encoded repaired version shows paw tops, soles facing down, low left/right alternation and stable hindquarters.",
+        "No lifted paw remains duplicated at its prior position and no high waving paw appears."
+      ],
+      "limits": [
+        "Several neighboring poses are close; the motion is a simple alternating forepaw press rather than detailed toe/claw kneading.",
+        "The body is a low seated lean, not a fully prone kitten."
+      ],
+      "loop": "First and last frames occupy compatible low-paw states. Paw alternation is readable across the 1440 ms cycle.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/knead.webp",
+          "sha256": "2f752b89d7bff8c919c5236014693902dce553a3f16465f44c74c1b3cab3ae19",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "loop": 0,
+          "total_duration_ms": 1440
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/knead-light.gif",
+            "sha256": "d14fb5e8f884cdbafb91b775d7360c04ab853c6ff44b2cdf61060124fa39ac84",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              180,
+              180,
+              180,
+              180,
+              180,
+              180,
+              180,
+              180
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.57965087890625
+          },
+          {
+            "theme": "dark",
+            "path": "animations/knead-dark.gif",
+            "sha256": "34e6a008fed53cb8f0e3f49c87361e13c21f6b6dc8f2082e99a4e21731fe6c5f",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              180,
+              180,
+              180,
+              180,
+              180,
+              180,
+              180,
+              180
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.9410400390625
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/knead/000.webp",
+            "sha256": "0c7389cc7a80156f6ea5ab4471f68d39947cf307ba6fa73fcc0ba057ded98af2"
+          },
+          {
+            "frame": 2,
+            "path": "frames/knead/001.webp",
+            "sha256": "1995bab34cc40cc3d1c11d2b2a6200ebfcb02078ee23e750170edffa5b4151c9"
+          },
+          {
+            "frame": 3,
+            "path": "frames/knead/002.webp",
+            "sha256": "de0eb571ef4f5788253db029be9236ecf940c1028b20613701cce56129d0ea5e"
+          },
+          {
+            "frame": 4,
+            "path": "frames/knead/003.webp",
+            "sha256": "42340b8e660e2e2458a85b5e419ef937b4395433b7ba82dd9e98bed52c938365"
+          },
+          {
+            "frame": 5,
+            "path": "frames/knead/004.webp",
+            "sha256": "c16fa2e7c3d308467a3a468d568fae36d98a6699c3f1f95d08d3a8f6451989eb"
+          },
+          {
+            "frame": 6,
+            "path": "frames/knead/005.webp",
+            "sha256": "210f895967d3aeec22f53979d49459cd57db3674b7185eae644c75f9b491d10d"
+          },
+          {
+            "frame": 7,
+            "path": "frames/knead/006.webp",
+            "sha256": "388581ab86e7ddeb1ad037d6c6614b046c02ed6946d0e100ca6f6456a2f0c09a"
+          },
+          {
+            "frame": 8,
+            "path": "frames/knead/007.webp",
+            "sha256": "4f07653d8349ef7e048c42a15b079ff78947df48f4852b88db97e32eabd9f2f6"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "8740a63a890c7b36ec8fa933c5e05224f63d243b0963d2f742827d659e389b5f",
+            "bbox_alpha_over_128": [
+              106,
+              76,
+              464,
+              457
+            ],
+            "alpha_zero_pixels": 139132,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 13.069091796875
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "595a0d7afe385c1078f58ca6d2424bb1dea42f1dda65592557f5b4ab417315b0",
+            "bbox_alpha_over_128": [
+              104,
+              67,
+              466,
+              457
+            ],
+            "alpha_zero_pixels": 129621,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 14.59356689453125
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "ec74021ac5f7b0e2cece290ca57252e4890171fa2cec6dcdcb6dce7fb45c368f",
+            "bbox_alpha_over_128": [
+              104,
+              68,
+              466,
+              458
+            ],
+            "alpha_zero_pixels": 128068,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 13.63177490234375
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "a73c960ef94e78f87d4ad898705e2e4e881bf35cef63a1ac88845633d3f6652a",
+            "bbox_alpha_over_128": [
+              100,
+              67,
+              461,
+              457
+            ],
+            "alpha_zero_pixels": 131577,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 14.10406494140625
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "2d97e02c2fde7cee25de148535201875c37beb7c89dc84d48f4ca229bd265134",
+            "bbox_alpha_over_128": [
+              104,
+              84,
+              465,
+              457
+            ],
+            "alpha_zero_pixels": 133931,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 12.67803955078125
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "fc686bdebb4b16ac92e448dedf149136afb2fd6b2e6eb3b2771db1a35ed504dc",
+            "bbox_alpha_over_128": [
+              103,
+              74,
+              466,
+              457
+            ],
+            "alpha_zero_pixels": 121683,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 16.4068603515625
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "976eb0ca4b34a33110bfb9f4b6c2aabcff087a50389c8b8271385668bf6097a6",
+            "bbox_alpha_over_128": [
+              108,
+              70,
+              467,
+              457
+            ],
+            "alpha_zero_pixels": 119923,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 15.80938720703125
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "2693ce859bd96bebec09aab0dd9e0a9fc6401fed443e5e9b03d778f0fe80bcc1",
+            "bbox_alpha_over_128": [
+              108,
+              76,
+              464,
+              457
+            ],
+            "alpha_zero_pixels": 136544,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 14.58990478515625
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 6.8546142578125,
+        "frame_transition_mean_abs_rgb_128": [
+          11.305135091145834,
+          2.6692301432291665,
+          5.431844075520833,
+          16.101664225260418,
+          14.581685384114584,
+          3.66302490234375,
+          8.182230631510416,
+          6.8546142578125
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/knead.png",
+            "sha256": "0def6fbedd4ecd4f7f0166dec47f1d9f5b6545d272bac4666639fb0a874164f1",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/knead-gif.png",
+            "sha256": "3d10c9e5e6aaf92c4cbf457b2eeb84e1e52caaed1c90acdae58f078648b6508c",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "yawn",
+      "verdict": "PASS_FOR_LIGHTWEIGHT_PET_ACTION",
+      "named_action_readable": true,
+      "observations": [
+        "The mouth progresses from closed to small opening to a natural feline yawn and back; eyes close and reopen.",
+        "The tongue remains short within the mouth. No human dental row, human lips or malformed long tongue was observed.",
+        "Grounded feet and tail remain stable and complete."
+      ],
+      "limits": [
+        "Jaw and head motion are authored in eight discrete positions rather than interpolated facial animation."
+      ],
+      "loop": "Final sleepy seated expression approaches the initial one; mouth is closed on both sides of the seam.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/yawn.webp",
+          "sha256": "a56bf1d1f4e9ec2f06f35fd9cf08d636d1dbac5e3151f54cf52597527975cab4",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            300,
+            180,
+            180,
+            240,
+            300,
+            200,
+            180,
+            700
+          ],
+          "loop": 0,
+          "total_duration_ms": 2280
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/yawn-light.gif",
+            "sha256": "4330aad1039a59f2a0b69fa60820c15640dadc5e1079c3cb20fbadc72c354281",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              180,
+              180,
+              240,
+              300,
+              200,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.52337646484375
+          },
+          {
+            "theme": "dark",
+            "path": "animations/yawn-dark.gif",
+            "sha256": "aee9a4569c24ce273ab4917a7d6a008acc7c16620c3de7502ba0703bdf30b921",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              180,
+              180,
+              240,
+              300,
+              200,
+              180,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.9803466796875
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/yawn/000.webp",
+            "sha256": "062792824cdcbbd5f5cb69a1dd2bf6b318d62b61477f90f6e01cdcb13758fb8e"
+          },
+          {
+            "frame": 2,
+            "path": "frames/yawn/001.webp",
+            "sha256": "01e364df7d29a1a7a0c600e44947fc0eba564febe1f2582992072290dd793c7d"
+          },
+          {
+            "frame": 3,
+            "path": "frames/yawn/002.webp",
+            "sha256": "e45713f8124fa310eb32a3d70b2b34c232732f627001602baab962396fa3a904"
+          },
+          {
+            "frame": 4,
+            "path": "frames/yawn/003.webp",
+            "sha256": "d69867cda6f59f128fb14f75079ddcdf9a386d9d32fa141fceb52698827876ad"
+          },
+          {
+            "frame": 5,
+            "path": "frames/yawn/004.webp",
+            "sha256": "d029248e01a26e9db168787730dcc00a07503a95312611e3eead837bec5c641c"
+          },
+          {
+            "frame": 6,
+            "path": "frames/yawn/005.webp",
+            "sha256": "cf41f22a890471eb828d59892aa8fc0f768a9157e1c6ca70123129cb34a7b518"
+          },
+          {
+            "frame": 7,
+            "path": "frames/yawn/006.webp",
+            "sha256": "d552cded012998ee3415355d41f586c0573e44506642fefac3fcfaf66adabf23"
+          },
+          {
+            "frame": 8,
+            "path": "frames/yawn/007.webp",
+            "sha256": "4448038ee3c002ade315e1aecb4ed54c0a522b37a3edc3e1a89f15454b587313"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "ef2366dee4e865747204b95fbd7b91462d339102050888d6ebdcc9597fbc16e0",
+            "bbox_alpha_over_128": [
+              128,
+              74,
+              454,
+              457
+            ],
+            "alpha_zero_pixels": 141850,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 13.015380859375
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "7f8fa5963f1034fbc053ecf1eb59ab2dfcc80594aac2de9036822022f10196fc",
+            "bbox_alpha_over_128": [
+              128,
+              73,
+              453,
+              457
+            ],
+            "alpha_zero_pixels": 129826,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 11.45147705078125
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "3da001ed3f4252244e8d7ceaa281ecb24669ff2af74ac276183da3df83217fd6",
+            "bbox_alpha_over_128": [
+              131,
+              71,
+              455,
+              457
+            ],
+            "alpha_zero_pixels": 128935,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 12.60528564453125
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "a9c2187532024a6358d70941d7ae12c6c9ff0e48e2e78eee8e41c90fb0652428",
+            "bbox_alpha_over_128": [
+              131,
+              67,
+              455,
+              456
+            ],
+            "alpha_zero_pixels": 138949,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 13.11346435546875
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "81fcb5e6b72222c1f215ae0365bb8fb1ff95f42b35b8f35db1c4a247383d1d3a",
+            "bbox_alpha_over_128": [
+              136,
+              67,
+              462,
+              457
+            ],
+            "alpha_zero_pixels": 128730,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 12.8358154296875
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "f8249687763d4f216092c8b3660ed5e0690100e5b110c82a2f6311563fe29b96",
+            "bbox_alpha_over_128": [
+              138,
+              77,
+              460,
+              457
+            ],
+            "alpha_zero_pixels": 118161,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 14.4405517578125
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "4603dda167e57d8467b651f0110447c1c8564f2e3db7bae427b5b5874dfe9033",
+            "bbox_alpha_over_128": [
+              134,
+              71,
+              454,
+              457
+            ],
+            "alpha_zero_pixels": 117400,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 13.3131103515625
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "5248e6561e881b58be580dcf257c4356e345aff2f17597d4dbd1410a1b616ffd",
+            "bbox_alpha_over_128": [
+              128,
+              78,
+              455,
+              457
+            ],
+            "alpha_zero_pixels": 133690,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 13.10980224609375
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 4.4678955078125,
+        "frame_transition_mean_abs_rgb_128": [
+          3.2478434244791665,
+          4.7667236328125,
+          8.914815266927084,
+          8.577880859375,
+          9.164082845052084,
+          5.719868977864583,
+          9.585469563802084,
+          4.4678955078125
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/yawn.png",
+            "sha256": "fa4cf4aaf3e3dee7648eba48e26f027d59b1d384787df44227aad1eba4004a72",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/yawn-gif.png",
+            "sha256": "816df3e7cd4304bd4decd680207f588d9566525e5c856ce2c94323201826a98a",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "roll",
+      "verdict": "PASS_WITH_LARGE_POSE_TRANSITION_LIMIT",
+      "named_action_readable": true,
+      "observations": [
+        "The actual encoded frames show seated lean, side-lying, exposed belly with four paws, recovery and sitting.",
+        "Frames 4–5 show four attached paws, one tail and no fifth limb. Side/rolling silhouettes are complete after extraction."
+      ],
+      "limits": [
+        "Large changes from side to belly-up and back are visibly separate key poses; head angle and apparent proportions vary a little.",
+        "This is a gentle stylized roll, not a continuous full rotation or physically simulated rollover."
+      ],
+      "loop": "The final seated pose is close to the first; the internal large-pose steps are more apparent than the restart seam.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/roll.webp",
+          "sha256": "afb0e616c64ae4e189508b77e39832207935d9534c8ed7d9eec8c5cfef88d625",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            300,
+            220,
+            220,
+            300,
+            300,
+            220,
+            220,
+            700
+          ],
+          "loop": 0,
+          "total_duration_ms": 2480
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/roll-light.gif",
+            "sha256": "b23cea803a14f68223052005c603ab0380ea29091c6f996c3102018a7bcb14f2",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              220,
+              220,
+              300,
+              300,
+              220,
+              220,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.46954345703125
+          },
+          {
+            "theme": "dark",
+            "path": "animations/roll-dark.gif",
+            "sha256": "e553860b7e47a8f0c9665d2c702147123b614a9673a00f6e93148d0a9531ee14",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              220,
+              220,
+              300,
+              300,
+              220,
+              220,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.8304443359375
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/roll/000.webp",
+            "sha256": "a5b03506fad92b9714e30dd08f37b31624246b353e306cd84f829127754bad03"
+          },
+          {
+            "frame": 2,
+            "path": "frames/roll/001.webp",
+            "sha256": "9dafdc243eb79ce9096f23010f503da4fbc41a8f03fe6659150d773beea7ccca"
+          },
+          {
+            "frame": 3,
+            "path": "frames/roll/002.webp",
+            "sha256": "21e9e71bec4b8b5a65eba5252bd89d02c86642069fc457007c4c75295edd3467"
+          },
+          {
+            "frame": 4,
+            "path": "frames/roll/003.webp",
+            "sha256": "8fdc4d08c5a29bed4c799fa5035ac6edbe458e20ae1fc20144327df8fe6334ed"
+          },
+          {
+            "frame": 5,
+            "path": "frames/roll/004.webp",
+            "sha256": "2b3c95b4d926e1803f1e16c31214c09b43e315e98ae57bcc298dd8cc2dfe3c1c"
+          },
+          {
+            "frame": 6,
+            "path": "frames/roll/005.webp",
+            "sha256": "ce49ada5d01efbbc75e79ff4e0125ac980bbde0d6ea79e099e22031a5184b005"
+          },
+          {
+            "frame": 7,
+            "path": "frames/roll/006.webp",
+            "sha256": "779ffe3b74cc9bbfbdfbbe1786cf1c487f2bdb188d7d65748338b3988aa33fa5"
+          },
+          {
+            "frame": 8,
+            "path": "frames/roll/007.webp",
+            "sha256": "d8aff3b2a19cc7e4189038dac6d4e5c97449083542239fb4e32c0709f577c2b9"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "6cff79b6d0f91f8dd0aa486125c9d8bdd80d43cc358e735e1b02bd8b94a3e852",
+            "bbox_alpha_over_128": [
+              127,
+              101,
+              434,
+              456
+            ],
+            "alpha_zero_pixels": 161583,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 11.729736328125
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "cb4c76891b0759413c0a916bcc523d18b66186803665d435e45a05065b62ffa5",
+            "bbox_alpha_over_128": [
+              90,
+              139,
+              441,
+              457
+            ],
+            "alpha_zero_pixels": 168220,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 11.776611328125
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "c7322d8958a580bb41f767df0a48316a2d269445c0965510779d864bcd7005d1",
+            "bbox_alpha_over_128": [
+              31,
+              206,
+              450,
+              456
+            ],
+            "alpha_zero_pixels": 173567,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 11.8486328125
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "fc0a203ebbe5f275984e5bdaebb286d4b40bc03d9ee8dcec8bdc20ec45a96947",
+            "bbox_alpha_over_128": [
+              64,
+              156,
+              450,
+              457
+            ],
+            "alpha_zero_pixels": 172375,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 11.7288818359375
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "c4bf5caa77711b3ef42517668b11c42ec7ee5550875cc214871f2600574ce086",
+            "bbox_alpha_over_128": [
+              74,
+              140,
+              435,
+              457
+            ],
+            "alpha_zero_pixels": 160756,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 11.070068359375
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "b3fb966d5ab59e34a95fcd232dd7aa7ea7146ef48ea932c68156754df53233fe",
+            "bbox_alpha_over_128": [
+              54,
+              234,
+              462,
+              456
+            ],
+            "alpha_zero_pixels": 165053,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 12.52685546875
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "1fb6a3241dfa36d90b5ef8f0204820eee4ff9a86acf39302a7016a5e8213f2a0",
+            "bbox_alpha_over_128": [
+              88,
+              142,
+              462,
+              456
+            ],
+            "alpha_zero_pixels": 148102,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 14.85736083984375
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "26e3b45daf67339c801e2adab9a6fa414dd013b7fce5679497d87c81a5e437ab",
+            "bbox_alpha_over_128": [
+              124,
+              110,
+              433,
+              456
+            ],
+            "alpha_zero_pixels": 153341,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 14.7364501953125
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 4.94659423828125,
+        "frame_transition_mean_abs_rgb_128": [
+          27.993265787760418,
+          29.587910970052082,
+          30.125081380208332,
+          15.220011393229166,
+          35.627095540364586,
+          29.447062174479168,
+          29.142903645833332,
+          4.94659423828125
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/roll.png",
+            "sha256": "5b10646ddc7bef954fe1d152124c1d38dbfb665a81a1d73f68cf74fe9d5896f6",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/roll-gif.png",
+            "sha256": "8dab023729df6967071f5c711d6d8199433617c5d0faae9fd1229f199e2be7ea",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    },
+    {
+      "action": "pounce",
+      "verdict": "PASS_FOR_SHORT_LOW_POUNCE",
+      "named_action_readable": true,
+      "observations": [
+        "Crouch, hindquarter gathering, push-off, stretched low-flight pose, front-paw landing and return to crouch are readable.",
+        "Frame 5 retains the full forepaws that crossed the source sheet nominal grid boundary; adaptive extraction successfully preserved them.",
+        "No toy, prey, prop, extra paw or cropped tail is present."
+      ],
+      "limits": [
+        "Vertical lift is modest; the flight reads primarily from extended body and lifted rear paws.",
+        "Frame 8 is slightly lower than the starting crouch. Across-page displacement and collision/target behavior are runtime concerns, not verified here."
+      ],
+      "loop": "The first and final poses are both low crouches; the seam includes a small head/body-height change.",
+      "blocking_defects": [],
+      "reviewed_files": {
+        "webp": {
+          "path": "animations/pounce.webp",
+          "sha256": "156e6cb808cea77637fde969ca9a13e4f32db1217058e538db7c9d27585f8acf",
+          "width": 512,
+          "page_height": 512,
+          "pages": 8,
+          "has_alpha": true,
+          "delay_ms": [
+            300,
+            220,
+            180,
+            120,
+            120,
+            180,
+            220,
+            700
+          ],
+          "loop": 0,
+          "total_duration_ms": 2040
+        },
+        "gifs": [
+          {
+            "theme": "light",
+            "path": "animations/pounce-light.gif",
+            "sha256": "6165275ea0cb31d26ba3a37c4360d0c32597a113a8efae4012127a7af6a1295c",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              220,
+              180,
+              120,
+              120,
+              180,
+              220,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.401123046875
+          },
+          {
+            "theme": "dark",
+            "path": "animations/pounce-dark.gif",
+            "sha256": "dc7b854b7a23c8c0c94b29b5757ff6c560dbc1f67825eda6872be37398fcdd1d",
+            "width": 320,
+            "page_height": 320,
+            "pages": 8,
+            "delay_ms": [
+              300,
+              220,
+              180,
+              120,
+              120,
+              180,
+              220,
+              700
+            ],
+            "loop": 0,
+            "decoded_transparent_pixels": 0,
+            "decoded_frame_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "max_mean_abs_error_to_matching_frame_64": 0.84393310546875
+          }
+        ],
+        "frames": [
+          {
+            "frame": 1,
+            "path": "frames/pounce/000.webp",
+            "sha256": "24959a116dd7b55c0c7d6677a1c191d748be28433e82d7acdeacfc3760148fae"
+          },
+          {
+            "frame": 2,
+            "path": "frames/pounce/001.webp",
+            "sha256": "8af75084dcc607e31b35acbbed65bc1212829f6897a88f5efe7f560619d9c984"
+          },
+          {
+            "frame": 3,
+            "path": "frames/pounce/002.webp",
+            "sha256": "338ac6097441ba126a9de8dd20705c2776c021dce4a2ae1e6268211635fd8bfc"
+          },
+          {
+            "frame": 4,
+            "path": "frames/pounce/003.webp",
+            "sha256": "70f4a45373e1786f68eb4e43352075d36f5bb4207eafd32031edc513a9654385"
+          },
+          {
+            "frame": 5,
+            "path": "frames/pounce/004.webp",
+            "sha256": "9af6113dcb4df75cec32f59ce1d34533d9ef2cfbb21ffd57bfa2506695a11058"
+          },
+          {
+            "frame": 6,
+            "path": "frames/pounce/005.webp",
+            "sha256": "8635032c2bce55ec9b2d7ea1027682d39c243465c3008460e8186f6fcfc0c946"
+          },
+          {
+            "frame": 7,
+            "path": "frames/pounce/006.webp",
+            "sha256": "63ddc4865119eddbf2f5914196b722951354c4ad8562110222cb492ef5b3f0d5"
+          },
+          {
+            "frame": 8,
+            "path": "frames/pounce/007.webp",
+            "sha256": "8c2a5692eda738786d3ace484fa65af4d322fffbcf48cc5911bdfc1ae04bc903"
+          }
+        ],
+        "decoded_webp_frames": [
+          {
+            "frame": 1,
+            "decoded_sha256": "f5c0c7d76a17f055fde8f72cda6286d7340b56dc2c5b3be077376a2dc60b2bd7",
+            "bbox_alpha_over_128": [
+              76,
+              171,
+              448,
+              457
+            ],
+            "alpha_zero_pixels": 173045,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 1,
+            "mae_to_same_source_frame": 10.98907470703125
+          },
+          {
+            "frame": 2,
+            "decoded_sha256": "06af5ebb52d5871261fa1b699fc8b313d29ea3a4d2cc2e56ffdd6a0b1940045a",
+            "bbox_alpha_over_128": [
+              82,
+              163,
+              445,
+              456
+            ],
+            "alpha_zero_pixels": 181057,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 2,
+            "mae_to_same_source_frame": 11.10809326171875
+          },
+          {
+            "frame": 3,
+            "decoded_sha256": "5a014d08a1ad95280047d5b5853af5a7d1032ef9853b2ebf3064839db7cd494f",
+            "bbox_alpha_over_128": [
+              74,
+              174,
+              439,
+              457
+            ],
+            "alpha_zero_pixels": 176727,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 3,
+            "mae_to_same_source_frame": 11.1129150390625
+          },
+          {
+            "frame": 4,
+            "decoded_sha256": "266b668959e90bbef143660a56d54690fdcea5601b2669c682b8c2ab9ca690c8",
+            "bbox_alpha_over_128": [
+              70,
+              116,
+              440,
+              456
+            ],
+            "alpha_zero_pixels": 169029,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 4,
+            "mae_to_same_source_frame": 12.29913330078125
+          },
+          {
+            "frame": 5,
+            "decoded_sha256": "ecf46486706816b98bea19e4ade882662bd9fc144b09a3eaa043daaf06cca2fb",
+            "bbox_alpha_over_128": [
+              74,
+              212,
+              494,
+              457
+            ],
+            "alpha_zero_pixels": 169696,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 5,
+            "mae_to_same_source_frame": 12.8455810546875
+          },
+          {
+            "frame": 6,
+            "decoded_sha256": "549bef9bb4ac382af5495709e255829b27cb88521a68c31ba481bdf527620ac9",
+            "bbox_alpha_over_128": [
+              96,
+              164,
+              454,
+              458
+            ],
+            "alpha_zero_pixels": 176148,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 6,
+            "mae_to_same_source_frame": 11.63787841796875
+          },
+          {
+            "frame": 7,
+            "decoded_sha256": "e9fe6ebe4b46165ead20a14cc19ab500bd483f9d87b9c646b65215225df2ebcc",
+            "bbox_alpha_over_128": [
+              84,
+              180,
+              450,
+              456
+            ],
+            "alpha_zero_pixels": 169708,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 7,
+            "mae_to_same_source_frame": 11.9119873046875
+          },
+          {
+            "frame": 8,
+            "decoded_sha256": "3be26c76dc822db39248571a77d64f79fe8cd53083b3956b46a1e67fab0f010c",
+            "bbox_alpha_over_128": [
+              80,
+              203,
+              432,
+              457
+            ],
+            "alpha_zero_pixels": 186807,
+            "opaque_edge_pixels": 0,
+            "best_source_frame": 8,
+            "mae_to_same_source_frame": 9.69854736328125
+          }
+        ],
+        "loop_seam_mean_abs_rgb_128": 16.619669596354168,
+        "frame_transition_mean_abs_rgb_128": [
+          14.725341796875,
+          16.38385009765625,
+          35.36767578125,
+          36.46856689453125,
+          21.7386474609375,
+          18.816365559895832,
+          18.038167317708332,
+          16.619669596354168
+        ],
+        "temporary_review_images": [
+          {
+            "path": "/tmp/9mew-locomotion-qa/pounce.png",
+            "sha256": "b37546bec3ec271fbfafcc8ef7bc5f64963cf842dbc84e4cedd30abe3b8f35e8",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          },
+          {
+            "path": "/tmp/9mew-locomotion-qa/pounce-gif.png",
+            "sha256": "c63f52ad0960c2d8734760fe85454b3abddbd3efa1bb0109be123e86e33748f9",
+            "viewed": true,
+            "note": "Temporary QA contact sheet, not an animation deliverable."
+          }
+        ]
+      }
+    }
+  ]
+}

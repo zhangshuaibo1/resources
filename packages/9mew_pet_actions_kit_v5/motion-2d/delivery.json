@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "assetId": "9mew.motion-poster.naimiao-starlight",
+  "mediaKind": "motion-poster",
+  "status": "ENCODING_AND_FRAME_CHECKS_PASSED",
+  "visualReview": "reviewed_against_unchanged_original_by_assistant; user_review_pending",
+  "sourceReference": {
+    "src": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "editableSource": {
+    "src": "motion-2d/naimiao-starlight.html",
+    "sha256": "f7f405454eafec42fcf05a4529f22c39258bdd918791c18d6a96fa7fb72e3fda"
+  },
+  "exporter": {
+    "src": "motion-2d/export-frames.cjs",
+    "sha256": "1c9adf1687aeacf22778d431834970268af60e23b436441a78d358a20b56e612",
+    "actualPortableSmokeCheck": "both themes rendered frame zero identically to exported source frames"
+  },
+  "rendering": "Canvas 2D composition of original PNG; no AI redraw, character deformation, frame-based limb animation or 3D model",
+  "rawSourceLoopClosure": "t=0 and t=6 PNG bytes identical for both themes; cycle-end frame excluded from encoded loop",
+  "fps": 24,
+  "variants": {
+    "light": {
+      "poster": {
+        "src": "motion-2d/naimiao-starlight-light-poster.png",
+        "mime": "image/png",
+        "bytes": 534324,
+        "sha256": "907e5d7d3bbee103e75290ea71990138d65e2b08dbd84369af3f022b4582a6d9",
+        "width": 640,
+        "height": 640
+      },
+      "motion": {
+        "src": "motion-2d/naimiao-starlight-light.webp",
+        "mime": "image/webp",
+        "bytes": 2429900,
+        "sha256": "9d79324c3fc6db7881e204370be98fde331f943d247dc70105807ddbe247233d",
+        "width": 640,
+        "height": 640,
+        "frameCount": 144,
+        "duration": 5.999,
+        "loop": true,
+        "uniqueDecodedFrames": 144
+      }
+    },
+    "dark": {
+      "poster": {
+        "src": "motion-2d/naimiao-starlight-dark-poster.png",
+        "mime": "image/png",
+        "bytes": 567343,
+        "sha256": "b162bdb4b6bc4dab2389ba476e1e06e00c269afbe9bc652927bf8570bff8702c",
+        "width": 640,
+        "height": 640
+      },
+      "motion": {
+        "src": "motion-2d/naimiao-starlight-dark.webp",
+        "mime": "image/webp",
+        "bytes": 3470990,
+        "sha256": "c829ffce1909b6967041e0e563484230255b2d95b214592c4edbfcae2f2b8c57",
+        "width": 640,
+        "height": 640,
+        "frameCount": 144,
+        "duration": 5.999,
+        "loop": true,
+        "uniqueDecodedFrames": 144
+      }
+    }
+  },
+  "compatibilityGIF": {
+    "src": "motion-2d/naimiao-starlight-preview.gif",
+    "mime": "image/gif",
+    "bytes": 3690149,
+    "sha256": "96cb99d2cdce0509ab64b45eee8f6cf99e8fddac014c3d064aba6bd66252514f",
+    "width": 480,
+    "height": 480,
+    "frameCount": 96,
+    "duration": 6.0,
+    "loop": true,
+    "uniqueDecodedFrames": 96
+  },
+  "encoding": {
+    "webp": "FFmpeg libwebp_anim, quality 96, compression_level 6, infinite loop",
+    "gif": "480px at16fps, palettegen diff and sierra2_4a dithering"
+  },
+  "validation": {
+    "allEncodedFramesDecoded": true,
+    "nonIdenticalAnimationFrames": true,
+    "staticPostersDecoded": true,
+    "sourceIdentityPreserved": true,
+    "noNewCharacterPoses": true
+  },
+  "limits": [
+    "GIF is a compatibility preview with a reduced palette.",
+    "Website default uses the original image with CSS; it does not preload encoded loops.",
+    "No blink, wave, speech, walk or other new character-limb animation is claimed.",
+    "No production deployment or hardware performance acceptance."
+  ]
+}

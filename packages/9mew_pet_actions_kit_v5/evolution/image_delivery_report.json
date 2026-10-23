@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "sourceCount": 2,
+  "derivativeCount": 4,
+  "images": [
+    {
+      "id": "star-mist",
+      "asset_id": "9mew.pet.official.appearance.star-mist",
+      "source": {
+        "src": "evolution/star-mist.png",
+        "mime": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "hasTransparency": true,
+        "transparentPixelFraction": 0.4011,
+        "bytes": 1837892,
+        "sha256": "537c676e4b6defc032c62e3357efd5b1cb7fecfd901c4d2ed24ce718e457c735"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "evolution/star-mist.desktop.webp",
+          "mime": "image/webp",
+          "width": 896,
+          "height": 896,
+          "hasTransparency": true,
+          "transparentPixelFraction": 0.4021,
+          "bytes": 152232,
+          "sha256": "de9b07548bfb3e6796cf6c3d093e887cb04afc3956d5f383051cebcc64c70b90",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          }
+        },
+        "mobile": {
+          "src": "evolution/star-mist.mobile.webp",
+          "mime": "image/webp",
+          "width": 512,
+          "height": 512,
+          "hasTransparency": true,
+          "transparentPixelFraction": 0.4049,
+          "bytes": 59442,
+          "sha256": "09eaac82221cbe81f49c8710d4f032576f94d8fbae62336dd688bb650a67b547",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          }
+        }
+      },
+      "appearance_version": "naimiao.star-mist.0.1.0",
+      "review": "candidate",
+      "deliveryManifest": "evolution/star-mist-delivery.json"
+    },
+    {
+      "id": "moonlight",
+      "asset_id": "9mew.pet.official.appearance.moonlight",
+      "source": {
+        "src": "evolution/moonlight.png",
+        "mime": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "hasTransparency": true,
+        "transparentPixelFraction": 0.3642,
+        "bytes": 1941449,
+        "sha256": "7d927e0f65b858b373a08f9e29a39c0cbdab9a43c16caef84703ce1bfe3a2dad"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "evolution/moonlight.desktop.webp",
+          "mime": "image/webp",
+          "width": 896,
+          "height": 896,
+          "hasTransparency": true,
+          "transparentPixelFraction": 0.3643,
+          "bytes": 152168,
+          "sha256": "3d3f9674392d7ac4eb818175a780bfd4a9ebbb524464ed62b8c7c738c206f803",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          }
+        },
+        "mobile": {
+          "src": "evolution/moonlight.mobile.webp",
+          "mime": "image/webp",
+          "width": 512,
+          "height": 512,
+          "hasTransparency": true,
+          "transparentPixelFraction": 0.3655,
+          "bytes": 60200,
+          "sha256": "5d5d7402c6c18ce875635bbab39aaae4a86057a1e60cda0cbef1d0043a530ae0",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          }
+        }
+      },
+      "appearance_version": "naimiao.moonlight.0.1.0",
+      "review": "candidate",
+      "deliveryManifest": "evolution/moonlight-delivery.json"
+    }
+  ],
+  "generationStatus": "two actual image tool outputs",
+  "activation": "not_executed",
+  "technicalScope": "Image dimensions, alpha, hashes and encoded byte budgets; candidate visual review only."
+}

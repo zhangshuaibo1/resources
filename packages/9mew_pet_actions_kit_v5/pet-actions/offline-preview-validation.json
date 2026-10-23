@@ -1,0 +1,14 @@
+{
+  "status": "OFFLINE_PREVIEW_PASSED",
+  "file": "OPEN_ME.html",
+  "sha256": "6cc106374c8836bdca2e7cb1a9c5225bda838b204d624ab9b5f9afeeebc432c7",
+  "actionButtons": 22,
+  "emotionButtons": 6,
+  "pauseLabel": "播放预览",
+  "networkRequestSchemes": [
+    "file"
+  ],
+  "pageErrors": [],
+  "mobileOverflow": false,
+  "brokenImages": 0
+}

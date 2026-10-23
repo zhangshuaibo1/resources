@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "revision": "2.1.0",
+  "status": "MODEL_VISUALLY_REJECTED; STATIC_REFERENCE_RETAINED",
+  "authority": "explicit user feedback in this conversation",
+  "userFeedback": "你做的3D灵喵太丑了. 完全跟图片不一样",
+  "selectedReference": {
+    "src": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "rejectedModel": {
+    "src": "website-pet/mewling-website.glb",
+    "sha256": "ec932f994da5d7aea7fee2388c2bed80c41726dfc5a3d52c6b9f9873f62a3633",
+    "visualReview": "rejected_by_user",
+    "activation": "not_active"
+  },
+  "failures": [
+    "Broad round cheeks changed to a long egg-shaped head.",
+    "Embedded eyelids and almond-round eye shape changed to protruding circular eyes.",
+    "Muzzle and chin volume flattened.",
+    "Ear roots/angles and silhouette changed.",
+    "Fine fur and fluffy edge volume lost.",
+    "Compact body and natural paw articulation distorted.",
+    "Fluffy ground-level curled tail changed to a thin tubular ring."
+  ],
+  "runtimeCorrection": "Website demo uses selected original poster with no 3D model resource or 3D action entry. No fallback to the older model.",
+  "newReference": {
+    "src": "likeness-correction/modeling-reference.png",
+    "sha256": "bcdc64a5861caf8fb419178e60e5c784880bfe94e1c8e975f8e65cb51956ea12",
+    "reviewState": "candidate",
+    "mediaKind": "raster_modeling_reference",
+    "geometryStatus": "not_a_mesh",
+    "viewLimit": "Front is reference-based; side/rear are design inferences, not measured orthographic reconstruction."
+  },
+  "newGLB": "not_created",
+  "nextRequiredWork": "Actual sculpt/model likeness review against original camera/pose before fur, animation, optimization and release.",
+  "priorTechnicalChecks": "Preserved as historical facts only; they did not establish visual likeness.",
+  "recordScope": "Historical decision from 9mew_complete_kit_v2_1; paths in this record belong to that earlier archive and are not required in the current 2D package.",
+  "currentPolicy": "specs/visual_policy.json"
+}

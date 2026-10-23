@@ -1,0 +1,41 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "naimiao-star-mist-concept-001",
+  "task": "evolve-appearance",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "base_appearance_version": "naimiao.cream.1.0.0",
+  "appearance_version": "naimiao.star-mist.0.1.0",
+  "proof_mode": "concept_only",
+  "event_ref": null,
+  "branch": "mist",
+  "brief": "Edit the selected first kitten into an elegant star-mist cultivation spirit appearance. Keep it unmistakably the same kitten, same pose and expression. This is a visual concept for the 9mew fantasy universe.",
+  "allowed_changes": [
+    "coat_color",
+    "coat_pattern",
+    "aura",
+    "accessories"
+  ],
+  "changes": {
+    "coat_color": "Keep cream-white face, chest and paws; add a very subtle pale lilac-to-mint sheen only on the outer haunch and tail tip.",
+    "coat_pattern": "A few tiny pearlescent star freckles at outer shoulders and tail; no text or symbols resembling letters.",
+    "aura": "One graceful translucent lilac mist ribbon loosely curls around the tail with generous transparent space; preserve its entire silhouette.",
+    "accessories": "Keep original sakura silk scarf and small gold four-point star clasp; add one very tiny pearl orbit around the clasp."
+  },
+  "target": {
+    "asset_id": "9mew.pet.official.appearance.star-mist",
+    "asset_version": "0.1.0",
+    "media_kind": "static",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "1:1",
+    "placement": "pet appearance preview, no baked text"
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 1
+  },
+  "authorization_ref": "current-user-request:9mew-visual-skill-and-fantasy-appearance",
+  "additional_references": []
+}

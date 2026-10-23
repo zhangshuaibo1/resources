@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "allowedPublicPaths": [
+    "illustrations/mewling_master.desktop.webp",
+    "illustrations/mewling_master.mobile.webp"
+  ],
+  "appearances": [
+    {
+      "appearanceId": "9mew.naimiao.website",
+      "appearanceVersion": "0.2.0",
+      "approval": "revoked",
+      "variants": {}
+    },
+    {
+      "appearanceId": "9mew.naimiao.website",
+      "appearanceVersion": "0.2.1",
+      "approval": "prototype",
+      "variants": {
+        "sakura-cream": {
+          "name": "樱花奶油 · 选定原画",
+          "referencePoster": {
+            "light": "illustrations/mewling_master.desktop.webp",
+            "dark": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024
+          }
+        }
+      }
+    },
+    {
+      "appearanceId": "9mew.naimiao.website",
+      "appearanceVersion": "0.3.0",
+      "approval": "prototype",
+      "variants": {
+        "sakura-cream": {
+          "name": "樱花奶油 · 选定原画",
+          "referencePoster": {
+            "light": "illustrations/mewling_master.desktop.webp",
+            "dark": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024
+          },
+          "renderer": "planar-poster"
+        }
+      }
+    },
+    {
+      "appearanceId": "9mew.naimiao.website",
+      "appearanceVersion": "0.4.0",
+      "approval": "prototype",
+      "variants": {
+        "sakura-cream": {
+          "name": "樱花奶油 · 宠物动作",
+          "referencePoster": {
+            "light": "illustrations/mewling_master.desktop.webp",
+            "dark": "illustrations/mewling_master.desktop.webp",
+            "width": 1024,
+            "height": 1024
+          },
+          "renderer": "character-frames"
+        }
+      }
+    }
+  ]
+}

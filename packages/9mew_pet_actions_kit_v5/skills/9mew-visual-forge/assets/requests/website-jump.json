@@ -1,0 +1,57 @@
+{
+  "schema_version": "9mew.visual-request.v1",
+  "job_id": "website-naimiao-jump-001",
+  "task": "character-animation",
+  "identity_mode": "preserve",
+  "character_id": "9mew.character.naimiao",
+  "branch": "natural",
+  "brief": "Create eight sequential poses for one graceful cat jump, with real crouch, leg push, tucked paws and soft landing. Preserve the selected cream kitten identity and fine fur. Use the whole body; vertical movement of an unchanged seated image is insufficient.",
+  "allowed_changes": [
+    "pose",
+    "expression"
+  ],
+  "changes": {
+    "pose": "Change from a compact grounded preparation through crouch, takeoff, airborne tuck and soft landing.",
+    "expression": "A small eager expression, preserving eye and muzzle structure."
+  },
+  "animation": {
+    "action_id": "jump",
+    "category": "locomotion",
+    "columns": 4,
+    "rows": 2,
+    "playback": "once",
+    "duration_ms": 1600,
+    "start_pose": "Natural compact stance with all necessary paws grounded, ready to jump.",
+    "end_pose": "Settle into the same grounded preparation stance.",
+    "camera": "Locked frontal slight three-quarter camera; match reference face proportions.",
+    "anchor_policy": "Use a fixed ground baseline and unchanged scale; leave generous vertical space. Preserve actual airborne height, do not normalize each pose to the ground.",
+    "phases": [
+      "Grounded preparation.",
+      "Lower torso and flex hind legs.",
+      "Push off with hind legs, forepaws rise.",
+      "Airborne ascent, forepaws tuck.",
+      "Soft compact apex, paws tucked.",
+      "Descent, forepaws extend toward landing.",
+      "Front paws contact then hind paws, body absorbs impact.",
+      "Settle to the original grounded stance."
+    ]
+  },
+  "target": {
+    "asset_id": "9mew.motion.jump",
+    "asset_version": "0.4.0",
+    "media_kind": "character-animation-2d",
+    "themes": [
+      "transparent"
+    ],
+    "aspect_ratio": "2:1",
+    "placement": "Website pet action source sheet, followed by transparent frame playback and encoded animation export.",
+    "required_clips": [
+      "jump"
+    ]
+  },
+  "limits": {
+    "max_candidates": 1,
+    "max_attempts": 2
+  },
+  "additional_references": []
+}

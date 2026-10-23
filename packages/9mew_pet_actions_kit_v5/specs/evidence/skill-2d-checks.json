@@ -1,0 +1,39 @@
+{
+  "status": "SKILL_POLICY_AND_CLI_CHECKS_PASSED",
+  "checks": [
+    {
+      "case": "website-2d",
+      "status": "prepared_only",
+      "media_kind": "motion-poster",
+      "passed": true
+    },
+    {
+      "case": "evolve-astral",
+      "status": "prepared_only",
+      "media_kind": "static",
+      "passed": true
+    },
+    {
+      "case": "website-3d",
+      "status": "deferred_by_visual_policy",
+      "media_kind": "static",
+      "passed": true
+    },
+    {
+      "case": "missing-kind-defaults-static",
+      "passed": true
+    },
+    {
+      "case": "original-png-decode",
+      "passed": true
+    },
+    {
+      "case": "motion-poster-svg-structural",
+      "passed": true,
+      "browser_validation": "not_executed_by_this_test"
+    }
+  ],
+  "work_directory": "/tmp/9mew_2d_skill_check_lohr5bm2",
+  "source_reference_unchanged": true,
+  "scope": "Offline preparation and media structural checks; no provider calls, generated artwork, current 3D or production activation."
+}

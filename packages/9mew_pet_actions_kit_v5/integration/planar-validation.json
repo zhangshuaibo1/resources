@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-22T22:10:18.302Z",
+  "status": "PLANAR_RUNTIME_CHECKS_PASSED",
+  "passed": true,
+  "scope": "CSS planar illustration integration and actual local browser behavior; no new character limb animation or production activation",
+  "browser": "156.0.8078.47",
+  "checks": {
+    "selectedOriginalDecoded": true,
+    "actualCSSMotionProgresses": true,
+    "pauseFreezesAnimation": true,
+    "resume": true,
+    "explicitReducedMotionStops": true,
+    "systemReducedMotionStops": true,
+    "darkThemeKeepsOriginal": true,
+    "offscreenPauses": true,
+    "visibilityChangeHandlerPauses_simulatedHidden": true,
+    "petOpenAndOriginalDecoded": true,
+    "unconnectedChatDisabled": true,
+    "petPause": true,
+    "pointerDrag": true,
+    "keyboardPositioning": true,
+    "closeAndFocusReturn": true,
+    "petDarkTheme": true,
+    "noModelCanvasOrContext": true,
+    "mobileFormAvoidance": true,
+    "galleryRenders": true,
+    "noProhibitedRequests": true,
+    "noPageOrHTTPError": true
+  },
+  "requestCount": 26,
+  "prohibitedRequests": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "rendering": "intact original image + CSS translation/rotation + sparse decorative stars; motion-poster",
+  "typecheck": "passed",
+  "build": "passed using existing dependency cache; no new external packages",
+  "currentAppearance": {
+    "appearanceId": "9mew.naimiao.website",
+    "appearanceVersion": "0.3.0",
+    "approval": "prototype",
+    "renderer": "planar-poster"
+  },
+  "retiredAppearance": "0.2.0 remains revoked",
+  "currentFiles": [
+    {
+      "path": "PlanarPetArt.tsx",
+      "bytes": 2414,
+      "sha256": "8c1bc7a7a87b72e20aeb006768497b15281dede1bd32c388e53c08647110e4e6"
+    },
+    {
+      "path": "planar-pet-art.css",
+      "bytes": 2542,
+      "sha256": "e3f01185ebed470f6a52fd6438427ff8b109563be6b73e2f1fe39938964e33c7"
+    },
+    {
+      "path": "WebsitePet.tsx",
+      "bytes": 15285,
+      "sha256": "43126c71ed6d5a80d1f74f7a0ee74ab2bb51d20cb0a9d7e2ebe804af7228199c"
+    },
+    {
+      "path": "website-pet-types.ts",
+      "bytes": 4989,
+      "sha256": "4bfa78e49b1636d59c0036f1fbaaaef89f3b9f225103f458b0610b2f1629e9b7"
+    },
+    {
+      "path": "website-pet-appearance-catalog.json",
+      "bytes": 1295,
+      "sha256": "de95c4074a15a62c17da520c2a284ad3b447f4f202dbd2746bed2879fe6315f3"
+    },
+    {
+      "path": "planar-pet-demo.html",
+      "bytes": 478,
+      "sha256": "a30b22d32723d235defe1cf8639f1a6ca8939c67dba445cbac06dae76c682c1d"
+    },
+    {
+      "path": "planar-pet-demo.tsx",
+      "bytes": 1646,
+      "sha256": "7c0f57c578be8752cd158468c6fbf272b025229901293608bd9ea037d2650a5a"
+    },
+    {
+      "path": "planar-pet-demo.css",
+      "bytes": 2307,
+      "sha256": "6362d34a2d4ac35937584b0782a140aea0ca6a6a834b7925d9a81f812aeaeae7"
+    },
+    {
+      "path": "website-pet-demo.tsx",
+      "bytes": 4243,
+      "sha256": "3053f5d2a7ed6d0e5b568ef34e7bb0da5cbb07f4279893d83d590bca287874cd"
+    },
+    {
+      "path": "review.js",
+      "bytes": 9050,
+      "sha256": "8d1befbea9fb9b5d75a33cddb674289905cbc2bba803a37909a01eae8c4bef06"
+    },
+    {
+      "path": "AssetRenderer.tsx",
+      "bytes": 4509,
+      "sha256": "b89f51a40fcd0c0f5242402eaf9309eb95ef853b5d5929f3b9d00b139f7f5adb"
+    },
+    {
+      "path": "asset-types.ts",
+      "bytes": 1422,
+      "sha256": "14a99ad4808e3753c8edce5662d96588bfe8c1c63f2f3ee92f20850438c8e8d5"
+    },
+    {
+      "path": "package.json",
+      "bytes": 392,
+      "sha256": "993abf829b9fd0ae69f003a9c6dfbb6ee276bcb17dd9b87a98fc2ebc8ffecdd5"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 28021,
+      "sha256": "87e59c62347a51acb723eef6913485a9379f39a5ffdcaad3df83690fbabc50b9"
+    },
+    {
+      "path": "vendor/website-pet-demo.bundle.js",
+      "bytes": 241587,
+      "sha256": "a5b69c30e7f6035d5a6e22cd753360149306e6ea37b0245ad8e89926f9cb7403"
+    },
+    {
+      "path": "vendor/website-pet-demo.bundle.css",
+      "bytes": 17654,
+      "sha256": "1e51b839b7ceaa136396d3fe11ccf51ba083624c1d88fabcf49614452b494401"
+    },
+    {
+      "path": "vendor/planar-pet-demo.bundle.js",
+      "bytes": 225372,
+      "sha256": "5443fd400884e074710c7fa6a20d551b8299f896dc622f132f7c897ca2f2d339"
+    },
+    {
+      "path": "vendor/planar-pet-demo.bundle.css",
+      "bytes": 4823,
+      "sha256": "1f4f312c41d839c53f90da2c4dc384fbd178bfd6b7a60f3c1e729d91fac5e2ed"
+    },
+    {
+      "path": "vendor/9mew-review-sc.woff",
+      "bytes": 459436,
+      "sha256": "d5d11ea85d64eb1aa48ba217ed702bca76f88778795eeeb38c80f38181d32dee"
+    },
+    {
+      "path": "review-font.css",
+      "bytes": 254,
+      "sha256": "c17b2551cfa490a9646e0ee3aa2da347c05492d72e4b632c1faaf752639e235b"
+    },
+    {
+      "path": "website-pet.css",
+      "bytes": 7913,
+      "sha256": "b9ac7be343aa183cb2c7fb47d11e6d8b6f6cec0386d653060960c23a4b123302"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2888,
+      "sha256": "142cf4ae55476dff823946de775225a08ca86e75f699213172b41a8bd7de07c4"
+    },
+    {
+      "path": "WEBSITE_PET_README.txt",
+      "bytes": 2263,
+      "sha256": "be67992985f01e7385048a5813b1c04b5ebee6747929b080b1610588fa0ff3e7"
+    }
+  ],
+  "notExecuted": [
+    "production deployment",
+    "real AI conversation",
+    "growth or appearance activation",
+    "new limb/face frame animation",
+    "mobile hardware performance"
+  ],
+  "qualification": "Visibilitychange handler was tested using simulated document.hidden; actual offscreen and prefers-reduced-motion behavior were exercised in the browser.",
+  "contracts": {
+    "passed": true,
+    "checks": {
+      "currentPrototypeResolvesExplicitly": true,
+      "defaultRejectsUnapprovedPrototype": true,
+      "revokedRejected": true,
+      "oldModelPathRejected": true,
+      "arbitraryPathRejected": true
+    }
+  },
+  "referenceImage": {
+    "path": "illustrations/mewling_master.desktop.webp",
+    "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+    "sameBytesAsV2_1": true
+  },
+  "dependencies": {
+    "removed": [
+      "three",
+      "@types/three"
+    ],
+    "runtime": [
+      "react",
+      "react-dom"
+    ],
+    "dependencyInstall": "none; lockfile updated offline; pre-existing compiler/build cache used"
+  },
+  "fontVerification": {
+    "source": "existing licensed NotoSansSC.ttf cache",
+    "ChineseGlyphsIncluded": 1173,
+    "renderedVisualCheck": "Light showcase and website pet panel inspected; previously missing new copy glyphs are present",
+    "sourceLicense": "vendor/NOTO-OFL.txt"
+  },
+  "noThreeDependencyInLockfile": true,
+  "documentationOnlyAmendment": {
+    "reason": "Unify user-facing package headings with v4 prompt and archive naming.",
+    "runtimeCodeChanged": false,
+    "browserTestsRerun": false,
+    "fileBindingsUpdatedForDocumentationOnly": [
+      {
+        "path": "integration/README.txt",
+        "previousSha256": "9bccc4a54803212c286d5fd45f8be324356ded85fd01ac7d3d8b23033f365202",
+        "currentSha256": "142cf4ae55476dff823946de775225a08ca86e75f699213172b41a8bd7de07c4",
+        "change": "document heading only: package v3 to v4"
+      },
+      {
+        "path": "integration/WEBSITE_PET_README.txt",
+        "previousSha256": "4dcb7c324a8195e6042a2bf4d757b821874cb73d7f736c8f04954383a7414f6d",
+        "currentSha256": "be67992985f01e7385048a5813b1c04b5ebee6747929b080b1610588fa0ff3e7",
+        "change": "document heading only: package v3 to v4"
+      }
+    ]
+  }
+}

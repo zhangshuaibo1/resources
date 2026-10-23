@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "revision": "v5",
+  "phase": "full-delivery",
+  "status": "ACTIONS_RUNTIME_CHECKS_PASSED",
+  "executedAt": "2026-10-23T01:52:48.408Z",
+  "testScriptSHA256": "9a0624c37863a32482f844dd5168b0b05ca05caeadce1ef2e8417ba56f3442c4",
+  "catalogSHA256": "a13c3abf22b39db4874189b1303d738ab39935af8469743a048322e7da113abd",
+  "catalogSummary": {
+    "characterId": "9mew.character.naimiao",
+    "appearanceVersion": "0.4.0",
+    "actionCount": 22,
+    "sourceActionCount": 20,
+    "derivedActionCount": 2,
+    "sourcePoseCount": 160,
+    "uniqueFrameFileCount": 158
+  },
+  "checks": [
+    {
+      "name": "catalog controls match delivered actions",
+      "result": "PASS"
+    },
+    {
+      "name": "all declared frame URLs decode",
+      "result": "PASS"
+    },
+    {
+      "name": "actual distinct frame changes for every action",
+      "result": "PASS",
+      "actions": [
+        {
+          "id": "blink",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "wave",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "tail-swish",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "listen",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "walk-right",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "run-right",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "jump",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "happy",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "angry",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "sad",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "surprised",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "excited",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "nuzzle",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "groom",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "sleep",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "stretch",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "knead",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "yawn",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "roll",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "pounce",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": false
+        },
+        {
+          "id": "walk-left",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": true
+        },
+        {
+          "id": "run-left",
+          "distinctObservedFrameIndices": [
+            "0",
+            "1"
+          ],
+          "mirror": true
+        }
+      ]
+    },
+    {
+      "name": "directional travel stays continuous across repeated gait cycles",
+      "result": "PASS"
+    },
+    {
+      "name": "pause freezes character frame",
+      "result": "PASS"
+    },
+    {
+      "name": "one-shot returns to idle and can replay",
+      "result": "PASS"
+    },
+    {
+      "name": "browser reduced-motion renders original poster",
+      "result": "PASS"
+    },
+    {
+      "name": "hidden visibility event pauses time",
+      "result": "PASS"
+    },
+    {
+      "name": "offscreen player pauses",
+      "result": "PASS"
+    },
+    {
+      "name": "light dark and mobile layout without horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "website pet actions keyboard and form avoidance",
+      "result": "PASS"
+    },
+    {
+      "name": "missing frame keeps original poster",
+      "result": "PASS"
+    },
+    {
+      "name": "appearance version mismatch stays static",
+      "result": "PASS"
+    },
+    {
+      "name": "no page JavaScript errors",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Local Chromium only; not real mobile hardware performance.",
+    "Visibility listener is tested with a simulated visibilitychange event.",
+    "Visual identity and animation aesthetics require separate human review.",
+    "No production deployment, AI, growth, financial or administrative APIs exercised."
+  ],
+  "browserVersion": "156.0.8078.47",
+  "travelEvidence": [
+    {
+      "id": "walk-right",
+      "positions": [
+        -51.56,
+        -19.07,
+        13.43
+      ]
+    },
+    {
+      "id": "walk-left",
+      "positions": [
+        51.57,
+        19.06,
+        -13.43
+      ]
+    }
+  ],
+  "completedAt": "2026-10-23T01:53:07.582Z",
+  "sources": {
+    "PetActionPlayer.tsx": "f39a17964575b2d162c45a767469d08098feeb6aab7568876dca95c79ffa1db6",
+    "pet-action-types.ts": "5aadbb8defb2f641488a0af288f9d6768726a8721bbcba54546854a46c426231",
+    "pet-action-player.css": "e0bff5a1581e82131476f0f57249f007907f037acec978442e78e55d69e55625",
+    "WebsitePet.tsx": "c23fff5e358b3d517ff9342a542c1b67d56b50ed1e56a29f07ef8e70fa2372e1",
+    "website-pet.css": "646d4f577afda6bfcc418667f01be81d0b6d71e6eb12c928ba50219ba92a78de",
+    "actions-demo.tsx": "add0199f80b8a9340bdb209b7db1bb36cd7aae160c5c3e011588cc683f368cd1",
+    "actions-demo.css": "b72bc0410794278f9164eaf8f05b0a3880c88f929d4e6314d4243d637821e16e",
+    "website-pet-appearance-catalog.json": "b2165be44f7233be4228af0e04128fb773851a026060ee7d9f2cf28646bb43b8",
+    "vendor/actions-demo.bundle.js": "8a4862a48076e6e284045461c70f2d55469721acdc7aa012b260e7f9af0a9c4f",
+    "vendor/website-pet-demo.bundle.js": "01354a365675b814ce3a8242e8fb8f164ea86450fba212dd7da28f29e5e3252e",
+    "vendor/actions-demo.bundle.css": "abb82b92fce7a11dd11399934ea368f45a05ea7dacef55242b2e149bdad1545f",
+    "vendor/website-pet-demo.bundle.css": "d8644b5f8b53f16df1935d44bb34843c8078c26a8522ecc5eef9e018ecc65001",
+    "vendor/9mew-review-sc.woff": "b367820438ba6927e3e2d6ac1cc7465c6ed9ba6cb74335b4d4f9d99932a7621e"
+  }
+}

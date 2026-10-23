@@ -1,0 +1,11 @@
+九喵星绘的独立Git版本记录
+
+本bundle记录此次可移植Skill的实际提交，不是远程仓库地址，也不代表安装或发布。
+完整包内skills/9mew-visual-forge与提交中的文件逐项比对一致。
+
+若需要恢复独立历史，在你有写权限的工作目录执行：
+  git clone /你的路径/9mew_pet_actions_kit_v5/versioning/9mew-visual-forge.bundle 9mew-skill-history
+
+把恢复目录里的skills/9mew-visual-forge放进项目.agents/skills/即可按宿主规则使用。
+也可直接使用完整包内同一份Skill目录，不必恢复Git历史。
+不要把本bundle用于绕过某个运行环境的安装、审批或目录权限。

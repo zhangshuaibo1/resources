@@ -1,0 +1,115 @@
+{
+  "status": "PREVIEW_ENCODING_PASSED",
+  "catalogSha256": "a13c3abf22b39db4874189b1303d738ab39935af8469743a048322e7da113abd",
+  "note": "Graphic contact previews composed from actual frames; not an independent source action.",
+  "files": [
+    {
+      "file": "previews/movement-light.webp",
+      "actions": [
+        "jump",
+        "walk-right",
+        "run-right",
+        "pounce",
+        "stretch",
+        "roll"
+      ],
+      "theme": "light",
+      "width": 840,
+      "height": 650,
+      "frames": 72,
+      "durationMs": 6000,
+      "bytes": 608412,
+      "sha256": "b63ca819ede6c1dbb62bb8ec14c53ec3150fd9f7beeecd52ea62131485967c9a"
+    },
+    {
+      "file": "previews/movement-light.gif",
+      "actions": [
+        "jump",
+        "walk-right",
+        "run-right",
+        "pounce",
+        "stretch",
+        "roll"
+      ],
+      "theme": "light",
+      "width": 840,
+      "height": 650,
+      "frames": 72,
+      "durationMs": 6000,
+      "bytes": 2749510,
+      "sha256": "adb351d01c6a200ceb6eecf0acc2782e9889fc8faaebce0bcbcc0ddf321979ad"
+    },
+    {
+      "file": "previews/emotions-dark.webp",
+      "actions": [
+        "happy",
+        "angry",
+        "sad",
+        "surprised",
+        "excited",
+        "nuzzle"
+      ],
+      "theme": "dark",
+      "width": 840,
+      "height": 650,
+      "frames": 46,
+      "durationMs": 6000,
+      "bytes": 512212,
+      "sha256": "5dcded0de1d010ac480a6118e08311dec5ef4bd8868a44fef49660fe46c17ae5"
+    },
+    {
+      "file": "previews/emotions-dark.gif",
+      "actions": [
+        "happy",
+        "angry",
+        "sad",
+        "surprised",
+        "excited",
+        "nuzzle"
+      ],
+      "theme": "dark",
+      "width": 840,
+      "height": 650,
+      "frames": 46,
+      "durationMs": 6000,
+      "bytes": 1927321,
+      "sha256": "2ce219ecd23d1b9a1bf3a86dc1428dfe5043d7be0abafbe4785e81e705b2404f"
+    },
+    {
+      "file": "previews/daily-light.webp",
+      "actions": [
+        "blink",
+        "wave",
+        "listen",
+        "groom",
+        "knead",
+        "sleep"
+      ],
+      "theme": "light",
+      "width": 840,
+      "height": 650,
+      "frames": 59,
+      "durationMs": 6000,
+      "bytes": 483356,
+      "sha256": "49a11e8e0d39439f92ae3b4cb941bea093026383464845b6aedf330ef6cdaf7c"
+    },
+    {
+      "file": "previews/daily-light.gif",
+      "actions": [
+        "blink",
+        "wave",
+        "listen",
+        "groom",
+        "knead",
+        "sleep"
+      ],
+      "theme": "light",
+      "width": 840,
+      "height": 650,
+      "frames": 59,
+      "durationMs": 6000,
+      "bytes": 2186118,
+      "sha256": "019d7cf3c1fbe1e6b6f5b2134852a3caa68ecb1f32b2e44260fb860057de4323"
+    }
+  ]
+}

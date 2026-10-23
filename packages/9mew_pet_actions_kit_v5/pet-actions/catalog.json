@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": "1.0",
+  "kitVersion": "5",
+  "characterId": "9mew.character.naimiao",
+  "appearanceVersion": "0.4.0",
+  "status": "prototype",
+  "approval": "not granted for production",
+  "basePath": "./",
+  "poster": "../illustrations/mewling_master.desktop.webp",
+  "defaultAction": "blink",
+  "sourceActionCount": 20,
+  "derivedActionCount": 2,
+  "sourcePoseCount": 160,
+  "style": "2D generated keyframe animation; no optical-flow interpolation",
+  "actions": [
+    {
+      "id": "blink",
+      "label": "轻轻眨眼",
+      "category": "daily",
+      "description": "眼睑自然闭合、睁开；保留安静待机节奏。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/blink.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": true,
+      "playback": "loop",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/blink/000.webp",
+          "durationMs": 1800
+        },
+        {
+          "src": "frames/blink/001.webp",
+          "durationMs": 70
+        },
+        {
+          "src": "frames/blink/002.webp",
+          "durationMs": 60
+        },
+        {
+          "src": "frames/blink/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/blink/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/blink/005.webp",
+          "durationMs": 60
+        },
+        {
+          "src": "frames/blink/006.webp",
+          "durationMs": 70
+        },
+        {
+          "src": "frames/blink/007.webp",
+          "durationMs": 1000
+        }
+      ],
+      "exports": {
+        "webp": "animations/blink.webp",
+        "gifLight": "animations/blink-light.gif",
+        "gifDark": "animations/blink-dark.gif"
+      },
+      "sourceSha256": "62a0301262949c8e12676e149da81f639f48f39f4d15a0788b3993c357ffc644",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "wave",
+      "label": "招爪问好",
+      "category": "daily",
+      "description": "前爪抬起、手腕轻摆，再放回地面。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/wave.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/wave/000.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/wave/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/wave/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/wave/003.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/wave/004.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/wave/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/wave/006.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/wave/007.webp",
+          "durationMs": 600
+        }
+      ],
+      "exports": {
+        "webp": "animations/wave.webp",
+        "gifLight": "animations/wave-light.gif",
+        "gifDark": "animations/wave-dark.gif"
+      },
+      "sourceSha256": "b058f9971971e94355da32c96f35ccf8d03434088ca5f0705627df8e5dbceac1",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "tail-swish",
+      "label": "轻摆尾巴",
+      "category": "daily",
+      "description": "尾根与尾尖连续改变弯曲方向。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/tail-swish.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": true,
+      "playback": "loop",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/tail-swish/000.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/tail-swish/001.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/tail-swish/002.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/tail-swish/003.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/tail-swish/004.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/tail-swish/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/tail-swish/006.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/tail-swish/007.webp",
+          "durationMs": 240
+        }
+      ],
+      "exports": {
+        "webp": "animations/tail-swish.webp",
+        "gifLight": "animations/tail-swish-light.gif",
+        "gifDark": "animations/tail-swish-dark.gif"
+      },
+      "sourceSha256": "5c3a394b108a5548eef0add67a85ca7111a25bdd165cdbf34b6260a1d39f93a1",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "listen",
+      "label": "歪头倾听",
+      "category": "daily",
+      "description": "耳朵转向、抬头、左右观察和轻抬前爪。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/listen.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/listen/000.webp",
+          "durationMs": 400
+        },
+        {
+          "src": "frames/listen/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/listen/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/listen/003.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/listen/004.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/listen/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/listen/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/listen/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/listen.webp",
+        "gifLight": "animations/listen-light.gif",
+        "gifDark": "animations/listen-dark.gif"
+      },
+      "sourceSha256": "8053a3ad89b5fdb3a0ef27771724c591b7acc9cf26d9114f4bc55653bde9dd7d",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "walk-right",
+      "label": "向右散步",
+      "category": "movement",
+      "description": "四足交替迈步；官网舞台附带有限水平移动。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/walk-right.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        }
+      ],
+      "exports": {
+        "webp": "animations/walk-right.webp",
+        "gifLight": "animations/walk-right-light.gif",
+        "gifDark": "animations/walk-right-dark.gif"
+      },
+      "sourceSha256": "ccfe4a51a1c5b9023d25dfad33f717eed59edadf37db213a9e23ac73d2628dac",
+      "direction": "right",
+      "motion": {
+        "kind": "travel",
+        "distance": 108
+      },
+      "sequenceCycles": 3,
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "run-right",
+      "label": "向右小跑",
+      "category": "movement",
+      "description": "伸展、收腿和短暂离地的小跑步态。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/run-right.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        }
+      ],
+      "exports": {
+        "webp": "animations/run-right.webp",
+        "gifLight": "animations/run-right-light.gif",
+        "gifDark": "animations/run-right-dark.gif"
+      },
+      "sourceSha256": "a500e54a88628159274c70d85175d58999592547b6e7ec00cb9857a3b0d4d27d",
+      "direction": "right",
+      "motion": {
+        "kind": "travel",
+        "distance": 108
+      },
+      "sequenceCycles": 3,
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "jump",
+      "label": "轻盈跳跃",
+      "category": "movement",
+      "description": "屈膝蓄力、蹬地、收爪腾空、伸爪落地。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/jump-candidate-01.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/jump/000.webp",
+          "durationMs": 250
+        },
+        {
+          "src": "frames/jump/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/jump/002.webp",
+          "durationMs": 90
+        },
+        {
+          "src": "frames/jump/003.webp",
+          "durationMs": 110
+        },
+        {
+          "src": "frames/jump/004.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/jump/005.webp",
+          "durationMs": 100
+        },
+        {
+          "src": "frames/jump/006.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/jump/007.webp",
+          "durationMs": 650
+        }
+      ],
+      "exports": {
+        "webp": "animations/jump.webp",
+        "gifLight": "animations/jump-light.gif",
+        "gifDark": "animations/jump-dark.gif"
+      },
+      "sourceSha256": "84020aae416518a061cb1034b06fff72d92e0e7ce7a9369e09c1ffb5be426bf2",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "happy",
+      "label": "开心眯眼",
+      "category": "emotion",
+      "description": "抬头、眯眼微笑、前爪轻贴胸口。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/happy.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/happy/000.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/happy/001.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/happy/002.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/happy/003.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/happy/004.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/happy/005.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/happy/006.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/happy/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/happy.webp",
+        "gifLight": "animations/happy-light.gif",
+        "gifDark": "animations/happy-dark.gif"
+      },
+      "sourceSha256": "a3be61b09a1d5bd5e1aec83319c3df0ecf4922f01a46a803aa3b83dd015b8d83",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "angry",
+      "label": "小小生气",
+      "category": "emotion",
+      "description": "耳朵向两侧压低、眯眼、轻拍前爪后缓和。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/angry.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/angry/000.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/angry/001.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/angry/002.webp",
+          "durationMs": 200
+        },
+        {
+          "src": "frames/angry/003.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/angry/004.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/angry/005.webp",
+          "durationMs": 200
+        },
+        {
+          "src": "frames/angry/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/angry/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/angry.webp",
+        "gifLight": "animations/angry-light.gif",
+        "gifDark": "animations/angry-dark.gif"
+      },
+      "sourceSha256": "26f19f069cef5b765a648ed9ce65b42e07cba863c3bced15c42244d801663853",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "sad",
+      "label": "委屈求安慰",
+      "category": "emotion",
+      "description": "垂耳、低头、收拢前爪，再抬头看向主人。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/sad.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/sad/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/sad/001.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/sad/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/sad/003.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/sad/004.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/sad/005.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/sad/006.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/sad/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/sad.webp",
+        "gifLight": "animations/sad-light.gif",
+        "gifDark": "animations/sad-dark.gif"
+      },
+      "sourceSha256": "8fb669591443323f7720dd746373a5713d9d94d5c1b88b74287a91e7dcc28567",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "surprised",
+      "label": "好奇惊讶",
+      "category": "emotion",
+      "description": "眼睛睁大、耳朵竖起、前爪微抬，再放松。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/surprised.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/surprised/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/surprised/001.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/surprised/002.webp",
+          "durationMs": 160
+        },
+        {
+          "src": "frames/surprised/003.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/surprised/004.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/surprised/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/surprised/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/surprised/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/surprised.webp",
+        "gifLight": "animations/surprised-light.gif",
+        "gifDark": "animations/surprised-dark.gif"
+      },
+      "sourceSha256": "1681d37882ba45dc82fe55a246f36d4bb7359b8e32f8c28967042f80ae1979ac",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "excited",
+      "label": "兴奋庆祝",
+      "category": "emotion",
+      "description": "双前爪举起、开心张口、向上伸展后回坐。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/excited.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/excited/000.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/excited/001.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/excited/002.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/excited/003.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/excited/004.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/excited/005.webp",
+          "durationMs": 140
+        },
+        {
+          "src": "frames/excited/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/excited/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/excited.webp",
+        "gifLight": "animations/excited-light.gif",
+        "gifDark": "animations/excited-dark.gif"
+      },
+      "sourceSha256": "308acacbed850acde6ef0318902c0d49d9f199ba0bb49023c7946c630a8a75f7",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "nuzzle",
+      "label": "亲昵蹭蹭",
+      "category": "emotion",
+      "description": "闭眼侧头、肩颈和脸颊亲昵地左右蹭动。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/social/nuzzle.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/nuzzle/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/nuzzle/001.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/nuzzle/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/nuzzle/003.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/nuzzle/004.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/nuzzle/003.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/nuzzle/001.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/nuzzle/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/nuzzle.webp",
+        "gifLight": "animations/nuzzle-light.gif",
+        "gifDark": "animations/nuzzle-dark.gif"
+      },
+      "sourceSha256": "39cf44c05926f6a8a843518fef6758f9562916638fd8f92914252c8e37e08b10",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        1,
+        7
+      ],
+      "playableDistinctPoseCount": 6,
+      "excludedSourceFrames": {
+        "indices": [
+          5,
+          6
+        ],
+        "reason": "Generated torso mirrored during head turn; omit these poses to preserve body orientation."
+      }
+    },
+    {
+      "id": "groom",
+      "label": "舔爪洗脸",
+      "category": "daily",
+      "description": "前爪抬至嘴边轻舔，再轻擦脸颊。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/groom.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/groom/000.webp",
+          "durationMs": 280
+        },
+        {
+          "src": "frames/groom/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/groom/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/groom/003.webp",
+          "durationMs": 260
+        },
+        {
+          "src": "frames/groom/004.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/groom/005.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/groom/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/groom/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/groom.webp",
+        "gifLight": "animations/groom-light.gif",
+        "gifDark": "animations/groom-dark.gif"
+      },
+      "sourceSha256": "04e2bfb3070c2de1f1f2ceaf44f6d26863ce0e981cba0e9122eedc852aa190c4",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "sleep",
+      "label": "安静睡觉",
+      "category": "daily",
+      "description": "趴卧闭眼，胸背轻呼吸并伴有细微耳动。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/sleep.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": true,
+      "playback": "loop",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/sleep/000.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/001.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/002.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/003.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/004.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/005.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/006.webp",
+          "durationMs": 500
+        },
+        {
+          "src": "frames/sleep/007.webp",
+          "durationMs": 500
+        }
+      ],
+      "exports": {
+        "webp": "animations/sleep.webp",
+        "gifLight": "animations/sleep-light.gif",
+        "gifDark": "animations/sleep-dark.gif"
+      },
+      "sourceSha256": "5559c133d1124d446f85e0757604962a6d813ab89f9db4d56d74c0ae6cb788ee",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "stretch",
+      "label": "伸个懒腰",
+      "category": "daily",
+      "description": "前爪伸长、抬臀压胸、拱背，再回到休息姿态。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/stretch.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/stretch/000.webp",
+          "durationMs": 280
+        },
+        {
+          "src": "frames/stretch/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/stretch/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/stretch/003.webp",
+          "durationMs": 360
+        },
+        {
+          "src": "frames/stretch/004.webp",
+          "durationMs": 360
+        },
+        {
+          "src": "frames/stretch/005.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/stretch/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/stretch/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/stretch.webp",
+        "gifLight": "animations/stretch-light.gif",
+        "gifDark": "animations/stretch-dark.gif"
+      },
+      "sourceSha256": "931f32ad983a9149b9e06eefed2d7bf0a98b8dc2efd4a8ba0166859cf2c2a721",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "knead",
+      "label": "左右踩奶",
+      "category": "daily",
+      "description": "保持前倾重心，左右前爪交替向地面轻压。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/knead.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": true,
+      "playback": "loop",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/knead/000.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/002.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/003.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/004.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/knead/007.webp",
+          "durationMs": 180
+        }
+      ],
+      "exports": {
+        "webp": "animations/knead.webp",
+        "gifLight": "animations/knead-light.gif",
+        "gifDark": "animations/knead-dark.gif"
+      },
+      "sourceSha256": "ed9db7027e9fa5c5f3cdb5310f7ed6fcd815c3197c2b392bcab4ebac45d98c0c",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "yawn",
+      "label": "困困哈欠",
+      "category": "daily",
+      "description": "眼睛轻闭，嘴自然张开打哈欠，再合上。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/yawn.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/yawn/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/yawn/001.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/yawn/002.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/yawn/003.webp",
+          "durationMs": 240
+        },
+        {
+          "src": "frames/yawn/004.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/yawn/005.webp",
+          "durationMs": 200
+        },
+        {
+          "src": "frames/yawn/006.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/yawn/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/yawn.webp",
+        "gifLight": "animations/yawn-light.gif",
+        "gifDark": "animations/yawn-dark.gif"
+      },
+      "sourceSha256": "823ae8be6f1bb9fe96b9d92686de4ce93841d7cd85a3273519e249e979bcda5e",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "roll",
+      "label": "翻身露肚皮",
+      "category": "daily",
+      "description": "轻轻侧躺、露肚皮，四爪蜷起再回到侧卧。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/roll.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/roll/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/roll/001.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/roll/002.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/roll/003.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/roll/004.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/roll/005.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/roll/006.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/roll/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/roll.webp",
+        "gifLight": "animations/roll-light.gif",
+        "gifDark": "animations/roll-dark.gif"
+      },
+      "sourceSha256": "71877f3f2f59ba0870fadfd7fdf41e5a165502a05918d752e7986cf2cca9f207",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "pounce",
+      "label": "伏身小扑",
+      "category": "movement",
+      "description": "低伏观察、蓄力、短距离前扑，再落回前爪。",
+      "status": "prototype",
+      "sourceKind": "independent-generated-sequence",
+      "sourceSheet": "sheets/locomotion/pounce.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/pounce/000.webp",
+          "durationMs": 300
+        },
+        {
+          "src": "frames/pounce/001.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/pounce/002.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/pounce/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/pounce/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/pounce/005.webp",
+          "durationMs": 180
+        },
+        {
+          "src": "frames/pounce/006.webp",
+          "durationMs": 220
+        },
+        {
+          "src": "frames/pounce/007.webp",
+          "durationMs": 700
+        }
+      ],
+      "exports": {
+        "webp": "animations/pounce.webp",
+        "gifLight": "animations/pounce-light.gif",
+        "gifDark": "animations/pounce-dark.gif"
+      },
+      "sourceSha256": "69861246d898f7d7095982b6d1a7e0d646828ca1c0f4d2641a45af9388f7d5d7",
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8
+    },
+    {
+      "id": "walk-left",
+      "label": "向左散步",
+      "category": "movement",
+      "description": "使用向右步态的水平镜像派生；不计为独立绘制动作。",
+      "status": "prototype",
+      "sourceKind": "mirror-derived",
+      "sourceSheet": "sheets/locomotion/walk-right.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/000.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/001.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/002.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/003.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/004.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/005.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/006.webp",
+          "durationMs": 120
+        },
+        {
+          "src": "frames/walk-right/007.webp",
+          "durationMs": 120
+        }
+      ],
+      "exports": {
+        "webp": "animations/walk-left.webp",
+        "gifLight": "animations/walk-left-light.gif",
+        "gifDark": "animations/walk-left-dark.gif"
+      },
+      "sourceSha256": "ccfe4a51a1c5b9023d25dfad33f717eed59edadf37db213a9e23ac73d2628dac",
+      "direction": "left",
+      "motion": {
+        "kind": "travel",
+        "distance": 108
+      },
+      "sequenceCycles": 3,
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8,
+      "mirror": true,
+      "sourceActionId": "walk-right"
+    },
+    {
+      "id": "run-left",
+      "label": "向左小跑",
+      "category": "movement",
+      "description": "使用向右步态的水平镜像派生；不计为独立绘制动作。",
+      "status": "prototype",
+      "sourceKind": "mirror-derived",
+      "sourceSheet": "sheets/locomotion/run-right.png",
+      "sourceFrameCount": 8,
+      "frameSize": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "loop": false,
+      "playback": "once",
+      "returnTo": "blink",
+      "frames": [
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/000.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/001.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/002.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/003.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/004.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/005.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/006.webp",
+          "durationMs": 80
+        },
+        {
+          "src": "frames/run-right/007.webp",
+          "durationMs": 80
+        }
+      ],
+      "exports": {
+        "webp": "animations/run-left.webp",
+        "gifLight": "animations/run-left-light.gif",
+        "gifDark": "animations/run-left-dark.gif"
+      },
+      "sourceSha256": "a500e54a88628159274c70d85175d58999592547b6e7ec00cb9857a3b0d4d27d",
+      "direction": "left",
+      "motion": {
+        "kind": "travel",
+        "distance": 108
+      },
+      "sequenceCycles": 3,
+      "selectedSourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "playableDistinctPoseCount": 8,
+      "mirror": true,
+      "sourceActionId": "run-right"
+    }
+  ]
+}

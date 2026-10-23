@@ -1,0 +1,13 @@
+{
+  "name": "9mew-pet-actions-v5",
+  "private": true,
+  "version": "5.0.0",
+  "description": "Mechanical processing of original generated 2D pet pose atlases and local previews",
+  "engines": {"node": ">=20"},
+  "dependencies": {"sharp": "0.35.5", "@napi-rs/canvas": "0.1.100"},
+  "scripts": {
+    "build:actions": "node build-actions.cjs",
+    "build:previews": "node build-previews.cjs",
+    "build:offline": "node build-offline-preview.cjs"
+  }
+}

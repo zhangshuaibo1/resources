@@ -1,0 +1,128 @@
+{
+  "schema_version": "9mew.character-reference.v1",
+  "character_id": "9mew.character.naimiao",
+  "base_appearance_version": "naimiao.cream.1.0.0",
+  "selection_status": "user_selected_reference_for_website_pet",
+  "selection_date": "2026-10-22",
+  "derived_outputs_status": "candidate_until_reviewed; explicit user rejection remains effective regardless of technical pass",
+  "references": [
+    {
+      "path": "assets/naimiao-master.png",
+      "role": "identity",
+      "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "bytes": 1514762,
+      "source_asset": "mewling_master.png",
+      "reference_status": "selected_by_user",
+      "production_approval": "not_inferred"
+    },
+    {
+      "path": "assets/collaboration-reference.webp",
+      "role": "style-and-composition",
+      "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+      "bytes": 124038,
+      "source_asset": "scene_collaboration.desktop.webp",
+      "reference_status": "existing_candidate_style_sample",
+      "production_approval": "not_inferred"
+    },
+    {
+      "path": "assets/privacy-reference.webp",
+      "role": "style-and-composition",
+      "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f",
+      "bytes": 126092,
+      "source_asset": "scene_privacy.desktop.webp",
+      "reference_status": "existing_candidate_style_sample",
+      "production_approval": "not_inferred"
+    }
+  ],
+  "identity_features": [
+    "fine fluffy cream-white fur with warm ivory shadows, directional cheek/chest strands and soft silhouette wisps",
+    "broad rounded face, full cheeks and compact soft chin; preserve facial layout and proportions as the requested action changes head orientation, avoiding a narrow egg-shaped head",
+    "large gray-brown eyes seated in shaped upper/lower eyelids with softly almond-rounded openings, readable iris and pupil; no protruding circular bead eyes",
+    "broad-rooted outward ears with blush inner recesses, curved rims and fine edge fur; no tall upright triangle plates",
+    "tiny dusty-pink nose, paired soft muzzle pads, short philtrum and rounded chin; no flat face with a line smile",
+    "compact softly full feline body, coherent shoulder/chest/haunch structure and short limbs; the selected master is seated but requested actions may change stance",
+    "rounded paws with curved toes enclosing pink pads, bent raised wrist and readable grounded toe divisions; no flat palm with coin-like pads",
+    "full fluffy low-rooted curled tail with thickness taper and a softly narrowing tip; no thin smooth ring-shaped tube",
+    "small sakura silk scarf and tiny warm-gold four-point star clasp; identity must remain recognizable beyond these accessories",
+    "welcoming curious expression; retain the reference raised-paw sitting pose for reconstruction comparisons before requested pose variations"
+  ],
+  "palette": {
+    "sakura": "#F6A9C2",
+    "cream": "#FFF5EC",
+    "mint": "#BDE2D3",
+    "midnight": "#101321",
+    "night_surface": "#171C35"
+  },
+  "model_tier_display_names": [
+    "喵学徒",
+    "喵大师",
+    "喵真人",
+    "喵仙帝"
+  ],
+  "world_direction": [
+    "celestial universe",
+    "cultivation",
+    "mythology",
+    "fantasy"
+  ],
+  "authority_note": "Reference selection and file integrity do not grant external provider spend, change pet progression or approve derived assets.",
+  "identity_authority": "The original selected image is the sole identity authority for the current main cat; later inferred views and rejected models cannot supersede it.",
+  "likeness_workflow": {
+    "reference": "assets/naimiao-master.png",
+    "checkpoints": [
+      "selected original and actual 2D output identity",
+      "pixel/edge/composition quality on both themes",
+      "real planar or frame motion and pause/fallback, then delivery optimization"
+    ],
+    "new_angle_images": "optional inferred design reference only; no current 3D creation requirement",
+    "evidence": "actual comparisons and specific visual observations; no invented similarity score",
+    "permission": "Use existing valid task authorization; checkpoints do not require new permission for every ordinary low-risk creative step."
+  },
+  "rejected_outputs": [
+    {
+      "asset_id": "9mew.website-pet.mewling.v2",
+      "media_kind": "model3d",
+      "file_name": "mewling-website.glb",
+      "sha256": "ec932f994da5d7aea7fee2388c2bed80c41726dfc5a3d52c6b9f9873f62a3633",
+      "review_state": "user_rejected",
+      "reason": "User found the 3D character ugly and unlike the selected original image; face, eyes, muzzle, ears, paws, body, fur and tail require reconstruction.",
+      "reference_use": "excluded_from_identity_and_positive_style_references",
+      "product_use": "excluded_from_active_product_media",
+      "derived_outputs": "The exclusion includes posters and animations rendered from this model; keep only labeled historical failure evidence when required.",
+      "reinstatement": "A technical pass, rename or repackaging cannot override the user rejection."
+    }
+  ],
+  "visual_policy": {
+    "version": "2d-quality-first.2",
+    "authority": "latest explicit user instruction: real 2D pet actions, locomotion/jumping/emotions/daily behaviors; reliable 3D only in a future upgrade",
+    "priority": [
+      "original character identity and image quality",
+      "coherent required action performance",
+      "elegant composition",
+      "truthful source/derivative counts",
+      "delivery optimization"
+    ],
+    "current_renderers": [
+      "static-2d",
+      "css-2d",
+      "svg-2d",
+      "verified-frame-animation"
+    ],
+    "default_renderer": "verified-frame-animation",
+    "planar_composition_label": "motion-poster",
+    "fallback": "selected original static image; never fall back to rejected 3D or inferior redraw",
+    "preserve_reference_pixels_for_planar_motion": true,
+    "three_d_status": "deferred_optional_future_upgrade",
+    "three_d_in_current_completion_definition": false,
+    "future_3d_requirements": [
+      "deliberate future scope change",
+      "actually available and permitted capable tool or modeling workflow",
+      "actual mesh likeness checked against the selected original",
+      "editable source and verified export",
+      "authorized data/provider/cost and target runtime evidence"
+    ],
+    "renderer_compatibility": "Keep stable character_id and appearance lineage; representation and renderer are replaceable fields, not new progression or identity.",
+    "required_current_motion": "Real articulated character actions; static fallback and motion-posters do not satisfy requested animation.",
+    "fallback_is_scope_completion": false
+  }
+}

@@ -1,0 +1,1085 @@
+{
+  "schema_version": "9mew.ui-manifest.fragment.v1",
+  "asset_version": "0.1.0",
+  "prepared_on": "2026-10-22",
+  "status": "prototype",
+  "review": "proposed",
+  "semantic_asset_count": 14,
+  "static_svg_variants": 28,
+  "animated_svg_variants": 4,
+  "source": "Original code-native SVG icon set, not generated cat illustrations. Brand logo and currency masters were not changed.",
+  "theme_policy": "Choose explicit light/dark SVG by the actual application theme. These SVGs do not auto-switch based on a system preference that might disagree with the product setting.",
+  "accessibility": "Visible labels come from the actual localized UI. Decorative usage should be hidden from the accessibility tree; standalone informative icons need an appropriate localized accessible name. Success/loading visuals never assert or mutate business facts.",
+  "prototype_limit": "Visually inspected at contact-sheet scale; no claim of integration, user approval or target-browser runtime validation.",
+  "assets": [
+    {
+      "asset_id": "9mew.state.empty-chat",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "暂无会话",
+      "label_en": "Empty chat",
+      "usage_zh": "尚未开始的会话",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/empty-chat.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 625,
+          "sha256": "69444f33a5f93cea7000309678bc0e54a157adf4aa6408abf3e2368f18b01ca7",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-chat.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/empty-chat.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 625,
+          "sha256": "823e285ddd26c9cc883d872fcc88462050b33b8f6248421a020c2a18327e1816",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-chat.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.empty-knowledge",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "暂无知识内容",
+      "label_en": "Empty knowledge",
+      "usage_zh": "空知识库",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/empty-knowledge.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 826,
+          "sha256": "4d266c56cff0357f6587dc9355a187a7919ee0eae64f42c5d2c7bd0140717bd0",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-knowledge.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/empty-knowledge.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 826,
+          "sha256": "85f6e173c9c366f465baacd0def6d81b208184b849e81409ad667407bc5b8f25",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-knowledge.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.empty-tasks",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "暂无任务",
+      "label_en": "Empty tasks",
+      "usage_zh": "暂无任务",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/empty-tasks.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 1027,
+          "sha256": "42ad48b89b2bed7d1e39dc139c0f0fcfa2bd286a9e8b2f4fb2b0b92699b7db57",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-tasks.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/empty-tasks.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 1027,
+          "sha256": "0b58dab79930c4d902d3e1a7f660d9572ed2d6c848d33fa557ff78618667bedc",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-tasks.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.empty-search",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "没有搜索结果",
+      "label_en": "No search results",
+      "usage_zh": "搜索无结果",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/empty-search.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 605,
+          "sha256": "6d5dae6f5ecda899534a17615461b4e48f692fee4183b508b19e92f558c3706f",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-search.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/empty-search.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 605,
+          "sha256": "c498196086dd349777b17336db14754d4f9ca60e4b5f51e56fd467a8bb817923",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-search.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.empty-admin",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "暂无管理配置",
+      "label_en": "Empty configuration",
+      "usage_zh": "管理台尚无配置",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/empty-admin.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 816,
+          "sha256": "e6541108b7bc9024034e127d853b993f90ada11ea8f1e3aa25a04b6a49e9b1ec",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-admin.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/empty-admin.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 816,
+          "sha256": "382a132a137988d81546d69b62f330af69f653af1a6f4795609fe2720851b136",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/empty-admin.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.loading",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "处理中",
+      "label_en": "Processing",
+      "usage_zh": "处理进行中",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": "Only actual business processing may trigger loading; actual successful result may trigger success once.",
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/loading.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 480,
+          "sha256": "216e6e0ad33524a0025d31945b401ff7e6139527c9520a8fbc80e38cc497ec68",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/loading.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "light.svg.animated",
+          "theme": "light",
+          "path": "ui/loading.light.animated.svg",
+          "media_kind": "animated_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 795,
+          "sha256": "87ec83427c4e4d8cd96b6e1540198f841143cdb6dd2b87b04b570fe63873b0d2",
+          "contains_animation": true,
+          "loop": true,
+          "duration_ms": 1300,
+          "fallback_path": "ui/loading.light.svg",
+          "reduced_motion": "CSS media query disables animation and reveals final/static state",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/loading.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 480,
+          "sha256": "5cf6a18108ed3e14a21fcd4cac62f2d0d590b276cda40a3239353b308f905c82",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/loading.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.animated",
+          "theme": "dark",
+          "path": "ui/loading.dark.animated.svg",
+          "media_kind": "animated_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 790,
+          "sha256": "382b0cbb1a5a7c3977d1a3aaf5e8aa228bfc3477ec6afe7932783b4bb041d0c5",
+          "contains_animation": true,
+          "loop": true,
+          "duration_ms": 1300,
+          "fallback_path": "ui/loading.dark.svg",
+          "reduced_motion": "CSS media query disables animation and reveals final/static state",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.success",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "操作已成功",
+      "label_en": "Success",
+      "usage_zh": "操作成功",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": "Only actual business processing may trigger loading; actual successful result may trigger success once.",
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/success.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 478,
+          "sha256": "8c70b864914640a2ad81ab5196fe52f896c143df30a4ea17e01d3277d5e0c485",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/success.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "light.svg.animated",
+          "theme": "light",
+          "path": "ui/success.light.animated.svg",
+          "media_kind": "animated_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 837,
+          "sha256": "e8e301c9a6d63d3ef5efce5d6e81dd3e038db01dbb40cb70f2ae0e6bff2b1698",
+          "contains_animation": true,
+          "loop": false,
+          "duration_ms": 560,
+          "fallback_path": "ui/success.light.svg",
+          "reduced_motion": "CSS media query disables animation and reveals final/static state",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/success.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 478,
+          "sha256": "5bfe7726c97b39e152fa72c0002afe657ccce8493223e3310838ff7106762d83",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/success.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.animated",
+          "theme": "dark",
+          "path": "ui/success.dark.animated.svg",
+          "media_kind": "animated_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 832,
+          "sha256": "9e24cc47cd6a5d5f46fc3149b1a9e7f29b511a86931d82a1fba7fc3d5a1d0145",
+          "contains_animation": true,
+          "loop": false,
+          "duration_ms": 560,
+          "fallback_path": "ui/success.dark.svg",
+          "reduced_motion": "CSS media query disables animation and reveals final/static state",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.network-error",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "网络连接不可用",
+      "label_en": "Network unavailable",
+      "usage_zh": "网络中断或请求失败",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/network-error.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 610,
+          "sha256": "500da7309ef4074f8a4c99fe69102d911177daae3e159202af490f9e015342fc",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/network-error.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/network-error.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 610,
+          "sha256": "a0889880ac53be7895edf0b4508f574fab1940e7ca1cffb5e615f2a67d989d76",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/network-error.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.permission-denied",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "没有访问权限",
+      "label_en": "Access denied",
+      "usage_zh": "当前无访问权限",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/permission-denied.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 542,
+          "sha256": "72de4c5e40437c9ca601ac9b4f7a85be208e6963bbeb0d321b4b37d55a5be2ca",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/permission-denied.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/permission-denied.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 542,
+          "sha256": "41f98024cf94266d9f3b9b224a47c1b222975b11fb65efad07485c986b5cc2da",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/permission-denied.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.not-found",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "资源不存在",
+      "label_en": "Resource not found",
+      "usage_zh": "页面或资源不存在",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/not-found.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 700,
+          "sha256": "df573a01e12f7f240dcf3921fa2b87800744783deb842632cea8fb59898cc0e7",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/not-found.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/not-found.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 700,
+          "sha256": "18aedc3eba9b3fa35a4f6265ca94099479e8d2210161ebb2f093d01e21e59696",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/not-found.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.approval-waiting",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "等待审批",
+      "label_en": "Awaiting approval",
+      "usage_zh": "等待有权限者审批",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/approval-waiting.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 824,
+          "sha256": "e9b2481cafb583f0ca4d4f73ab12dcc85e6cc3d6063962247b0647fb897d34a5",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/approval-waiting.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/approval-waiting.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 824,
+          "sha256": "2c92430029771de82085447ebd489c7370bb3628bf3e7e73df58183842fbf0b0",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/approval-waiting.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.coming-soon",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "即将开放",
+      "label_en": "Coming soon",
+      "usage_zh": "能力尚未上线",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/coming-soon.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 685,
+          "sha256": "6c8687f8a9506494a177a0f5980fc8304e2a07acb6c6652800c5d4a6656c84cb",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/coming-soon.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/coming-soon.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 685,
+          "sha256": "047551c732bd30ba16afe99ca41e952090ecd4d031b9272c22bee3666fe79c9d",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/coming-soon.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.auth-welcome",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "欢迎登录",
+      "label_en": "Welcome",
+      "usage_zh": "注册/登录引导",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/auth-welcome.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 570,
+          "sha256": "61a790dc5489ee932a49cc61eac1b3568ef4b4702e161049288e3746a3e7a7b6",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/auth-welcome.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/auth-welcome.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 570,
+          "sha256": "0374c8f68e6355b36188bb4392d3bef54650e137aa6eefaeb7808e6d3ffd62e2",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/auth-welcome.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    },
+    {
+      "asset_id": "9mew.state.auth-error",
+      "role": "functional_ui_icon",
+      "status": "prototype",
+      "review": "proposed",
+      "label_zh": "登录未完成",
+      "label_en": "Sign-in failed",
+      "usage_zh": "登录失败/过期/可重试",
+      "target_css_sizes_px": [
+        24,
+        32,
+        48,
+        64
+      ],
+      "source_kind": "original_vector_code",
+      "notes": "Functional icon companion to real UI text; does not replace cat scene illustration. When decorative or accompanied by an equivalent label, set the rendered wrapper aria-hidden/empty alt.",
+      "motion_trigger": null,
+      "variants": [
+        {
+          "variant_id": "light.svg.static",
+          "theme": "light",
+          "path": "ui/auth-error.light.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 587,
+          "sha256": "f046f145b4927df79477adf7cbe5c71d94deacca0084b9ae5fa9b1bab53879f4",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/auth-error.light.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        },
+        {
+          "variant_id": "dark.svg.static",
+          "theme": "dark",
+          "path": "ui/auth-error.dark.svg",
+          "media_kind": "static_svg",
+          "format": "image/svg+xml",
+          "width": 32,
+          "height": 32,
+          "view_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "bytes": 587,
+          "sha256": "c3183d5fd1f1aca3d71de404eb130acd32b3a2f44b222956fcb32ad25ffcb437",
+          "contains_animation": false,
+          "loop": false,
+          "duration_ms": null,
+          "fallback_path": "ui/auth-error.dark.svg",
+          "reduced_motion": "static",
+          "status": "prototype",
+          "review": "proposed"
+        }
+      ]
+    }
+  ],
+  "inspection_artifacts": [
+    {
+      "path": "ui/ui_contact_sheet.svg",
+      "kind": "review_sheet",
+      "not_production_asset": true
+    },
+    {
+      "path": "ui/ui_contact_sheet.png",
+      "kind": "review_sheet_raster",
+      "not_production_asset": true
+    }
+  ],
+  "validation": {
+    "svg_xml_parse": "passed for all 32 production variants",
+    "external_references": "none",
+    "script_elements": "none",
+    "static_contact_sheet": "rendered with Inkscape and visually inspected by assistant",
+    "target_browser_animation_playback": "not executed",
+    "user_approval": "not obtained; proposed prototypes"
+  },
+  "embedding": "Static SVGs use explicit presentation attributes. Animated SVG class and keyframe names are scoped per icon/theme to avoid collisions when embedded inline."
+}

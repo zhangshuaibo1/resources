@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "kit_version": "5",
+  "category": "locomotion",
+  "identity_source": {
+    "path": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+    "authority": "sole approved character identity reference"
+  },
+  "generation_records": [
+    {
+      "action": "jump",
+      "candidate": 1,
+      "status": "source_art_accepted_by_parent",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Create a production-quality 2D character-animation sprite atlas derived from the attached sole identity reference. This is an identity-preserving animation of THIS EXACT kitten, not a redesigned mascot.\n\nDELIVERABLE: one wide 2:1 transparent PNG sprite sheet, ideally 2048 x 1024 pixels. Precisely FOUR columns and TWO rows, EIGHT equally sized square cells, read left-to-right on row 1 then row 2. No grid or separators, no text, no numbers, no frame labels. Each cell contains exactly one complete full-body kitten, fully isolated on REAL transparent alpha, not a visible checkerboard and not a colored background. No cast shadow, no floor, no props or effects.\n\nCHARACTER IDENTITY — preserve the source image faithfully: a fine, soft, cream-white furry kitten, broad round cheeky face, tiny short chin, shaped large gray-brown eyes nestled inside soft eyelids (never projecting bead eyes), delicate dusty pink nose and two soft muzzle pads, short delicate mouth, fine whiskers, wide-rooted slightly outward triangular ears with pink inner fluff. Compact kitten proportions, small rounded paws, pink pads only where their underside naturally shows, large fluffy tapered plume tail. The source's soft warm ivory shading and detailed tactile fur, friendly sweetness and warm studio illumination must remain. Wear the exact small folded sakura-pink silk neckerchief and its tiny warm-gold FOUR-point star clasp. A single tail, two ears, FOUR anatomically coherent legs. Do not change the original into a flat vector icon, plastic toy, anime cat, 3D clay model, or a different breed. Use source as the only character reference.\n\nACTION: one gentle joyful vertical JUMP, 8 real articulated keyframes.\n1 [upper left]: natural neutral standing ready pose, paws on the ground, head gently forward, same visual personality as source.\n2: anticipation — visibly lower the belly by folding hind knees and front elbows, squat with a slight forward head dip, tail counters for balance.\n3: takeoff — hind legs extend and press off, front paws rise and bend; body truly elongates gently, not just a translated copy.\n4: ascending — fully airborne, front paws tucked softly toward chest and hind paws folded beneath the belly; tail curves down and back.\n5: apex — at the highest part of the small leap, a rounded relaxed midair pose, all paws visibly tucked with coherent anatomy, delight in the eyes.\n6: descending — front paws extend down to seek the landing while hind legs start opening; tail and ears gently follow movement.\n7: soft landing — front and rear paws contact ground and knees compress, subtle adorable squash through actual pose, never horizontal scale distortion.\n8: settle and return to EXACT frame 1 ready pose so animation can loop.\n\nCAMERA AND REGISTRATION: the same front/slightly three-quarter camera in every frame, kitten looks slightly toward viewer-right. Same character scale, same head size, same lens and lighting across ALL eight frames. Keep a consistent LOCAL horizontal center in each cell. Reserve generous empty headroom from the start for the leap, so airborne frames fit without any scale reduction. Ground line is the same local vertical position in every cell (around 86% from its top) for grounded frames. Jump maximum lift is only about 18% of cell height. The character should occupy around 65–72% of cell width, lower when grounded, with no crop, no tail crop, no neighbor touching, no cell spill. Every complete head, both ears, all paws and full tail stay inside its individual square. Readability and anatomical precision matter more than exaggerated motion.\n\nART DIRECTION: exceptionally beautiful polished soft 2D storybook illustration with the same fur detail and volume as the supplied original. Graceful believable cat biomechanics, expressive and cute, not stiff. Do not copy the same body pose eight times; all jump phases must be clearly different. No stars in the air, no magical ring, no speed streak, no motion blur, no particles, no captions, no ground shadow, no logos. Entire background fully transparent.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-84359bca-9560-4461-929e-456286646597.png",
+      "artifact_path": "pet-actions/sheets/locomotion/jump-candidate-01.png",
+      "sha256": "84020aae416518a061cb1034b06fff72d92e0e7ce7a9369e09c1ffb5be426bf2",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_pixels": 772772,
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "ready",
+        "crouch",
+        "takeoff",
+        "tuck_ascending",
+        "apex",
+        "extend_descending",
+        "landing",
+        "settle"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "accepted": true,
+        "notes": [
+          "Eight distinct articulated body poses generated; anticipation, takeoff, tucked air pose, descending extension and landing are recognizable.",
+          "Cream-white furry character, pink silk scarf and gold star clasp retained; kitten face broadly consistent with source.",
+          "Sheet has actual zero-alpha background. Rendering displays colored edge speckles like the supplied original; dark/light compositing needs root QA before acceptance.",
+          "Output dimensions are 1774x887, not requested 2048x1024 and not exactly divisible into four integer square columns.",
+          "Local scale/face tilt vary subtly across frames; first and eighth poses are similar but not pixel-identical.",
+          "Ground and vertical registration need root inspection before frame extraction.",
+          "Parent inspected light/dark flattened composites and accepted the jump source. Tool's apparent colored-alpha preview artifact is not present in normal flattened compositing."
+        ]
+      }
+    },
+    {
+      "action": "walk-right",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-a32f5c76-6b07-4acf-b9f7-834e315fceb8.png",
+      "artifact_path": "pet-actions/sheets/locomotion/walk-right.png",
+      "sha256": "ccfe4a51a1c5b9023d25dfad33f717eed59edadf37db213a9e23ac73d2628dac",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: WALK RIGHT, an elegant gentle cat walk-in-place cycle. The kitten faces viewer-right in a fixed side / slight three-quarter view, head subtly turned toward viewer so the source face remains recognizable; never change viewing angle between frames and never mirror the cat. The body is genuinely quadrupedal, not upright human walking. Keep the pelvis/root horizontal location fixed; the application will move the character later. Tail rises and gently curls behind on the viewer-left, slightly swaying with the gait. All eight frames are consecutive phases of ONE complete, smooth four-beat walking cycle; the hind-paw rhythm is offset from the forepaws. Clearly alternate near and far front paws and near and far hind paws, with grounded feet then lifted swinging feet and passing poses. Feet must articulate at elbows/knees and toes, rather than being copied to a new position. The head and torso remain a stable same size, with only tiny natural bob and shoulder/hip movement. Frame 1 near forepaw reaches forward and touches down while far forepaw is behind; frame 2 weight transfers, a rear paw begins its swing; frame 3 passing pose, near forepaw below shoulder and far forepaw swinging forward; frame 4 far forepaw extends forward, hind paws exchange support; frame 5 opposite contact, far forepaw forward and near forepaw back; frame 6 weight transfers with opposite rear paw swinging; frame 7 opposite passing pose; frame 8 near forepaw reaching forward again approaching frame 1, without duplicating it. Small friendly closed-mouth expression, calm attentive eyes, soft upright ears. No crouching, jumping or sitting in this walking sheet. Graceful flowing coherent feline walk, eight visibly distinct leg poses.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "near_fore_contact",
+        "weight_transfer",
+        "near_passing",
+        "far_fore_reach",
+        "far_fore_contact",
+        "opposite_transfer",
+        "far_passing",
+        "near_reach"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Eight visibly articulated quadrupedal walking poses, same right-facing side/three-quarter view.",
+          "Subtle tilt/size variance remains; final registration and movement timing belong to integration QA.",
+          "No lettering, props or scene backgrounds added.",
+          "Prompt requested 15% margins; actual output uses tighter margins in places. Mechanical crop/registration must inspect frame edges rather than assuming exact margins.",
+          "RGBA imagegen previews can display false colored speckles in the tool viewer; parent established that ordinary flattened light/dark compositing is clean for the pilot."
+        ]
+      }
+    },
+    {
+      "action": "run-right",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-3a86ca09-3510-45c3-b1d9-89ac14dd1c7a.png",
+      "artifact_path": "pet-actions/sheets/locomotion/run-right.png",
+      "sha256": "a500e54a88628159274c70d85175d58999592547b6e7ec00cb9857a3b0d4d27d",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: RUN RIGHT, a light playful CAT TROT / bouncy little jog in place, in eight sequential animation phases. The kitten faces viewer-right in a fixed side/slightly-three-quarter view, with head subtly turned toward viewer. Preserve the exact same head size and camera angle across the whole cycle. It remains a four-legged kitten, never upright. The near forepaw and far hindpaw work as one diagonal pair; the far forepaw and near hindpaw work as the other diagonal pair. Make actual varied foreleg elbow and hindleg hock articulation. Frame 1 first diagonal pair reaches forward to touchdown while the other pair trails; frame 2 weight bears on that pair, slight chest lowering; frame 3 spring push-off with that pair stretching behind; frame 4 short gentle suspension with forepaws and hindpaws softly gathered; frame 5 opposite diagonal pair reaches forward and touches down; frame 6 opposite support and gentle compression; frame 7 opposite push-off; frame 8 gentle suspension with paws reaching into the start of frame 1. Include a visible brief airborne phase in frames 4 and 8, paws not all on the ground. Tail naturally streams/curves behind to viewer-left, tiny bounce, maintains the source's fluffy plume form. Ears stay soft, eyes lively, tiny natural smile. Keep the torso root centered horizontally so app code can move the character separately. Body height bounces slightly, anatomy and face size do not change. Distinguish this energetic jog from a walking cycle with visible soft spring and suspended phases, but not an extreme racing sprint. Graceful feline biomechanics. Full cat remains inside each cell with 15% transparent margins.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "diagonal_contact",
+        "load",
+        "push_off",
+        "suspension",
+        "opposite_contact",
+        "opposite_load",
+        "opposite_push",
+        "suspension_to_contact"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Energy is visibly greater than walking: extended and gathered paws with short airborne phases.",
+          "No obvious extra limbs or clipping of main body; preserve source aspect ratio during extraction.",
+          "No lettering, props or scene backgrounds added.",
+          "Prompt requested 15% margins; actual output uses tighter margins in places. Mechanical crop/registration must inspect frame edges rather than assuming exact margins.",
+          "RGBA imagegen previews can display false colored speckles in the tool viewer; parent established that ordinary flattened light/dark compositing is clean for the pilot."
+        ]
+      }
+    },
+    {
+      "action": "stretch",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-5e0da1c4-5f9a-4791-a3e2-b7732157e58c.png",
+      "artifact_path": "pet-actions/sheets/locomotion/stretch.png",
+      "sha256": "931f32ad983a9149b9e06eefed2d7bf0a98b8dc2efd4a8ba0166859cf2c2a721",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: STRETCH, eight sequential poses of one adorable graceful full-body cat morning stretch and return to sitting. The same fixed side/slight three-quarter view facing viewer-right, eyes still identifiable, source face never elongated. Use noticeably SMALLER characters within the cells: the longest stretched full tail-to-nose silhouette is only about 65% of its cell's width; keep this scale throughout, so the seated poses are naturally smaller. Give the whole sheet abundant transparent empty space. Each square's kitten must remain separated from neighboring kittens by generous empty transparent gutters. Frame 1 calmly seated neutral, forepaws on floor. Frame 2 leans forward and reaches both forepaws forward, hips begin rising. Frame 3 classic feline play-bow stretch: rear standing with hips high, front paws far forward, chest close to ground, elbows elongated naturally, tail softly arcs upward. Frame 4 deepest graceful stretch, head lowered slightly between the outstretched forepaws, eyes contentedly half closed; muzzle stays a natural kitten muzzle. Frame 5 begins drawing front paws back while lifting chest and rounding shoulders. Frame 6 all four paws on ground, a gentle rounded arched-back stretch, head slightly down and fluffy tail relaxed, not frightened or aggressive. Frame 7 relaxes the back and smoothly folds hips into seated posture. Frame 8 calm comfortable sitting like frame 1, tiny satisfied soft eye expression. The source scarf hangs and folds naturally with the chest, exact little gold four-point star remains attached. Frame-by-frame leg, spine and neck articulation is essential; not eight slightly rotated copies. Preserve four legs and one tail, no detached paws, no hand-like fingers. Ear tips, face, paw tips and entire fluffy tail need clear transparent margin in ALL frames.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "sit",
+        "reach",
+        "play_bow",
+        "deep_stretch",
+        "recover",
+        "arch_back",
+        "sit_transition",
+        "sit"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Distinct forepaw reach, raised-hip chest-down stretch, arched back and return to sitting.",
+          "Tail and head change orientation with real pose. Source reference identity is preserved in soft fur, face and accessories.",
+          "No lettering, props or scene backgrounds added.",
+          "Prompt requested 15% margins; actual output uses tighter margins in places. Mechanical crop/registration must inspect frame edges rather than assuming exact margins.",
+          "RGBA imagegen previews can display false colored speckles in the tool viewer; parent established that ordinary flattened light/dark compositing is clean for the pilot."
+        ]
+      }
+    },
+    {
+      "action": "groom",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-f5b087d8-c0fc-4fb6-98cb-bd9bd7568c7e.png",
+      "artifact_path": "pet-actions/sheets/locomotion/groom.png",
+      "sha256": "04e2bfb3070c2de1f1f2ceaf44f6d26863ce0e981cba0e9122eedc852aa190c4",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: GROOM / WASH A FOREPAW, an eight-frame natural seated kitten grooming sequence. Camera fixed front/slight three-quarter exactly inspired by source. Face shape, muzzle and eye placement must stay recognizable. The kitten is seated on its haunches in ALL eight frames, with the same grounded hindpaws, torso scale, pelvis location and fluffy tail curling on viewer-right. The viewer-right forepaw stays on ground to support it while the viewer-left forepaw performs the grooming. 1 calm sitting, both forepaws grounded. 2 bends and raises the viewer-left forepaw toward chest with natural wrist flexion. 3 inclines head toward the raised paw; wrist turns the fur side toward the mouth, gaze follows paw. 4 gentle lick — head lowered, eyes softly narrowed, a TINY natural pink tongue just touches the raised forepaw fur; the mouth stays small and beautiful, never a human grin or exaggerated tongue. 5 lifts the damp forepaw to softly brush its cheek below the ear, eyes contentedly closed, real elbow bend. 6 returns forepaw to muzzle for a second tiny lick, head naturally follows. 7 lowers the paw toward the ground, head lifts. 8 calm relaxed seated pose approaching frame 1. Show actual neck, shoulder, elbow and paw articulation, not repeated static cat images. One working forepaw only: do NOT leave a duplicate forepaw on the floor while lifting it. Four total legs, no extra limb. Keep the same soft folded sakura scarf and tiny gold four-point star. Center the kitten in its cell and leave abundant transparent room on all four sides, including under grounded paws. No food, no bowl, no water, no brush, no floating hearts, no marks or text.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "sit",
+        "raise_forepaw",
+        "lower_head_to_paw",
+        "lick",
+        "wash_cheek",
+        "lick_again",
+        "lower_paw",
+        "sit"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Natural lifted forepaw and tiny tongue plus cheek-washing action; supporting forepaw stays grounded.",
+          "No duplicate working forepaw found in visual review; four-leg anatomy coherent.",
+          "No lettering, props or scene backgrounds added.",
+          "Prompt requested 15% margins; actual output uses tighter margins in places. Mechanical crop/registration must inspect frame edges rather than assuming exact margins.",
+          "RGBA imagegen previews can display false colored speckles in the tool viewer; parent established that ordinary flattened light/dark compositing is clean for the pilot."
+        ]
+      }
+    },
+    {
+      "action": "sleep",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-d3b11054-2542-4935-9f14-62c5ddb9603e.png",
+      "artifact_path": "pet-actions/sheets/locomotion/sleep.png",
+      "sha256": "5559c133d1124d446f85e0757604962a6d813ab89f9db4d56d74c0ae6cb788ee",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: SLEEP / SOFT BREATHING LOOP. Eight sequential keyframes, all eight are ALREADY LYING DOWN ASLEEP. No sitting or standing in this sheet. The exact source kitten lies comfortably in a compact curled/loaf-like prone pose, its head resting low on its gently crossed FRONT paws, eyes gently fully CLOSED with natural curved eyelids, tiny relaxed closed mouth, soft ears. Hind paws tucked under the body with natural hidden anatomy, thick fluffy tail curved around the viewer-right flank. The original pink scarf is still on neck, natural folds, tiny gold four-point star visible at front. Fixed front/slightly three-quarter camera so we recognize its broad soft face even asleep.\nMake a single gentle breathing cycle in eight frames with a tiny natural ear flick: 1 relaxed at end of exhale, chest resting low. 2 inhalation starts, ribcage very subtly lifts with fur. 3 inhalation continues, tiny upper-back rise. 4 full soft inhale, chest only about 3% higher, head and supporting paws remain on ground. 5 very slight one-ear flick while beginning the exhale, face relaxed and eyes closed. 6 slow exhale lowers chest/upper back, ear returns. 7 relaxed low chest, tip of tail settles by only a few pixels. 8 end of exhale close to frame 1, paws/head in same resting contact. Breathing must look like actual small chest and shoulder articulation, NOT scale pulsing of the entire image or giant expanding body. The same fixed head size, tail mass, face shape and root position throughout. First and last states nearly match for seamless repeat. Keep the cat at only 65% cell width, with lots of transparent space in every cell, fully visible full silhouette. Peaceful, delicate, adorable and visually polished, never sad, ill or exhausted. No pillow, bed, blanket, Z letters, bubbles, stars, heart, ground shadow or props.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "exhale_rest",
+        "inhale_start",
+        "inhale",
+        "inhale_peak",
+        "ear_flick_exhale",
+        "exhale",
+        "settle",
+        "exhale_rest"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "All frames are already lying asleep, suitable for a sleeping-state loop without abrupt seated reset.",
+          "Small chest/head/ear variation is intentionally subtle; this is a quiet breathing loop, not vigorous action.",
+          "No lettering, props or scene backgrounds added.",
+          "Prompt requested 15% margins; actual output uses tighter margins in places. Mechanical crop/registration must inspect frame edges rather than assuming exact margins.",
+          "RGBA imagegen previews can display false colored speckles in the tool viewer; parent established that ordinary flattened light/dark compositing is clean for the pilot."
+        ]
+      }
+    },
+    {
+      "action": "knead",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-bab3fb12-e56a-4c82-b635-15b6779fa131.png",
+      "artifact_path": "pet-actions/sheets/locomotion/knead.png",
+      "sha256": "ed9db7027e9fa5c5f3cdb5310f7ed6fcd815c3197c2b392bcab4ebac45d98c0c",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 2,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "EDIT the supplied 8-frame sheet to fix ONLY the physical KNEADING ACTION. The first reference (single kitten) is the sole authoritative character identity. The second reference is the current sheet layout and fur/render quality to preserve. Retain the same kitten's face, fur, pink silk scarf, tiny gold four-point star, body size, softness and beautiful details.\n\nThe current raised paws look like WAVING. Replace this with GENUINE CAT KNEADING on the ground. Important: the paw soles/pads MUST face DOWN toward the ground in every frame, NEVER forward toward the viewer. We should see the fuzzy TOPS of paws, not pink paw pads. Neither forepaw is ever lifted to chest height. An unweighted paw lifts only a tiny distance (around one toe-height) off the ground while its opposite forepaw gently extends and presses down. The kitten leans slightly FORWARD over its front paws, chest low, hips stable; hind paws support naturally and remain attached. Front elbows and wrists articulate, shoulders rock very slightly with the alternating pressure. Head is steady and contented, soft half-closed eyes, closed tiny mouth.\n\nExactly EIGHT chronological phases, FOUR columns TWO rows on transparent background, one complete cat in each cell. Near-left and near-right front paws clearly distinct:\n1 left forepaw pressing down, right forepaw lightly raised a few pixels with its toes pointing down.\n2 right forepaw reaches forward and begins pressing while left starts to unload.\n3 right forepaw fully pressing, left forepaw lightly raised, toes pointing down.\n4 left forepaw lowers toward ground, right still planted.\n5 left forepaw fully presses, right unloads and rises slightly.\n6 right forepaw lowers and stretches forward, left starts to unload.\n7 right forepaw presses, left rises a little.\n8 left forepaw lowers toward its frame-1 press.\nOnly these natural low alternating paw presses, no high wave, no feet waving into camera. Preserve four legs total, no extra paws. Do not change face identity. Keep same fixed front/slight-three-quarter camera and same body scale for all eight frames. Leave at least 15% empty transparent margin around every whole kitten. No floor, blanket, props, text, numbers, border, grid, cast shadow, effects or checkerboard. Real transparent RGBA alpha. Wide 2:1 sheet ideally 2048x1024.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png",
+        "/workspace/scratch/1b78c1eefe5a/generated_images/exec-3088940f-9c24-42cf-81b1-172cb38a9099.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "left_press_right_lift",
+        "right_reach",
+        "right_press_left_lift",
+        "left_lower",
+        "left_press",
+        "right_lower",
+        "right_press",
+        "left_lower"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "First attempt rejected because lifted paws faced the viewer and read as waving, not kneading.",
+          "Accepted repair makes paws face down with low alternating forearm pressure and stable hindquarters.",
+          "Final source depicts a low seated lean rather than a fully prone body; both forepaws visibly alternate without duplicate limbs.",
+          "Actual source remains 1774x887 and has tighter margins than requested. Registration and animated-loop QA are required during integration."
+        ]
+      },
+      "rejected_attempts": [
+        {
+          "candidate": 1,
+          "status": "rejected_not_packaged",
+          "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: KNEAD, eight consecutive frames of adorable natural cat kneading with alternating FRONT paws. The exact kitten stays in a low, comfortable four-legged / semi-prone pose, hindquarters relaxed and stable, camera fixed front/slight three-quarter facing viewer-right. Face remains broad, eyes contentedly half-closed, ears soft, small closed mouth. Both front paws are clearly visible in front of its chest. Hind legs stay anatomically attached and steady, fluffy tail curves gently on viewer-right. No blanket or cushion: fully transparent empty background.\nBuild an actual alternating kneading cycle, not duplicated seated poses: 1 viewer-right forepaw pressing down, viewer-left forepaw bends and lifts; 2 lifted viewer-left paw extends slowly forward, toes gently uncurl; 3 viewer-left paw touches down and softly presses, while viewer-right wrist begins flexing; 4 viewer-left paw bears the soft press and viewer-right paw lifts with bent elbow; 5 viewer-right paw extends forward while viewer-left stays grounded; 6 viewer-right paw presses down, toes gently spread, viewer-left starts lifting; 7 viewer-left wrist folds and raises, viewer-right continues gentle press; 8 viewer-left paw begins its next extension, matching the rhythm of the opening. Shoulders shift subtly side-to-side with the pressure, head and hindquarters stay steady. Each lifted paw must disappear from its previous grounded position—never create duplicate paws. Only four total legs, one tail, no human fingers, no large claws. Show distinct forearm and paw articulation with gentle soft-toe movement.\nKeep figures SMALL and airy: each cat's COMPLETE silhouette should occupy only the central 60–65% of each square cell. At least 18% truly transparent outer margin around all extremes, including under paws and above ears. Stable local ground baseline and same head/body scale in every frame. Source fur texture and silk scarf detail remain beautiful.",
+          "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-3088940f-9c24-42cf-81b1-172cb38a9099.png",
+          "sha256": "bc71abd37a7e39ee87af41b83659cb3fe1f26fd66bc7bb900860f800c4f9adee",
+          "width": 1774,
+          "height": 887,
+          "mode": "RGBA",
+          "reason": "Paw pads faced camera and paws rose too high, visually reading as waving rather than kneading."
+        }
+      ]
+    },
+    {
+      "action": "yawn",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-24712514-7679-4ed1-81f0-7541559480a0.png",
+      "artifact_path": "pet-actions/sheets/locomotion/yawn.png",
+      "sha256": "823ae8be6f1bb9fe96b9d92686de4ce93841d7cd85a3273519e249e979bcda5e",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: YAWN, a beautiful natural kitten's gentle seated yawn in eight consecutive keyframes. The kitten remains seated with both forepaws down and stable hindquarters in the SAME fixed front/slightly-three-quarter camera and same body scale. Tail curls naturally on viewer-right. Source's broad rounded face, little pink nose, rounded muzzle and small short chin must remain recognizably the same.\n1 calm drowsy face with mouth closed and sleepy half-lidded eyes. 2 eyelids softly close, mouth parts only a tiny amount. 3 natural jaw lowers a little; small rounded opening begins, cheeks and muzzle remain anatomically normal. 4 peak gentle yawn: eyes closed, head tips up only slightly, mouth opens naturally enough to read as a yawn, NOT wider than the kitten's actual small muzzle. 5 holds the sweet yawn for a moment, subtle relaxed chin motion. 6 jaw begins to close and head settles. 7 mouth nearly closed, eyes still peacefully closed, tiny contented expression. 8 mouth completely closed, sleepy relaxed eyes begin reopening, approaching frame 1.\nCRITICAL MOUTH ANATOMY: a natural small feline mouth and lower jaw, pink mouth interior and a SHORT small tongue staying INSIDE the mouth. No long tongue, no human lips, no human teeth row, no human grin, no rectangular mouth, no black gaping hole, no stretching or splitting muzzle. Any small fang tips should be subtle and feline; do not emphasize teeth. The kitten must look elegant and adorable during the yawn, never frightening. Soft neck and jaw articulation, slight ear relaxation. No raised forepaws or floating arms. Preserve exact neckerchief and four-point star. Entire cat each cell, extensive transparent padding—character occupies only the central 60–65% of its cell so ears and paws never touch edges. No text, breath cloud, letters or props.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "drowsy_closed",
+        "tiny_open",
+        "opening",
+        "peak_yawn",
+        "hold",
+        "closing",
+        "almost_closed",
+        "relaxed"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Natural small feline jaw opening and closing; short tongue remains within mouth.",
+          "No human mouth/teeth row or long tongue observed. Forepaws and hindquarters remain grounded.",
+          "Actual source remains 1774x887 and has tighter margins than requested. Registration and animated-loop QA are required during integration."
+        ]
+      }
+    },
+    {
+      "action": "roll",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-a083cc0b-5dee-4cf5-b975-224bc795591e.png",
+      "artifact_path": "pet-actions/sheets/locomotion/roll.png",
+      "sha256": "71877f3f2f59ba0870fadfd7fdf41e5a165502a05918d752e7986cf2cca9f207",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: GENTLE PLAYFUL ROLL, eight consecutive stages of one kitten rolling from sitting onto its side, showing its soft belly, and recovering to sit. Fixed camera; only the CHARACTER physically turns. Same face identity and same anatomical scale as source in every pose. Entire fluffy tail remains visible and follows the body's rotation. No props or floor.\n1 calm seated pose, head softly tilted, paws relaxed. 2 leans bodily toward viewer-left, supporting itself with one forepaw while hip lowers; spine bends naturally. 3 comfortably lies on its side, broad face still visible and looking gently at viewer, all four paws attached in natural places. 4 rolls onto its back at a diagonal, soft furry belly visible, TWO front paws curled near chest, TWO hind paws bent near lower belly; count four paws total. 5 a gentle belly-up playful rock, tiny paw pads visible, all four limbs anatomically attached with clear separations, head still sweet and broad rather than distorted. 6 rolls back onto its side, lowers paws toward ground and tail relaxes beside body. 7 brings chest upright, forepaws support the gradual rise, hindquarters fold naturally under it. 8 returns to calm seated pose close to frame 1.\nCRITICAL: Do not create a fifth paw or extra leg when showing belly, do not leave a ghost paw in its previous location. One head, two ears, two front legs, two hind legs, one fluffy tail, all anatomically coherent and clearly separated. No dislocated hips, twisted broken limbs, human hands, or impossible spine. The belly has ordinary soft cream fur and no navel dot or markings. Small natural pink pads only on soles that face camera. Expression playful and relaxed, closed mouth, gentle eyes. Exact pink scarf and tiny gold four-point star stay worn naturally around neck and are partly occluded if physically appropriate.\nThe maximum extended rolling silhouette must fit only the central 60% of each square cell; keep this SAME small scale for seated poses. Give broad transparent padding around all paws, ears and tail at every extreme. No clipping, no neighbor overlap. Beautiful soft detailed 2D fur rendering as source, no 3D toy redesign, no motion streaks.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "sit",
+        "lean",
+        "side_lying",
+        "roll_back",
+        "belly_up_rock",
+        "side_lying",
+        "rise",
+        "sit"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Clear side lie, belly-up four-paw pose and return to sit.",
+          "Four total paws visible in exposed-belly frames; no fifth limb observed.",
+          "Actual source remains 1774x887 and has tighter margins than requested. Registration and animated-loop QA are required during integration."
+        ]
+      }
+    },
+    {
+      "action": "pounce",
+      "source_output_path": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-27760b21-28c8-4ed1-ba34-0d793dfe7ef5.png",
+      "artifact_path": "pet-actions/sheets/locomotion/pounce.png",
+      "sha256": "69861246d898f7d7095982b6d1a7e0d646828ca1c0f4d2641a45af9388f7d5d7",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "main_components_threshold_alpha": 128,
+      "main_components": [
+        {
+          "area": 69804,
+          "bbox": [
+            35,
+            129,
+            423,
+            427
+          ]
+        },
+        {
+          "area": 65761,
+          "bbox": [
+            484,
+            119,
+            863,
+            425
+          ]
+        },
+        {
+          "area": 66612,
+          "bbox": [
+            920,
+            132,
+            1300,
+            427
+          ]
+        },
+        {
+          "area": 78191,
+          "bbox": [
+            1358,
+            71,
+            1744,
+            425
+          ]
+        },
+        {
+          "area": 67189,
+          "bbox": [
+            32,
+            526,
+            470,
+            782
+          ]
+        },
+        {
+          "area": 59889,
+          "bbox": [
+            498,
+            527,
+            871,
+            833
+          ]
+        },
+        {
+          "area": 69594,
+          "bbox": [
+            929,
+            539,
+            1311,
+            827
+          ]
+        },
+        {
+          "area": 58554,
+          "bbox": [
+            1369,
+            570,
+            1735,
+            835
+          ]
+        }
+      ],
+      "candidate": 1,
+      "status": "source_art_visual_review_passed_pending_animated_integration_qa",
+      "tool": "image_gen.imagegen",
+      "provider_model_version": null,
+      "cost": null,
+      "disclosure": "The image-generation tool did not expose an exact provider model/version or cost.",
+      "prompt": "Use the supplied image as the SOLE character-identity reference. Create beautiful production 2D character animation keyframes of this EXACT kitten. Match the source's soft, fine cream-white fur, broad rounded cheeks and short muzzle, large natural gray-brown eyes nestled within eyelids, pink nose and ear interiors, fine whiskers, compact fluffy body, small rounded paws, thick tapered plume tail, folded sakura-pink silk scarf and tiny gold FOUR-point star clasp. Same soft warm illumination and tactile detailed fur. No redesign, no plastic/3D toy, no flat vector style. Exactly two ears, one tail and four anatomically coherent legs; no extra paws or missing limbs.\nOUTPUT LAYOUT: one wide 2:1 transparent PNG, ideally 2048x1024; exactly FOUR COLUMNS by TWO ROWS, eight square equal cells in row-major chronological order. Each cell contains ONE entire kitten, completely inside its cell. Make generous transparent gutters: minimum 15% of cell width at left and right, minimum 15% of cell height above and below the visible character at its extremes. Smaller character with complete anatomy is better than filling the canvas. ALL paws, ear tips and tail tips must have generous blank margins; no cropped limbs, no touching adjacent cells. SAME head size and camera distance in every frame; never enlarge the head or body to fill a pose. Hold local center and ground baseline consistently across the sheet. Transparent background only: no text, numbers, labels, borders, grid, checkerboard, floor, cast shadows, props, sparkles, motion lines, blur, gradients or scenery.\nACTION: POUNCE / PLAY HUNTING, eight consecutive phases of a gentle small forward pounce toward viewer-right and a return to crouch. No prey, toy, ball, cursor, object, or target appears anywhere. It is the exact original kitten playfully pouncing at an imagined target outside the sheet. Fixed side/slightly-three-quarter camera, head looks toward viewer-right with a subtle front view so source face remains recognizable. The mood is curious and playful, never aggressive: round attentive eyes, soft forward ears, mouth closed, no teeth or claws.\n1 a low stalking crouch, chest close to the ground, front paws bent under shoulders, hips lowered, tail curves behind on viewer-left. 2 tiny hindquarter preparation, hips gather and hind feet step closer under body while front paws stay steady. 3 deepest coil/anticipation, real hind knees folded and back compact, head steady low. 4 push off — both hind legs extend and forepaws stretch forward, torso moves naturally out of the crouch. 5 a short low airborne pounce: body extended gently, forepaws reaching forward/down, hind legs folding under body, one complete fluffy tail trailing. 6 front paws touch down first, elbows soften, rear feet still just off ground, chest absorbs the landing. 7 hind paws land, all four legs compress into a soft low crouch, no collision or impact effect. 8 relaxes into initial attentive low crouch ready for another play pounce.\nShow real changes in spine, shoulder, elbow, hip and paw placement, not copies merely moved on the page. Four total anatomically coherent legs, no ghost legs or extra paws. Same face and torso scale across all frames, same camera, preserve scarf and small four-point gold star throughout. Keep the local horizontal root center constant, so runtime motion can move the animation separately. All grounded frames share one local ground line. Airborne height modest, only 10–15% of cell height. Character must be SMALL enough that the longest extended pounce plus tail still occupies only 60–65% of a cell width. Abundant genuine transparent margins on all sides; no cropping, no frame overlap. Soft luxurious 2D fur and warm shading like reference.",
+      "referenced_image_paths": [
+        "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/illustrations/mewling_master.png"
+      ],
+      "transparent_background_requested": true,
+      "requested_dimensions": [
+        2048,
+        1024
+      ],
+      "intended_layout": {
+        "columns": 4,
+        "rows": 2,
+        "frames": 8,
+        "order": "row-major"
+      },
+      "intended_actions": [
+        "stalk_crouch",
+        "gather",
+        "coil",
+        "push_off",
+        "airborne",
+        "front_landing",
+        "hind_landing",
+        "crouch"
+      ],
+      "visual_review": {
+        "viewed": true,
+        "source_art_accepted": true,
+        "frame_extraction_and_animation_tested": false,
+        "notes": [
+          "Clear low crouch, hindquarter gathering, short forward flight and forepaw landing.",
+          "IMPORTANT: Frame 5 extends to x=470, beyond the nominal x=443.5 first-column boundary. It is complete in the source and does not touch frame 6.",
+          "For the bottom row, use divider x≈484 between frames 5 and 6, then retain source scale when placing each sprite on a common padded frame canvas. Do not blindly crop frame 5 at the equal-grid boundary.",
+          "Actual source remains 1774x887 and has tighter margins than requested. Registration and animated-loop QA are required during integration.",
+          "Parent confirmed its extraction pipeline finds eight major alpha connected components and uses per-row component gaps, so the recorded pounce divider is supported without another image-generation pass."
+        ]
+      },
+      "crop_boundary_exceptions": [
+        {
+          "frame_number": 5,
+          "suggested_crop_rect": [
+            0,
+            444,
+            484,
+            887
+          ]
+        },
+        {
+          "frame_number": 6,
+          "suggested_crop_rect": [
+            484,
+            444,
+            887,
+            887
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Ten actual eight-keyframe locomotion/life-action source sprite sheets, plus recorded rejected knead pilot. This file records generation provenance only; frame slicing, timings, animated outputs and runtime integration are performed by the parent task.",
+  "actual_output_layout_note": "All ten accepted tool outputs are 1774x887 rather than requested 2048x1024. Most crop boundaries can use rounded proportional grid coordinates (4x2), followed by registration without distortion. Pounce frames 5 and 6 require the explicitly recorded custom divider to preserve all paws."
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="color-scheme" content="light dark">
+  <title>9mew — 视觉资产评审</title>
+  <link rel="stylesheet" href="review.css">
+  <link rel="stylesheet" href="review-font.css">
+</head>
+<body>
+  <header class="topbar"><a class="wordmark" href="#">9mew<span>VISUAL LIBRARY</span></a><div class="actions"><a id="pet-actions-link" href="./actions-demo.html">宠物动作</a><a id="website-pet-link" href="./website-pet-demo.html">官网相伴</a><button id="language" type="button">English</button><button id="theme" type="button" aria-pressed="false">深色预览</button></div></header>
+  <main>
+    <section class="intro"><div class="eyebrow" id="eyebrow">九喵宇宙 · 视觉系统</div><h1 id="title">让陪伴，有自己的形状。</h1><p id="subtitle">静态插画、场景动效与奶喵的宠物动作。先展示轻量画面，需要时再播放。</p></section>
+    <section class="toolbar" aria-label="Asset filters"><div id="counts" class="counts"></div><div class="filters"><label><span id="status-label">状态</span><select id="status"><option value="delivered">已交付 / 原型</option><option value="all">全部规划</option><option value="planned">规划中</option></select></label><label class="reduce-label"><input type="checkbox" id="reduce"><span id="reduce-label">减少动态预览</span></label></div></section>
+    <div id="notice" class="notice" role="status" aria-live="polite">正在读取资产清单…</div>
+    <section id="grid" class="grid" aria-label="Visual assets"></section>
+    <footer id="footer">本地评审工具 · 无外部 CDN · 未批准素材保留“原型”状态</footer>
+  </main>
+  <script type="module" src="review.js"></script>
+</body>
+</html>

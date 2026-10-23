@@ -2,6 +2,20 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 九喵 2D 宠物动作包 v5
+
+[完整发布与下载](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-pet-actions-v5.0.0) · [本版源码与素材](https://github.com/zhangshuaibo1/resources/tree/9mew-pet-actions-v5.0.0/packages/9mew_pet_actions_kit_v5)
+
+本版含 **20 个独立设计动作 + 2 个镜像方向，共 22 个可播放动作、66 个动画文件**，覆盖行走、奔跑、跳跃、扑跃、日常陪伴与六类情绪；同时提供浅色/深色 GIF、透明 WebP、离线预览、官网播放器、完整任务提示词 v5 与 `9mew-visual-forge` Skill 0.3.0。
+
+- [下载完整包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_kit_v5.zip)：解压后先读 `START_HERE.txt`，打开 `OPEN_ME.html`。
+- [下载动画包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_motion_downloads_v5.zip)：适合直接取用动画与离线预览。
+- [完整提示词 v5](https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_task_prompt_v5.txt) · [独立离线预览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_preview_v5.html) · [SHA-256 校验](https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_v5_SHA256SUMS.txt)。
+
+当前交付为轻量关键帧动画与视觉原型，仍待用户最终视觉验收；大幅度动作可能有帧间切换感。3D 升级延期。演示不代表真实后端问答、成长或支付系统已接入，Skill 文件也不代表已在 Agent 环境安装。
+
+后续九喵素材、代码、提示词与 Skill 更新以本仓库及版本化 Releases 为交付入口；每次发布提供源文件、下载附件、校验值与实际远端链接。
+
 ## 九喵宇宙 · 九条命的故事
 
 ### 《九喵：第九次，回家》

@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "scope": "File dimensions, alpha, SHA-256 and encoded-byte budgets only; target-device performance and brand review pending.",
+  "sourceCount": 10,
+  "derivativeCount": 20,
+  "images": [
+    {
+      "id": "hero_universe_dark",
+      "source": {
+        "src": "illustrations/hero_universe_dark.png",
+        "width": 1672,
+        "height": 940,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.0,
+        "bytes": 2257064,
+        "sha256": "94eba4268237d76f625520cb55f23b5cf2df61ea5814f3700bee20357ae9da2e"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/hero_universe_dark.desktop.webp",
+          "width": 1536,
+          "height": 864,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.0,
+          "bytes": 110446,
+          "sha256": "dd9ac6bbb1394d43a4b5e84014d3b1e28cf520faa04e71cc9143ee18e3c14867",
+          "budgetBytes": 245760,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/hero_universe_dark.mobile.webp",
+          "width": 768,
+          "height": 432,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.0,
+          "bytes": 38896,
+          "sha256": "9a03d4a412dc942eeedebf0ca23ec1290f7692cfa3cffcd8e90ae1313a8b8bec",
+          "budgetBytes": 122880,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "hero_universe_light",
+      "source": {
+        "src": "illustrations/hero_universe_light.png",
+        "width": 1673,
+        "height": 940,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.0,
+        "bytes": 1988808,
+        "sha256": "4546eed32fcb720657ec456ae86d907ba1e7e25cfbf7158a6d068a085e3fa8b8"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/hero_universe_light.desktop.webp",
+          "width": 1536,
+          "height": 863,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.0,
+          "bytes": 84424,
+          "sha256": "9a07c99419057823ddf9ed85162f620b5069f3c8d6dc320b0445e15f0d67958b",
+          "budgetBytes": 245760,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/hero_universe_light.mobile.webp",
+          "width": 768,
+          "height": 432,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.0,
+          "bytes": 28546,
+          "sha256": "2ba77978fcd7ab09473b55572f0be5b4bc7441bcfc3c62b062bcde75b225529b",
+          "budgetBytes": 122880,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "mewling_master",
+      "source": {
+        "src": "illustrations/mewling_master.png",
+        "width": 1254,
+        "height": 1254,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5028,
+        "bytes": 1514762,
+        "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/mewling_master.desktop.webp",
+          "width": 1024,
+          "height": 1024,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.503,
+          "bytes": 138650,
+          "sha256": "b8c9110c1f263f71abac0c500c97d581de89fd4f3bd5db0b3797590254c73ecf",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/mewling_master.mobile.webp",
+          "width": 512,
+          "height": 512,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.5037,
+          "bytes": 39696,
+          "sha256": "b5d16986612a7b36eb1712d130a63278bec9841e25921e40808e6e0881ce1e97",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_about_family",
+      "source": {
+        "src": "illustrations/scene_about_family.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.2918,
+        "bytes": 2823405,
+        "sha256": "0b7dd1c908e938d9d37ec54eec31f0d00d84dc1c6c0ec7321af36e255a0499e0"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_about_family.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.2933,
+          "bytes": 130098,
+          "sha256": "27d85ff9fb28c9a19cb4348ee3cb114c6ad221a82ef96d3cd7cdb1a1e461090b",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_about_family.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.294,
+          "bytes": 40486,
+          "sha256": "79236c8a27e67869e5a4eabce5c1afab29cf7969adc1b7fb73aa1662151bafab",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_collaboration",
+      "source": {
+        "src": "illustrations/scene_collaboration.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4218,
+        "bytes": 2418991,
+        "sha256": "83f78fdbc296bd8595669626fe9b6c30c18269debba861ad7498f29386f07fbe"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_collaboration.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.4251,
+          "bytes": 124038,
+          "sha256": "bb43677467726775dbb3881967020a197ac84fc39cfceb4f652b5375794545c8",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_collaboration.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.4304,
+          "bytes": 42240,
+          "sha256": "e0916b069fdeed11d5bf0c3b0917a8194a5af99b9eb39f23b1c32d952aab5888",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_knowledge",
+      "source": {
+        "src": "illustrations/scene_knowledge.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.5099,
+        "bytes": 2125008,
+        "sha256": "68362b7a473a81fd3d501c8ca260843b574852e0c64dc8c7710488bfdd3a22b1"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_knowledge.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.5124,
+          "bytes": 99508,
+          "sha256": "a822da2c53d33d3779e36e2cecf3a2eede94732e80fd8829a2b6336742f88231",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_knowledge.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.5187,
+          "bytes": 32076,
+          "sha256": "13250870e8453243c20cc652a1d32340d5ff4aa344de62164a00a645b05f4125",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_privacy",
+      "source": {
+        "src": "illustrations/scene_privacy.png",
+        "width": 1254,
+        "height": 1254,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.3938,
+        "bytes": 1827583,
+        "sha256": "67dc4ef91f78de18e6aaec6d5614fecdeb6901d9cd911b8b25a9c9d63b787d08"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_privacy.desktop.webp",
+          "width": 1024,
+          "height": 1024,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.3944,
+          "bytes": 126092,
+          "sha256": "93c16e1074517e60536480fca2aa53766d878f37ca6f1926ef102b829749364f",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_privacy.mobile.webp",
+          "width": 512,
+          "height": 512,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.3956,
+          "bytes": 37424,
+          "sha256": "093c64a483e9e134521aec36ffd6345232eed0841ea2fa884f2bbd829ddb712a",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_star_mews",
+      "source": {
+        "src": "illustrations/scene_star_mews.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.4348,
+        "bytes": 2267350,
+        "sha256": "025e080d05f98b202ad7563a8f2b2de50f5ee2606fc8262d8eba29b96bd997f5"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_star_mews.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.4372,
+          "bytes": 131950,
+          "sha256": "c3f0b988e515e52fc5500de4f387f80007e59c755be6564daebb4c7c12c7489d",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_star_mews.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.4416,
+          "bytes": 43008,
+          "sha256": "afb6dd03f082a2b82334adb28abaad35392c147eedc545b71cd9c3e58f594029",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_studio",
+      "source": {
+        "src": "illustrations/scene_studio.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.3821,
+        "bytes": 2419334,
+        "sha256": "85dcce14041304fa2e6267ac48bbcc0692040742510c6aade11cabb826153138"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_studio.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.3834,
+          "bytes": 119942,
+          "sha256": "378f26c12606f0bc98208b7608ba4744914aac9e1807f4280e91f11253635603",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_studio.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.3868,
+          "bytes": 38400,
+          "sha256": "0044336983ef8ffc9bb6ac2e5876c834b43015b9f57341af505a476b2cc0ecc8",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    },
+    {
+      "id": "scene_terms",
+      "source": {
+        "src": "illustrations/scene_terms.png",
+        "width": 1536,
+        "height": 1024,
+        "mime": "image/png",
+        "transparentPixelFraction": 0.407,
+        "bytes": 2346760,
+        "sha256": "31d6c9eb75bb6e0d9c1998d8cbda99a679fe8bb09e2eddbe913d3a7e415e5393"
+      },
+      "derivatives": {
+        "desktop": {
+          "src": "illustrations/scene_terms.desktop.webp",
+          "width": 1024,
+          "height": 683,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.4077,
+          "bytes": 104962,
+          "sha256": "25c83fa5d5e86f15439a7648d5ef928bb259f9c532529dd03959b920c03d0531",
+          "budgetBytes": 163840,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 78,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        },
+        "mobile": {
+          "src": "illustrations/scene_terms.mobile.webp",
+          "width": 512,
+          "height": 341,
+          "mime": "image/webp",
+          "transparentPixelFraction": 0.409,
+          "bytes": 33564,
+          "sha256": "eef1675051f813be542697c3fbaa6aa2977b3b2effcda8e88aff97b2c7ba870a",
+          "budgetBytes": 81920,
+          "budgetStatus": "passed",
+          "encoding": {
+            "encoder": "FFmpeg libwebp",
+            "quality": 76,
+            "compressionLevel": 6
+          },
+          "composition": "same full composition as PNG master; responsive scale, no semantic crop"
+        }
+      },
+      "review": "proposed"
+    }
+  ]
+}

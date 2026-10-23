@@ -1,0 +1,53 @@
+九喵宠物动作与开发包 v5｜高质量 2D 角色动画
+
+完整任务提示词：根目录 9mew_task_prompt_v5.txt（完整 v5，非摘要）
+本包名称：9mew_pet_actions_kit_v5.zip
+最快预览：直接双击 OPEN_ME.html（离线、内嵌22动作，可选动作、切换主题、暂停和下载透明WebP）。
+该离线页循环展示单个动作；实际官网有限移动与单次回待机行为见 integration/actions-demo.html。
+
+从这里查看
+在本目录运行：python3 integration/serve.py
+动作工作台：http://127.0.0.1:8989/integration/actions-demo.html
+官网宠物面板：http://127.0.0.1:8989/integration/website-pet-demo.html
+全部素材画廊：http://127.0.0.1:8989/integration/review.html
+浏览器可能限制直接双击 HTML 的本地 JSON/模块加载，请使用本地服务。
+独立动图在 pet-actions/animations/，可直接用支持对应格式的浏览器或图片查看器打开。
+
+本版使用方式
+• pet-actions/catalog.json 是实际可播放动作目录；动作、名称、帧顺序、时长和镜像来源都由该文件登记。
+• pet-actions/sheets/ 保存原始姿态源图表，frames/ 保存透明帧，animations/ 保存实际编码动图。
+• 动作覆盖情况、独立源动作/镜像/语义复用数量见 docs/asset-status-v5.md，随实际 catalog 生成，不用规划数代替交付数。
+• 原画身份继续使用 illustrations/mewling_master.png；其原文件和哈希不变。新动作由真实姿态帧播放，外观版本为 0.4.0 候选。
+• 动画 WebP 与透明帧用于产品，浅/深两种背景的 GIF 用于兼容预览。GIF 预览背景是有意合成，不宣称透明。
+• 官网动作可选择、重播、暂停；支持减少动画、离屏/后台暂停和原画回退。拖动、收起、键盘操作与表单避让由官网组件维护。
+• 步行/小跑等可以在官网播放多个步态周期后结束；独立分享动图循环单周期。重复周期和编码帧不增加独立源画稿数。
+
+制作与接入
+先读 docs/action-production-guide.md；组件接口见 integration/ACTIONS_README.txt。
+九喵星绘 Skill 位于 skills/9mew-visual-forge/；使用和移植见 SKILL_INTEGRATION.txt，Git 版本记录见 versioning/。
+完整提示词的业务 0–20 节保留，21–23 节要求真实宠物动作、版本化外貌和相应证据。
+新外貌需要配套动作覆盖，不能把新静态形象与旧动作混用后称已适配。
+原画回退保障运行时可用性；缺少的具体动作仍记为未完成。
+
+规划与实际状态
+素材按 assets_manifest.json 的稳定 ID、版本和主题使用；planned 条目没有伪造文件。
+独立源动作、镜像方向、场景语义复用、深浅主题和格式导出分别计数。
+specs/assets_plan.csv 保留原有 64 条语义规划；实际新增动作另依 catalog 和主 manifest 登记。
+思考、口型、多人协作、进化演出等未实际制作的专用动作继续 planned。
+motion-2d/ 的星光陪伴与 planar-pet-demo 是历史装饰样板，其整图运动不计入宠物肢体动作。
+
+验证与边界
+运行 python3 specs/assemble_manifest.py 可按实际文件重建主清单、计划状态与动作说明。
+运行 python3 specs/validate_delivery.py 可核对当前包并绑定本轮已执行证据。
+pet-actions/encoding-validation.json：本轮动作切图、几何、编码与解码记录。
+integration/actions-runtime-validation.json：本轮实际浏览器动作与交互验证。
+docs/asset-status-action-checks.json：动作目录、帧文件和时间轴检查。
+delivery_report.json：当前文件/清单/提示词与证据一致性。
+CHECKSUMS.sha256：完整包内文件校验。
+技术验证不替代审美、身份和姿态判断；所有新动作保持 prototype，生产批准未提供。
+本地演示未连接真实 AI 问答、语音、成长、投喂、支付或生产官网；真实业务遵守完整提示词门禁。
+
+品牌方向
+九喵 / 9mew；奶喵；喵灵；樱花粉；修仙、神话、幻想、宇宙星域。
+模型展示档位：喵学徒 / 喵大师 / 喵真人 / 喵仙帝。
+当前使用 2D。可靠 3D 能力留作未来独立升级，不属于本版缺项。
