@@ -1,0 +1,74 @@
+{
+  "status": "PUBLIC_DOWNLOADS_AND_ZIP_EXTRACTION_PASSED",
+  "checkedAtUtc": "2026-10-23T02:21:41.669217+00:00",
+  "repository": "https://github.com/zhangshuaibo1/resources",
+  "release": "https://github.com/zhangshuaibo1/resources/releases/tag/9mew-pet-actions-v5.0.0",
+  "commit": "19aba3efdd0a23de115a75931c48d189486c642f",
+  "sourceFiles": 483,
+  "assets": [
+    {
+      "name": "9mew_pet_actions_kit_v5.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_kit_v5.zip",
+      "bytes": 138579188,
+      "sha256": "2a8beb6f048bf5946741305d57b079e61d5371cc4c9d2beea48b8c60b2096b43",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 483,
+      "payloadHashesVerified": 482
+    },
+    {
+      "name": "9mew_pet_motion_downloads_v5.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_motion_downloads_v5.zip",
+      "bytes": 39926183,
+      "sha256": "abc510bcac9b05b7fc770596d2dfbc70305aca9ade31e2c93fa411af70e970c2",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 81,
+      "payloadHashesVerified": 80
+    },
+    {
+      "name": "9mew_task_prompt_v5.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_task_prompt_v5.txt",
+      "bytes": 74731,
+      "sha256": "acbbf0f57780d8ea57853cb42072c4619d6cb9f056f628973e5c6a8af56d0d67",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_pet_actions_preview_v5.html",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_preview_v5.html",
+      "bytes": 14928749,
+      "sha256": "6cc106374c8836bdca2e7cb1a9c5225bda838b204d624ab9b5f9afeeebc432c7",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_movement_preview_v5.gif",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_movement_preview_v5.gif",
+      "bytes": 2749510,
+      "sha256": "adb351d01c6a200ceb6eecf0acc2782e9889fc8faaebce0bcbcc0ddf321979ad",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_emotions_preview_v5.gif",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_emotions_preview_v5.gif",
+      "bytes": 1927321,
+      "sha256": "2ce219ecd23d1b9a1bf3a86dc1428dfe5043d7be0abafbe4785e81e705b2404f",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_daily_preview_v5.gif",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_daily_preview_v5.gif",
+      "bytes": 2186118,
+      "sha256": "019d7cf3c1fbe1e6b6f5b2134852a3caa68ecb1f32b2e44260fb860057de4323",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_pet_actions_v5_SHA256SUMS.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-pet-actions-v5.0.0/9mew_pet_actions_v5_SHA256SUMS.txt",
+      "bytes": 664,
+      "sha256": "9acda67d3c198726a0e792d0dfd6999ac58b0662d743040613c19cb7acd20b2c",
+      "unauthenticatedDownload": "PASSED"
+    }
+  ]
+}
