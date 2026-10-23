@@ -1,0 +1,42 @@
+{
+  "status": "STATIC_PREPARED_FRAME_REVIEW_COMPLETED",
+  "checkedAtUtc": "2026-10-23T10:35:06.769415+00:00",
+  "catalogSHA256": "4c18212432eb663c650a0c5f574313ae1c50a963c9418eb78053d3f719db4552",
+  "preparationReportSHA256": "e6fb1c0a63e5aca29df5a6ddcac27afa7777ac082a7b5125383d6977f8209ade",
+  "reviewedContactSheets": [
+    {
+      "path": "reports/contactsheet-light.png",
+      "width": 1280,
+      "height": 1184,
+      "sha256": "7f62b413fccda69446dab6259d3b9056c86483233bf956b0985fc657d2a66e97"
+    },
+    {
+      "path": "reports/contactsheet-dark.png",
+      "width": 1280,
+      "height": 1184,
+      "sha256": "94c8de7799752d87c747b9442668ab5771ce785616711b613d91d4551904d4c9"
+    }
+  ],
+  "frameSlots": 48,
+  "newFrameSlots": 16,
+  "reusedFrameSlots": 32,
+  "findings": [
+    "All 48 prepared frames viewed against warm ivory and midnight backgrounds at 150-pixel cell display size.",
+    "Ginger and ragdoll fur edges are clean on both surfaces; full ears, paws and tails remain inside their cells.",
+    "Lower-row ground offsets have been normalized while preserving ginger airborne poses.",
+    "No visible neighboring-cell fragments or unintended extra limbs found in the prepared frames.",
+    "Distinct companion coats and faces remain consistent with the main kitten material style."
+  ],
+  "minimumAlpha24MarginByAction": {
+    "ginger-trot": 45,
+    "ragdoll-star-paw": 53,
+    "chase-run": 41,
+    "chase-look-up": 59,
+    "chase-leap": 55,
+    "chase-land": 42
+  },
+  "blockingStaticFindings": [],
+  "limitations": [
+    "This review covers static poses and atlas assembly only. It does not certify continuous film playback, scene timing, loop seams or final artistic approval."
+  ]
+}

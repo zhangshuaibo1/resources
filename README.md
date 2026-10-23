@@ -2,6 +2,17 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 官网品牌影片与标识 v2 · 星光嬉戏
+
+樱花粉猫耳 9、四猫 mew 艺术字与奶喵星光互动。含 16 秒宣传片、6 秒轻动态标识、深浅主题、透明标识、方形封面和原生网页组件。
+
+- [Release 与全部下载](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-brand-film-v2.0.0)
+- [完整素材与源码 ZIP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_v2.zip) · [官网接入 ZIP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_web_v2.zip)
+- 主宣传片 MP4：[深色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_dark_v2.mp4) · [浅色](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_light_v2.mp4)
+- [可维护素材与接入说明](packages/9mew_brand_film_v2/) · [本场景完整提示词 v2](packages/9mew_brand_film_v2/BRAND_FILM_PROMPT.txt)
+
+主片包含真实姿态变化；6 秒标识为静态艺术字加环境光效。两条新动作 16 个新姿态与四条复用动作 32 个帧位分别登记。此前完整业务提示词仍为 v5。
+
 ## 九喵 · 追鼠与追蝶网页动画 v1
 
 [打开本版 Release](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-chase-motion-v1.0.0) · [查看源码与素材](https://github.com/zhangshuaibo1/resources/tree/9mew-chase-motion-v1.0.0/packages/9mew_chase_motion_kit_v1)

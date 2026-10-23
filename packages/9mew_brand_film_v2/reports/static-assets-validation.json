@@ -1,0 +1,146 @@
+{
+  "status": "STATIC_ASSETS_DECODE_AND_ALPHA_VALIDATED",
+  "assets": [
+    {
+      "path": "posters/brand-film-dark.png",
+      "status": "PASSED",
+      "width": 1920,
+      "height": 720,
+      "bytes": 1179254,
+      "sha256": "bbf6f94ee8ea8caf5afc5986e32fea9035789c3fb24c7ef8aaf20c91a4cd0cae",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1382400
+    },
+    {
+      "path": "posters/brand-film-dark.webp",
+      "status": "PASSED",
+      "width": 1920,
+      "height": 720,
+      "bytes": 98960,
+      "sha256": "14e605fc348759e948d0082c6cd2fb6c5dbc96f3929d8f6758a4ac697284dcbe",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1382400
+    },
+    {
+      "path": "posters/brand-film-light.png",
+      "status": "PASSED",
+      "width": 1920,
+      "height": 720,
+      "bytes": 1143717,
+      "sha256": "05831906ddb66561d41e71d1dec3890d1ca0a52f0270b6f68a927b8194213716",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1382400
+    },
+    {
+      "path": "posters/brand-film-light.webp",
+      "status": "PASSED",
+      "width": 1920,
+      "height": 720,
+      "bytes": 93314,
+      "sha256": "9ae44c321a50003c49cba64538510c0279602134e47a77b163b21ba545391ce1",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1382400
+    },
+    {
+      "path": "posters/brand-square-dark.png",
+      "status": "PASSED",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 811105,
+      "sha256": "f20abdc45d8dbe33feceedacfceca62af71584988038fe388cd1096ed70f994e",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1166400
+    },
+    {
+      "path": "posters/brand-square-light.png",
+      "status": "PASSED",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 795105,
+      "sha256": "7087953257648b713f1bbc73b1515268b6ccad06788178b1b5e4bcd214a3fc0d",
+      "zeroAlphaPixels": 0,
+      "nonzeroAlphaPixels": 1166400
+    },
+    {
+      "path": "logos/brand-lockup-dark.png",
+      "status": "PASSED",
+      "width": 2400,
+      "height": 900,
+      "bytes": 1132174,
+      "sha256": "64f90b5b6f49aee8d22360f3cd88e5cf188c2c69e82af828e90fe8e6aee2a5df",
+      "zeroAlphaPixels": 1424142,
+      "nonzeroAlphaPixels": 735858
+    },
+    {
+      "path": "logos/brand-lockup-dark.webp",
+      "status": "PASSED",
+      "width": 2400,
+      "height": 900,
+      "bytes": 764986,
+      "sha256": "91602d8e69d7263bb59289fd5190b13927284a6fa23c5564320cb0a2f2eb7a73",
+      "zeroAlphaPixels": 1424142,
+      "nonzeroAlphaPixels": 735858
+    },
+    {
+      "path": "logos/brand-lockup-light.png",
+      "status": "PASSED",
+      "width": 2400,
+      "height": 900,
+      "bytes": 1126744,
+      "sha256": "2a69cd10ed3edb8e88dcfa14c72dcb361e1f7176e12299b5f4aa28e9048be493",
+      "zeroAlphaPixels": 1594149,
+      "nonzeroAlphaPixels": 565851
+    },
+    {
+      "path": "logos/brand-lockup-light.webp",
+      "status": "PASSED",
+      "width": 2400,
+      "height": 900,
+      "bytes": 761742,
+      "sha256": "0300311b0b96ca1290f98346be5f966402d81fda13f6218a70a55dbdee095fa9",
+      "zeroAlphaPixels": 1594149,
+      "nonzeroAlphaPixels": 565851
+    },
+    {
+      "path": "logos/cat9-1024.png",
+      "status": "PASSED",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 399737,
+      "sha256": "b5dae82e563afaa9fa717339ab4599a4aaabb08c24045950a5d84b512b912fed",
+      "zeroAlphaPixels": 624261,
+      "nonzeroAlphaPixels": 424315
+    },
+    {
+      "path": "logos/cat9-192.png",
+      "status": "PASSED",
+      "width": 192,
+      "height": 192,
+      "bytes": 21066,
+      "sha256": "2e9350b8aa35fe88aca1ab6331ffcfdacebef9b79c46a3d1b3a7c04fa01c1849",
+      "zeroAlphaPixels": 21941,
+      "nonzeroAlphaPixels": 14923
+    },
+    {
+      "path": "logos/cat9-512.png",
+      "status": "PASSED",
+      "width": 512,
+      "height": 512,
+      "bytes": 121923,
+      "sha256": "56846aad9d22f4521788eab3e1412692432a7b02e7b1b49ac5e551d34b5c7c6d",
+      "zeroAlphaPixels": 156055,
+      "nonzeroAlphaPixels": 106089
+    },
+    {
+      "path": "logos/cat9-64.png",
+      "status": "PASSED",
+      "width": 64,
+      "height": 64,
+      "bytes": 3205,
+      "sha256": "4e12317b18db0b192f9247328578a2ff035fe11d03d1e0c24d99935e10b20132",
+      "zeroAlphaPixels": 2438,
+      "nonzeroAlphaPixels": 1658
+    }
+  ],
+  "scope": "All pixels decoded; actual dimensions and alpha checked. Visual review separately documented."
+}

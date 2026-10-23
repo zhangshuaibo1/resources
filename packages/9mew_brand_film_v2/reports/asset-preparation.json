@@ -1,0 +1,1798 @@
+{
+  "status": "ASSET_PREPARATION_PASSED",
+  "checkedAtUtc": "2026-10-23T10:34:01.021Z",
+  "scriptSHA256": "e71d2a63ae680f3d8086a917b8d839fdabb568859786c98dcd8253f3cf342b09",
+  "catalogSHA256": "4c18212432eb663c650a0c5f574313ae1c50a963c9418eb78053d3f719db4552",
+  "newSequences": 2,
+  "newPoses": 16,
+  "reusedSequences": 4,
+  "reusedFrameSlots": 32,
+  "totalFrameSlots": 48,
+  "allCopiedReusedHashesMatched": true,
+  "animationsExported": 0,
+  "actions": [
+    {
+      "id": "ginger-trot",
+      "sourceKind": "new-imagegen-sequence",
+      "sourcePath": "source/cats/ginger-trot.png",
+      "sourceSHA256": "da57c6a61887a5209daa52526d8bf2882f90c37d77703e075239e33034f491a6",
+      "sourceDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "sharedScale": 1.242603550295858,
+      "maxSourceAlpha24Dimensions": {
+        "width": 338,
+        "height": 252
+      },
+      "outputVisibleBudget": {
+        "width": 420,
+        "height": 390,
+        "roundingTolerance": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "rowGroundBaselines": [
+        396,
+        340
+      ],
+      "method": "Per-row common ground line; common scale; per-pose horizontal centering only; 24px source fringe around alpha>=24 bounds; original alpha preserved inside crop",
+      "placements": [
+        {
+          "index": 0,
+          "sourceCell": {
+            "left": 0,
+            "top": 0,
+            "width": 444,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 75,
+            "top": 147,
+            "right": 386,
+            "bottom": 384,
+            "width": 312,
+            "height": 238,
+            "pixels": 46699
+          },
+          "sourceAlpha1Bounds": {
+            "left": 27,
+            "top": 35,
+            "right": 443,
+            "bottom": 443,
+            "width": 417,
+            "height": 409,
+            "pixels": 60258
+          },
+          "sourceCrop": {
+            "left": 51,
+            "top": 123,
+            "width": 360,
+            "height": 286
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 396,
+          "sourceBodyCenterXInCell": 231,
+          "outputPosition": {
+            "x": 32,
+            "y": 117
+          },
+          "resampledTile": {
+            "width": 447,
+            "height": 355
+          },
+          "outputAlpha24Bounds": {
+            "left": 63,
+            "top": 147,
+            "right": 449,
+            "bottom": 442,
+            "width": 387,
+            "height": 296,
+            "pixels": 72075
+          },
+          "outputAlpha24Margins": {
+            "left": 63,
+            "top": 147,
+            "right": 62,
+            "bottom": 69
+          },
+          "frame": "frames/ginger-trot/000.webp",
+          "sha256": "30e53a73689432a81f64f70b34b40d35d3f2601e1155b7d9f647a2dfc1b1398b",
+          "pixelSHA256": "682c13e852f9093b132786b83c4f24ced2ec82e15fdf3e7a18227a1b6b0f4754"
+        },
+        {
+          "index": 1,
+          "sourceCell": {
+            "left": 444,
+            "top": 0,
+            "width": 443,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 76,
+            "top": 144,
+            "right": 383,
+            "bottom": 395,
+            "width": 308,
+            "height": 252,
+            "pixels": 47843
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 35,
+            "right": 442,
+            "bottom": 443,
+            "width": 443,
+            "height": 409,
+            "pixels": 62908
+          },
+          "sourceCrop": {
+            "left": 496,
+            "top": 120,
+            "width": 356,
+            "height": 300
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 396,
+          "sourceBodyCenterXInCell": 230,
+          "outputPosition": {
+            "x": 35,
+            "y": 113
+          },
+          "resampledTile": {
+            "width": 442,
+            "height": 373
+          },
+          "outputAlpha24Bounds": {
+            "left": 64,
+            "top": 143,
+            "right": 447,
+            "bottom": 456,
+            "width": 384,
+            "height": 314,
+            "pixels": 74042
+          },
+          "outputAlpha24Margins": {
+            "left": 64,
+            "top": 143,
+            "right": 64,
+            "bottom": 55
+          },
+          "frame": "frames/ginger-trot/001.webp",
+          "sha256": "23cf1c9715166d7937e54a55d4d96c9332cab69a8721086ab545fd9eb987f593",
+          "pixelSHA256": "f45e0f1605cbf8dc766d43d63337bc455fc337501fa45f031c4fb8bd025488d3"
+        },
+        {
+          "index": 2,
+          "sourceCell": {
+            "left": 887,
+            "top": 0,
+            "width": 444,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 56,
+            "top": 146,
+            "right": 384,
+            "bottom": 385,
+            "width": 329,
+            "height": 240,
+            "pixels": 49070
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 57,
+            "right": 443,
+            "bottom": 443,
+            "width": 444,
+            "height": 387,
+            "pixels": 64629
+          },
+          "sourceCrop": {
+            "left": 919,
+            "top": 122,
+            "width": 377,
+            "height": 288
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 396,
+          "sourceBodyCenterXInCell": 220.5,
+          "outputPosition": {
+            "x": 22,
+            "y": 116
+          },
+          "resampledTile": {
+            "width": 468,
+            "height": 358
+          },
+          "outputAlpha24Bounds": {
+            "left": 51,
+            "top": 146,
+            "right": 460,
+            "bottom": 444,
+            "width": 410,
+            "height": 299,
+            "pixels": 75856
+          },
+          "outputAlpha24Margins": {
+            "left": 51,
+            "top": 146,
+            "right": 51,
+            "bottom": 67
+          },
+          "frame": "frames/ginger-trot/002.webp",
+          "sha256": "6a0a21ce448ffd37dcfb87231c661cdb88c7cff644b6a2329047202a96c2d1d9",
+          "pixelSHA256": "71175a10a05fa498ffd2f7bb3d95615533f7431f90e7a9638676c297af038f07"
+        },
+        {
+          "index": 3,
+          "sourceCell": {
+            "left": 1331,
+            "top": 0,
+            "width": 443,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 56,
+            "top": 143,
+            "right": 393,
+            "bottom": 352,
+            "width": 338,
+            "height": 210,
+            "pixels": 44206
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 39,
+            "right": 434,
+            "bottom": 443,
+            "width": 435,
+            "height": 405,
+            "pixels": 57359
+          },
+          "sourceCrop": {
+            "left": 1363,
+            "top": 119,
+            "width": 386,
+            "height": 258
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 396,
+          "sourceBodyCenterXInCell": 225,
+          "outputPosition": {
+            "x": 16,
+            "y": 112
+          },
+          "resampledTile": {
+            "width": 480,
+            "height": 321
+          },
+          "outputAlpha24Bounds": {
+            "left": 47,
+            "top": 142,
+            "right": 466,
+            "bottom": 402,
+            "width": 420,
+            "height": 261,
+            "pixels": 68475
+          },
+          "outputAlpha24Margins": {
+            "left": 47,
+            "top": 142,
+            "right": 45,
+            "bottom": 109
+          },
+          "frame": "frames/ginger-trot/003.webp",
+          "sha256": "7a986cecc67f14e4ec7ac63246b83e58487d6b4c45630edb9fc0a78336d82867",
+          "pixelSHA256": "feda777d6a97cda04f5e44609d9e8143dd91606697926936e7e9bc6b5546728b"
+        },
+        {
+          "index": 4,
+          "sourceCell": {
+            "left": 0,
+            "top": 444,
+            "width": 444,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 74,
+            "top": 91,
+            "right": 385,
+            "bottom": 336,
+            "width": 312,
+            "height": 246,
+            "pixels": 48350
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 443,
+            "bottom": 418,
+            "width": 444,
+            "height": 419,
+            "pixels": 63829
+          },
+          "sourceCrop": {
+            "left": 50,
+            "top": 511,
+            "width": 360,
+            "height": 294
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 340,
+          "sourceBodyCenterXInCell": 230,
+          "outputPosition": {
+            "x": 32,
+            "y": 117
+          },
+          "resampledTile": {
+            "width": 447,
+            "height": 365
+          },
+          "outputAlpha24Bounds": {
+            "left": 62,
+            "top": 147,
+            "right": 449,
+            "bottom": 452,
+            "width": 388,
+            "height": 306,
+            "pixels": 74630
+          },
+          "outputAlpha24Margins": {
+            "left": 62,
+            "top": 147,
+            "right": 62,
+            "bottom": 59
+          },
+          "frame": "frames/ginger-trot/004.webp",
+          "sha256": "0143fc3358cee5a8aeb3c33cc3df347a2aa7951ec0e8230797c8ad49b544de07",
+          "pixelSHA256": "de4e5c5ec256527c6cdbc2db890ac327c5e264a879d6aa6332b4db182bf9babd"
+        },
+        {
+          "index": 5,
+          "sourceCell": {
+            "left": 444,
+            "top": 444,
+            "width": 443,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 75,
+            "top": 90,
+            "right": 393,
+            "bottom": 339,
+            "width": 319,
+            "height": 250,
+            "pixels": 47290
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 442,
+            "bottom": 442,
+            "width": 443,
+            "height": 443,
+            "pixels": 62096
+          },
+          "sourceCrop": {
+            "left": 495,
+            "top": 510,
+            "width": 367,
+            "height": 298
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 340,
+          "sourceBodyCenterXInCell": 234.5,
+          "outputPosition": {
+            "x": 28,
+            "y": 116
+          },
+          "resampledTile": {
+            "width": 456,
+            "height": 370
+          },
+          "outputAlpha24Bounds": {
+            "left": 59,
+            "top": 147,
+            "right": 454,
+            "bottom": 455,
+            "width": 396,
+            "height": 309,
+            "pixels": 73066
+          },
+          "outputAlpha24Margins": {
+            "left": 59,
+            "top": 147,
+            "right": 57,
+            "bottom": 56
+          },
+          "frame": "frames/ginger-trot/005.webp",
+          "sha256": "f4d1de4a70249b95b2c06d6fe43a1d5646e72042b890e8e9e5aa42a5c5f4a785",
+          "pixelSHA256": "0a386c6da8f00ff6ae7c28c9a50bf1957cad645c8db041c4c1c4e90b5d52722f"
+        },
+        {
+          "index": 6,
+          "sourceCell": {
+            "left": 887,
+            "top": 444,
+            "width": 444,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 55,
+            "top": 92,
+            "right": 392,
+            "bottom": 322,
+            "width": 338,
+            "height": 231,
+            "pixels": 49022
+          },
+          "sourceAlpha1Bounds": {
+            "left": 1,
+            "top": 0,
+            "right": 443,
+            "bottom": 442,
+            "width": 443,
+            "height": 443,
+            "pixels": 63487
+          },
+          "sourceCrop": {
+            "left": 918,
+            "top": 512,
+            "width": 386,
+            "height": 279
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 340,
+          "sourceBodyCenterXInCell": 224,
+          "outputPosition": {
+            "x": 16,
+            "y": 118
+          },
+          "resampledTile": {
+            "width": 480,
+            "height": 347
+          },
+          "outputAlpha24Bounds": {
+            "left": 46,
+            "top": 148,
+            "right": 466,
+            "bottom": 435,
+            "width": 421,
+            "height": 288,
+            "pixels": 75901
+          },
+          "outputAlpha24Margins": {
+            "left": 46,
+            "top": 148,
+            "right": 45,
+            "bottom": 76
+          },
+          "frame": "frames/ginger-trot/006.webp",
+          "sha256": "58f61c510b6529a0737cc5250158072ea5af19ce0f4f1be6988a3e83dfb9652f",
+          "pixelSHA256": "eaf6115821f35c8f23ec9a91439e25714909dc7d133c9d21efa8725d48382b2b"
+        },
+        {
+          "index": 7,
+          "sourceCell": {
+            "left": 1331,
+            "top": 444,
+            "width": 443,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 56,
+            "top": 88,
+            "right": 386,
+            "bottom": 312,
+            "width": 331,
+            "height": 225,
+            "pixels": 45137
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 428,
+            "bottom": 432,
+            "width": 429,
+            "height": 433,
+            "pixels": 57718
+          },
+          "sourceCrop": {
+            "left": 1363,
+            "top": 508,
+            "width": 379,
+            "height": 273
+          },
+          "scale": 1.242603550295858,
+          "sourceGroundBaselineInCell": 340,
+          "sourceBodyCenterXInCell": 221.5,
+          "outputPosition": {
+            "x": 21,
+            "y": 113
+          },
+          "resampledTile": {
+            "width": 471,
+            "height": 339
+          },
+          "outputAlpha24Bounds": {
+            "left": 51,
+            "top": 143,
+            "right": 461,
+            "bottom": 422,
+            "width": 411,
+            "height": 280,
+            "pixels": 69754
+          },
+          "outputAlpha24Margins": {
+            "left": 51,
+            "top": 143,
+            "right": 50,
+            "bottom": 89
+          },
+          "frame": "frames/ginger-trot/007.webp",
+          "sha256": "118db969d73089cd48785fd1f90a7243bc54f1b10bd7433eb59902cd16040ef8",
+          "pixelSHA256": "8b749ff95a511eacf3243b9b0ca8e53402d778b2fdaab2e23c5e98ea601b3cfc"
+        }
+      ],
+      "sprite": "sprites/ginger-trot.webp",
+      "atlasSHA256": "58f2689618da8634450d8e86c60259a6868ca135b78d0a8a7e90d3e15095e683",
+      "distinctDecodedFrames": 8
+    },
+    {
+      "id": "ragdoll-star-paw",
+      "sourceKind": "new-imagegen-sequence",
+      "sourcePath": "source/cats/ragdoll-star-paw.png",
+      "sourceSHA256": "b256f4ab66b5f09c661bbdfd81565761ba7cf4c1f4652db2775d2a9749e6a2a7",
+      "sourceDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "sharedScale": 1.2264150943396226,
+      "maxSourceAlpha24Dimensions": {
+        "width": 315,
+        "height": 318
+      },
+      "outputVisibleBudget": {
+        "width": 420,
+        "height": 390,
+        "roundingTolerance": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "rowGroundBaselines": [
+        407,
+        374
+      ],
+      "method": "Per-row common ground line; common scale; per-pose horizontal centering only; 24px source fringe around alpha>=24 bounds; original alpha preserved inside crop",
+      "placements": [
+        {
+          "index": 0,
+          "sourceCell": {
+            "left": 0,
+            "top": 0,
+            "width": 444,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 65,
+            "top": 100,
+            "right": 353,
+            "bottom": 406,
+            "width": 289,
+            "height": 307,
+            "pixels": 60481
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 21,
+            "right": 443,
+            "bottom": 443,
+            "width": 444,
+            "height": 423,
+            "pixels": 72450
+          },
+          "sourceCrop": {
+            "left": 41,
+            "top": 76,
+            "width": 337,
+            "height": 355
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 407,
+          "sourceBodyCenterXInCell": 209.5,
+          "outputPosition": {
+            "x": 49,
+            "y": 50
+          },
+          "resampledTile": {
+            "width": 413,
+            "height": 435
+          },
+          "outputAlpha24Bounds": {
+            "left": 79,
+            "top": 80,
+            "right": 432,
+            "bottom": 455,
+            "width": 354,
+            "height": 376,
+            "pixels": 90891
+          },
+          "outputAlpha24Margins": {
+            "left": 79,
+            "top": 80,
+            "right": 79,
+            "bottom": 56
+          },
+          "frame": "frames/ragdoll-star-paw/000.webp",
+          "sha256": "529cf5ce62c42f9d131767e116016282cca03622ffae033902fb26dc442188c5",
+          "pixelSHA256": "c9bb5e418e7679cf4245d3acaafb397a7be371f016ca265a5a70c7ce1061e1f3"
+        },
+        {
+          "index": 1,
+          "sourceCell": {
+            "left": 444,
+            "top": 0,
+            "width": 443,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 66,
+            "top": 96,
+            "right": 353,
+            "bottom": 406,
+            "width": 288,
+            "height": 311,
+            "pixels": 60668
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 442,
+            "bottom": 443,
+            "width": 443,
+            "height": 444,
+            "pixels": 74561
+          },
+          "sourceCrop": {
+            "left": 486,
+            "top": 72,
+            "width": 336,
+            "height": 359
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 407,
+          "sourceBodyCenterXInCell": 210,
+          "outputPosition": {
+            "x": 50,
+            "y": 45
+          },
+          "resampledTile": {
+            "width": 412,
+            "height": 440
+          },
+          "outputAlpha24Bounds": {
+            "left": 79,
+            "top": 75,
+            "right": 432,
+            "bottom": 455,
+            "width": 354,
+            "height": 381,
+            "pixels": 91256
+          },
+          "outputAlpha24Margins": {
+            "left": 79,
+            "top": 75,
+            "right": 79,
+            "bottom": 56
+          },
+          "frame": "frames/ragdoll-star-paw/001.webp",
+          "sha256": "eee089ffc5d15e56e69e7190e63d54fb6496f7e8cd4837ee3f512c27589451d7",
+          "pixelSHA256": "6c6b303470a763c3bc2e6d4643b386361a0056abb22804d8dbd5f6ee8c2ceab8"
+        },
+        {
+          "index": 2,
+          "sourceCell": {
+            "left": 887,
+            "top": 0,
+            "width": 444,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 62,
+            "top": 97,
+            "right": 350,
+            "bottom": 405,
+            "width": 289,
+            "height": 309,
+            "pixels": 60173
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 17,
+            "right": 443,
+            "bottom": 443,
+            "width": 444,
+            "height": 427,
+            "pixels": 74310
+          },
+          "sourceCrop": {
+            "left": 925,
+            "top": 73,
+            "width": 337,
+            "height": 357
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 407,
+          "sourceBodyCenterXInCell": 206.5,
+          "outputPosition": {
+            "x": 49,
+            "y": 46
+          },
+          "resampledTile": {
+            "width": 413,
+            "height": 438
+          },
+          "outputAlpha24Bounds": {
+            "left": 79,
+            "top": 76,
+            "right": 433,
+            "bottom": 455,
+            "width": 355,
+            "height": 380,
+            "pixels": 90606
+          },
+          "outputAlpha24Margins": {
+            "left": 79,
+            "top": 76,
+            "right": 78,
+            "bottom": 56
+          },
+          "frame": "frames/ragdoll-star-paw/002.webp",
+          "sha256": "d61d079798aa1ff8bb1317de1be98b2fdf0905bc6b971ab7f0a89c31ddf99cf1",
+          "pixelSHA256": "4f45713720bfe835f9a63181a3a14c775e1ee3f51cb056e65e4ee2cf9be6c943"
+        },
+        {
+          "index": 3,
+          "sourceCell": {
+            "left": 1331,
+            "top": 0,
+            "width": 443,
+            "height": 444
+          },
+          "sourceAlpha24Bounds": {
+            "left": 64,
+            "top": 97,
+            "right": 369,
+            "bottom": 407,
+            "width": 306,
+            "height": 311,
+            "pixels": 62021
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 17,
+            "right": 442,
+            "bottom": 443,
+            "width": 443,
+            "height": 427,
+            "pixels": 73373
+          },
+          "sourceCrop": {
+            "left": 1371,
+            "top": 73,
+            "width": 354,
+            "height": 359
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 407,
+          "sourceBodyCenterXInCell": 217,
+          "outputPosition": {
+            "x": 39,
+            "y": 46
+          },
+          "resampledTile": {
+            "width": 434,
+            "height": 440
+          },
+          "outputAlpha24Bounds": {
+            "left": 69,
+            "top": 76,
+            "right": 443,
+            "bottom": 457,
+            "width": 375,
+            "height": 382,
+            "pixels": 93264
+          },
+          "outputAlpha24Margins": {
+            "left": 69,
+            "top": 76,
+            "right": 68,
+            "bottom": 54
+          },
+          "frame": "frames/ragdoll-star-paw/003.webp",
+          "sha256": "aea6140ae56250191cc31d73e6480fe6113d88be00f53ab1a2dfeab49f078c09",
+          "pixelSHA256": "c3ed2ef4aedb546df92950ad70e827b9b7b9c78f556c1cd2155a9880edea0307"
+        },
+        {
+          "index": 4,
+          "sourceCell": {
+            "left": 0,
+            "top": 444,
+            "width": 444,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 59,
+            "top": 57,
+            "right": 373,
+            "bottom": 374,
+            "width": 315,
+            "height": 318,
+            "pixels": 67388
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 443,
+            "bottom": 424,
+            "width": 444,
+            "height": 425,
+            "pixels": 80290
+          },
+          "sourceCrop": {
+            "left": 35,
+            "top": 477,
+            "width": 363,
+            "height": 366
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 374,
+          "sourceBodyCenterXInCell": 216.5,
+          "outputPosition": {
+            "x": 33,
+            "y": 38
+          },
+          "resampledTile": {
+            "width": 445,
+            "height": 449
+          },
+          "outputAlpha24Bounds": {
+            "left": 63,
+            "top": 68,
+            "right": 449,
+            "bottom": 458,
+            "width": 387,
+            "height": 391,
+            "pixels": 101432
+          },
+          "outputAlpha24Margins": {
+            "left": 63,
+            "top": 68,
+            "right": 62,
+            "bottom": 53
+          },
+          "frame": "frames/ragdoll-star-paw/004.webp",
+          "sha256": "cb2cd4ef39e674a12fa409018b13fa38225174fc3c6fbc8dc9034b324f623af4",
+          "pixelSHA256": "67d761363cfb31db24b077e21af45dc5d8b7e64e027b8bc57aec654fe016c085"
+        },
+        {
+          "index": 5,
+          "sourceCell": {
+            "left": 444,
+            "top": 444,
+            "width": 443,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 62,
+            "top": 63,
+            "right": 360,
+            "bottom": 373,
+            "width": 299,
+            "height": 311,
+            "pixels": 62083
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 442,
+            "bottom": 442,
+            "width": 443,
+            "height": 443,
+            "pixels": 80187
+          },
+          "sourceCrop": {
+            "left": 482,
+            "top": 483,
+            "width": 347,
+            "height": 359
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 374,
+          "sourceBodyCenterXInCell": 211.5,
+          "outputPosition": {
+            "x": 43,
+            "y": 45
+          },
+          "resampledTile": {
+            "width": 426,
+            "height": 440
+          },
+          "outputAlpha24Bounds": {
+            "left": 73,
+            "top": 74,
+            "right": 439,
+            "bottom": 455,
+            "width": 367,
+            "height": 382,
+            "pixels": 93605
+          },
+          "outputAlpha24Margins": {
+            "left": 73,
+            "top": 74,
+            "right": 72,
+            "bottom": 56
+          },
+          "frame": "frames/ragdoll-star-paw/005.webp",
+          "sha256": "cf0dc6e391e86fbaae2c56d542d457264fb2c8efdf51ae6d3181ea0f7986ef63",
+          "pixelSHA256": "44ab2d9266ffa852176a549001935d065284fc56eafb86ae4c835350a6c85d4b"
+        },
+        {
+          "index": 6,
+          "sourceCell": {
+            "left": 887,
+            "top": 444,
+            "width": 444,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 57,
+            "top": 79,
+            "right": 346,
+            "bottom": 373,
+            "width": 290,
+            "height": 295,
+            "pixels": 61358
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 443,
+            "bottom": 426,
+            "width": 444,
+            "height": 427,
+            "pixels": 76835
+          },
+          "sourceCrop": {
+            "left": 920,
+            "top": 499,
+            "width": 338,
+            "height": 343
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 374,
+          "sourceBodyCenterXInCell": 202,
+          "outputPosition": {
+            "x": 49,
+            "y": 65
+          },
+          "resampledTile": {
+            "width": 415,
+            "height": 421
+          },
+          "outputAlpha24Bounds": {
+            "left": 79,
+            "top": 95,
+            "right": 434,
+            "bottom": 456,
+            "width": 356,
+            "height": 362,
+            "pixels": 92509
+          },
+          "outputAlpha24Margins": {
+            "left": 79,
+            "top": 95,
+            "right": 77,
+            "bottom": 55
+          },
+          "frame": "frames/ragdoll-star-paw/006.webp",
+          "sha256": "e6f0ceb6d5ca3c583eced4e362a26da9d1f1eaf410fd1ebfc160ccd449824733",
+          "pixelSHA256": "67bf876b75d1c48913ac560f4221d1dd04335b36b29f2d67aef0f60a18205a24"
+        },
+        {
+          "index": 7,
+          "sourceCell": {
+            "left": 1331,
+            "top": 444,
+            "width": 443,
+            "height": 443
+          },
+          "sourceAlpha24Bounds": {
+            "left": 61,
+            "top": 58,
+            "right": 355,
+            "bottom": 372,
+            "width": 295,
+            "height": 315,
+            "pixels": 62839
+          },
+          "sourceAlpha1Bounds": {
+            "left": 0,
+            "top": 0,
+            "right": 441,
+            "bottom": 442,
+            "width": 442,
+            "height": 443,
+            "pixels": 77990
+          },
+          "sourceCrop": {
+            "left": 1368,
+            "top": 478,
+            "width": 343,
+            "height": 363
+          },
+          "scale": 1.2264150943396226,
+          "sourceGroundBaselineInCell": 374,
+          "sourceBodyCenterXInCell": 208.5,
+          "outputPosition": {
+            "x": 46,
+            "y": 39
+          },
+          "resampledTile": {
+            "width": 421,
+            "height": 445
+          },
+          "outputAlpha24Bounds": {
+            "left": 76,
+            "top": 68,
+            "right": 437,
+            "bottom": 454,
+            "width": 362,
+            "height": 387,
+            "pixels": 94685
+          },
+          "outputAlpha24Margins": {
+            "left": 76,
+            "top": 68,
+            "right": 74,
+            "bottom": 57
+          },
+          "frame": "frames/ragdoll-star-paw/007.webp",
+          "sha256": "d409b4de900a147111f747046f0990c4ccb5809473a66100544b931a53994ccd",
+          "pixelSHA256": "5f3e086b404a5c7447daa51aac3fff6840f58f5eced06f3e99e3969e13974216"
+        }
+      ],
+      "sprite": "sprites/ragdoll-star-paw.webp",
+      "atlasSHA256": "3f7bb8e0561af65f1efe5e0a624e99f2e1d1031e250ab1be6cd52016753cee28",
+      "distinctDecodedFrames": 8
+    },
+    {
+      "id": "chase-run",
+      "sourceKind": "reused-imagegen-sequence",
+      "originalRelease": "9mew-chase-motion-v1.0.0",
+      "sourcePath": "source/reused/chase-run.png",
+      "sourceSHA256": "b000db945588fc71a481226da9bb17beb9a65dbb17cc2a15bbad9de0a9e52db5",
+      "copiedWithoutReencoding": true,
+      "originalAnchorPreserved": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "sprite": "sprites/chase-run.webp",
+      "atlasSHA256": "c4992b11d1eebb961265d450482b8472ea29cc6774ae8e92616e4795a98b2382",
+      "frames": [
+        {
+          "path": "frames/chase-run/000.webp",
+          "sha256": "935b4f73f909b50bf1074364953b9832ee53634c4a4a4de3d3a71cc6c5c9d1ba",
+          "pixelSHA256": "ddca4ebc2d5b7210cc51ce4f816c83f4d20ed9180e6b99e33f735341b592527c",
+          "outputAlpha24Bounds": {
+            "left": 55,
+            "top": 120,
+            "right": 462,
+            "bottom": 441,
+            "width": 408,
+            "height": 322,
+            "pixels": 80534
+          },
+          "outputAlpha24Margins": {
+            "left": 55,
+            "top": 120,
+            "right": 49,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-run/001.webp",
+          "sha256": "07c947d88112adce4d392626e7f09a96e581c77201df9252dd9548f21d50d6a1",
+          "pixelSHA256": "0e071ac776d26594048e9e31e818a060bfb74bac5d95f1425209fc81bf34d50e",
+          "outputAlpha24Bounds": {
+            "left": 67,
+            "top": 114,
+            "right": 445,
+            "bottom": 438,
+            "width": 379,
+            "height": 325,
+            "pixels": 73601
+          },
+          "outputAlpha24Margins": {
+            "left": 67,
+            "top": 114,
+            "right": 66,
+            "bottom": 73
+          }
+        },
+        {
+          "path": "frames/chase-run/002.webp",
+          "sha256": "071c40fd9113cacdcd955fc6070f87e2935d728377a627354c61588c2237d615",
+          "pixelSHA256": "08e25daa6a102bb94bd2f2732dd2569318c5fb7cd0575a225221754c3dab37bc",
+          "outputAlpha24Bounds": {
+            "left": 51,
+            "top": 151,
+            "right": 458,
+            "bottom": 434,
+            "width": 408,
+            "height": 284,
+            "pixels": 70715
+          },
+          "outputAlpha24Margins": {
+            "left": 51,
+            "top": 151,
+            "right": 53,
+            "bottom": 77
+          }
+        },
+        {
+          "path": "frames/chase-run/003.webp",
+          "sha256": "1cb654d122fc1f6a455ec5528eeeccd05c34ba4bcaf9ab1ebe2ac99dc86e5d47",
+          "pixelSHA256": "1da6161bc7f05b2a2a0416a3111437dd05dd5d93dbc873c603fbb3396a3d4d1b",
+          "outputAlpha24Bounds": {
+            "left": 43,
+            "top": 148,
+            "right": 468,
+            "bottom": 431,
+            "width": 426,
+            "height": 284,
+            "pixels": 76613
+          },
+          "outputAlpha24Margins": {
+            "left": 43,
+            "top": 148,
+            "right": 43,
+            "bottom": 80
+          }
+        },
+        {
+          "path": "frames/chase-run/004.webp",
+          "sha256": "a69a2e64759589acf79eab7f7289998a30d9900a5199bad59523076237353d94",
+          "pixelSHA256": "58c7d38c395e6e5028afbde62d31fe4449d630487e86b9e965eb4facf5168a81",
+          "outputAlpha24Bounds": {
+            "left": 45,
+            "top": 154,
+            "right": 470,
+            "bottom": 440,
+            "width": 426,
+            "height": 287,
+            "pixels": 75805
+          },
+          "outputAlpha24Margins": {
+            "left": 45,
+            "top": 154,
+            "right": 41,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-run/005.webp",
+          "sha256": "8c7ed14bc6e0f88b21822f41ce12444dc053c4cce881111065baa09649013161",
+          "pixelSHA256": "11626255c5f55dcb7c144e475860787491ec394d51f78595c15b865be5df96b7",
+          "outputAlpha24Bounds": {
+            "left": 61,
+            "top": 141,
+            "right": 452,
+            "bottom": 436,
+            "width": 392,
+            "height": 296,
+            "pixels": 69761
+          },
+          "outputAlpha24Margins": {
+            "left": 61,
+            "top": 141,
+            "right": 59,
+            "bottom": 75
+          }
+        },
+        {
+          "path": "frames/chase-run/006.webp",
+          "sha256": "76162e271443ddd470b738d6841cbbdfd31b534e0e834daf339abfb8bf5f6311",
+          "pixelSHA256": "ce4fb98dbfec11b3f75108bbc0511ee3089cb92770abf4f38873e06d7dbaea1f",
+          "outputAlpha24Bounds": {
+            "left": 54,
+            "top": 111,
+            "right": 463,
+            "bottom": 432,
+            "width": 410,
+            "height": 322,
+            "pixels": 74576
+          },
+          "outputAlpha24Margins": {
+            "left": 54,
+            "top": 111,
+            "right": 48,
+            "bottom": 79
+          }
+        },
+        {
+          "path": "frames/chase-run/007.webp",
+          "sha256": "0b9d07fd61dca8e8f13b773837748c8dea93282e1752588660cdc0759a1437a4",
+          "pixelSHA256": "5c4fe58b398fffce0d6f60e1e67c07786bf63195c064adaf3d8d0d9c67c4aeef",
+          "outputAlpha24Bounds": {
+            "left": 54,
+            "top": 153,
+            "right": 452,
+            "bottom": 430,
+            "width": 399,
+            "height": 278,
+            "pixels": 66579
+          },
+          "outputAlpha24Margins": {
+            "left": 54,
+            "top": 153,
+            "right": 59,
+            "bottom": 81
+          }
+        }
+      ],
+      "distinctDecodedFrames": 8
+    },
+    {
+      "id": "chase-look-up",
+      "sourceKind": "reused-imagegen-sequence",
+      "originalRelease": "9mew-chase-motion-v1.0.0",
+      "sourcePath": "source/reused/chase-look-up.png",
+      "sourceSHA256": "66686b51abc7d321665ffc59893b6f910979ff690b1c9063c57d73934336b2e7",
+      "copiedWithoutReencoding": true,
+      "originalAnchorPreserved": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "sprite": "sprites/chase-look-up.webp",
+      "atlasSHA256": "b140ac816246a1dde9695aeb89f84c1a7b5c8b7d7a602bf6b10439f3cf43add5",
+      "frames": [
+        {
+          "path": "frames/chase-look-up/000.webp",
+          "sha256": "1a260cbbdc03d6459cf6fbcb78bc45806a67bca0e3cc20c956e2a7abcdba7180",
+          "pixelSHA256": "e7472512747a57b8a86487e1e8ff3a2329e39477cfac7b4b19d34a18519fc1e4",
+          "outputAlpha24Bounds": {
+            "left": 83,
+            "top": 71,
+            "right": 442,
+            "bottom": 440,
+            "width": 360,
+            "height": 370,
+            "pixels": 80225
+          },
+          "outputAlpha24Margins": {
+            "left": 83,
+            "top": 71,
+            "right": 69,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/001.webp",
+          "sha256": "7b759fd3e1cadd4fb445cdafc28087868a209367ffbfeb597dc6752274da8721",
+          "pixelSHA256": "dd6b18d62c854c811492d01fe90bacde47309ff71d03bdcb1892463ed55d0adb",
+          "outputAlpha24Bounds": {
+            "left": 84,
+            "top": 67,
+            "right": 434,
+            "bottom": 440,
+            "width": 351,
+            "height": 374,
+            "pixels": 79772
+          },
+          "outputAlpha24Margins": {
+            "left": 84,
+            "top": 67,
+            "right": 77,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/002.webp",
+          "sha256": "be1fd0b38f039b3f0b696e9f4c7a3fea29ee0933ae5d4d891548908739a0248d",
+          "pixelSHA256": "11124aa418c341561322dde34c88ef880da176f44bc078fe7f52e53ce758000e",
+          "outputAlpha24Bounds": {
+            "left": 80,
+            "top": 65,
+            "right": 441,
+            "bottom": 440,
+            "width": 362,
+            "height": 376,
+            "pixels": 80781
+          },
+          "outputAlpha24Margins": {
+            "left": 80,
+            "top": 65,
+            "right": 70,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/003.webp",
+          "sha256": "2334003f2b7f30a1e20f5c7e9e2ad0034b0da70ce58823aaaf27fa96c897db77",
+          "pixelSHA256": "60c2d8c0161528751264c5d55637ce9415f74639b8f523133de2f868ec187ad8",
+          "outputAlpha24Bounds": {
+            "left": 73,
+            "top": 65,
+            "right": 437,
+            "bottom": 440,
+            "width": 365,
+            "height": 376,
+            "pixels": 77224
+          },
+          "outputAlpha24Margins": {
+            "left": 73,
+            "top": 65,
+            "right": 74,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/004.webp",
+          "sha256": "0849816fe047feef8a5726b2d65f4d1a4ac50a826de754df2523a9c0afb4d1a6",
+          "pixelSHA256": "dff7f5e65d589d99d25fbbbead52365ecaaafc1b3f329df6e23d5cf23321e0b0",
+          "outputAlpha24Bounds": {
+            "left": 59,
+            "top": 60,
+            "right": 451,
+            "bottom": 440,
+            "width": 393,
+            "height": 381,
+            "pixels": 82518
+          },
+          "outputAlpha24Margins": {
+            "left": 59,
+            "top": 60,
+            "right": 60,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/005.webp",
+          "sha256": "859e062e9d24abdc6f6190b93ab3e83f678233782e8a4b47c059eb5443291d64",
+          "pixelSHA256": "def922b72d64fee307ead9eceee6768a0a07bc26dcaebc466177e1e62aab2555",
+          "outputAlpha24Bounds": {
+            "left": 75,
+            "top": 120,
+            "right": 440,
+            "bottom": 441,
+            "width": 366,
+            "height": 322,
+            "pixels": 74701
+          },
+          "outputAlpha24Margins": {
+            "left": 75,
+            "top": 120,
+            "right": 71,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-look-up/006.webp",
+          "sha256": "1079001ddaaeddb046b642c7a5359fff89c44d15db28a06670f0c12dfe3f1733",
+          "pixelSHA256": "579d374d33e402741f2beed291f0df79158e2a98b26253a86d63f352719618ce",
+          "outputAlpha24Bounds": {
+            "left": 76,
+            "top": 136,
+            "right": 443,
+            "bottom": 440,
+            "width": 368,
+            "height": 305,
+            "pixels": 71120
+          },
+          "outputAlpha24Margins": {
+            "left": 76,
+            "top": 136,
+            "right": 68,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-look-up/007.webp",
+          "sha256": "8b4cc625d1af0d83dec2a470941bd27bf77a48f03cbe4ed2e1e154b163291041",
+          "pixelSHA256": "29574d04e15c218a5fb4f313cab313a8b0088ae2e745c484319882e12dd7f92b",
+          "outputAlpha24Bounds": {
+            "left": 81,
+            "top": 165,
+            "right": 435,
+            "bottom": 440,
+            "width": 355,
+            "height": 276,
+            "pixels": 66123
+          },
+          "outputAlpha24Margins": {
+            "left": 81,
+            "top": 165,
+            "right": 76,
+            "bottom": 71
+          }
+        }
+      ],
+      "distinctDecodedFrames": 8
+    },
+    {
+      "id": "chase-leap",
+      "sourceKind": "reused-imagegen-sequence",
+      "originalRelease": "9mew-chase-motion-v1.0.0",
+      "sourcePath": "source/reused/chase-leap.png",
+      "sourceSHA256": "2132f68829d35c260a7f1e1b0d6c9d96f918246a69fd8db7ace65897dfabbf02",
+      "copiedWithoutReencoding": true,
+      "originalAnchorPreserved": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "sprite": "sprites/chase-leap.webp",
+      "atlasSHA256": "713eddf29fe3b3185d61d433bd7a770a156cf81bc580113291efa2a95ff87f8d",
+      "frames": [
+        {
+          "path": "frames/chase-leap/000.webp",
+          "sha256": "af589b39a6b8d71face5a24ca761cb58886200b4e1bc70554c8d8f1be782066e",
+          "pixelSHA256": "3fdfa8b6d3c36fbb888ad3275a3c3b7b6a18166c3e26cffb6d59a504e1fad591",
+          "outputAlpha24Bounds": {
+            "left": 73,
+            "top": 206,
+            "right": 451,
+            "bottom": 441,
+            "width": 379,
+            "height": 236,
+            "pixels": 57528
+          },
+          "outputAlpha24Margins": {
+            "left": 73,
+            "top": 206,
+            "right": 60,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-leap/001.webp",
+          "sha256": "451100e459d27f36870f8ca15949421bce9ea62e68726f07245ebcf71b068d4d",
+          "pixelSHA256": "affc4a7b7575110f8f9b01438c0105dad7135938368db2f67ec5cb02d09a539a",
+          "outputAlpha24Bounds": {
+            "left": 91,
+            "top": 119,
+            "right": 422,
+            "bottom": 441,
+            "width": 332,
+            "height": 323,
+            "pixels": 63803
+          },
+          "outputAlpha24Margins": {
+            "left": 91,
+            "top": 119,
+            "right": 89,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-leap/002.webp",
+          "sha256": "a3593767430854a90cbd3c2b94e145389ff308002e1dabb9ac61b2ba862dea7a",
+          "pixelSHA256": "a0062365c66b1c9c50408696b02d8f9065f7398358366539143d3c804af99de6",
+          "outputAlpha24Bounds": {
+            "left": 55,
+            "top": 82,
+            "right": 456,
+            "bottom": 441,
+            "width": 402,
+            "height": 360,
+            "pixels": 64998
+          },
+          "outputAlpha24Margins": {
+            "left": 55,
+            "top": 82,
+            "right": 55,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-leap/003.webp",
+          "sha256": "47a346a9b5dbf8adb77b5720e0affffdca12e228573c84a81598ab87de3c0fea",
+          "pixelSHA256": "63fd859af876b23f34ccc7c6a000f5c81a1c27a1dbf0ba6e469662a718956022",
+          "outputAlpha24Bounds": {
+            "left": 58,
+            "top": 60,
+            "right": 453,
+            "bottom": 442,
+            "width": 396,
+            "height": 383,
+            "pixels": 69592
+          },
+          "outputAlpha24Margins": {
+            "left": 58,
+            "top": 60,
+            "right": 58,
+            "bottom": 69
+          }
+        },
+        {
+          "path": "frames/chase-leap/004.webp",
+          "sha256": "cc2c687e53b54df464195b4821480f4fcde83ef8431541a1181cce1fd604633a",
+          "pixelSHA256": "7901ff9f455828bcf405c32192ec1e9478bd414fd6494c501a4f5bf5d37417d6",
+          "outputAlpha24Bounds": {
+            "left": 99,
+            "top": 119,
+            "right": 421,
+            "bottom": 441,
+            "width": 323,
+            "height": 323,
+            "pixels": 57977
+          },
+          "outputAlpha24Margins": {
+            "left": 99,
+            "top": 119,
+            "right": 90,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-leap/005.webp",
+          "sha256": "f13b467be29302154bec04414e1d46fe61f363342e72510145d6561e993ca2ae",
+          "pixelSHA256": "bd8830700c9f6255951870d4e47782d3dadc3b54717db0d0bd44e55d959b2767",
+          "outputAlpha24Bounds": {
+            "left": 66,
+            "top": 107,
+            "right": 447,
+            "bottom": 442,
+            "width": 382,
+            "height": 336,
+            "pixels": 62640
+          },
+          "outputAlpha24Margins": {
+            "left": 66,
+            "top": 107,
+            "right": 64,
+            "bottom": 69
+          }
+        },
+        {
+          "path": "frames/chase-leap/006.webp",
+          "sha256": "556f0b489282440f63ab28ae1b928b46285b5fa8c3526d25bd3fcc9ad3b8e093",
+          "pixelSHA256": "47ac4d8f824145a30e64b28e5c31055d6b87ac625e81886e1fab8a2e831e5421",
+          "outputAlpha24Bounds": {
+            "left": 69,
+            "top": 156,
+            "right": 449,
+            "bottom": 442,
+            "width": 381,
+            "height": 287,
+            "pixels": 61602
+          },
+          "outputAlpha24Margins": {
+            "left": 69,
+            "top": 156,
+            "right": 62,
+            "bottom": 69
+          }
+        },
+        {
+          "path": "frames/chase-leap/007.webp",
+          "sha256": "7aa9c6e8de1723558e7f88674e6f7c5cd22a92b827f5fc517444056bc2441171",
+          "pixelSHA256": "b8354118673da11d10d7ac7a3269af127cb37875380f99b6d3f47621a292d5ce",
+          "outputAlpha24Bounds": {
+            "left": 77,
+            "top": 173,
+            "right": 452,
+            "bottom": 442,
+            "width": 376,
+            "height": 270,
+            "pixels": 63046
+          },
+          "outputAlpha24Margins": {
+            "left": 77,
+            "top": 173,
+            "right": 59,
+            "bottom": 69
+          }
+        }
+      ],
+      "distinctDecodedFrames": 8
+    },
+    {
+      "id": "chase-land",
+      "sourceKind": "reused-imagegen-sequence",
+      "originalRelease": "9mew-chase-motion-v1.0.0",
+      "sourcePath": "source/reused/chase-land.png",
+      "sourceSHA256": "62b1a163ade540cb255fe92e3c16422dd3206e1ba353fc709094d632f613fd4d",
+      "copiedWithoutReencoding": true,
+      "originalAnchorPreserved": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "sprite": "sprites/chase-land.webp",
+      "atlasSHA256": "daafcb325190315869f5210c1bdb9f223067876fc70d788515343980406de35b",
+      "frames": [
+        {
+          "path": "frames/chase-land/000.webp",
+          "sha256": "9aab7263ac8e7c81ee1d52c58cfc0824cfc9cc0de7dec5308aabf54918fa15e8",
+          "pixelSHA256": "06a1f2ad298078694b70f614eec1677a741767cd0cd45843024159d60b1c0b9e",
+          "outputAlpha24Bounds": {
+            "left": 53,
+            "top": 60,
+            "right": 460,
+            "bottom": 440,
+            "width": 408,
+            "height": 381,
+            "pixels": 84640
+          },
+          "outputAlpha24Margins": {
+            "left": 53,
+            "top": 60,
+            "right": 51,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-land/001.webp",
+          "sha256": "fe4fbb0011938374d52740bced81da07dc2b532e4d2bedfd2994ef11852bce6e",
+          "pixelSHA256": "f3811613b2cebf4bad383741c190ae3a32d0ebb01ee084dcfab13f95a3704684",
+          "outputAlpha24Bounds": {
+            "left": 54,
+            "top": 94,
+            "right": 456,
+            "bottom": 440,
+            "width": 403,
+            "height": 347,
+            "pixels": 75588
+          },
+          "outputAlpha24Margins": {
+            "left": 54,
+            "top": 94,
+            "right": 55,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-land/002.webp",
+          "sha256": "8e072375a71f840e3e731dff3e70d100ea004e27762b3d2209edb209bd66bd56",
+          "pixelSHA256": "209ea0dbb9c27de0df4040364438df066be283b0a0ec7319e590f3293a5e2fd5",
+          "outputAlpha24Bounds": {
+            "left": 45,
+            "top": 95,
+            "right": 469,
+            "bottom": 440,
+            "width": 425,
+            "height": 346,
+            "pixels": 78175
+          },
+          "outputAlpha24Margins": {
+            "left": 45,
+            "top": 95,
+            "right": 42,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-land/003.webp",
+          "sha256": "357067f4d4ddc5a91869380d82cee9c87e8c04ce4813b86e44518e5361f3b2b5",
+          "pixelSHA256": "454cf05aa6d1d9b00a52a0c362befb20f4e40705a45e9c0bff439785918418df",
+          "outputAlpha24Bounds": {
+            "left": 63,
+            "top": 132,
+            "right": 448,
+            "bottom": 440,
+            "width": 386,
+            "height": 309,
+            "pixels": 72666
+          },
+          "outputAlpha24Margins": {
+            "left": 63,
+            "top": 132,
+            "right": 63,
+            "bottom": 71
+          }
+        },
+        {
+          "path": "frames/chase-land/004.webp",
+          "sha256": "3914f6d8122cef82da389ea38e4507d124aa1464daf39d82b884adadde3521c3",
+          "pixelSHA256": "d37dddb52e7214f237b30d59e8da4559d133ab9d499a23751085af25f405fa80",
+          "outputAlpha24Bounds": {
+            "left": 64,
+            "top": 84,
+            "right": 446,
+            "bottom": 441,
+            "width": 383,
+            "height": 358,
+            "pixels": 86102
+          },
+          "outputAlpha24Margins": {
+            "left": 64,
+            "top": 84,
+            "right": 65,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-land/005.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSHA256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "outputAlpha24Bounds": {
+            "left": 87,
+            "top": 72,
+            "right": 424,
+            "bottom": 441,
+            "width": 338,
+            "height": 370,
+            "pixels": 73475
+          },
+          "outputAlpha24Margins": {
+            "left": 87,
+            "top": 72,
+            "right": 87,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-land/006.webp",
+          "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f",
+          "pixelSHA256": "10f8ec01b413aacf1a5b93aedd2fb75c6879b8da496a608da0a482bf576b1dee",
+          "outputAlpha24Bounds": {
+            "left": 86,
+            "top": 71,
+            "right": 425,
+            "bottom": 441,
+            "width": 340,
+            "height": 371,
+            "pixels": 72645
+          },
+          "outputAlpha24Margins": {
+            "left": 86,
+            "top": 71,
+            "right": 86,
+            "bottom": 70
+          }
+        },
+        {
+          "path": "frames/chase-land/007.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSHA256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "outputAlpha24Bounds": {
+            "left": 89,
+            "top": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          },
+          "outputAlpha24Margins": {
+            "left": 89,
+            "top": 76,
+            "right": 89,
+            "bottom": 71
+          }
+        }
+      ],
+      "distinctDecodedFrames": 8
+    }
+  ],
+  "contacts": [
+    {
+      "path": "reports/contactsheet-light.png",
+      "width": 1280,
+      "height": 1184,
+      "sha256": "7f62b413fccda69446dab6259d3b9056c86483233bf956b0985fc657d2a66e97"
+    },
+    {
+      "path": "reports/contactsheet-dark.png",
+      "width": 1280,
+      "height": 1184,
+      "sha256": "94c8de7799752d87c747b9442668ab5771ce785616711b613d91d4551904d4c9"
+    }
+  ],
+  "scope": "Geometry, actual RGBA decode, unique frame hashes and exact reuse checks. Static contact sheets supplied for review; this script does not certify timed motion or artistic approval."
+}

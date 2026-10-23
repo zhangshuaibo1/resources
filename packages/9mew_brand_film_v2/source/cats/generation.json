@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "ginger-trot",
+      "characterId": "9mew.character.brand-ginger",
+      "prompt": "Use case: illustration-story.\nAsset type: professional transparent 2D character animation sprite atlas for a polished 9mew website brand film.\nUse the attached cream kitten ONLY as a reference for the exquisite soft 2D illustration style, tactile individual fur strands, lighting, attractive facial anatomy and graceful paws. Create a DIFFERENT individual: a warm ginger orange tabby kitten, amber-hazel eyes, pale cream chin and chest, delicate darker orange forehead and limb tabby markings, broad softly rounded face, compact natural feline body, soft plume-like tail. Do NOT copy the reference white coat or scarf. No clothing or accessories.\nCreate EXACTLY EIGHT sequential key poses arranged in EXACTLY FOUR equal columns and TWO equal rows on a true transparent RGBA canvas, landscape 2:1 aspect ratio. Read left to right, then the lower row. Each of the eight cells has exactly one complete kitten. All eight drawings depict the SAME individual and SAME camera view, facing RIGHT in a three-quarter side view, same body scale, same head proportions and same ground line. No perspective or camera changes.\nAnimation: a graceful lively little feline trot/run cycle toward the right, with believable alternating forelegs and hindlegs, shoulder/hip weight shifts, small elastic torso changes and a beautiful lifted soft tail. Frame 1: rightward forward reach, one forepaw about to touch ground, opposite hind leg pushing. Frame 2: forepaw supports weight, body gathers over it, other forepaw lifted. Frame 3: hindquarters push, body lengthens gently, front paws reach. Frame 4: light suspended phase with paws tucked naturally and tail trailing. Frame 5: opposite forepaw reaches and opposite hind leg begins the next push. Frame 6: weight transfer over the opposite forepaw, first forepaw lifts. Frame 7: hind-leg push and small body stretch. Frame 8: light recovery into frame 1. Every frame must have coherent normal feline anatomy: four legs total, one tail, two ears, no extra paws or human hands. The cycle is playful and elegant, never frantic or contorted.\nPremium high-detail 2D painted illustration, soft warm studio light, gentle warm ivory shadows, fine fluffy fur silhouette, pink nose and curved kitten toes, clear but restrained eye reflections. Comparable production finish to the reference, charming and sophisticated.\nComposition: all eight full-body cats fit completely inside their respective equal grid cells with at least 12% EMPTY transparent padding on ALL four sides of every cell, including tail, ears and paws. Same overall drawing scale in every cell; do not enlarge a narrow pose. Separate cells widely enough for independent cropping. Completely transparent background including beneath paws. No scene, ground, floor shadow, text, numbers, labels, border, grid, stars, sparkles, objects, watermark or baked glow. Only the eight kitten cutouts.",
+      "referencePath": "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/skills/9mew-visual-forge/assets/naimiao-master.png",
+      "referenceRole": "style-only; new individual",
+      "generatedPath": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-84432a77-5ce7-4287-ab1d-877c86e0e99e.png",
+      "provider": null,
+      "model": null,
+      "cost": null,
+      "transparentBackground": true,
+      "status": "selected_candidate_for_parent_review",
+      "referenceSHA256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "width": 1774,
+      "height": 887,
+      "colorMode": "RGBA",
+      "initialCandidate": {
+        "path": "ginger-trot-candidate-01.png",
+        "sha256": "a22217ce56c6ceb23e0a439e9b14a4a0387de7dee2596ddc3ba75338ad739de0",
+        "geometry": [
+          {
+            "frame": 0,
+            "cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "alpha24bbox": [
+              28,
+              85,
+              418,
+              383
+            ],
+            "margins": [
+              28,
+              85,
+              26,
+              61
+            ]
+          },
+          {
+            "frame": 1,
+            "cell": [
+              444,
+              0,
+              887,
+              444
+            ],
+            "alpha24bbox": [
+              34,
+              82,
+              411,
+              395
+            ],
+            "margins": [
+              34,
+              82,
+              32,
+              49
+            ]
+          },
+          {
+            "frame": 2,
+            "cell": [
+              887,
+              0,
+              1330,
+              444
+            ],
+            "alpha24bbox": [
+              18,
+              85,
+              419,
+              382
+            ],
+            "margins": [
+              18,
+              85,
+              24,
+              62
+            ]
+          },
+          {
+            "frame": 3,
+            "cell": [
+              1330,
+              0,
+              1774,
+              444
+            ],
+            "alpha24bbox": [
+              15,
+              76,
+              418,
+              333
+            ],
+            "margins": [
+              15,
+              76,
+              26,
+              111
+            ]
+          },
+          {
+            "frame": 4,
+            "cell": [
+              0,
+              444,
+              444,
+              887
+            ],
+            "alpha24bbox": [
+              40,
+              75,
+              419,
+              385
+            ],
+            "margins": [
+              40,
+              75,
+              25,
+              58
+            ]
+          },
+          {
+            "frame": 5,
+            "cell": [
+              444,
+              444,
+              887,
+              887
+            ],
+            "alpha24bbox": [
+              39,
+              76,
+              418,
+              386
+            ],
+            "margins": [
+              39,
+              76,
+              25,
+              57
+            ]
+          },
+          {
+            "frame": 6,
+            "cell": [
+              887,
+              444,
+              1330,
+              887
+            ],
+            "alpha24bbox": [
+              21,
+              79,
+              440,
+              369
+            ],
+            "margins": [
+              21,
+              79,
+              3,
+              74
+            ]
+          },
+          {
+            "frame": 7,
+            "cell": [
+              1330,
+              444,
+              1774,
+              887
+            ],
+            "alpha24bbox": [
+              27,
+              65,
+              410,
+              351
+            ],
+            "margins": [
+              27,
+              65,
+              34,
+              92
+            ]
+          }
+        ],
+        "selection": "not_selected",
+        "reason": "insufficient per-cell padding, with adjacent-cell overlap in ragdoll sheet"
+      },
+      "selectedSource": "ginger-trot.png",
+      "sha256": "da57c6a61887a5209daa52526d8bf2882f90c37d77703e075239e33034f491a6",
+      "sourceCellGeometry": [
+        {
+          "frame": 0,
+          "cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "alpha24bbox": [
+            75,
+            147,
+            387,
+            385
+          ],
+          "margins": [
+            75,
+            147,
+            57,
+            59
+          ]
+        },
+        {
+          "frame": 1,
+          "cell": [
+            444,
+            0,
+            887,
+            444
+          ],
+          "alpha24bbox": [
+            76,
+            144,
+            384,
+            396
+          ],
+          "margins": [
+            76,
+            144,
+            59,
+            48
+          ]
+        },
+        {
+          "frame": 2,
+          "cell": [
+            887,
+            0,
+            1330,
+            444
+          ],
+          "alpha24bbox": [
+            56,
+            146,
+            385,
+            386
+          ],
+          "margins": [
+            56,
+            146,
+            58,
+            58
+          ]
+        },
+        {
+          "frame": 3,
+          "cell": [
+            1330,
+            0,
+            1774,
+            444
+          ],
+          "alpha24bbox": [
+            57,
+            143,
+            395,
+            353
+          ],
+          "margins": [
+            57,
+            143,
+            49,
+            91
+          ]
+        },
+        {
+          "frame": 4,
+          "cell": [
+            0,
+            444,
+            444,
+            887
+          ],
+          "alpha24bbox": [
+            74,
+            91,
+            386,
+            337
+          ],
+          "margins": [
+            74,
+            91,
+            58,
+            106
+          ]
+        },
+        {
+          "frame": 5,
+          "cell": [
+            444,
+            444,
+            887,
+            887
+          ],
+          "alpha24bbox": [
+            75,
+            90,
+            394,
+            340
+          ],
+          "margins": [
+            75,
+            90,
+            49,
+            103
+          ]
+        },
+        {
+          "frame": 6,
+          "cell": [
+            887,
+            444,
+            1330,
+            887
+          ],
+          "alpha24bbox": [
+            55,
+            92,
+            393,
+            323
+          ],
+          "margins": [
+            55,
+            92,
+            50,
+            120
+          ]
+        },
+        {
+          "frame": 7,
+          "cell": [
+            1330,
+            444,
+            1774,
+            887
+          ],
+          "alpha24bbox": [
+            57,
+            88,
+            388,
+            313
+          ],
+          "margins": [
+            57,
+            88,
+            56,
+            130
+          ]
+        }
+      ],
+      "layoutCorrection": {
+        "promptPath": "ginger-trot.layout-fix.prompt.txt",
+        "prompt": "Use case: precise-object-edit. Edit this existing 4-column by 2-row transparent kitten animation atlas. The artwork quality, SAME eight key poses, character identity, coat colors, eyes, fur, anatomy, facing direction and action order must be retained.\nMake ONLY a layout correction: each kitten is currently too large within its grid cell. Re-layout the EIGHT complete kitten cutouts into a rigorously EVEN 4-column by 2-row grid on the SAME 2:1 landscape transparent canvas. Every kitten, including every raised paw, tail tip and ear, must be scaled uniformly SMALLER to occupy no more than 64 percent of the cell width AND 64 percent of the cell height. Use one shared scale for all eight poses; choose it to fit the widest/tallest pose. Center each complete cutout horizontally within its own cell and place the grounded paws at 78 percent cell height. No kitten can cross any cell boundary. This means a noticeably generous 18 percent or greater transparent margin on each side; do not fill those spaces with larger characters.\nPreserve the poses, especially the actual changing legs/paws, do not freeze or duplicate the poses. Keep the whole cat intact. Correct any previously cropped edge so the whole tail/ears/paws are visible. Keep detailed beautiful 2D fur and soft studio lighting. No new text, numbers, separator lines, grid, shadow, background, stars or accessories. TRUE alpha transparency. Deliver only the same eight kittens evenly arranged, now significantly smaller with generous padding.\n",
+        "generatedPath": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-aa21ca99-43dd-48cc-ad68-d9ea40613bbb.png",
+        "reference": "ginger-trot-candidate-01.png",
+        "transparentBackground": true,
+        "provider": null,
+        "model": null,
+        "cost": null,
+        "tool": "image_gen.imagegen",
+        "mode": "builtin",
+        "jobId": null
+      },
+      "minimumAlpha24CellMargin": 48,
+      "visualReview": {
+        "status": "STATIC_ATLAS_REVIEW_COMPLETED",
+        "reviewScope": "Selected transparent source atlases and dark/light composite review; no timed animation review performed by this agent.",
+        "findings": [
+          "Distinct coat pattern, eye color and facial design from cream main-cat identity",
+          "Fine fur, friendly kitten anatomy and elegant natural paws preserved",
+          "Eight distinct generated poses, complete tails/ears/paws, no neighboring cell silhouettes intruding",
+          "No visible excess limbs, text, props or baked floor",
+          "Alpha channel contains true transparency; transparent RGB is ignored in composites"
+        ],
+        "paddingNote": "Requested 12 percent empty cell padding was not exactly achieved everywhere; measured alpha>=24 minimum is 48 source pixels. Revised cells are complete and safely separated.",
+        "colorComposite": "midnight #101321"
+      },
+      "alignmentNotes": {
+        "equalCellBounds": "round(column*1774/4), round(row*887/2)",
+        "suggestedSecondRowVerticalOffsetPx": 56,
+        "meaning": "Generated lower-row grounded baseline sits higher within its cell. Normalize the row ground line during mechanical atlas assembly, preserve airborne pose offsets within a row, keep one shared scale across all eight poses.",
+        "suggestedFirstRowGroundBaselinePx": 396
+      },
+      "tool": "image_gen.imagegen",
+      "mode": "builtin",
+      "jobId": null
+    },
+    {
+      "id": "ragdoll-star-paw",
+      "characterId": "9mew.character.brand-ragdoll",
+      "prompt": "Use case: illustration-story.\nAsset type: professional transparent 2D character animation sprite atlas for a polished 9mew website brand film.\nUse the attached cream kitten ONLY as a reference for exquisite softly lit 2D illustration, tactile individual fur strands, friendly facial construction and graceful paws. Create a DIFFERENT individual: a beautiful young blue-point Ragdoll kitten with long silky ivory fur, cool soft gray-blue ears, gentle gray-blue facial mask and fluffy tail, muted blue-gray paws, large clear blue eyes, broad yet elegant cheeks, pale ivory muzzle, dusty-pink nose. The mask and blue eyes distinguish this cat from the reference. NO scarf, costume, collar or accessories.\nCreate EXACTLY EIGHT successive key poses in EXACTLY FOUR equal columns by TWO equal rows, landscape 2:1 aspect ratio, on a real transparent RGBA canvas. Read left to right, then lower row. Each cell contains exactly ONE complete identical Ragdoll individual. Locked gentle three-quarter camera facing RIGHT, identical scale, identical head proportions, stable supporting paws and ground line, full fluffy tail curling near the ground on the left of the body.\nAction: seated kitten notices a tiny imaginary light above and slightly to its right, then reaches up to gently bat it once, then sits comfortably again. The light MUST NOT be drawn; it will be composited later. Frame 1: both front paws grounded, seated relaxed, gaze forward-right. Frame 2: eyes and head softly lift toward upper right, curious ears. Frame 3: nearest forepaw bends at wrist and lifts to chest height, far forepaw firmly supports body. Frame 4: lifted paw reaches higher diagonally right, natural shoulder and bent wrist, paw pad slightly visible. Frame 5: highest graceful reaching pose, toes curved inward gently, hindquarters still grounded and far forepaw supporting. Frame 6: reached paw slowly withdraws toward chest, head follows downward a little. Frame 7: forepaw lowers nearly to ground, body relaxes. Frame 8: same relaxed seated stance as frame 1, both forepaws grounded, soft welcoming gaze. Do not turn this into a wave or human hand pose. Preserve four legs total, two ears, one tail, coherent limb attachment and natural feline weight.\nPremium high-detail 2D painted illustration with delicate luxurious fur, warm soft studio light, subtle pink/ivory highlights balanced against blue-gray points, no shiny toy plastic. The kitten is beautiful, expressive and anatomically refined.\nEvery full-body drawing must fit COMPLETELY in its equal grid cell with at least 12% empty transparent margin on all four sides, including the highest paw, ears and entire tail. Scale all eight figures consistently according to the highest reach so the standing height stays comparable. No independent per-pose zoom. No contact shadow, floor, background, grid, letters, numbering, text, logo, props, star, sparkle, decorative objects, glow or watermark. Only eight clean transparent kitten cutouts.",
+      "referencePath": "/workspace/scratch/1b78c1eefe5a/output/9mew_pet_actions_kit_v5/skills/9mew-visual-forge/assets/naimiao-master.png",
+      "referenceRole": "style-only; new individual",
+      "generatedPath": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-1b6ffe09-dba9-4d23-be68-37d36e069983.png",
+      "provider": null,
+      "model": null,
+      "cost": null,
+      "transparentBackground": true,
+      "status": "selected_candidate_for_parent_review",
+      "referenceSHA256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "width": 1774,
+      "height": 887,
+      "colorMode": "RGBA",
+      "initialCandidate": {
+        "path": "ragdoll-star-paw-candidate-01.png",
+        "sha256": "a601a2eed892d5b837ad85e49e76d2a90d7b38aa392ed20c0394c1a5d527dbf3",
+        "geometry": [
+          {
+            "frame": 0,
+            "cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "alpha24bbox": [
+              17,
+              23,
+              402,
+              444
+            ],
+            "margins": [
+              17,
+              23,
+              42,
+              0
+            ]
+          },
+          {
+            "frame": 1,
+            "cell": [
+              444,
+              0,
+              887,
+              444
+            ],
+            "alpha24bbox": [
+              16,
+              14,
+              405,
+              428
+            ],
+            "margins": [
+              16,
+              14,
+              38,
+              16
+            ]
+          },
+          {
+            "frame": 2,
+            "cell": [
+              887,
+              0,
+              1330,
+              444
+            ],
+            "alpha24bbox": [
+              11,
+              15,
+              398,
+              428
+            ],
+            "margins": [
+              11,
+              15,
+              45,
+              16
+            ]
+          },
+          {
+            "frame": 3,
+            "cell": [
+              1330,
+              0,
+              1774,
+              444
+            ],
+            "alpha24bbox": [
+              11,
+              15,
+              424,
+              429
+            ],
+            "margins": [
+              11,
+              15,
+              20,
+              15
+            ]
+          },
+          {
+            "frame": 4,
+            "cell": [
+              0,
+              444,
+              444,
+              887
+            ],
+            "alpha24bbox": [
+              14,
+              0,
+              444,
+              420
+            ],
+            "margins": [
+              14,
+              0,
+              0,
+              23
+            ]
+          },
+          {
+            "frame": 5,
+            "cell": [
+              444,
+              444,
+              887,
+              887
+            ],
+            "alpha24bbox": [
+              0,
+              16,
+              427,
+              421
+            ],
+            "margins": [
+              0,
+              16,
+              16,
+              22
+            ]
+          },
+          {
+            "frame": 6,
+            "cell": [
+              887,
+              444,
+              1330,
+              887
+            ],
+            "alpha24bbox": [
+              12,
+              42,
+              437,
+              420
+            ],
+            "margins": [
+              12,
+              42,
+              6,
+              23
+            ]
+          },
+          {
+            "frame": 7,
+            "cell": [
+              1330,
+              444,
+              1774,
+              887
+            ],
+            "alpha24bbox": [
+              17,
+              17,
+              403,
+              422
+            ],
+            "margins": [
+              17,
+              17,
+              41,
+              21
+            ]
+          }
+        ],
+        "selection": "not_selected",
+        "reason": "insufficient per-cell padding, with adjacent-cell overlap in ragdoll sheet"
+      },
+      "selectedSource": "ragdoll-star-paw.png",
+      "sha256": "b256f4ab66b5f09c661bbdfd81565761ba7cf4c1f4652db2775d2a9749e6a2a7",
+      "sourceCellGeometry": [
+        {
+          "frame": 0,
+          "cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "alpha24bbox": [
+            65,
+            100,
+            354,
+            407
+          ],
+          "margins": [
+            65,
+            100,
+            90,
+            37
+          ]
+        },
+        {
+          "frame": 1,
+          "cell": [
+            444,
+            0,
+            887,
+            444
+          ],
+          "alpha24bbox": [
+            66,
+            96,
+            354,
+            407
+          ],
+          "margins": [
+            66,
+            96,
+            89,
+            37
+          ]
+        },
+        {
+          "frame": 2,
+          "cell": [
+            887,
+            0,
+            1330,
+            444
+          ],
+          "alpha24bbox": [
+            62,
+            97,
+            351,
+            406
+          ],
+          "margins": [
+            62,
+            97,
+            92,
+            38
+          ]
+        },
+        {
+          "frame": 3,
+          "cell": [
+            1330,
+            0,
+            1774,
+            444
+          ],
+          "alpha24bbox": [
+            65,
+            97,
+            371,
+            408
+          ],
+          "margins": [
+            65,
+            97,
+            73,
+            36
+          ]
+        },
+        {
+          "frame": 4,
+          "cell": [
+            0,
+            444,
+            444,
+            887
+          ],
+          "alpha24bbox": [
+            59,
+            57,
+            374,
+            375
+          ],
+          "margins": [
+            59,
+            57,
+            70,
+            68
+          ]
+        },
+        {
+          "frame": 5,
+          "cell": [
+            444,
+            444,
+            887,
+            887
+          ],
+          "alpha24bbox": [
+            62,
+            63,
+            361,
+            374
+          ],
+          "margins": [
+            62,
+            63,
+            82,
+            69
+          ]
+        },
+        {
+          "frame": 6,
+          "cell": [
+            887,
+            444,
+            1330,
+            887
+          ],
+          "alpha24bbox": [
+            57,
+            79,
+            347,
+            374
+          ],
+          "margins": [
+            57,
+            79,
+            96,
+            69
+          ]
+        },
+        {
+          "frame": 7,
+          "cell": [
+            1330,
+            444,
+            1774,
+            887
+          ],
+          "alpha24bbox": [
+            62,
+            58,
+            357,
+            373
+          ],
+          "margins": [
+            62,
+            58,
+            87,
+            70
+          ]
+        }
+      ],
+      "layoutCorrection": {
+        "promptPath": "ragdoll-star-paw.layout-fix.prompt.txt",
+        "prompt": "Use case: precise-object-edit. Edit this existing 4-column by 2-row transparent kitten animation atlas. The artwork quality, SAME eight key poses, character identity, coat colors, eyes, fur, anatomy, facing direction and action order must be retained.\nMake ONLY a layout correction: each kitten is currently too large within its grid cell. Re-layout the EIGHT complete kitten cutouts into a rigorously EVEN 4-column by 2-row grid on the SAME 2:1 landscape transparent canvas. Every kitten, including every raised paw, tail tip and ear, must be scaled uniformly SMALLER to occupy no more than 64 percent of the cell width AND 64 percent of the cell height. Use one shared scale for all eight poses; choose it to fit the widest/tallest pose. Center each complete cutout horizontally within its own cell and place the grounded paws at 78 percent cell height. No kitten can cross any cell boundary. This means a noticeably generous 18 percent or greater transparent margin on each side; do not fill those spaces with larger characters.\nPreserve the poses, especially the actual changing legs/paws, do not freeze or duplicate the poses. Keep the whole cat intact. Correct any previously cropped edge so the whole tail/ears/paws are visible. Keep detailed beautiful 2D fur and soft studio lighting. No new text, numbers, separator lines, grid, shadow, background, stars or accessories. TRUE alpha transparency. Deliver only the same eight kittens evenly arranged, now significantly smaller with generous padding.\n",
+        "generatedPath": "/workspace/scratch/1b78c1eefe5a/generated_images/exec-e5209354-b622-45a1-a533-2a802be2a50e.png",
+        "reference": "ragdoll-star-paw-candidate-01.png",
+        "transparentBackground": true,
+        "provider": null,
+        "model": null,
+        "cost": null,
+        "tool": "image_gen.imagegen",
+        "mode": "builtin",
+        "jobId": null
+      },
+      "minimumAlpha24CellMargin": 36,
+      "visualReview": {
+        "status": "STATIC_ATLAS_REVIEW_COMPLETED",
+        "reviewScope": "Selected transparent source atlases and dark/light composite review; no timed animation review performed by this agent.",
+        "findings": [
+          "Distinct coat pattern, eye color and facial design from cream main-cat identity",
+          "Fine fur, friendly kitten anatomy and elegant natural paws preserved",
+          "Eight distinct generated poses, complete tails/ears/paws, no neighboring cell silhouettes intruding",
+          "No visible excess limbs, text, props or baked floor",
+          "Alpha channel contains true transparency; transparent RGB is ignored in composites"
+        ],
+        "paddingNote": "Requested 12 percent empty cell padding was not exactly achieved everywhere; measured alpha>=24 minimum is 36 source pixels. Revised cells are complete and safely separated.",
+        "colorComposite": "cream #FFF5EC"
+      },
+      "alignmentNotes": {
+        "equalCellBounds": "round(column*1774/4), round(row*887/2)",
+        "suggestedSecondRowVerticalOffsetPx": 33,
+        "meaning": "Generated lower-row grounded baseline sits higher within its cell. Normalize the row ground line during mechanical atlas assembly, preserve airborne pose offsets within a row, keep one shared scale across all eight poses.",
+        "suggestedFirstRowGroundBaselinePx": 407
+      },
+      "tool": "image_gen.imagegen",
+      "mode": "builtin",
+      "jobId": null
+    }
+  ]
+}

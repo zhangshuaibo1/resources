@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "2.0.0",
+  "status": "prototype",
+  "artApproval": "awaiting-user-review",
+  "newSourceSequences": 2,
+  "newSourcePoses": 16,
+  "reusedSourceSequences": 4,
+  "reusedFrameSlots": 32,
+  "totalFrameSlots": 48,
+  "directionPolicy": "Right-facing sources; a mirrored direction is reuse, not a new source action.",
+  "animationMethod": "Recorded 2D key poses; mechanical alignment and movie composition are separate from artwork generation.",
+  "actions": {
+    "ginger-trot": {
+      "id": "ginger-trot",
+      "label": "Ginger kitten trot",
+      "characterId": "9mew.character.brand-ginger",
+      "sprite": "sprites/ginger-trot.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "durationsMs": [
+        90,
+        85,
+        80,
+        95,
+        90,
+        85,
+        80,
+        95
+      ],
+      "loop": true,
+      "facing": "right",
+      "frames": [
+        "frames/ginger-trot/000.webp",
+        "frames/ginger-trot/001.webp",
+        "frames/ginger-trot/002.webp",
+        "frames/ginger-trot/003.webp",
+        "frames/ginger-trot/004.webp",
+        "frames/ginger-trot/005.webp",
+        "frames/ginger-trot/006.webp",
+        "frames/ginger-trot/007.webp"
+      ],
+      "sourceKind": "new-imagegen-sequence",
+      "sourcePath": "source/cats/ginger-trot.png"
+    },
+    "ragdoll-star-paw": {
+      "id": "ragdoll-star-paw",
+      "label": "Ragdoll reaches for starlight",
+      "characterId": "9mew.character.brand-ragdoll",
+      "sprite": "sprites/ragdoll-star-paw.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.890625
+      },
+      "durationsMs": [
+        220,
+        180,
+        160,
+        170,
+        220,
+        170,
+        160,
+        240
+      ],
+      "loop": false,
+      "facing": "right",
+      "frames": [
+        "frames/ragdoll-star-paw/000.webp",
+        "frames/ragdoll-star-paw/001.webp",
+        "frames/ragdoll-star-paw/002.webp",
+        "frames/ragdoll-star-paw/003.webp",
+        "frames/ragdoll-star-paw/004.webp",
+        "frames/ragdoll-star-paw/005.webp",
+        "frames/ragdoll-star-paw/006.webp",
+        "frames/ragdoll-star-paw/007.webp"
+      ],
+      "sourceKind": "new-imagegen-sequence",
+      "sourcePath": "source/cats/ragdoll-star-paw.png"
+    },
+    "chase-run": {
+      "id": "chase-run",
+      "label": "追着小鼠跑",
+      "characterId": "9mew.character.naimiao",
+      "sprite": "sprites/chase-run.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "durationsMs": [
+        85,
+        80,
+        75,
+        90,
+        85,
+        80,
+        75,
+        90
+      ],
+      "loop": true,
+      "facing": "right",
+      "frames": [
+        "frames/chase-run/000.webp",
+        "frames/chase-run/001.webp",
+        "frames/chase-run/002.webp",
+        "frames/chase-run/003.webp",
+        "frames/chase-run/004.webp",
+        "frames/chase-run/005.webp",
+        "frames/chase-run/006.webp",
+        "frames/chase-run/007.webp"
+      ],
+      "sourceKind": "reused-imagegen-sequence",
+      "sourcePath": "source/reused/chase-run.png",
+      "originalRelease": "9mew-chase-motion-v1.0.0"
+    },
+    "chase-look-up": {
+      "id": "chase-look-up",
+      "label": "发现蝴蝶",
+      "characterId": "9mew.character.naimiao",
+      "sprite": "sprites/chase-look-up.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "durationsMs": [
+        170,
+        170,
+        180,
+        180,
+        190,
+        140,
+        110,
+        100
+      ],
+      "loop": false,
+      "facing": "right",
+      "frames": [
+        "frames/chase-look-up/000.webp",
+        "frames/chase-look-up/001.webp",
+        "frames/chase-look-up/002.webp",
+        "frames/chase-look-up/003.webp",
+        "frames/chase-look-up/004.webp",
+        "frames/chase-look-up/005.webp",
+        "frames/chase-look-up/006.webp",
+        "frames/chase-look-up/007.webp"
+      ],
+      "sourceKind": "reused-imagegen-sequence",
+      "sourcePath": "source/reused/chase-look-up.png",
+      "originalRelease": "9mew-chase-motion-v1.0.0"
+    },
+    "chase-leap": {
+      "id": "chase-leap",
+      "label": "起跳追蝶",
+      "characterId": "9mew.character.naimiao",
+      "sprite": "sprites/chase-leap.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "durationsMs": [
+        170,
+        130,
+        100,
+        110,
+        130,
+        140,
+        130,
+        150
+      ],
+      "loop": false,
+      "facing": "right",
+      "frames": [
+        "frames/chase-leap/000.webp",
+        "frames/chase-leap/001.webp",
+        "frames/chase-leap/002.webp",
+        "frames/chase-leap/003.webp",
+        "frames/chase-leap/004.webp",
+        "frames/chase-leap/005.webp",
+        "frames/chase-leap/006.webp",
+        "frames/chase-leap/007.webp"
+      ],
+      "sourceKind": "reused-imagegen-sequence",
+      "sourcePath": "source/reused/chase-leap.png",
+      "originalRelease": "9mew-chase-motion-v1.0.0"
+    },
+    "chase-land": {
+      "id": "chase-land",
+      "label": "轻轻落地",
+      "characterId": "9mew.character.naimiao",
+      "sprite": "sprites/chase-land.webp",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "durationsMs": [
+        120,
+        120,
+        130,
+        170,
+        170,
+        170,
+        170,
+        150
+      ],
+      "loop": false,
+      "facing": "right",
+      "frames": [
+        "frames/chase-land/000.webp",
+        "frames/chase-land/001.webp",
+        "frames/chase-land/002.webp",
+        "frames/chase-land/003.webp",
+        "frames/chase-land/004.webp",
+        "frames/chase-land/005.webp",
+        "frames/chase-land/006.webp",
+        "frames/chase-land/007.webp"
+      ],
+      "sourceKind": "reused-imagegen-sequence",
+      "sourcePath": "source/reused/chase-land.png",
+      "originalRelease": "9mew-chase-motion-v1.0.0"
+    }
+  }
+}

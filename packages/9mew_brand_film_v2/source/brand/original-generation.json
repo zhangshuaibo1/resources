@@ -1,0 +1,20 @@
+{
+  "method": "built-in imagegen",
+  "sourceBytesPreserved": true,
+  "reference": "User-supplied 9mew brand illustration in this conversation",
+  "assets": [
+    {
+      "file": "cat9_mark.png",
+      "description": "Sakura-pink cat-ear numeral 9 on true transparent alpha",
+      "promptSummary": "Extract and redraw only the reference cat-ear numeral 9. Preserve the oval counter, two soft triangular ears, broad rounded bowl, thick right downstroke and round-ended curling lower tail. Centered square composition with transparent margin. No cats, writing, grass, background or shadow. Sakura-pink direction #E990AA.",
+      "originalGeneratedFile": "exec-163f2e1d-40d4-482c-b162-39025803f050.png"
+    },
+    {
+      "file": "props_atlas.png",
+      "description": "Four transparent hand-painted props in a 2x2 atlas",
+      "layout": ["pink yarn ball", "green cat grass", "pink petal", "pink-and-cream feather toy"],
+      "promptSummary": "Draw a transparent 2x2 prop atlas matching the refined hand-painted cats in the brand reference, one isolated object per cell with generous empty margin, no text, grid, floor shadow or cats. Top-left sakura-pink yarn ball with a curled loose strand, top-right fresh green five-leaf cat-grass tuft, bottom-left single pale pink petal, bottom-right small pink-and-cream feather toy with a pink bead base.",
+      "originalGeneratedFile": "exec-c353ff52-cdb4-405c-af92-ec18f8dbd01b.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "STATIC_COMPOSITION_REVIEWED",
+  "reviewed": [
+    {
+      "path": "posters/brand-film-dark.png",
+      "sha256": "bbf6f94ee8ea8caf5afc5986e32fea9035789c3fb24c7ef8aaf20c91a4cd0cae"
+    },
+    {
+      "path": "posters/brand-film-light.png",
+      "sha256": "05831906ddb66561d41e71d1dec3890d1ca0a52f0270b6f68a927b8194213716"
+    },
+    {
+      "path": "reports/review-dark-3.8.png",
+      "sha256": "45639a72fb39a2102f89628f5711f610561e4f0186f6f87f97387c7e4eb109ff"
+    },
+    {
+      "path": "reports/review-light-3.8.png",
+      "sha256": "dc70a231bf1c850522cb5b15083e527e9673beee89328d374ed46fe4b415db68"
+    },
+    {
+      "path": "reports/review-dark-6.2.png",
+      "sha256": "4779601bfc77066df984be1113100668105c278c79956f5ba616bb207edd1ddb"
+    },
+    {
+      "path": "reports/review-light-6.2.png",
+      "sha256": "05f694478f8261511b9c3dd6d5f70693d9f24308a6b93a547b4a92ab8db17fbb"
+    },
+    {
+      "path": "reports/film-contact-dark.png",
+      "sha256": "f98786e76416027b48def6be9c473869a1cbbe1adbc80e93ed38b6b6c8474827"
+    },
+    {
+      "path": "reports/film-contact-light.png",
+      "sha256": "c77923a1f1f5c83d2e625ef4b14fa2a801ddbaf032a19e2a11ee14d8e0adc5d5"
+    }
+  ],
+  "findings": [
+    "Cat9 and final four-cat illustration remain intact within frame",
+    "Revised 3.8s and 6.2s paths leave visible gaps between tails, faces and adjacent cats",
+    "Encoded one-second contact sheets for both themes show expected interaction and 8-second brand hold",
+    "Light and dark poster fur boundaries were visually inspected"
+  ],
+  "scope": "Actual stills and encoded 1-second contact sheets were viewed; not a frame-by-frame human review of continuous motion",
+  "artApproval": "awaiting-user-review"
+}

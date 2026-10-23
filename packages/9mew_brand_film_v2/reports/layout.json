@@ -1,0 +1,32 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 720
+  },
+  "nineCrop": {
+    "x": 165,
+    "y": 131,
+    "w": 936,
+    "h": 1033
+  },
+  "wordCrop": {
+    "x": 22,
+    "y": 79,
+    "w": 2014,
+    "h": 604
+  },
+  "nineLayout": {
+    "x": 160,
+    "y": 142,
+    "w": 350,
+    "h": 386.2713675213675
+  },
+  "wordLayout": {
+    "x": 570,
+    "w": 1190,
+    "h": 356.88182720953324,
+    "y": 171.3895403118342
+  },
+  "renderSourceSha256": "504fb78ebe7d05b3c008ba9d5c3d869041e3228e5ab13830c32ea6cf08cf6066",
+  "note": "The original 9 pixels are cropped for placement and scaled, never redrawn. All lettering is real font layout."
+}

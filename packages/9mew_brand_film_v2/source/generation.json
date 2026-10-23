@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "2.0.0",
+  "status": "candidate-awaiting-user-review",
+  "creationTool": "builtin image_gen.imagegen",
+  "provider": null,
+  "model": null,
+  "jobId": null,
+  "cost": null,
+  "sourceVideo": {
+    "file": "refs/original-playful-dark.mp4",
+    "sha256": "8472b8c147f7fe783291575d39be3d751248e6c81d3b46da511349767204f7b6",
+    "width": 960,
+    "height": 360,
+    "durationMs": 16000,
+    "fps": 24,
+    "originalRelease": "https://github.com/zhangshuaibo1/resources/releases/tag/9mew-brand-banner-v1.0.0"
+  },
+  "preservedMark": {
+    "file": "source/brand/cat9-original.png",
+    "sha256": "8c68a694192192c9a28a470c14c96f7248d46e4e0cfa8ccad3c599d12f06a850",
+    "origin": "Exact raster asset used in uploaded original film; not a recovered official SVG master",
+    "operations": "crop transparent margins and scale at compositing, shape and original pink retained"
+  },
+  "newWordmark": {
+    "file": "source/brand/cat-wordmark-v2.png",
+    "sha256": "68058b1758c0399a92d85b76b7835926a813b1c3fe650ffe79c612b5b2bbc534",
+    "width": 2048,
+    "height": 768,
+    "trueAlpha": true,
+    "promptFile": "source/brand/cat-wordmark.prompt.txt",
+    "mediaKind": "static-2d-illustration",
+    "characters": 4,
+    "notCountedAsAnimatedPoses": true,
+    "references": [
+      {
+        "file": "refs/original-cat-wordmark.png",
+        "sha256": "366b7898684d28f2ae656b0a982411925b6544bb1ce98d1d79bfed31afa9e913"
+      },
+      {
+        "file": "refs/naimiao-master.png",
+        "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+      }
+    ]
+  },
+  "newCatActions": {
+    "record": "source/cats/generation.json",
+    "sequences": 2,
+    "sourcePoses": 16
+  },
+  "reusedCatActions": {
+    "record": "runtime-assets.json",
+    "sequences": 4,
+    "sourcePoses": 32,
+    "originRelease": "9mew-chase-motion-v1.0.0"
+  },
+  "compositing": "Generated 2D key poses plus coded timing, placement, graphical starlight, background and real-font text. No provider-generated video, no optical-flow claim, no 3D model."
+}

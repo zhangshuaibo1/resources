@@ -1,0 +1,148 @@
+{
+  "status": "BRAND_FILM_BROWSER_CHECKS_PASSED",
+  "checkedAt": "2026-10-23T10:43:54.570Z",
+  "runtimeSHA256": "260d2315cdf90018ae820f6f64667aec475951f6527fa3edaecf91f45e139303",
+  "testSHA256": "9d539d69a8d310b13f2e2325cc20bc90a422dbbbea8cf6e11626f84b2fb794b4",
+  "webFiles": [
+    {
+      "path": "web/brand-film.js",
+      "sha256": "260d2315cdf90018ae820f6f64667aec475951f6527fa3edaecf91f45e139303"
+    },
+    {
+      "path": "web/brand-film.css",
+      "sha256": "25504a3672ebda229380c50fe34270f0eee40eb1d4d589f49ff64a805ec01ed0"
+    },
+    {
+      "path": "web/demo.js",
+      "sha256": "3a9b7b0953961d6c5576e2e8e8689dcf1ed907e8770613008af3e421605b341d"
+    },
+    {
+      "path": "web/demo.css",
+      "sha256": "6892a1a44f4182687e22400ed5a7a2e619e805e80feb457722b7e3e3921b1453"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "f9fb9635605448edf8aab07dd0d26615c8ba35b7decd6eda70b6b61a4ebbf224"
+    },
+    {
+      "path": "web/brand-film.d.ts",
+      "sha256": "beee514d6141feea59b29efe93a3c0c956752c8a5c7b2018ffe46f4d77b69961"
+    }
+  ],
+  "assets": [
+    {
+      "path": "exports/brand-film-dark.mp4",
+      "sha256": "c88c8721d87899f2ab619ed80054d7eb7337b56e46a545361d22c164a050f859",
+      "bytes": 1565081
+    },
+    {
+      "path": "exports/brand-film-light.mp4",
+      "sha256": "d6c14cd0090019fadf1a80ba62caaaa922b6019b563ceba4d92933086c80a9a4",
+      "bytes": 1489975
+    },
+    {
+      "path": "posters/brand-film-dark.webp",
+      "sha256": "14e605fc348759e948d0082c6cd2fb6c5dbc96f3929d8f6758a4ac697284dcbe",
+      "bytes": 98960
+    },
+    {
+      "path": "posters/brand-film-light.webp",
+      "sha256": "9ae44c321a50003c49cba64538510c0279602134e47a77b163b21ba545391ce1",
+      "bytes": 93314
+    },
+    {
+      "path": "fonts/9mew-chase.woff",
+      "sha256": "26372f99f091b839a33cf6030780627008eec0aa70aae3f4ea53dc3f2479d149",
+      "bytes": 183152
+    }
+  ],
+  "checks": [
+    {
+      "name": "Initial poster is decoded; no video requested before play",
+      "result": "PASS",
+      "evidence": {
+        "width": 1920,
+        "height": 720,
+        "decoded": true
+      }
+    },
+    {
+      "name": "Chinese font loads and desktop poster has no overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Explicit play decodes real MP4 frames",
+      "result": "PASS",
+      "evidence": {
+        "framesBefore": 9,
+        "frames": 20,
+        "width": 1920,
+        "height": 720,
+        "duration": 16
+      }
+    },
+    {
+      "name": "Manual pause freezes time",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual offscreen scroll suspends and resumes only active intent",
+      "result": "PASS"
+    },
+    {
+      "name": "Simulated hidden document suspends; manual pause remains paused after return",
+      "result": "PASS"
+    },
+    {
+      "name": "Seek, natural ending and replay work",
+      "result": "PASS"
+    },
+    {
+      "name": "Theme switch preserves pause and loads the actual light poster",
+      "result": "PASS"
+    },
+    {
+      "name": "Fullscreen is an explicit button action",
+      "result": "PASS"
+    },
+    {
+      "name": "Mobile viewport keeps the complete 8:3 picture without horizontal overflow",
+      "result": "PASS",
+      "evidence": {
+        "width": 356,
+        "height": 133.5,
+        "objectFit": "contain"
+      }
+    },
+    {
+      "name": "Reduced motion blocks autoplay but allows an explicit keyboard play",
+      "result": "PASS"
+    },
+    {
+      "name": "Destroy releases the video and removes the component",
+      "result": "PASS"
+    },
+    {
+      "name": "A deliberately failed MP4 retains the real poster and explicit retry recovers",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors, unexpected HTTP failures or external requests",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "unexpectedHTTP": [],
+  "limits": [
+    "Chromium desktop and mobile viewport emulation; not physical iPhone/Android testing.",
+    "Document visibility uses a simulated visibilitychange event. Offscreen suspension uses an actual browser scroll.",
+    "These checks verify media and interaction behavior, not user approval of artistic quality. No production deployment."
+  ],
+  "browserVersion": "156.0.8078.47",
+  "screenshots": [
+    "qa/desktop-dark.png",
+    "qa/desktop-light.png",
+    "qa/mobile-light.png"
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "sourcePackage": "9mew_chase_motion_kit_v1",
+  "sourceRelease": "9mew-chase-motion-v1.0.0",
+  "sourceCatalogSHA256": "4935c7836607d276545421479938c7cd0c04fc636d076665916b41ef7aafbcb8",
+  "actions": {
+    "chase-run": {
+      "id": "chase-run",
+      "label": "追着小鼠跑",
+      "sprite": "sprites/chase-run.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        85,
+        80,
+        75,
+        90,
+        85,
+        80,
+        75,
+        90
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/chase-run.png",
+      "frames": [
+        "frames/chase-run/000.webp",
+        "frames/chase-run/001.webp",
+        "frames/chase-run/002.webp",
+        "frames/chase-run/003.webp",
+        "frames/chase-run/004.webp",
+        "frames/chase-run/005.webp",
+        "frames/chase-run/006.webp",
+        "frames/chase-run/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-run.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-run.webp",
+        "gifLight": "animations/chase-run-light.gif",
+        "gifDark": "animations/chase-run-dark.gif"
+      }
+    },
+    "chase-look-up": {
+      "id": "chase-look-up",
+      "label": "发现蝴蝶",
+      "sprite": "sprites/chase-look-up.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        170,
+        170,
+        180,
+        180,
+        190,
+        140,
+        110,
+        100
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-look-up.png",
+      "frames": [
+        "frames/chase-look-up/000.webp",
+        "frames/chase-look-up/001.webp",
+        "frames/chase-look-up/002.webp",
+        "frames/chase-look-up/003.webp",
+        "frames/chase-look-up/004.webp",
+        "frames/chase-look-up/005.webp",
+        "frames/chase-look-up/006.webp",
+        "frames/chase-look-up/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-look-up.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-look-up.webp",
+        "gifLight": "animations/chase-look-up-light.gif",
+        "gifDark": "animations/chase-look-up-dark.gif"
+      }
+    },
+    "chase-leap": {
+      "id": "chase-leap",
+      "label": "起跳追蝶",
+      "sprite": "sprites/chase-leap.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        170,
+        130,
+        100,
+        110,
+        130,
+        140,
+        130,
+        150
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-leap.png",
+      "frames": [
+        "frames/chase-leap/000.webp",
+        "frames/chase-leap/001.webp",
+        "frames/chase-leap/002.webp",
+        "frames/chase-leap/003.webp",
+        "frames/chase-leap/004.webp",
+        "frames/chase-leap/005.webp",
+        "frames/chase-leap/006.webp",
+        "frames/chase-leap/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-leap.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-leap.webp",
+        "gifLight": "animations/chase-leap-light.gif",
+        "gifDark": "animations/chase-leap-dark.gif"
+      }
+    },
+    "chase-land": {
+      "id": "chase-land",
+      "label": "轻轻落地",
+      "sprite": "sprites/chase-land.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        120,
+        120,
+        130,
+        170,
+        170,
+        170,
+        170,
+        150
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-land.png",
+      "frames": [
+        "frames/chase-land/000.webp",
+        "frames/chase-land/001.webp",
+        "frames/chase-land/002.webp",
+        "frames/chase-land/003.webp",
+        "frames/chase-land/004.webp",
+        "frames/chase-land/005.webp",
+        "frames/chase-land/006.webp",
+        "frames/chase-land/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-land.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-land.webp",
+        "gifLight": "animations/chase-land-light.gif",
+        "gifDark": "animations/chase-land-dark.gif"
+      }
+    }
+  },
+  "files": [
+    {
+      "originalPath": "sprites/chase-run.webp",
+      "path": "sprites/chase-run.webp",
+      "bytes": 1030628,
+      "sha256": "c4992b11d1eebb961265d450482b8472ea29cc6774ae8e92616e4795a98b2382"
+    },
+    {
+      "originalPath": "source/cat/chase-run.png",
+      "path": "source/reused/chase-run.png",
+      "bytes": 1703389,
+      "sha256": "b000db945588fc71a481226da9bb17beb9a65dbb17cc2a15bbad9de0a9e52db5"
+    },
+    {
+      "originalPath": "frames/chase-run/000.webp",
+      "path": "frames/chase-run/000.webp",
+      "bytes": 137392,
+      "sha256": "935b4f73f909b50bf1074364953b9832ee53634c4a4a4de3d3a71cc6c5c9d1ba"
+    },
+    {
+      "originalPath": "frames/chase-run/001.webp",
+      "path": "frames/chase-run/001.webp",
+      "bytes": 123366,
+      "sha256": "07c947d88112adce4d392626e7f09a96e581c77201df9252dd9548f21d50d6a1"
+    },
+    {
+      "originalPath": "frames/chase-run/002.webp",
+      "path": "frames/chase-run/002.webp",
+      "bytes": 122160,
+      "sha256": "071c40fd9113cacdcd955fc6070f87e2935d728377a627354c61588c2237d615"
+    },
+    {
+      "originalPath": "frames/chase-run/003.webp",
+      "path": "frames/chase-run/003.webp",
+      "bytes": 133200,
+      "sha256": "1cb654d122fc1f6a455ec5528eeeccd05c34ba4bcaf9ab1ebe2ac99dc86e5d47"
+    },
+    {
+      "originalPath": "frames/chase-run/004.webp",
+      "path": "frames/chase-run/004.webp",
+      "bytes": 128070,
+      "sha256": "a69a2e64759589acf79eab7f7289998a30d9900a5199bad59523076237353d94"
+    },
+    {
+      "originalPath": "frames/chase-run/005.webp",
+      "path": "frames/chase-run/005.webp",
+      "bytes": 119434,
+      "sha256": "8c7ed14bc6e0f88b21822f41ce12444dc053c4cce881111065baa09649013161"
+    },
+    {
+      "originalPath": "frames/chase-run/006.webp",
+      "path": "frames/chase-run/006.webp",
+      "bytes": 128912,
+      "sha256": "76162e271443ddd470b738d6841cbbdfd31b534e0e834daf339abfb8bf5f6311"
+    },
+    {
+      "originalPath": "frames/chase-run/007.webp",
+      "path": "frames/chase-run/007.webp",
+      "bytes": 112646,
+      "sha256": "0b9d07fd61dca8e8f13b773837748c8dea93282e1752588660cdc0759a1437a4"
+    },
+    {
+      "originalPath": "sprites/chase-look-up.webp",
+      "path": "sprites/chase-look-up.webp",
+      "bytes": 1062472,
+      "sha256": "b140ac816246a1dde9695aeb89f84c1a7b5c8b7d7a602bf6b10439f3cf43add5"
+    },
+    {
+      "originalPath": "source/cat/chase-look-up.png",
+      "path": "source/reused/chase-look-up.png",
+      "bytes": 1694308,
+      "sha256": "66686b51abc7d321665ffc59893b6f910979ff690b1c9063c57d73934336b2e7"
+    },
+    {
+      "originalPath": "frames/chase-look-up/000.webp",
+      "path": "frames/chase-look-up/000.webp",
+      "bytes": 129190,
+      "sha256": "1a260cbbdc03d6459cf6fbcb78bc45806a67bca0e3cc20c956e2a7abcdba7180"
+    },
+    {
+      "originalPath": "frames/chase-look-up/001.webp",
+      "path": "frames/chase-look-up/001.webp",
+      "bytes": 135040,
+      "sha256": "7b759fd3e1cadd4fb445cdafc28087868a209367ffbfeb597dc6752274da8721"
+    },
+    {
+      "originalPath": "frames/chase-look-up/002.webp",
+      "path": "frames/chase-look-up/002.webp",
+      "bytes": 134324,
+      "sha256": "be1fd0b38f039b3f0b696e9f4c7a3fea29ee0933ae5d4d891548908739a0248d"
+    },
+    {
+      "originalPath": "frames/chase-look-up/003.webp",
+      "path": "frames/chase-look-up/003.webp",
+      "bytes": 131784,
+      "sha256": "2334003f2b7f30a1e20f5c7e9e2ad0034b0da70ce58823aaaf27fa96c897db77"
+    },
+    {
+      "originalPath": "frames/chase-look-up/004.webp",
+      "path": "frames/chase-look-up/004.webp",
+      "bytes": 139962,
+      "sha256": "0849816fe047feef8a5726b2d65f4d1a4ac50a826de754df2523a9c0afb4d1a6"
+    },
+    {
+      "originalPath": "frames/chase-look-up/005.webp",
+      "path": "frames/chase-look-up/005.webp",
+      "bytes": 129338,
+      "sha256": "859e062e9d24abdc6f6190b93ab3e83f678233782e8a4b47c059eb5443291d64"
+    },
+    {
+      "originalPath": "frames/chase-look-up/006.webp",
+      "path": "frames/chase-look-up/006.webp",
+      "bytes": 124878,
+      "sha256": "1079001ddaaeddb046b642c7a5359fff89c44d15db28a06670f0c12dfe3f1733"
+    },
+    {
+      "originalPath": "frames/chase-look-up/007.webp",
+      "path": "frames/chase-look-up/007.webp",
+      "bytes": 113106,
+      "sha256": "8b4cc625d1af0d83dec2a470941bd27bf77a48f03cbe4ed2e1e154b163291041"
+    },
+    {
+      "originalPath": "sprites/chase-leap.webp",
+      "path": "sprites/chase-leap.webp",
+      "bytes": 837526,
+      "sha256": "713eddf29fe3b3185d61d433bd7a770a156cf81bc580113291efa2a95ff87f8d"
+    },
+    {
+      "originalPath": "source/cat/chase-leap.png",
+      "path": "source/reused/chase-leap.png",
+      "bytes": 1089191,
+      "sha256": "2132f68829d35c260a7f1e1b0d6c9d96f918246a69fd8db7ace65897dfabbf02"
+    },
+    {
+      "originalPath": "frames/chase-leap/000.webp",
+      "path": "frames/chase-leap/000.webp",
+      "bytes": 92224,
+      "sha256": "af589b39a6b8d71face5a24ca761cb58886200b4e1bc70554c8d8f1be782066e"
+    },
+    {
+      "originalPath": "frames/chase-leap/001.webp",
+      "path": "frames/chase-leap/001.webp",
+      "bytes": 102734,
+      "sha256": "451100e459d27f36870f8ca15949421bce9ea62e68726f07245ebcf71b068d4d"
+    },
+    {
+      "originalPath": "frames/chase-leap/002.webp",
+      "path": "frames/chase-leap/002.webp",
+      "bytes": 106440,
+      "sha256": "a3593767430854a90cbd3c2b94e145389ff308002e1dabb9ac61b2ba862dea7a"
+    },
+    {
+      "originalPath": "frames/chase-leap/003.webp",
+      "path": "frames/chase-leap/003.webp",
+      "bytes": 109284,
+      "sha256": "47a346a9b5dbf8adb77b5720e0affffdca12e228573c84a81598ab87de3c0fea"
+    },
+    {
+      "originalPath": "frames/chase-leap/004.webp",
+      "path": "frames/chase-leap/004.webp",
+      "bytes": 95806,
+      "sha256": "cc2c687e53b54df464195b4821480f4fcde83ef8431541a1181cce1fd604633a"
+    },
+    {
+      "originalPath": "frames/chase-leap/005.webp",
+      "path": "frames/chase-leap/005.webp",
+      "bytes": 105172,
+      "sha256": "f13b467be29302154bec04414e1d46fe61f363342e72510145d6561e993ca2ae"
+    },
+    {
+      "originalPath": "frames/chase-leap/006.webp",
+      "path": "frames/chase-leap/006.webp",
+      "bytes": 103250,
+      "sha256": "556f0b489282440f63ab28ae1b928b46285b5fa8c3526d25bd3fcc9ad3b8e093"
+    },
+    {
+      "originalPath": "frames/chase-leap/007.webp",
+      "path": "frames/chase-leap/007.webp",
+      "bytes": 102232,
+      "sha256": "7aa9c6e8de1723558e7f88674e6f7c5cd22a92b827f5fc517444056bc2441171"
+    },
+    {
+      "originalPath": "sprites/chase-land.webp",
+      "path": "sprites/chase-land.webp",
+      "bytes": 1053860,
+      "sha256": "daafcb325190315869f5210c1bdb9f223067876fc70d788515343980406de35b"
+    },
+    {
+      "originalPath": "source/cat/chase-land.png",
+      "path": "source/reused/chase-land.png",
+      "bytes": 1740939,
+      "sha256": "62b1a163ade540cb255fe92e3c16422dd3206e1ba353fc709094d632f613fd4d"
+    },
+    {
+      "originalPath": "frames/chase-land/000.webp",
+      "path": "frames/chase-land/000.webp",
+      "bytes": 145034,
+      "sha256": "9aab7263ac8e7c81ee1d52c58cfc0824cfc9cc0de7dec5308aabf54918fa15e8"
+    },
+    {
+      "originalPath": "frames/chase-land/001.webp",
+      "path": "frames/chase-land/001.webp",
+      "bytes": 127174,
+      "sha256": "fe4fbb0011938374d52740bced81da07dc2b532e4d2bedfd2994ef11852bce6e"
+    },
+    {
+      "originalPath": "frames/chase-land/002.webp",
+      "path": "frames/chase-land/002.webp",
+      "bytes": 132510,
+      "sha256": "8e072375a71f840e3e731dff3e70d100ea004e27762b3d2209edb209bd66bd56"
+    },
+    {
+      "originalPath": "frames/chase-land/003.webp",
+      "path": "frames/chase-land/003.webp",
+      "bytes": 118444,
+      "sha256": "357067f4d4ddc5a91869380d82cee9c87e8c04ce4813b86e44518e5361f3b2b5"
+    },
+    {
+      "originalPath": "frames/chase-land/004.webp",
+      "path": "frames/chase-land/004.webp",
+      "bytes": 145572,
+      "sha256": "3914f6d8122cef82da389ea38e4507d124aa1464daf39d82b884adadde3521c3"
+    },
+    {
+      "originalPath": "frames/chase-land/005.webp",
+      "path": "frames/chase-land/005.webp",
+      "bytes": 120574,
+      "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3"
+    },
+    {
+      "originalPath": "frames/chase-land/006.webp",
+      "path": "frames/chase-land/006.webp",
+      "bytes": 120484,
+      "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f"
+    },
+    {
+      "originalPath": "frames/chase-land/007.webp",
+      "path": "frames/chase-land/007.webp",
+      "bytes": 120652,
+      "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f"
+    }
+  ]
+}

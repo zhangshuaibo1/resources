@@ -1,0 +1,27 @@
+{
+  "status": "RENDERED_PENDING_DECODE_VALIDATION",
+  "renderSourceSha256": "504fb78ebe7d05b3c008ba9d5c3d869041e3228e5ab13830c32ea6cf08cf6066",
+  "runtimeAssetsSha256": "4c18212432eb663c650a0c5f574313ae1c50a963c9418eb78053d3f719db4552",
+  "rendered": [
+    "exports/brand-film-dark.mp4",
+    "exports/brand-film-dark.webm",
+    "exports/brand-film-dark.webp",
+    "exports/brand-ident-dark.mp4",
+    "exports/brand-ident-dark.webm",
+    "exports/brand-ident-dark.webp",
+    "exports/brand-film-light.mp4",
+    "exports/brand-film-light.webm",
+    "exports/brand-film-light.webp",
+    "exports/brand-ident-light.mp4",
+    "exports/brand-ident-light.webm",
+    "exports/brand-ident-light.webp"
+  ],
+  "filmDuration": 16,
+  "identDuration": 6,
+  "fps": 30,
+  "resolution": [
+    1920,
+    720
+  ],
+  "animationMethod": "Generated 2D key poses plus designed position paths. Cat wordmark is a static illustration; ident is decorative motion, not extra animal actions."
+}
