@@ -1,0 +1,179 @@
+{
+  "status": "PUBLIC_DOWNLOADS_AND_ZIP_EXTRACTION_PASSED",
+  "checkedAtUtc": "2026-10-23T10:50:03.287309+00:00",
+  "repository": "https://github.com/zhangshuaibo1/resources",
+  "release": "https://github.com/zhangshuaibo1/resources/releases/tag/9mew-brand-film-v2.0.0",
+  "commit": "00da99453f82fb44b0fc4d7e1401472066d971a3",
+  "sourceFiles": 168,
+  "assets": [
+    {
+      "name": "9mew_brand_film_v2.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_v2.zip",
+      "bytes": 74642690,
+      "sha256": "822155b12889e4780b21d1fbfdf80cbe9bad8f6df8f8cb7c2d72270077ba6fb5",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 168,
+      "payloadHashesVerified": 167
+    },
+    {
+      "name": "9mew_brand_film_web_v2.zip",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_web_v2.zip",
+      "bytes": 18641392,
+      "sha256": "43845624cd92e33a09e9198ed486630c8d2016702141aa969b843e3811e1e0d0",
+      "unauthenticatedDownload": "PASSED",
+      "crc": "PASSED",
+      "actualExtraction": "PASSED",
+      "fileCount": 48,
+      "payloadHashesVerified": 47
+    },
+    {
+      "name": "9mew_brand_film_dark_v2.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_dark_v2.mp4",
+      "bytes": 1565081,
+      "sha256": "c88c8721d87899f2ab619ed80054d7eb7337b56e46a545361d22c164a050f859",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_dark_v2.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_dark_v2.webp",
+      "bytes": 1580124,
+      "sha256": "fd9cab05506c15a9cd3594ec9f290dfae43dfd43707a0fccb5aae33535246c56",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_light_v2.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_light_v2.mp4",
+      "bytes": 1489975,
+      "sha256": "d6c14cd0090019fadf1a80ba62caaaa922b6019b563ceba4d92933086c80a9a4",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_light_v2.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_light_v2.webp",
+      "bytes": 1242794,
+      "sha256": "0d297cbc79f8eb4287d15008298224cb6d89c2f29effc53c99364f725f4e184a",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_ident_dark_v2.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_ident_dark_v2.mp4",
+      "bytes": 282109,
+      "sha256": "fb0c712777749cea979a94c72baa67aa50fb9c114d65f46ae935ac3f16cbcd5a",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_ident_dark_v2.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_ident_dark_v2.webp",
+      "bytes": 317576,
+      "sha256": "6e2c51f768a59ab9fafca262e4c7b0dfbe0ca36755b2d0041ef4e6a6cd86d182",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_ident_light_v2.mp4",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_ident_light_v2.mp4",
+      "bytes": 273459,
+      "sha256": "5461c3bf5dd1d2527d96bea2366542775f18a09a3abdde7bf065ef6fe9b89ef1",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_ident_light_v2.webp",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_ident_light_v2.webp",
+      "bytes": 256702,
+      "sha256": "1fe7cd26b6d8d4042fb83406619d94b64844f47098955de5a51fb0875c33e473",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_dark_v2.png",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_dark_v2.png",
+      "bytes": 1179254,
+      "sha256": "bbf6f94ee8ea8caf5afc5986e32fea9035789c3fb24c7ef8aaf20c91a4cd0cae",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_light_v2.png",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_light_v2.png",
+      "bytes": 1143717,
+      "sha256": "05831906ddb66561d41e71d1dec3890d1ca0a52f0270b6f68a927b8194213716",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_prompt_v2.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_prompt_v2.txt",
+      "bytes": 10987,
+      "sha256": "63a8faac9b974d8529bbac1e2750231e3369088574ca816c85428af850489c8a",
+      "unauthenticatedDownload": "PASSED"
+    },
+    {
+      "name": "9mew_brand_film_v2_SHA256SUMS.txt",
+      "url": "https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v2.0.0/9mew_brand_film_v2_SHA256SUMS.txt",
+      "bytes": 1231,
+      "sha256": "97239e5c4ae1e8e84d5917323620d232c452c42653d9b8389bccd325e114ac48",
+      "unauthenticatedDownload": "PASSED"
+    }
+  ],
+  "localPackageChecks": {
+    "webExtractedPlayback": {
+      "status": "BRAND_FILM_WEB_ZIP_SMOKE_PASSED",
+      "checkedAt": "2026-10-23T10:49:31.503Z",
+      "archive": "9mew_brand_film_web_v2.zip",
+      "bytes": 18641392,
+      "zipSHA256": "43845624cd92e33a09e9198ed486630c8d2016702141aa969b843e3811e1e0d0",
+      "fileCount": 48,
+      "actualZipExtraction": true,
+      "checks": [
+        {
+          "name": "Extracted package opens through HTTP with real default poster and no early video request",
+          "result": "PASS"
+        },
+        {
+          "name": "Actual click plays the packaged MP4; decoded frames and clock advance",
+          "result": "PASS",
+          "before": {
+            "time": 0.118,
+            "frames": 8
+          },
+          "after": {
+            "time": 0.3716,
+            "frames": 16,
+            "width": 1920,
+            "height": 720
+          }
+        },
+        {
+          "name": "Light theme uses the packaged light poster and decodes the light MP4",
+          "result": "PASS"
+        },
+        {
+          "name": "No unexpected 404/HTTP failures, JavaScript errors or external requests",
+          "result": "PASS"
+        }
+      ],
+      "errors": [],
+      "unexpectedHTTP": [],
+      "externalRequests": [],
+      "limits": [
+        "Short packaging smoke only; the full source player has a separate 14-group validation."
+      ],
+      "browserVersion": "156.0.8078.47",
+      "requestedVideos": [
+        "/exports/brand-film-dark.mp4",
+        "/exports/brand-film-light.mp4"
+      ]
+    },
+    "fullExtractedRebuild": {
+      "status": "EXTRACTED_FULL_PACKAGE_REUSE_FALLBACK_PASSED",
+      "checkedAtUtc": "2026-10-23T10:49:44.555048+00:00",
+      "zip": "9mew_brand_film_v2.zip",
+      "zipSHA256": "822155b12889e4780b21d1fbfdf80cbe9bad8f6df8f8cb7c2d72270077ba6fb5",
+      "actualExtraction": "PASSED",
+      "payloadHashesBeforeBuild": 167,
+      "command": "node tools/prepare-assets.cjs --reuse-root /tmp/9mew-brand-film-intentionally-missing-reference",
+      "externalPriorPackageAvailable": false,
+      "result": "ASSET_PREPARATION_PASSED",
+      "runtimeCatalogAndFrameAtlasHashesMatched": 55,
+      "mediaModified": false
+    }
+  }
+}
