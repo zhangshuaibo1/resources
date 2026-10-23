@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:,">
+  <title>九喵 · 星环里的家｜品牌影像 v3</title>
+  <meta name="description" content="九喵星环里的家品牌影像：自然嬉戏的猫咪、樱花粉标识与深浅双主题。">
+  <link rel="stylesheet" href="brand-film.css">
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="masthead wrap">
+    <a class="wordmark" href="#main" aria-label="九喵品牌影像">9mew<span>九喵</span></a>
+    <div class="theme-selector" aria-label="选择预览主题">
+      <button type="button" data-theme="dark" aria-pressed="true">星夜</button>
+      <button type="button" data-theme="light" aria-pressed="false">晨光</button>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span></span>9MEW · A LITTLE UNIVERSE</p>
+      <h1 id="page-title">小小星域，自在相伴。</h1>
+      <div class="intro-bottom">
+        <p>让好奇轻轻发光。<br class="small-only">让每一次相遇，都有温柔的回响。</p>
+        <div class="view-selector" aria-label="选择预览方式">
+          <button type="button" id="poster-view" aria-pressed="true">静态封面</button>
+          <button type="button" id="motion-view" aria-pressed="false">播放动画<span aria-hidden="true"> ↗</span></button>
+        </div>
+      </div>
+    </section>
+    <section aria-label="九喵品牌动画预览" class="preview">
+      <div id="film"></div>
+      <div class="under-film">
+        <span id="theme-caption">星夜 · 深色主题</span>
+        <span>16 秒<span class="dot">·</span>2D 品牌动效<span class="dot">·</span>无声</span>
+      </div>
+    </section>
+    <section class="notes" aria-label="使用与下载">
+      <div class="note-title"><span class="section-number">01 /</span><h2>让陪伴，自然发生。</h2></div>
+      <div class="note-body">
+        <p>在柔软的星域里，猫咪自在地观察、嬉戏与靠近。用清晰的品牌标识迎接访客，把画面留给自然的互动。</p>
+        <p class="quiet" id="motion-note">当前显示静态封面。点击播放后才加载影片，可随时暂停或重播。</p>
+        <div class="downloads">
+          <a id="download-video" href="../exports/brand-film-dark.mp4" download>下载当前主题 MP4 <span aria-hidden="true">↓</span></a>
+          <a id="download-poster" href="../posters/brand-film-dark.webp" download>下载静态封面 <span aria-hidden="true">↓</span></a>
+          <a href="README.md">接入说明 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>九喵 / 9mew</span><span>品牌影像 · v3</span><a href="https://9mew.com" target="_blank" rel="noopener noreferrer">9mew.com ↗</a></footer>
+  <script type="module" src="demo.js"></script>
+</body>
+</html>

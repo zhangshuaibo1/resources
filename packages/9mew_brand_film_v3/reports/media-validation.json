@@ -1,0 +1,706 @@
+{
+  "status": "ALL_12_MEDIA_EXPORTS_VALIDATED",
+  "checkedAtUtc": "2026-10-23T11:57:14.194Z",
+  "rendererSHA256": "abfbb2a2dc62e38ccb20185dd048c678e383c81006f565d2ccdb5632d7a5ff97",
+  "runtimeAssetsSHA256": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed",
+  "renderRunSHA256": "f2048e6a11a4f8a88d9df3f49fb50718e5593fceeeedd89b65a3a9688be73176",
+  "validatorSHA256": "714826b960b0b86a40a7c88efe496e279a7e5820083fad1c8e430c98bf86e701",
+  "inputBindings": {
+    "runtime-assets.json": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed",
+    "reports/action-contact-anchors.json": "4ebdee58af7de93a449d91fe40970f962af1ec8cfa8bb65bb486c090c3a845bc",
+    "source/scene/star-garden-stage.png": "0b1e2a60f31f5200204685a762cbb0f3ef46490124e1afa24ba78ac1aa1612da",
+    "source/scene/star-garden-ensemble.png": "f9b0d1e196ab2baba1ebf300eb9a4b3e7ca614fbc94a191ea9d47804ea6f55e7",
+    "source/brand/cat9-original.png": "8c68a694192192c9a28a470c14c96f7248d46e4e0cfa8ccad3c599d12f06a850",
+    "fonts/9mew-brand-medium.ttf": "c6b2d30ff308dbffb51f87cba06438977c51bb845805a3ae9db7caf7ee5671ff",
+    "fonts/Nunito-brand.ttf": "d53c130369e6bdfb516635b77ec0895fc6608fca8e26101c8a1219cbcd79b4fc",
+    "sprites/naimiao-star-greeting.webp": "65741e6f33cbb552f5e3c4e24b0e64154c140f2d631eee45b757afc4a6df1144"
+  },
+  "exportCount": 12,
+  "allPassed": true,
+  "checksExecuted": [
+    "All 12 files SHA-256 and byte sizes",
+    "MP4/WebM codec, 1920x720, 30fps, expected duration and zero audio",
+    "Strict complete decode of all 8 MP4/WebM files with every frame hashed",
+    "MP4 moov-before-mdat faststart ordering",
+    "Complete RGBA page decode of all 4 animated WebP files, real frame variation and timing",
+    "Measured decoded first/last differences on every export without an arbitrary quality threshold",
+    "Renderer/catalog/run-report hash binding and no media changes during validation"
+  ],
+  "notExecuted": [
+    "Human artistic approval",
+    "User visual acceptance",
+    "Production website deployment",
+    "Audio design, because all movie exports intentionally have no audio"
+  ],
+  "seamInterpretation": "Numeric differences are evidence for review only; they are not declared a beauty or perceptual seamlessness score.",
+  "versions": {
+    "node": "v24.19.0",
+    "sharp": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    },
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "assets": [
+    {
+      "path": "exports/brand-film-dark.mp4",
+      "status": "PASSED",
+      "sha256": "7a439c5979a9e5fc14c564bf58e83160ce68493140770e7ed9871930dadeaeeb",
+      "bytes": 992630,
+      "format": "mp4",
+      "codec": "h264",
+      "codecLongName": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 16,
+      "audioStreams": 0,
+      "decodedFrames": 480,
+      "expectedFrames": 480,
+      "distinctDecodedFrames": 480,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "1f3dc1a1b7b7678f02ad3b89012bcbf195351a13d69db579dba29d3fde654e23",
+      "faststart": {
+        "status": "PASSED",
+        "method": "ISO BMFF top-level box inspection",
+        "moovOffset": 32,
+        "mdatOffset": 6575,
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 6535
+          },
+          {
+            "type": "free",
+            "offset": 6567,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 6575,
+            "bytes": 986055
+          }
+        ]
+      },
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.71179929,
+        "rootMeanSquareDifference8bit": 1.38759454,
+        "maximumChannelDifference8bit": 53,
+        "changedRGBChannelPercent": 39.73529128,
+        "changedPixelPercent": 45.44690394,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 45.28555199,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-film-dark.webm",
+      "status": "PASSED",
+      "sha256": "7dd8c00d9ece435b82fcb7bfc9d31b278af88cddc46d442545b5490380f8624b",
+      "bytes": 643613,
+      "format": "webm",
+      "codec": "vp9",
+      "codecLongName": "Google VP9",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 16,
+      "audioStreams": 0,
+      "decodedFrames": 480,
+      "expectedFrames": 480,
+      "distinctDecodedFrames": 445,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "85045e25a6ff2eca44248560e75666b481c3920ce1ead2ebfe7a0d260629522c",
+      "faststart": null,
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.80069686,
+        "rootMeanSquareDifference8bit": 1.80249848,
+        "maximumChannelDifference8bit": 54,
+        "changedRGBChannelPercent": 31.00188079,
+        "changedPixelPercent": 37.32877604,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 43.01330546,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-film-dark.webp",
+      "status": "PASSED",
+      "sha256": "723d4bd2dd812088a36275d26ef1f608a2bd15ca8b5c68a9010e9d85d53f0227",
+      "bytes": 882548,
+      "format": "webp",
+      "codec": "animated WebP",
+      "width": 1280,
+      "height": 480,
+      "encodedPages": 232,
+      "decodedPages": 232,
+      "distinctDecodedFrames": 232,
+      "requestedSamplingFramesPerSecond": 15,
+      "expectedPreCoalescingSamples": 240,
+      "timingNote": "Actual page count is reported; encoders may coalesce repeated pages. Nominal 15fps sampling does not imply newly drawn art at 15fps.",
+      "durationMs": 15999,
+      "expectedDurationMs": 16000,
+      "durationToleranceMs": 67,
+      "toleranceReason": "One nominal 15fps sampling interval, rounded up to integer milliseconds",
+      "delayHistogramMs": {
+        "66": 76,
+        "67": 148,
+        "133": 5,
+        "134": 3
+      },
+      "loop": 0,
+      "hasAlpha": true,
+      "audioTrack": "Not applicable to animated WebP image format",
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "libvips/sharp animated RGBA decode of every page",
+        "decodedRawBytes": 570163200
+      },
+      "decodedFrameHashesSHA256": "348ec27bdbdde9e66d76f3f74ba0cf82f9a58bd874beb8dd4ed4aa8e4c39bc10",
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 614400,
+        "meanAbsoluteDifference8bit": 1.24993544,
+        "rootMeanSquareDifference8bit": 2.57030221,
+        "maximumChannelDifference8bit": 46,
+        "changedRGBChannelPercent": 40.5632053,
+        "changedPixelPercent": 48.36832682,
+        "alphaChangedPixels": 0,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 39.93111982,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-dark.mp4",
+      "status": "PASSED",
+      "sha256": "76b6efb9600c8ae11e5ce69bfea3d71ab22102c4ae248d080a99919d66262058",
+      "bytes": 235850,
+      "format": "mp4",
+      "codec": "h264",
+      "codecLongName": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 6,
+      "audioStreams": 0,
+      "decodedFrames": 180,
+      "expectedFrames": 180,
+      "distinctDecodedFrames": 180,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "e62662ea461be7f35f3af11bac2709755889a3b38e9c16440fec453a2722cb21",
+      "faststart": {
+        "status": "PASSED",
+        "method": "ISO BMFF top-level box inspection",
+        "moovOffset": 32,
+        "mdatOffset": 2971,
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2931
+          },
+          {
+            "type": "free",
+            "offset": 2963,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2971,
+            "bytes": 232879
+          }
+        ]
+      },
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.07859857,
+        "rootMeanSquareDifference8bit": 0.52146628,
+        "maximumChannelDifference8bit": 53,
+        "changedRGBChannelPercent": 5.51133295,
+        "changedPixelPercent": 6.22092014,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 53.78627896,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-dark.webm",
+      "status": "PASSED",
+      "sha256": "762b8d2af98f9fb32f9025509873056fdf4a3ba980b8bbef89f5bc7c44c845b5",
+      "bytes": 64384,
+      "format": "webm",
+      "codec": "vp9",
+      "codecLongName": "Google VP9",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 6,
+      "audioStreams": 0,
+      "decodedFrames": 180,
+      "expectedFrames": 180,
+      "distinctDecodedFrames": 180,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "079a7a459e16b4346874e98d37816a844d800fc267cb0226d865691f7b9164f0",
+      "faststart": null,
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.09374976,
+        "rootMeanSquareDifference8bit": 0.58505553,
+        "maximumChannelDifference8bit": 56,
+        "changedRGBChannelPercent": 5.70119599,
+        "changedPixelPercent": 8.08485243,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 52.78686176,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-dark.webp",
+      "status": "PASSED",
+      "sha256": "79ebf0b6c229d7b882bbec8f78538f08bea916ede8d563cf45b04c363d715ba5",
+      "bytes": 220950,
+      "format": "webp",
+      "codec": "animated WebP",
+      "width": 1280,
+      "height": 480,
+      "encodedPages": 90,
+      "decodedPages": 90,
+      "distinctDecodedFrames": 90,
+      "requestedSamplingFramesPerSecond": 15,
+      "expectedPreCoalescingSamples": 90,
+      "timingNote": "Actual page count is reported; encoders may coalesce repeated pages. Nominal 15fps sampling does not imply newly drawn art at 15fps.",
+      "durationMs": 5999,
+      "expectedDurationMs": 6000,
+      "durationToleranceMs": 67,
+      "toleranceReason": "One nominal 15fps sampling interval, rounded up to integer milliseconds",
+      "delayHistogramMs": {
+        "66": 31,
+        "67": 59
+      },
+      "loop": 0,
+      "hasAlpha": true,
+      "audioTrack": "Not applicable to animated WebP image format",
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "libvips/sharp animated RGBA decode of every page",
+        "decodedRawBytes": 221184000
+      },
+      "decodedFrameHashesSHA256": "2134b13b55fa79b91b37bb3387063057888d1daa894e5aa3f4c802bd6223a5eb",
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 614400,
+        "meanAbsoluteDifference8bit": 0.28772569,
+        "rootMeanSquareDifference8bit": 2.16727756,
+        "maximumChannelDifference8bit": 212,
+        "changedRGBChannelPercent": 12.60009766,
+        "changedPixelPercent": 16.71907552,
+        "alphaChangedPixels": 0,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 41.41251293,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-film-light.mp4",
+      "status": "PASSED",
+      "sha256": "85425d5ef73c30654db2206531ba1ad130f7332a32de77475198ff220bfd57b0",
+      "bytes": 943226,
+      "format": "mp4",
+      "codec": "h264",
+      "codecLongName": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 16,
+      "audioStreams": 0,
+      "decodedFrames": 480,
+      "expectedFrames": 480,
+      "distinctDecodedFrames": 479,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "27d541768ab8a8345183f7a87ed4b2bee6dffb46284b8a9387a02ed1827ab24b",
+      "faststart": {
+        "status": "PASSED",
+        "method": "ISO BMFF top-level box inspection",
+        "moovOffset": 32,
+        "mdatOffset": 6615,
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 6575
+          },
+          {
+            "type": "free",
+            "offset": 6607,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 6615,
+            "bytes": 936611
+          }
+        ]
+      },
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.60666763,
+        "rootMeanSquareDifference8bit": 1.21993888,
+        "maximumChannelDifference8bit": 44,
+        "changedRGBChannelPercent": 35.66842689,
+        "changedPixelPercent": 41.46180556,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 46.40404216,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-film-light.webm",
+      "status": "PASSED",
+      "sha256": "c83250e4a4f0e078e3dbe06870b494ca60ed1921dcfeeb5430832d3c9417787d",
+      "bytes": 556708,
+      "format": "webm",
+      "codec": "vp9",
+      "codecLongName": "Google VP9",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 16,
+      "audioStreams": 0,
+      "decodedFrames": 480,
+      "expectedFrames": 480,
+      "distinctDecodedFrames": 384,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "f4871418f2d534c802796d115eae3dbfab24fadf567d29eb2ab0f5b7da6a06fc",
+      "faststart": null,
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.7030599,
+        "rootMeanSquareDifference8bit": 1.64860658,
+        "maximumChannelDifference8bit": 46,
+        "changedRGBChannelPercent": 27.72417535,
+        "changedPixelPercent": 32.98980035,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 43.78846305,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-film-light.webp",
+      "status": "PASSED",
+      "sha256": "5a965ecff8c201e4aa48bd8261cc951f3d0b1630197a0c1fedec18e6fba278ae",
+      "bytes": 618068,
+      "format": "webp",
+      "codec": "animated WebP",
+      "width": 1280,
+      "height": 480,
+      "encodedPages": 223,
+      "decodedPages": 223,
+      "distinctDecodedFrames": 222,
+      "requestedSamplingFramesPerSecond": 15,
+      "expectedPreCoalescingSamples": 240,
+      "timingNote": "Actual page count is reported; encoders may coalesce repeated pages. Nominal 15fps sampling does not imply newly drawn art at 15fps.",
+      "durationMs": 15999,
+      "expectedDurationMs": 16000,
+      "durationToleranceMs": 67,
+      "toleranceReason": "One nominal 15fps sampling interval, rounded up to integer milliseconds",
+      "delayHistogramMs": {
+        "66": 69,
+        "67": 141,
+        "133": 8,
+        "134": 1,
+        "200": 4
+      },
+      "loop": 0,
+      "hasAlpha": true,
+      "audioTrack": "Not applicable to animated WebP image format",
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "libvips/sharp animated RGBA decode of every page",
+        "decodedRawBytes": 548044800
+      },
+      "decodedFrameHashesSHA256": "b4e5fda1871d034e1c0866a964f18c8e156495ada8637dcb953cdb0a6fbc73d9",
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 614400,
+        "meanAbsoluteDifference8bit": 1.0563992,
+        "rootMeanSquareDifference8bit": 2.32515949,
+        "maximumChannelDifference8bit": 35,
+        "changedRGBChannelPercent": 34.49788411,
+        "changedPixelPercent": 41.35595703,
+        "alphaChangedPixels": 0,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 40.80174866,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-light.mp4",
+      "status": "PASSED",
+      "sha256": "005ee62282b9548e3d266c54a8a94ce6d8b1b2fd3ef0b2b5804fe450d1e9c739",
+      "bytes": 219834,
+      "format": "mp4",
+      "codec": "h264",
+      "codecLongName": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 6,
+      "audioStreams": 0,
+      "decodedFrames": 180,
+      "expectedFrames": 180,
+      "distinctDecodedFrames": 180,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "eb3bddb6b372d6f39ba5ffd2f54ac6cb2bad09a6c2c8d552166591801f4e5ecc",
+      "faststart": {
+        "status": "PASSED",
+        "method": "ISO BMFF top-level box inspection",
+        "moovOffset": 32,
+        "mdatOffset": 3003,
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2963
+          },
+          {
+            "type": "free",
+            "offset": 2995,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3003,
+            "bytes": 216831
+          }
+        ]
+      },
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.06179133,
+        "rootMeanSquareDifference8bit": 0.41919114,
+        "maximumChannelDifference8bit": 44,
+        "changedRGBChannelPercent": 4.69890529,
+        "changedPixelPercent": 5.07327836,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 55.68256177,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-light.webm",
+      "status": "PASSED",
+      "sha256": "c1ec92be4c6a398346af42ca957caf1d61e2494d86c63ee21d1d6d27bee202ae",
+      "bytes": 44979,
+      "format": "webm",
+      "codec": "vp9",
+      "codecLongName": "Google VP9",
+      "width": 1920,
+      "height": 720,
+      "pixelFormat": "yuv420p",
+      "nominalFrameRate": 30,
+      "averageFrameRate": 30,
+      "durationSeconds": 6,
+      "audioStreams": 0,
+      "decodedFrames": 180,
+      "expectedFrames": 180,
+      "distinctDecodedFrames": 180,
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "ffmpeg strict full decode, every output frame hashed with framemd5",
+        "errorOutput": ""
+      },
+      "frameHashManifestSHA256": "2a2b8ab29f69d46dfc40f76e378fc26f054e4ff150b7920170727109f05542d8",
+      "faststart": null,
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 1382400,
+        "meanAbsoluteDifference8bit": 0.07168933,
+        "rootMeanSquareDifference8bit": 0.47853118,
+        "maximumChannelDifference8bit": 49,
+        "changedRGBChannelPercent": 4.4439863,
+        "changedPixelPercent": 6.10069444,
+        "alphaChangedPixels": null,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 54.53259878,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    },
+    {
+      "path": "exports/brand-ident-light.webp",
+      "status": "PASSED",
+      "sha256": "5daf6b17a32511d022aadf56344b11a9ce58d4c71ea7403ced03c2ef50be509b",
+      "bytes": 90714,
+      "format": "webp",
+      "codec": "animated WebP",
+      "width": 1280,
+      "height": 480,
+      "encodedPages": 90,
+      "decodedPages": 90,
+      "distinctDecodedFrames": 90,
+      "requestedSamplingFramesPerSecond": 15,
+      "expectedPreCoalescingSamples": 90,
+      "timingNote": "Actual page count is reported; encoders may coalesce repeated pages. Nominal 15fps sampling does not imply newly drawn art at 15fps.",
+      "durationMs": 5999,
+      "expectedDurationMs": 6000,
+      "durationToleranceMs": 67,
+      "toleranceReason": "One nominal 15fps sampling interval, rounded up to integer milliseconds",
+      "delayHistogramMs": {
+        "66": 31,
+        "67": 59
+      },
+      "loop": 0,
+      "hasAlpha": true,
+      "audioTrack": "Not applicable to animated WebP image format",
+      "fullDecode": {
+        "status": "PASSED",
+        "method": "libvips/sharp animated RGBA decode of every page",
+        "decodedRawBytes": 221184000
+      },
+      "decodedFrameHashesSHA256": "5351ef9b08ba0a7afc3786f4fd224f916fa9f9068cc02d03be41ab0056c3cd33",
+      "loopSeam": {
+        "method": "Full-resolution decoded first-versus-last RGB pixels",
+        "informationalOnly": true,
+        "visualAcceptanceThreshold": null,
+        "pixels": 614400,
+        "meanAbsoluteDifference8bit": 0.23287218,
+        "rootMeanSquareDifference8bit": 0.97588101,
+        "maximumChannelDifference8bit": 70,
+        "changedRGBChannelPercent": 12.14073351,
+        "changedPixelPercent": 16.10302734,
+        "alphaChangedPixels": 0,
+        "exactDecodedRGBMatch": false,
+        "psnrDb": 48.34286625,
+        "note": "Measured evidence only. Lossy compression can change identical source endpoints; no arbitrary seam quality pass/fail threshold is imposed."
+      }
+    }
+  ]
+}

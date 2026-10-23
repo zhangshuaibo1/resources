@@ -1,0 +1,37 @@
+{
+  "status": "RENDERED_PENDING_DECODE_VALIDATION",
+  "renderSourceSha256": "abfbb2a2dc62e38ccb20185dd048c678e383c81006f565d2ccdb5632d7a5ff97",
+  "runtimeAssetsSha256": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed",
+  "inputBindings": {
+    "runtime-assets.json": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed",
+    "reports/action-contact-anchors.json": "4ebdee58af7de93a449d91fe40970f962af1ec8cfa8bb65bb486c090c3a845bc",
+    "source/scene/star-garden-stage.png": "0b1e2a60f31f5200204685a762cbb0f3ef46490124e1afa24ba78ac1aa1612da",
+    "source/scene/star-garden-ensemble.png": "f9b0d1e196ab2baba1ebf300eb9a4b3e7ca614fbc94a191ea9d47804ea6f55e7",
+    "source/brand/cat9-original.png": "8c68a694192192c9a28a470c14c96f7248d46e4e0cfa8ccad3c599d12f06a850",
+    "fonts/9mew-brand-medium.ttf": "c6b2d30ff308dbffb51f87cba06438977c51bb845805a3ae9db7caf7ee5671ff",
+    "fonts/Nunito-brand.ttf": "d53c130369e6bdfb516635b77ec0895fc6608fca8e26101c8a1219cbcd79b4fc",
+    "sprites/naimiao-star-greeting.webp": "65741e6f33cbb552f5e3c4e24b0e64154c140f2d631eee45b757afc4a6df1144"
+  },
+  "rendered": [
+    "exports/brand-film-dark.mp4",
+    "exports/brand-film-dark.webm",
+    "exports/brand-film-dark.webp",
+    "exports/brand-ident-dark.mp4",
+    "exports/brand-ident-dark.webm",
+    "exports/brand-ident-dark.webp",
+    "exports/brand-film-light.mp4",
+    "exports/brand-film-light.webm",
+    "exports/brand-film-light.webp",
+    "exports/brand-ident-light.mp4",
+    "exports/brand-ident-light.webm",
+    "exports/brand-ident-light.webp"
+  ],
+  "filmDuration": 16,
+  "identDuration": 6,
+  "fps": 30,
+  "resolution": [
+    1920,
+    720
+  ],
+  "animationMethod": "One new eight-pose kitten performance plus independent star choreography. Two background companions remain static. Ident uses only the simple brand mark and ambient graphics."
+}

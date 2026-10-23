@@ -1,0 +1,245 @@
+{
+  "renderSourceSha256": "abfbb2a2dc62e38ccb20185dd048c678e383c81006f565d2ccdb5632d7a5ff97",
+  "poses": [
+    {
+      "path": "reports/review-dark-0.png",
+      "time": 0,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1124,
+        "y": 169
+      }
+    },
+    {
+      "path": "reports/review-dark-2.3.png",
+      "time": 2.3,
+      "kind": "film",
+      "frame": 1,
+      "star": {
+        "x": 1179.4301813722448,
+        "y": 316.9505439921579
+      }
+    },
+    {
+      "path": "reports/review-dark-2.7.png",
+      "time": 2.7,
+      "kind": "film",
+      "frame": 2,
+      "star": {
+        "x": 1152.375121824271,
+        "y": 286.8770276686575
+      }
+    },
+    {
+      "path": "reports/review-dark-3.4.png",
+      "time": 3.4,
+      "kind": "film",
+      "frame": 3,
+      "star": {
+        "x": 1316.2103858093383,
+        "y": 349.26562499999994
+      }
+    },
+    {
+      "path": "reports/review-dark-3.9.png",
+      "time": 3.9,
+      "kind": "film",
+      "frame": 4,
+      "star": {
+        "x": 1314.06187229115,
+        "y": 349.26562499999994
+      }
+    },
+    {
+      "path": "reports/review-dark-4.6.png",
+      "time": 4.6,
+      "kind": "film",
+      "frame": 5,
+      "star": {
+        "x": 1278.2702686497942,
+        "y": 330.48832835443324
+      }
+    },
+    {
+      "path": "reports/review-dark-5.1.png",
+      "time": 5.1,
+      "kind": "film",
+      "frame": 6,
+      "star": {
+        "x": 1179.4495630794534,
+        "y": 223.7394139534776
+      }
+    },
+    {
+      "path": "reports/review-dark-5.8.png",
+      "time": 5.8,
+      "kind": "film",
+      "frame": 7,
+      "star": {
+        "x": 1246.2541716531064,
+        "y": 134.25054565754183
+      }
+    },
+    {
+      "path": "reports/review-dark-7.3.png",
+      "time": 7.3,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1678.199493419009,
+        "y": 347.0852797367335
+      }
+    },
+    {
+      "path": "reports/review-dark-9.8.png",
+      "time": 9.8,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 727.4669000959179,
+        "y": 214.54825687364968
+      }
+    },
+    {
+      "path": "reports/review-dark-11.png",
+      "time": 11,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 352.04023295999986,
+        "y": 160.03122636800006
+      }
+    },
+    {
+      "path": "reports/review-dark-15.9.png",
+      "time": 15.9,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1124,
+        "y": 169
+      }
+    },
+    {
+      "path": "reports/review-light-0.png",
+      "time": 0,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1124,
+        "y": 169
+      }
+    },
+    {
+      "path": "reports/review-light-2.3.png",
+      "time": 2.3,
+      "kind": "film",
+      "frame": 1,
+      "star": {
+        "x": 1179.4301813722448,
+        "y": 316.9505439921579
+      }
+    },
+    {
+      "path": "reports/review-light-2.7.png",
+      "time": 2.7,
+      "kind": "film",
+      "frame": 2,
+      "star": {
+        "x": 1152.375121824271,
+        "y": 286.8770276686575
+      }
+    },
+    {
+      "path": "reports/review-light-3.4.png",
+      "time": 3.4,
+      "kind": "film",
+      "frame": 3,
+      "star": {
+        "x": 1316.2103858093383,
+        "y": 349.26562499999994
+      }
+    },
+    {
+      "path": "reports/review-light-3.9.png",
+      "time": 3.9,
+      "kind": "film",
+      "frame": 4,
+      "star": {
+        "x": 1314.06187229115,
+        "y": 349.26562499999994
+      }
+    },
+    {
+      "path": "reports/review-light-4.6.png",
+      "time": 4.6,
+      "kind": "film",
+      "frame": 5,
+      "star": {
+        "x": 1278.2702686497942,
+        "y": 330.48832835443324
+      }
+    },
+    {
+      "path": "reports/review-light-5.1.png",
+      "time": 5.1,
+      "kind": "film",
+      "frame": 6,
+      "star": {
+        "x": 1179.4495630794534,
+        "y": 223.7394139534776
+      }
+    },
+    {
+      "path": "reports/review-light-5.8.png",
+      "time": 5.8,
+      "kind": "film",
+      "frame": 7,
+      "star": {
+        "x": 1246.2541716531064,
+        "y": 134.25054565754183
+      }
+    },
+    {
+      "path": "reports/review-light-7.3.png",
+      "time": 7.3,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1678.199493419009,
+        "y": 347.0852797367335
+      }
+    },
+    {
+      "path": "reports/review-light-9.8.png",
+      "time": 9.8,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 727.4669000959179,
+        "y": 214.54825687364968
+      }
+    },
+    {
+      "path": "reports/review-light-11.png",
+      "time": 11,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 352.04023295999986,
+        "y": 160.03122636800006
+      }
+    },
+    {
+      "path": "reports/review-light-15.9.png",
+      "time": 15.9,
+      "kind": "film",
+      "frame": 0,
+      "star": {
+        "x": 1124,
+        "y": 169
+      }
+    }
+  ]
+}

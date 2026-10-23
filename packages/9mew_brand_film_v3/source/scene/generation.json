@@ -1,0 +1,57 @@
+{
+  "packageVersion": "3.0.0",
+  "sceneName": "星环里的家",
+  "assets": [
+    {
+      "id": "star-garden-ensemble",
+      "kind": "new_illustration",
+      "path": "source/scene/star-garden-ensemble.png",
+      "sha256": "f9b0d1e196ab2baba1ebf300eb9a4b3e7ca614fbc94a191ea9d47804ea6f55e7",
+      "prompt": "source/scene/star-garden.prompt.txt",
+      "promptSHA256": "f3e780cb17851325000050ee1ea396ad6acb34070dccafe4b4c5b3900eabf494",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        }
+      ],
+      "tool": "image_gen.imagegen",
+      "requestedTransparentBackground": true,
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "provider": null,
+      "model": null,
+      "jobId": null,
+      "cost": null,
+      "artApproval": "awaiting-user-review"
+    },
+    {
+      "id": "star-garden-stage",
+      "kind": "background_layer_edit",
+      "path": "source/scene/star-garden-stage.png",
+      "sha256": "0b1e2a60f31f5200204685a762cbb0f3ef46490124e1afa24ba78ac1aa1612da",
+      "prompt": "source/scene/star-garden-stage.prompt.txt",
+      "promptSHA256": "cfda3d85bd56840594d679b01ed248c4250f2935c6296de6ad451a443dcd7034",
+      "references": [
+        {
+          "path": "source/scene/star-garden-ensemble.png",
+          "sha256": "f9b0d1e196ab2baba1ebf300eb9a4b3e7ca614fbc94a191ea9d47804ea6f55e7"
+        }
+      ],
+      "tool": "image_gen.imagegen",
+      "requestedTransparentBackground": true,
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "provider": null,
+      "model": null,
+      "jobId": null,
+      "cost": null,
+      "artApproval": "awaiting-user-review"
+    }
+  ],
+  "note": "The transparent main ensemble is concept/key art. Background stage retains two static companion cats; the main kitten action is independently generated and composited. No generated image is a video or 3D model."
+}

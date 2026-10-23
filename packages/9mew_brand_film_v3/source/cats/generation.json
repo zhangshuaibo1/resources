@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "3.0.0",
+  "characterId": "9mew.character.naimiao",
+  "actionId": "naimiao-star-greeting",
+  "mediaKind": "imagegen-keypose-source-set",
+  "newSourceSequences": 1,
+  "newSourcePoses": 8,
+  "sourceRows": 1,
+  "sourceColumns": 2,
+  "provider": null,
+  "model": null,
+  "providerJobId": null,
+  "cost": null,
+  "tool": "image_gen.imagegen",
+  "notes": "Tool returned raster images. Final movie motion is assembled separately. All four high-detail sheets actually measure 1774 by 887. Provider/model/job/cost were not exposed.",
+  "identityReference": {
+    "path": "refs/naimiao-master.png",
+    "role": "sole identity reference",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "selected": {
+    "kind": "four-horizontal-pair-sheets",
+    "paths": [
+      "source/cats/hires-01.png",
+      "source/cats/hires-23.png",
+      "source/cats/hires-45.png",
+      "source/cats/hires-67.png"
+    ],
+    "productionApproval": "not inferred"
+  },
+  "attempts": [
+    {
+      "path": "source/cats/naimiao-star-greeting-candidate-01.png",
+      "sha256": "d38a377488681b50af9f1d86552ee1bf2aa461901668680c08158743c78f15f2",
+      "prompt": "source/cats/naimiao-star-greeting.prompt.txt",
+      "promptSHA256": "3b4bb12d796fba0b2e001703291a871fea51467d8075c4cac4caa59706082f71",
+      "reference": "refs/naimiao-master.png",
+      "referenceSHA256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "selected": false,
+      "reason": "Tight source margins and extra grounded front paw in cupped/open two-paw poses."
+    },
+    {
+      "path": "source/cats/naimiao-star-greeting.png",
+      "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59",
+      "prompt": "source/cats/naimiao-star-greeting.anatomy-layout-fix.prompt.txt",
+      "promptSHA256": "9ec79345069f9a551bbb729ef467d8b4472c733d39ab89d9e3f5c922bc3314c1",
+      "reference": "source/cats/naimiao-star-greeting-candidate-01.png",
+      "referenceSHA256": "d38a377488681b50af9f1d86552ee1bf2aa461901668680c08158743c78f15f2",
+      "selected": false,
+      "operation": "Targeted anatomy and margin correction via imagegen; original character, actions and eight-pose layout retained.",
+      "reason": "Anatomically corrected early source; superseded by higher-detail redrawing because each cat was only about 340 source pixels high."
+    },
+    {
+      "path": "source/cats/hires-a.png",
+      "sha256": "0b9f46cbeefa3a70ca74c630d750aa3f7b37268698568f22d54157452f00e87d",
+      "prompt": "source/cats/hires-a.prompt.txt",
+      "promptSHA256": "e715a9b33b8cb39530822605232fd2ad7dcaa62f19320237f0893e4a94b1244c",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 2048
+      },
+      "actualSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "selected": false,
+      "reason": "Four-pose source trial had different scales in upper/lower rows and crowded boundaries; replaced by two-pose horizontal source sheets."
+    },
+    {
+      "path": "source/cats/hires-01.png",
+      "sha256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        0,
+        1
+      ],
+      "prompt": "source/cats/hires-01.prompt.txt",
+      "promptSHA256": "315dc9d1fd3a4c9c8afb3741364fedfe30a54c9355c7bcabdbbc34d1c486ed70",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-23.png",
+      "sha256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        2,
+        3
+      ],
+      "prompt": "source/cats/hires-23.prompt.txt",
+      "promptSHA256": "9be0169244143e04f469a22ba417632331379cbc692df784bc7031efc6d7ecc3",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-45.png",
+      "sha256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        4,
+        5
+      ],
+      "prompt": "source/cats/hires-45.prompt.txt",
+      "promptSHA256": "a45a7614a59f0905e53eefc773d4b675f16447297011eb16ca22e608e2294893",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-67.png",
+      "sha256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        6,
+        7
+      ],
+      "prompt": "source/cats/hires-67.prompt.txt",
+      "promptSHA256": "31026fb376069a7cf3fd2ccff05cd01108dd2c48bddc00d9f42ba46ad692fb6c",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    }
+  ],
+  "recordedAtUtc": "2026-10-23T11:54:37.322316+00:00",
+  "sourceSheetCount": 4,
+  "selectedSources": [
+    {
+      "path": "source/cats/hires-01.png",
+      "sha256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        0,
+        1
+      ],
+      "prompt": "source/cats/hires-01.prompt.txt",
+      "promptSHA256": "315dc9d1fd3a4c9c8afb3741364fedfe30a54c9355c7bcabdbbc34d1c486ed70",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-23.png",
+      "sha256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        2,
+        3
+      ],
+      "prompt": "source/cats/hires-23.prompt.txt",
+      "promptSHA256": "9be0169244143e04f469a22ba417632331379cbc692df784bc7031efc6d7ecc3",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-45.png",
+      "sha256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        4,
+        5
+      ],
+      "prompt": "source/cats/hires-45.prompt.txt",
+      "promptSHA256": "a45a7614a59f0905e53eefc773d4b675f16447297011eb16ca22e608e2294893",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    },
+    {
+      "path": "source/cats/hires-67.png",
+      "sha256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        6,
+        7
+      ],
+      "prompt": "source/cats/hires-67.prompt.txt",
+      "promptSHA256": "31026fb376069a7cf3fd2ccff05cd01108dd2c48bddc00d9f42ba46ad692fb6c",
+      "references": [
+        {
+          "path": "refs/naimiao-master.png",
+          "role": "sole identity and detail reference",
+          "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+        },
+        {
+          "path": "source/cats/naimiao-star-greeting.png",
+          "role": "corrected eight-pose continuity reference",
+          "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59"
+        }
+      ],
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024
+      },
+      "provider": null,
+      "model": null,
+      "providerJobId": null,
+      "cost": null,
+      "selected": true,
+      "operation": "Genuine detailed imagegen redraw from master plus old corrected pose sheet; not a conventional pixel enlargement."
+    }
+  ],
+  "sourceUpgrade": "Replaces the same one action/eight poses. High-resolution source revisions are not additional unique actions.",
+  "actualImagegenOutputFiles": 7
+}

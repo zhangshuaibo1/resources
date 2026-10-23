@@ -1,0 +1,48 @@
+{
+  "status": "PORTABLE_ACTION_REBUILD_MATCHES_FROZEN_ASSETS",
+  "checkedAtUtc": "2026-10-23T11:56:24.633931+00:00",
+  "method": "Copied only the preparation script and its four actual selected source PNGs to a separate temporary root, reran it there, and compared the resulting catalog, eight frames, and atlas against the frozen delivery files. Installed sharp dependency supplied by the runtime.",
+  "checks": [
+    {
+      "path": "runtime-assets.json",
+      "sha256": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed"
+    },
+    {
+      "path": "sprites/naimiao-star-greeting.webp",
+      "sha256": "65741e6f33cbb552f5e3c4e24b0e64154c140f2d631eee45b757afc4a6df1144"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/000.webp",
+      "sha256": "dbfb37475e420a515db5f57d9aceaf79f2f0a6669c02685255fc8c9ba4dcc2cd"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/001.webp",
+      "sha256": "4a6a1c55d46b960c2782085d4cf926f9ea6191302db2e902be882e449a606ef1"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/002.webp",
+      "sha256": "0dd708fb68ab787fbff8344dbe6dd64512264a05e14caa1c35b4bbce99cf6d57"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/003.webp",
+      "sha256": "7e5f34ee7606cc1419e0a2a5b287036f86a8b9bdda6885bdcfa506db64b50ce5"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/004.webp",
+      "sha256": "e6dbc9d9e2b8b03cdf70aa82c1d3d6d9c967e41138fdb6b0195bce2428977720"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/005.webp",
+      "sha256": "044ffb5036eef7ec524401998990f2020cf4d6fa19219307bd9b5858bd304d76"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/006.webp",
+      "sha256": "4979913df59ab1ed389c7afee97605942123f7dd1509c85463bc9daf97759f1c"
+    },
+    {
+      "path": "frames/naimiao-star-greeting/007.webp",
+      "sha256": "a63f28a28ff2e419b7fe10f39e2b647dfc5ff521926332343733fa23e7273e78"
+    }
+  ],
+  "scope": "Action preparation only; no image generation invoked and no production files modified."
+}

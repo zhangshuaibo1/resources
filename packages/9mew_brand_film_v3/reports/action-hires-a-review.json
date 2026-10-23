@@ -1,0 +1,35 @@
+{
+  "status": "CANDIDATE_NOT_IN_RUNTIME",
+  "requestedDimensions": [
+    2048,
+    2048
+  ],
+  "actualDimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "hasAlpha": true,
+  "intendedPoses": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "sourceSHA256": "0b9f46cbeefa3a70ca74c630d750aa3f7b37268698568f22d54157452f00e87d",
+  "promptSHA256": "e715a9b33b8cb39530822605232fd2ad7dcaa62f19320237f0893e4a94b1244c",
+  "approximatelyMeasuredVisibleHeights": [
+    650,
+    642,
+    567,
+    549
+  ],
+  "measurementNote": "Approximate row/cell crops; generation did not preserve equal 2x2 cell gutters. Boundary crowding means these are diagnostic measurements, not approved crop rectangles.",
+  "qualityFinding": "Finer eyes/fur than original8pose source, but minimum requested650px height not met in all cells.",
+  "nextDecision": "Parent reviewing whether to use two-pose source sheets to achieve higher native detail.",
+  "provider": null,
+  "model": null,
+  "jobId": null,
+  "cost": null,
+  "newActionCountAdded": 0
+}

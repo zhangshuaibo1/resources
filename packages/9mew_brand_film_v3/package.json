@@ -1,0 +1,23 @@
+{
+  "name": "9mew-brand-film-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:assets": "node tools/prepare-new-action.cjs",
+    "render": "node tools/render-film.mjs",
+    "check:web": "node web/check-browser.mjs",
+    "check:media": "node tools/validate-media.mjs",
+    "package": "python3 tools/package-kit.py"
+  },
+  "dependencies": {
+    "sharp": "0.35.5",
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

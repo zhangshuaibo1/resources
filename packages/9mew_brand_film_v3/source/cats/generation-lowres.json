@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "3.0.0",
+  "characterId": "9mew.character.naimiao",
+  "actionId": "naimiao-star-greeting",
+  "mediaKind": "imagegen-keypose-sheet",
+  "newSourceSequences": 1,
+  "newSourcePoses": 8,
+  "sourceRows": 2,
+  "sourceColumns": 4,
+  "provider": null,
+  "model": null,
+  "providerJobId": null,
+  "cost": null,
+  "tool": "image_gen.imagegen",
+  "notes": "Tool returned raster images; final animation is assembled separately. Provider/model/job/cost were not exposed.",
+  "identityReference": {
+    "path": "refs/naimiao-master.png",
+    "role": "sole identity reference",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "selected": {
+    "path": "source/cats/naimiao-star-greeting.png",
+    "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59",
+    "width": 1774,
+    "height": 887,
+    "alpha": true,
+    "productionApproval": "not inferred"
+  },
+  "attempts": [
+    {
+      "path": "source/cats/naimiao-star-greeting-candidate-01.png",
+      "sha256": "d38a377488681b50af9f1d86552ee1bf2aa461901668680c08158743c78f15f2",
+      "prompt": "source/cats/naimiao-star-greeting.prompt.txt",
+      "promptSHA256": "3b4bb12d796fba0b2e001703291a871fea51467d8075c4cac4caa59706082f71",
+      "reference": "refs/naimiao-master.png",
+      "referenceSHA256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+      "selected": false,
+      "reason": "Tight source margins and extra grounded front paw in cupped/open two-paw poses."
+    },
+    {
+      "path": "source/cats/naimiao-star-greeting.png",
+      "sha256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59",
+      "prompt": "source/cats/naimiao-star-greeting.anatomy-layout-fix.prompt.txt",
+      "promptSHA256": "9ec79345069f9a551bbb729ef467d8b4472c733d39ab89d9e3f5c922bc3314c1",
+      "reference": "source/cats/naimiao-star-greeting-candidate-01.png",
+      "referenceSHA256": "d38a377488681b50af9f1d86552ee1bf2aa461901668680c08158743c78f15f2",
+      "selected": true,
+      "operation": "Targeted anatomy and margin correction via imagegen; original character, actions and eight-pose layout retained."
+    }
+  ]
+}

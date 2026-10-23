@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "3.0.0",
+  "status": "prototype",
+  "artApproval": "awaiting-user-review",
+  "newSourceSequences": 1,
+  "newSourcePoses": 8,
+  "reusedSourceSequences": 0,
+  "reusedFrameSlots": 0,
+  "totalFrameSlots": 8,
+  "directionPolicy": "Source front-left; any mirror is a derivative, not a new original action.",
+  "animationMethod": "Eight recorded 2D key poses, genuinely redrawn from the identity master as four high-detail pairs. Code performs rigid size normalization, seat/ground translation and timing only. This source upgrade replaces the same action, not eight additional actions.",
+  "actions": {
+    "naimiao-star-greeting": {
+      "id": "naimiao-star-greeting",
+      "label": "奶喵接星与放飞",
+      "characterId": "9mew.character.naimiao",
+      "sprite": "sprites/naimiao-star-greeting.webp",
+      "frames": [
+        "frames/naimiao-star-greeting/000.webp",
+        "frames/naimiao-star-greeting/001.webp",
+        "frames/naimiao-star-greeting/002.webp",
+        "frames/naimiao-star-greeting/003.webp",
+        "frames/naimiao-star-greeting/004.webp",
+        "frames/naimiao-star-greeting/005.webp",
+        "frames/naimiao-star-greeting/006.webp",
+        "frames/naimiao-star-greeting/007.webp"
+      ],
+      "frameWidth": 1024,
+      "frameHeight": 1024,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "durationsMs": [
+        260,
+        240,
+        280,
+        320,
+        300,
+        260,
+        320,
+        420
+      ],
+      "loop": false,
+      "facing": "front-left",
+      "sourceKind": "new-imagegen-sequence",
+      "sourcePaths": [
+        "source/cats/hires-01.png",
+        "source/cats/hires-23.png",
+        "source/cats/hires-45.png",
+        "source/cats/hires-67.png"
+      ],
+      "sourceRevision": "high-detail-pairs",
+      "performance": "Seated welcome, head inclination, gentle reach, cupped paws, closed-eye smile, open paws and release. Star is a separate composition layer."
+    }
+  }
+}

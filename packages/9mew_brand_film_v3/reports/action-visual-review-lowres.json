@@ -1,0 +1,43 @@
+{
+  "status": "ALL_EIGHT_KEYPOSES_STATICALLY_REVIEWED",
+  "checkedAtUtc": "2026-10-23T11:32:11.093919+00:00",
+  "actionId": "naimiao-star-greeting",
+  "sourcePath": "source/cats/naimiao-star-greeting.png",
+  "sourceSHA256": "8242d9e244fa1a5d9ec96041e4330a5cb0644ec9f9c7e99fa99bd5354164be59",
+  "contactSheets": [
+    {
+      "path": "reports/action-contact-dark.png",
+      "sha256": "08ab323039a24c159dc34b4a7242a556c5d0da9dbfb855356eda193fa08c1766"
+    },
+    {
+      "path": "reports/action-contact-light.png",
+      "sha256": "a7f1b8e51dac7e2e13163aa230e03f1352f19992d2d941134c0edb078afe899b"
+    }
+  ],
+  "reviewedPoseIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "observations": [
+    "Broad rounded cream face, gray-brown eyes, outward ears, pink scarf and small gold clasp remain consistent with the selected identity direction.",
+    "The double-forepaw poses 3,4,5 visibly have two raised forepaws and two outer grounded hind paws; the candidate extra central grounded forepaw was removed by the recorded imagegen correction.",
+    "Other greeting/reach poses use one raised forepaw while the opposite foreleg is largely occluded by the seated body; no additional free-floating limb is visible.",
+    "Pose 4 uses actually drawn closed eyelids, not a code-painted overlay. Paw and head relationships change across the eight frames.",
+    "Both light and dark contact sheets retain soft cream fur edges without visible square backgrounds, colored fringe blocks or neighboring-cell fragments.",
+    "The common scale and ground-seat alignment preserve stationary seating while forepaws/head perform the gesture."
+  ],
+  "outputAlpha24MinimumMargin": 34,
+  "sourceSequences": 1,
+  "sourcePoses": 8,
+  "mirrorSequencesCounted": 0,
+  "reviewScope": "Actual source sheet and all eight rendered frames on dark and light contact sheets. This is not a continuous human playback approval. Parent will compose and validate the final movie.",
+  "artApproval": "awaiting-user-review",
+  "continuousFilmReview": "pending parent integration",
+  "providerModelJobCostExposed": false
+}

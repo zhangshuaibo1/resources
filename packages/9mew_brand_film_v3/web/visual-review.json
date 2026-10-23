@@ -1,0 +1,23 @@
+{
+  "status": "STATIC_BROWSER_SCREENSHOTS_REVIEWED",
+  "screenshots": [
+    {
+      "path": "qa/desktop-dark.png",
+      "sha256": "6dc0c19ede49e67ae40ee70f5a6fc2fa398b83a71bba4a0895b7f8a3f9280c33"
+    },
+    {
+      "path": "qa/desktop-light.png",
+      "sha256": "3609d1741b6bbc212d9a46df3a354efd53aae8af3bc3970013b422ea39fb1312"
+    },
+    {
+      "path": "qa/mobile-light.png",
+      "sha256": "ba512cc4d2c783dd5b241b77a608b0859b1d4d1763bc3cd821ae6674e33dc581"
+    }
+  ],
+  "findings": [
+    "Desktop dark and light pages have readable headings and complete 8:3 brand artwork",
+    "Controls are outside the main content or within the lower safe area, without obscuring the cat faces or brand mark",
+    "390px mobile layout has no horizontal overflow or artwork cropping; the mobile in-picture play button is intentionally hidden"
+  ],
+  "scope": "Actual three static browser screenshots inspected; no claim of physical mobile device testing or artistic user approval"
+}

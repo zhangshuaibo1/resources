@@ -1,0 +1,170 @@
+{
+  "status": "MANUAL_VISUAL_ANCHOR_SUGGESTIONS",
+  "actionId": "naimiao-star-greeting",
+  "coordinateSystem": "Actual decoded 512 by 512 output frames; origin top-left. All eight files viewed individually. Positions are approximate human-style visual placement suggestions, not automated keypoint detections.",
+  "frameSize": {
+    "width": 512,
+    "height": 512
+  },
+  "seatAnchorNormalized": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "suggestedCoreRadiusSourcePixels": 8,
+  "suggestedSoftHaloRadiusSourcePixels": 22,
+  "usage": "For an unmirrored cat drawn at seat (x,y) with size S: worldX=x+S*(point.x/512-0.5), worldY=y+S*(point.y/512-0.875). Interpolate the separate star path between suggested points. Do not move the entire cat to force contact. Final composition needs a visual check.",
+  "frames": [
+    {
+      "index": 0,
+      "pose": "welcome",
+      "path": "frames/naimiao-star-greeting/000.webp",
+      "sha256": "44a72f846df7da2eed686c2df846104f62c5bb849d31960d21698058681efa27",
+      "visualPawContactPx": {
+        "x": 176,
+        "y": 292
+      },
+      "recommendedStarCenterPx": {
+        "x": 144,
+        "y": 269
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.28125,
+        "y": 0.525390625
+      },
+      "note": "Raised viewer-left palm; keep the star above-left rather than over cheek."
+    },
+    {
+      "index": 1,
+      "pose": "look-at-paw",
+      "path": "frames/naimiao-star-greeting/001.webp",
+      "sha256": "42b89cc9cdb02a36d101a0de5290f8b53d8344adae3f2e23a1d9cda12da1da4f",
+      "visualPawContactPx": {
+        "x": 164,
+        "y": 265
+      },
+      "recommendedStarCenterPx": {
+        "x": 131,
+        "y": 246
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.255859375,
+        "y": 0.48046875
+      },
+      "note": "Raised palm closer to muzzle; use an outward offset to avoid face."
+    },
+    {
+      "index": 2,
+      "pose": "gentle-reach",
+      "path": "frames/naimiao-star-greeting/002.webp",
+      "sha256": "8acc1d00e326a0f8ee860f2c0fbb2e85292d89fda6ffea25835c47c2cb493ddd",
+      "visualPawContactPx": {
+        "x": 124,
+        "y": 207
+      },
+      "recommendedStarCenterPx": {
+        "x": 96,
+        "y": 184
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.1875,
+        "y": 0.359375
+      },
+      "note": "Raised upper-left palm; good incoming-star contact point."
+    },
+    {
+      "index": 3,
+      "pose": "cup-light",
+      "path": "frames/naimiao-star-greeting/003.webp",
+      "sha256": "11012f31f0bfd3f207159090ddfea8d51135ee7a964e0b4cb432fe178012de4d",
+      "visualPawContactPx": {
+        "x": 240,
+        "y": 294
+      },
+      "recommendedStarCenterPx": {
+        "x": 240,
+        "y": 305
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.46875,
+        "y": 0.595703125
+      },
+      "note": "Gap between two cupped forepaws; place light slightly low to preserve chin and scarf clasp."
+    },
+    {
+      "index": 4,
+      "pose": "contented-blink",
+      "path": "frames/naimiao-star-greeting/004.webp",
+      "sha256": "755531bd3efce643d413b1b7831dadd2bbe78660fedfcb368e401980c24e4ce1",
+      "visualPawContactPx": {
+        "x": 247,
+        "y": 292
+      },
+      "recommendedStarCenterPx": {
+        "x": 246,
+        "y": 305
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.48046875,
+        "y": 0.595703125
+      },
+      "note": "Two cupped paws during closed-eye smile; keep glow below the muzzle."
+    },
+    {
+      "index": 5,
+      "pose": "open-paws",
+      "path": "frames/naimiao-star-greeting/005.webp",
+      "sha256": "3191519453ec8b893ac8231bb6e1077aa86e4b546a518f297d896005154815b3",
+      "visualPawContactPx": {
+        "x": 241,
+        "y": 277
+      },
+      "recommendedStarCenterPx": {
+        "x": 240,
+        "y": 306
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.46875,
+        "y": 0.59765625
+      },
+      "note": "Midpoint between open forepaws; keep light near chest, then release upward-left."
+    },
+    {
+      "index": 6,
+      "pose": "release-light",
+      "path": "frames/naimiao-star-greeting/006.webp",
+      "sha256": "141417bc60fc830ab7a97bf189d5184cd52b2f00c6e29c70a3be2f793b0af233",
+      "visualPawContactPx": {
+        "x": 125,
+        "y": 203
+      },
+      "recommendedStarCenterPx": {
+        "x": 95,
+        "y": 180
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.185546875,
+        "y": 0.3515625
+      },
+      "note": "Upper-left extended paw; star can then travel away toward upper-left."
+    },
+    {
+      "index": 7,
+      "pose": "return-welcome",
+      "path": "frames/naimiao-star-greeting/007.webp",
+      "sha256": "b74bfe5ac0e405204dc543d637a0683d7518980b587ee6cf3649b4251e577fdb",
+      "visualPawContactPx": {
+        "x": 169,
+        "y": 293
+      },
+      "recommendedStarCenterPx": {
+        "x": 137,
+        "y": 270
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.267578125,
+        "y": 0.52734375
+      },
+      "note": "Return pose; either hold star away on orbit or use a gentle above-left greeting contact."
+    }
+  ]
+}

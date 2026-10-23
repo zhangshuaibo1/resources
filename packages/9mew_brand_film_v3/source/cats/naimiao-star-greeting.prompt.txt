@@ -1,0 +1,15 @@
+Use case: identity-preserve / illustration-story.
+Asset type: eight consecutive 2D character key poses for a premium 9mew website brand film, NOT a finished video.
+Input image 1 is the sole character identity and material reference. Preserve the SAME cream-white kitten: broad rounded face, short muzzle, large gray-brown eyes within shaped eyelids, broad outward ears with pink recesses, dense fine fluffy fur and whiskers, compact seated body, round curved-toe paws, plume-like tail, small sakura pink scarf and tiny warm-gold four-point star clasp.
+Create one clean, high-resolution transparent sprite sheet with EXACTLY 8 full-body instances, arranged 4 equal columns by 2 equal rows, read left-to-right across top then bottom. Wide 2:1 sheet. Each cell has the same camera, framing, gentle three-quarter front view turned slightly toward viewer LEFT, same subject scale and a shared ground baseline. Seated haunches and hind paws stay grounded. Tail curls to viewer right with a clear graceful silhouette. Every complete cat, ear, whisker, tail and paw must remain inside its own cell with generous blank transparent margins (at least 12% on each side). No overlap or crop between cells.
+Action: a gentle welcome, receiving and releasing an IMAGINARY star that will be composited later. Do not draw the star or any prop in the sheet.
+Pose 1: calm seated welcome, viewer-left forepaw slightly lifted, viewer-right forepaw supporting; attentive open eyes.
+Pose 2: head inclines gently toward that lifted paw, wrist turns upward to receive something.
+Pose 3: viewer-left forepaw extends gently upward-left, eyes follow its tip, other forepaw grounded.
+Pose 4: both forepaws come together loosely just in front of the chest as if cupping a tiny light; hindquarters bear the weight, absolutely no extra supporting forepaws.
+Pose 5: maintain the two cupped forepaws near chest, eyes fully closed in a warm contented blink, subtle cheek lift.
+Pose 6: open eyes and look slightly upward, paws begin to open from the cupping position.
+Pose 7: viewer-left forepaw extends upward-left to release the imagined light, viewer-right forepaw lowers toward ground; curious gentle face.
+Pose 8: return to a calm seated welcoming pose close to pose 1, open eyes and one relaxed raised forepaw.
+Style: exquisite tactile 2D digital cat illustration consistent with the reference. Fine directional fur, pale cream shadows, restrained satin scarf highlights, soft warm neutral lighting. Not a plastic toy, not a 3D model, not flat vector shapes. Keep all eight faces the same character. Natural feline limb anatomy, exactly two forelegs and two hind legs, coherent shoulders and bent wrists; no human fingers, no duplicate paws.
+TRUE transparent alpha background. No solid or checkerboard painted background, no environment, no floor, no baked contact shadows, no particles, no letters, no labels, no numbering, no logos, no grid lines.

@@ -1,0 +1,730 @@
+{
+  "status": "ACTION_PREPARATION_PASSED",
+  "checkedAtUtc": "2026-10-23T11:52:40.218Z",
+  "scriptSHA256": "45c73bb3e8fa6d3a7f42385c04da1ba6151228835068d692ab83561b6d2621ce",
+  "sources": [
+    {
+      "path": "source/cats/hires-01.png",
+      "sha256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "source/cats/hires-23.png",
+      "sha256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "path": "source/cats/hires-45.png",
+      "sha256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "path": "source/cats/hires-67.png",
+      "sha256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        6,
+        7
+      ]
+    }
+  ],
+  "frameWidth": 1024,
+  "frameHeight": 1024,
+  "catalogSHA256": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed",
+  "newSequences": 1,
+  "newPoses": 8,
+  "reusedSequences": 0,
+  "totalFrameSlots": 8,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "normalization": {
+    "referenceHeadSpan": 540,
+    "referenceHindPawSpacing": 298,
+    "referenceScale": 0.96,
+    "formula": "0.96 / mean(headSpan/540, hindPawSpacing/298)",
+    "measurementMethod": "Approximate manual visual head span, supporting-ground baseline and hind-paw-center measurements in each original source half. These are registration estimates, not anatomical detector output."
+  },
+  "method": "Four imagegen-redrawn pairs at native 1774x887 each. Each pose uses one rigid uniform scale based on face/body proportions, then translates its measured seat/ground to (512,896). 20px source fringe retained where available. No nonuniform stretching, repainting, optical flow or mixed-pose crossfades.",
+  "placements": [
+    {
+      "index": 0,
+      "pair": 0,
+      "half": 0,
+      "row": 0,
+      "col": 0,
+      "sourcePath": "source/cats/hires-01.png",
+      "sourceSHA256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 88,
+        "top": 47,
+        "right": 827,
+        "bottom": 866,
+        "width": 740,
+        "height": 820,
+        "pixels": 377237
+      },
+      "alpha1": {
+        "left": 25,
+        "top": 44,
+        "right": 882,
+        "bottom": 886,
+        "width": 858,
+        "height": 843,
+        "pixels": 409448
+      },
+      "crop": {
+        "left": 68,
+        "top": 27,
+        "width": 780,
+        "height": 860
+      },
+      "manualGeometry": {
+        "headSpan": 540,
+        "hindPawXs": [
+          184,
+          482
+        ],
+        "groundY": 863,
+        "hindPawSpacing": 298,
+        "seatX": 333
+      },
+      "uniformScale": 0.96,
+      "sourceCrop": {
+        "left": 68,
+        "top": 27,
+        "width": 780,
+        "height": 860
+      },
+      "actualRasterScale": 0.9602564102564103,
+      "output": {
+        "left": 258,
+        "top": 93,
+        "width": 749,
+        "height": 826
+      },
+      "outputAlpha24": {
+        "left": 277,
+        "top": 113,
+        "right": 987,
+        "bottom": 899,
+        "width": 711,
+        "height": 787,
+        "pixels": 347855
+      },
+      "outputMargins": {
+        "left": 277,
+        "top": 113,
+        "right": 36,
+        "bottom": 124
+      },
+      "sha256": "dbfb37475e420a515db5f57d9aceaf79f2f0a6669c02685255fc8c9ba4dcc2cd",
+      "pixelSHA256": "b6d51af7d43e959ddcaca90dc4736852fe9ec4cd3283aa6df36fb5245f39233c"
+    },
+    {
+      "index": 1,
+      "pair": 0,
+      "half": 1,
+      "row": 0,
+      "col": 1,
+      "sourcePath": "source/cats/hires-01.png",
+      "sourceSHA256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "cell": {
+        "left": 887,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 98,
+        "top": 68,
+        "right": 849,
+        "bottom": 865,
+        "width": 752,
+        "height": 798,
+        "pixels": 363612
+      },
+      "alpha1": {
+        "left": 7,
+        "top": 17,
+        "right": 868,
+        "bottom": 886,
+        "width": 862,
+        "height": 870,
+        "pixels": 395555
+      },
+      "crop": {
+        "left": 78,
+        "top": 48,
+        "width": 792,
+        "height": 838
+      },
+      "manualGeometry": {
+        "headSpan": 538,
+        "hindPawXs": [
+          227,
+          517
+        ],
+        "groundY": 862,
+        "hindPawSpacing": 290,
+        "seatX": 372
+      },
+      "uniformScale": 0.9748911410937636,
+      "sourceCrop": {
+        "left": 965,
+        "top": 48,
+        "width": 792,
+        "height": 838
+      },
+      "actualRasterScale": 0.9747474747474747,
+      "output": {
+        "left": 225,
+        "top": 103,
+        "width": 772,
+        "height": 817
+      },
+      "outputAlpha24": {
+        "left": 244,
+        "top": 122,
+        "right": 976,
+        "bottom": 900,
+        "width": 733,
+        "height": 779,
+        "pixels": 345524
+      },
+      "outputMargins": {
+        "left": 244,
+        "top": 122,
+        "right": 47,
+        "bottom": 123
+      },
+      "sha256": "4a6a1c55d46b960c2782085d4cf926f9ea6191302db2e902be882e449a606ef1",
+      "pixelSHA256": "6263fa3b716fecc29a68ec60aa473d62bf85f0619ee6a403914f079a6b75f790"
+    },
+    {
+      "index": 2,
+      "pair": 1,
+      "half": 0,
+      "row": 0,
+      "col": 2,
+      "sourcePath": "source/cats/hires-23.png",
+      "sourceSHA256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 134,
+        "top": 28,
+        "right": 884,
+        "bottom": 855,
+        "width": 751,
+        "height": 828,
+        "pixels": 379768
+      },
+      "alpha1": {
+        "left": 0,
+        "top": 15,
+        "right": 886,
+        "bottom": 872,
+        "width": 887,
+        "height": 858,
+        "pixels": 404757
+      },
+      "crop": {
+        "left": 114,
+        "top": 8,
+        "width": 773,
+        "height": 868
+      },
+      "manualGeometry": {
+        "headSpan": 540,
+        "hindPawXs": [
+          276,
+          571
+        ],
+        "groundY": 852,
+        "hindPawSpacing": 295,
+        "seatX": 423.5
+      },
+      "uniformScale": 0.9648566610455312,
+      "sourceCrop": {
+        "left": 114,
+        "top": 8,
+        "width": 773,
+        "height": 868
+      },
+      "actualRasterScale": 0.9650711513583441,
+      "output": {
+        "left": 213,
+        "top": 81,
+        "width": 746,
+        "height": 838
+      },
+      "outputAlpha24": {
+        "left": 232,
+        "top": 100,
+        "right": 956,
+        "bottom": 899,
+        "width": 725,
+        "height": 800,
+        "pixels": 353735
+      },
+      "outputMargins": {
+        "left": 232,
+        "top": 100,
+        "right": 67,
+        "bottom": 124
+      },
+      "sha256": "0dd708fb68ab787fbff8344dbe6dd64512264a05e14caa1c35b4bbce99cf6d57",
+      "pixelSHA256": "bdfe732403027171075f4c56f24e9f40d71fb3667a1f7a11ef53f1e7e5ed05aa"
+    },
+    {
+      "index": 3,
+      "pair": 1,
+      "half": 1,
+      "row": 0,
+      "col": 3,
+      "sourcePath": "source/cats/hires-23.png",
+      "sourceSHA256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "cell": {
+        "left": 887,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 234,
+        "top": 83,
+        "right": 871,
+        "bottom": 841,
+        "width": 638,
+        "height": 759,
+        "pixels": 327525
+      },
+      "alpha1": {
+        "left": 0,
+        "top": 9,
+        "right": 886,
+        "bottom": 886,
+        "width": 887,
+        "height": 878,
+        "pixels": 353667
+      },
+      "crop": {
+        "left": 214,
+        "top": 63,
+        "width": 673,
+        "height": 799
+      },
+      "manualGeometry": {
+        "headSpan": 536,
+        "hindPawXs": [
+          291,
+          572
+        ],
+        "groundY": 838,
+        "hindPawSpacing": 281,
+        "seatX": 431.5
+      },
+      "uniformScale": 0.9919683562998446,
+      "sourceCrop": {
+        "left": 1101,
+        "top": 63,
+        "width": 673,
+        "height": 799
+      },
+      "actualRasterScale": 0.9925705794947994,
+      "output": {
+        "left": 296,
+        "top": 127,
+        "width": 668,
+        "height": 793
+      },
+      "outputAlpha24": {
+        "left": 315,
+        "top": 147,
+        "right": 948,
+        "bottom": 899,
+        "width": 634,
+        "height": 753,
+        "pixels": 322648
+      },
+      "outputMargins": {
+        "left": 315,
+        "top": 147,
+        "right": 75,
+        "bottom": 124
+      },
+      "sha256": "7e5f34ee7606cc1419e0a2a5b287036f86a8b9bdda6885bdcfa506db64b50ce5",
+      "pixelSHA256": "c5933605b59fca01e8b78e7a77bfa3499863a648df2e8633403b2da18961ad05"
+    },
+    {
+      "index": 4,
+      "pair": 2,
+      "half": 0,
+      "row": 1,
+      "col": 0,
+      "sourcePath": "source/cats/hires-45.png",
+      "sourceSHA256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 158,
+        "top": 25,
+        "right": 863,
+        "bottom": 854,
+        "width": 706,
+        "height": 830,
+        "pixels": 384085
+      },
+      "alpha1": {
+        "left": 0,
+        "top": 15,
+        "right": 886,
+        "bottom": 886,
+        "width": 887,
+        "height": 872,
+        "pixels": 409808
+      },
+      "crop": {
+        "left": 138,
+        "top": 5,
+        "width": 746,
+        "height": 870
+      },
+      "manualGeometry": {
+        "headSpan": 565,
+        "hindPawXs": [
+          232,
+          545
+        ],
+        "groundY": 852,
+        "hindPawSpacing": 313,
+        "seatX": 388.5
+      },
+      "uniformScale": 0.9157544681229438,
+      "sourceCrop": {
+        "left": 138,
+        "top": 5,
+        "width": 746,
+        "height": 870
+      },
+      "actualRasterScale": 0.9155495978552279,
+      "output": {
+        "left": 283,
+        "top": 121,
+        "width": 683,
+        "height": 797
+      },
+      "outputAlpha24": {
+        "left": 301,
+        "top": 139,
+        "right": 947,
+        "bottom": 899,
+        "width": 647,
+        "height": 761,
+        "pixels": 322032
+      },
+      "outputMargins": {
+        "left": 301,
+        "top": 139,
+        "right": 76,
+        "bottom": 124
+      },
+      "sha256": "e6dbc9d9e2b8b03cdf70aa82c1d3d6d9c967e41138fdb6b0195bce2428977720",
+      "pixelSHA256": "47e01d9d8327191cb6986c3cc943f3bfd4dfbbbef06156aa49967831d8bc7283"
+    },
+    {
+      "index": 5,
+      "pair": 2,
+      "half": 1,
+      "row": 1,
+      "col": 1,
+      "sourcePath": "source/cats/hires-45.png",
+      "sourceSHA256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "cell": {
+        "left": 887,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 98,
+        "top": 35,
+        "right": 843,
+        "bottom": 854,
+        "width": 746,
+        "height": 820,
+        "pixels": 393696
+      },
+      "alpha1": {
+        "left": 1,
+        "top": 0,
+        "right": 874,
+        "bottom": 886,
+        "width": 874,
+        "height": 887,
+        "pixels": 421355
+      },
+      "crop": {
+        "left": 78,
+        "top": 15,
+        "width": 786,
+        "height": 860
+      },
+      "manualGeometry": {
+        "headSpan": 568,
+        "hindPawXs": [
+          207,
+          533
+        ],
+        "groundY": 852,
+        "hindPawSpacing": 326,
+        "seatX": 370
+      },
+      "uniformScale": 0.8947663508097212,
+      "sourceCrop": {
+        "left": 965,
+        "top": 15,
+        "width": 786,
+        "height": 860
+      },
+      "actualRasterScale": 0.8944020356234097,
+      "output": {
+        "left": 251,
+        "top": 147,
+        "width": 703,
+        "height": 769
+      },
+      "outputAlpha24": {
+        "left": 269,
+        "top": 165,
+        "right": 935,
+        "bottom": 898,
+        "width": 667,
+        "height": 734,
+        "pixels": 314988
+      },
+      "outputMargins": {
+        "left": 269,
+        "top": 165,
+        "right": 88,
+        "bottom": 125
+      },
+      "sha256": "044ffb5036eef7ec524401998990f2020cf4d6fa19219307bd9b5858bd304d76",
+      "pixelSHA256": "ec1597601c748a7cffb2f8e3abc3f7ade3c586103b162518c45272bea322b020"
+    },
+    {
+      "index": 6,
+      "pair": 3,
+      "half": 0,
+      "row": 1,
+      "col": 2,
+      "sourcePath": "source/cats/hires-67.png",
+      "sourceSHA256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 110,
+        "top": 57,
+        "right": 870,
+        "bottom": 854,
+        "width": 761,
+        "height": 798,
+        "pixels": 363732
+      },
+      "alpha1": {
+        "left": 0,
+        "top": 44,
+        "right": 880,
+        "bottom": 886,
+        "width": 881,
+        "height": 843,
+        "pixels": 387737
+      },
+      "crop": {
+        "left": 90,
+        "top": 37,
+        "width": 797,
+        "height": 838
+      },
+      "manualGeometry": {
+        "headSpan": 512,
+        "hindPawXs": [
+          251,
+          546
+        ],
+        "groundY": 851,
+        "hindPawSpacing": 295,
+        "seatX": 398.5
+      },
+      "uniformScale": 0.9906706511562288,
+      "sourceCrop": {
+        "left": 90,
+        "top": 37,
+        "width": 797,
+        "height": 838
+      },
+      "actualRasterScale": 0.9912170639899623,
+      "output": {
+        "left": 206,
+        "top": 89,
+        "width": 790,
+        "height": 831
+      },
+      "outputAlpha24": {
+        "left": 226,
+        "top": 109,
+        "right": 979,
+        "bottom": 899,
+        "width": 754,
+        "height": 791,
+        "pixels": 357393
+      },
+      "outputMargins": {
+        "left": 226,
+        "top": 109,
+        "right": 44,
+        "bottom": 124
+      },
+      "sha256": "4979913df59ab1ed389c7afee97605942123f7dd1509c85463bc9daf97759f1c",
+      "pixelSHA256": "4fa4f0c51ceaf089e86e324823403aff8b210a78c081fcb65f41ec61310497fa"
+    },
+    {
+      "index": 7,
+      "pair": 3,
+      "half": 1,
+      "row": 1,
+      "col": 3,
+      "sourcePath": "source/cats/hires-67.png",
+      "sourceSHA256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "cell": {
+        "left": 887,
+        "top": 0,
+        "width": 887,
+        "height": 887
+      },
+      "alpha24": {
+        "left": 179,
+        "top": 80,
+        "right": 851,
+        "bottom": 854,
+        "width": 673,
+        "height": 775,
+        "pixels": 336777
+      },
+      "alpha1": {
+        "left": 7,
+        "top": 27,
+        "right": 885,
+        "bottom": 886,
+        "width": 879,
+        "height": 860,
+        "pixels": 359266
+      },
+      "crop": {
+        "left": 159,
+        "top": 60,
+        "width": 713,
+        "height": 815
+      },
+      "manualGeometry": {
+        "headSpan": 531,
+        "hindPawXs": [
+          261,
+          548
+        ],
+        "groundY": 852,
+        "hindPawSpacing": 287,
+        "seatX": 404.5
+      },
+      "uniformScale": 0.9864260674673869,
+      "sourceCrop": {
+        "left": 1046,
+        "top": 60,
+        "width": 713,
+        "height": 815
+      },
+      "actualRasterScale": 0.9859747545582047,
+      "output": {
+        "left": 270,
+        "top": 115,
+        "width": 703,
+        "height": 804
+      },
+      "outputAlpha24": {
+        "left": 290,
+        "top": 135,
+        "right": 952,
+        "bottom": 898,
+        "width": 663,
+        "height": 764,
+        "pixels": 327424
+      },
+      "outputMargins": {
+        "left": 290,
+        "top": 135,
+        "right": 71,
+        "bottom": 125
+      },
+      "sha256": "a63f28a28ff2e419b7fe10f39e2b647dfc5ff521926332343733fa23e7273e78",
+      "pixelSHA256": "464c409e42a95cd43a45b4c65dc4ec911d7d14ee588716c6454a03375c4d4b08"
+    }
+  ],
+  "sprite": "sprites/naimiao-star-greeting.webp",
+  "atlasDimensions": {
+    "width": 4096,
+    "height": 2048
+  },
+  "atlasSHA256": "65741e6f33cbb552f5e3c4e24b0e64154c140f2d631eee45b757afc4a6df1144",
+  "distinctDecodedPoses": 8,
+  "contacts": [
+    {
+      "path": "reports/action-contact-dark.png",
+      "sha256": "594f11d42e18996f1d5beea19818f95a6d7b94adb3e6b8d22ca4f9275f4ca649"
+    },
+    {
+      "path": "reports/action-contact-light.png",
+      "sha256": "b43bf1faad2eba0883bd7a6fc763cd3418a686c0f0a343ee7e6b467e94277387"
+    }
+  ],
+  "scope": "Actual source geometry, every RGBA frame, unique decoded frames, visible lossless equality and output alpha margins. Timed movie and user artistic approval are separate."
+}

@@ -1,0 +1,10 @@
+{
+  "packageVersion": "3.0.0",
+  "path": "source/brand/cat9-original.png",
+  "kind": "reused_brand_mark",
+  "sourcePackage": "9mew_brand_film_v2",
+  "sourcePath": "source/brand/cat9-original.png",
+  "sourceCommit": "00da99453f82fb44b0fc4d7e1401472066d971a3",
+  "sha256": "8c68a694192192c9a28a470c14c96f7248d46e4e0cfa8ccad3c599d12f06a850",
+  "note": "Existing sakura-pink cat-ear digit 9 reused as the brand anchor. No new cat-wordmark illustration is reused; mew and 九喵 are typeset with bundled fonts. This provenance records reuse, not a new image generation."
+}

@@ -2,6 +2,17 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 最新：星环里的家品牌影片与标识 v3
+
+**小小星域，自在相伴。** 奶喵和伙伴自然地生活在星环花园中，樱花粉猫耳 9 与圆润 mew 字标独立承担品牌识别。
+
+- [完整素材与源码包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_film_v3.zip) · [官网接入包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_film_web_v3.zip)
+- [16 秒深色 MP4](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_film_dark_v3.mp4) · [16 秒浅色 MP4](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_film_light_v3.mp4)
+- [6 秒深色动态标识](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_ident_dark_v3.mp4) · [6 秒浅色动态标识](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_ident_light_v3.mp4)
+- [完整创作提示词 v3](https://github.com/zhangshuaibo1/resources/releases/download/9mew-brand-film-v3.0.0/9mew_brand_film_prompt_v3.txt) · [Release 与全部附件](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-brand-film-v3.0.0)
+
+两主题提供 MP4／WebM／动画 WebP、独立封面、方形品牌画面和透明标识。主片有奶喵的一条新八姿态接星／放星动作，两只伙伴为静态原画；独立标识只有字标和星光。默认静态、按需加载的网页组件、原画、帧、完整制作提示词与验证记录均在包中。此视觉包 v3 与全产品业务提示词 v5 分开版本管理。
+
 ## 官网品牌影片与标识 v2 · 星光嬉戏
 
 樱花粉猫耳 9、四猫 mew 艺术字与奶喵星光互动。含 16 秒宣传片、6 秒轻动态标识、深浅主题、透明标识、方形封面和原生网页组件。

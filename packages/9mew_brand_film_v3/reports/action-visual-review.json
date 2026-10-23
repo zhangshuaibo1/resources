@@ -1,0 +1,100 @@
+{
+  "status": "ALL_EIGHT_HIGH_DETAIL_KEYPOSES_STATICALLY_REVIEWED",
+  "checkedAtUtc": "2026-10-23T11:54:37.322316+00:00",
+  "actionId": "naimiao-star-greeting",
+  "sourceRevision": "high-detail-pairs",
+  "sources": [
+    {
+      "path": "source/cats/hires-01.png",
+      "sha256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "source/cats/hires-23.png",
+      "sha256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "path": "source/cats/hires-45.png",
+      "sha256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "path": "source/cats/hires-67.png",
+      "sha256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "indices": [
+        6,
+        7
+      ]
+    }
+  ],
+  "contactSheets": [
+    {
+      "path": "reports/action-contact-dark.png",
+      "sha256": "594f11d42e18996f1d5beea19818f95a6d7b94adb3e6b8d22ca4f9275f4ca649"
+    },
+    {
+      "path": "reports/action-contact-light.png",
+      "sha256": "b43bf1faad2eba0883bd7a6fc763cd3418a686c0f0a343ee7e6b467e94277387"
+    }
+  ],
+  "reviewedPoseIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "observations": [
+    "All four actual source images measure 1774x887 and show complete separated kittens with native alpha24 visible heights of 759 to 830 pixels.",
+    "Cream fine fur, rounded face, gray-brown eyes, pink scarf, gold four-point clasp and curled tail are retained across all eight poses. The new fine fur and facial detail is drawn by imagegen from the master, not obtained by resizing the old small sheet.",
+    "Both raised-forepaw poses 3,4,5 have exactly two raised forepaws and two grounded hind paws. Single-paw poses show the other supporting forepaw plus two hind paws, with no additional detached limb.",
+    "Pose 4 contains actually drawn happy closed eyelids. Poses 0,1,2,3,5,6,7 have different paw/head positions; all decoded pixel hashes are distinct.",
+    "Small uniform size changes were applied using the jointly measured head span and hind-paw spacing; anatomy was not nonuniformly stretched. Seat and supporting-ground anchors align at (512,896).",
+    "All eight resulting 1024 frames were inspected individually, plus every pose on both light and dark contacts. Soft alpha fur edges remain clean when composited, without opaque squares or neighboring characters.",
+    "The 2-3 source pair has a narrow low-alpha center gutter at the extreme tail edge: alpha at the split is at most 4/255 and no alpha24 silhouette reaches the split. No opaque tail clipping was visible in either composite.",
+    "The open-paws star center is above and left of the clasp, helping the light read as a released object instead of a second pendant."
+  ],
+  "outputAlpha24MinimumMargin": 36,
+  "outputVisibleHeights": [
+    787,
+    779,
+    800,
+    753,
+    761,
+    734,
+    791,
+    764
+  ],
+  "sourceSequences": 1,
+  "sourcePoses": 8,
+  "mirrorSequencesCounted": 0,
+  "artApproval": "awaiting-user-review",
+  "reviewScope": "Static review of actual high-detail sources and every output frame on both themes. This does not assert continuous final film playback approval.",
+  "continuousFilmReview": "pending parent integration",
+  "providerModelJobCostExposed": false
+}

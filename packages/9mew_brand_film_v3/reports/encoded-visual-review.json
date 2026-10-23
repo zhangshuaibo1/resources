@@ -1,0 +1,30 @@
+{
+  "status": "ENCODED_MP4_SAMPLES_VISUALLY_REVIEWED",
+  "checkedAtUtc": "2026-10-23T11:59:07.826536+00:00",
+  "method": "Used FFmpeg to extract actual frames at the listed times from the final MP4s, then visually inspected both resulting 1920x720 PNGs.",
+  "samples": [
+    {
+      "theme": "dark",
+      "requestedTimeSeconds": 3.9,
+      "media": "exports/brand-film-dark.mp4",
+      "mediaSHA256": "7a439c5979a9e5fc14c564bf58e83160ce68493140770e7ed9871930dadeaeeb",
+      "image": "reports/encoded-dark-3.9.png",
+      "imageSHA256": "36880c60859d27addf635eb92a91bd41a2f19d53d44a37791c1b814f419de6f4"
+    },
+    {
+      "theme": "light",
+      "requestedTimeSeconds": 4.6,
+      "media": "exports/brand-film-light.mp4",
+      "mediaSHA256": "85425d5ef73c30654db2206531ba1ad130f7332a32de77475198ff220bfd57b0",
+      "image": "reports/encoded-light-4.6.png",
+      "imageSHA256": "5798ffa619b3b261af82a0289350266403ede2c692b519bf9d623b80aea1c6da"
+    }
+  ],
+  "observations": [
+    "Main kitten fur and facial features remain clear alongside the two static companion cats.",
+    "The held star sits between the cupped paws, and the released star remains separate from the scarf clasp and eyes.",
+    "The cat9 mark, real mew/九喵 text and tagline remain readable in both encoded samples.",
+    "No obvious frame clipping, opaque character rectangles, or disconnected supporting paws were observed in these samples."
+  ],
+  "scope": "Two static samples from encoded MP4s. Full decode is separately recorded; this does not claim continuous human artistic approval or user acceptance."
+}

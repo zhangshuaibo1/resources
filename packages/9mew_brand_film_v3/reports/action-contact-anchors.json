@@ -1,0 +1,172 @@
+{
+  "status": "MANUAL_VISUAL_ANCHOR_SUGGESTIONS",
+  "checkedAtUtc": "2026-10-23T11:54:37.322316+00:00",
+  "actionId": "naimiao-star-greeting",
+  "coordinateSystem": "Actual decoded 1024 by 1024 output frames; origin top-left. Every frame was viewed individually and on both light/dark contacts. Positions are approximate manual visual placement suggestions, not automated keypoint detections.",
+  "sourceRevision": "high-detail-pairs",
+  "frameSize": {
+    "width": 1024,
+    "height": 1024
+  },
+  "seatAnchorNormalized": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "suggestedCoreRadiusSourcePixels": 14,
+  "suggestedSoftHaloRadiusSourcePixels": 36,
+  "usage": "For an unmirrored cat drawn at seat (x,y) with size S: worldX=x+S*(point.x/1024-0.5), worldY=y+S*(point.y/1024-0.875). Interpolate the separate star path between suggested points. Do not move the whole cat to force contact. Final composition requires visual review.",
+  "frames": [
+    {
+      "index": 0,
+      "pose": "welcome",
+      "path": "frames/naimiao-star-greeting/000.webp",
+      "sha256": "dbfb37475e420a515db5f57d9aceaf79f2f0a6669c02685255fc8c9ba4dcc2cd",
+      "visualPawContactPx": {
+        "x": 349,
+        "y": 582
+      },
+      "recommendedStarCenterPx": {
+        "x": 292,
+        "y": 531
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.28515625,
+        "y": 0.5185546875
+      },
+      "note": "Raised viewer-left palm; offset the star upward and outward from the cheek."
+    },
+    {
+      "index": 1,
+      "pose": "look-at-paw",
+      "path": "frames/naimiao-star-greeting/001.webp",
+      "sha256": "4a6a1c55d46b960c2782085d4cf926f9ea6191302db2e902be882e449a606ef1",
+      "visualPawContactPx": {
+        "x": 316,
+        "y": 524
+      },
+      "recommendedStarCenterPx": {
+        "x": 260,
+        "y": 475
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.25390625,
+        "y": 0.4638671875
+      },
+      "note": "Head gently inclines toward raised palm; star stays above-left to leave muzzle clear."
+    },
+    {
+      "index": 2,
+      "pose": "gentle-reach",
+      "path": "frames/naimiao-star-greeting/002.webp",
+      "sha256": "0dd708fb68ab787fbff8344dbe6dd64512264a05e14caa1c35b4bbce99cf6d57",
+      "visualPawContactPx": {
+        "x": 295,
+        "y": 395
+      },
+      "recommendedStarCenterPx": {
+        "x": 242,
+        "y": 347
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.236328125,
+        "y": 0.3388671875
+      },
+      "note": "Upper-left reach; incoming light stays just above the raised paw."
+    },
+    {
+      "index": 3,
+      "pose": "cup-light",
+      "path": "frames/naimiao-star-greeting/003.webp",
+      "sha256": "7e5f34ee7606cc1419e0a2a5b287036f86a8b9bdda6885bdcfa506db64b50ce5",
+      "visualPawContactPx": {
+        "x": 497,
+        "y": 578
+      },
+      "recommendedStarCenterPx": {
+        "x": 497,
+        "y": 550
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.4853515625,
+        "y": 0.537109375
+      },
+      "note": "Top of the gap between cupped forepaws; keep the core small and distinct from the gold clasp on the right."
+    },
+    {
+      "index": 4,
+      "pose": "contented-blink",
+      "path": "frames/naimiao-star-greeting/004.webp",
+      "sha256": "e6dbc9d9e2b8b03cdf70aa82c1d3d6d9c967e41138fdb6b0195bce2428977720",
+      "visualPawContactPx": {
+        "x": 490,
+        "y": 580
+      },
+      "recommendedStarCenterPx": {
+        "x": 491,
+        "y": 550
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.4794921875,
+        "y": 0.537109375
+      },
+      "note": "Same raised cupped-paw gap during actually drawn closed-eye smile."
+    },
+    {
+      "index": 5,
+      "pose": "open-paws",
+      "path": "frames/naimiao-star-greeting/005.webp",
+      "sha256": "044ffb5036eef7ec524401998990f2020cf4d6fa19219307bd9b5858bd304d76",
+      "visualPawContactPx": {
+        "x": 503,
+        "y": 579
+      },
+      "recommendedStarCenterPx": {
+        "x": 414,
+        "y": 508
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.404296875,
+        "y": 0.49609375
+      },
+      "note": "Release begins in the upper-left part of the open-paw region, 72px above the palm midpoint and left of the neck clasp; avoid the previous low chest/second-pendant placement."
+    },
+    {
+      "index": 6,
+      "pose": "release-light",
+      "path": "frames/naimiao-star-greeting/006.webp",
+      "sha256": "4979913df59ab1ed389c7afee97605942123f7dd1509c85463bc9daf97759f1c",
+      "visualPawContactPx": {
+        "x": 290,
+        "y": 380
+      },
+      "recommendedStarCenterPx": {
+        "x": 238,
+        "y": 333
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.232421875,
+        "y": 0.3251953125
+      },
+      "note": "Light leaves the extended upper-left paw, then continues toward the orbit."
+    },
+    {
+      "index": 7,
+      "pose": "return-welcome",
+      "path": "frames/naimiao-star-greeting/007.webp",
+      "sha256": "a63f28a28ff2e419b7fe10f39e2b647dfc5ff521926332343733fa23e7273e78",
+      "visualPawContactPx": {
+        "x": 367,
+        "y": 594
+      },
+      "recommendedStarCenterPx": {
+        "x": 307,
+        "y": 545
+      },
+      "recommendedStarCenterNormalized": {
+        "x": 0.2998046875,
+        "y": 0.5322265625
+      },
+      "note": "Return welcome pose; light may stay on its separate orbit rather than returning to this optional contact."
+    }
+  ]
+}

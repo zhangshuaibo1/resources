@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "3.0.0",
+  "status": "LIMITED_FINAL_COMPOSITION_REVIEW_COMPLETED",
+  "recordedAtUtc": "2026-10-23T11:58:38.680573+00:00",
+  "reviewer": "brand_v3_direction",
+  "reviewMethod": "AI visual inspection of actual tool-displayed images, with SHA-256 bound to the inspected files. This is not human user approval.",
+  "reviewedFiles": [
+    {
+      "path": "posters/brand-film-dark.png",
+      "bytes": 1309492,
+      "sha256": "7b4eb6eb75e1e8e5fcab1143b7f7b0c816ffe967ad39682730d0705e027f80e2",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-poster",
+      "theme": "dark",
+      "observation": "主角细毛、眼睑与爪部清楚，清晰度与静态伙伴协调。品牌区和星园层级分明，脚底有云岸承托，没有明显遮脸或裁断。"
+    },
+    {
+      "path": "reports/review-dark-2.7.png",
+      "bytes": 1316933,
+      "sha256": "b7bed9dd3ed21631626a8f7497375b2b7f53eaa212d62fbea120b33798505f22",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-still",
+      "theme": "dark",
+      "observation": "星光在抬起的前爪外侧，接近动作可理解，光点未遮挡眼睛。",
+      "compositionTimeSeconds": 2.7
+    },
+    {
+      "path": "reports/review-light-3.9.png",
+      "bytes": 1256245,
+      "sha256": "265ac2fa6d499b39cc52cd69f5588a136994afdba2c4ce1eb07fef242d1e17cc",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-still",
+      "theme": "light",
+      "observation": "闭眼微笑与双爪捧合姿态清楚，星光靠近双爪的上侧内缘；浅色背景下毛发轮廓、爪和字标仍可辨。",
+      "compositionTimeSeconds": 3.9
+    },
+    {
+      "path": "reports/review-dark-4.6.png",
+      "bytes": 1293835,
+      "sha256": "3193f14cf760266a485b39a9c7dfdc0edebfdecafcfc7641ef94a55f782e69b6",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-still",
+      "theme": "dark",
+      "observation": "打开双爪时星光位置已抬高，与前爪形成对应；没有落在胸腹中心或覆盖眼睛。",
+      "compositionTimeSeconds": 4.6
+    },
+    {
+      "path": "reports/review-dark-5.1.png",
+      "bytes": 1311955,
+      "sha256": "6388b9c9d7cf07fbf5f559724a13d91e22ccaba1c6882e55f2c3a13b2b2c9fa1",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-still",
+      "theme": "dark",
+      "observation": "放飞星光位于上抬前爪外侧附近，身体支撑与尾巴轮廓完整，脸部未被光晕遮挡。",
+      "compositionTimeSeconds": 5.1
+    },
+    {
+      "path": "reports/review-light-5.8.png",
+      "bytes": 1265499,
+      "sha256": "6b6691dc2c2b7a4a6cd3bf9e0a3bfabdfd603c136143272f0b7611f03153e596",
+      "width": 1920,
+      "height": 720,
+      "kind": "rendered-still",
+      "theme": "light",
+      "observation": "星光已离开前爪，位于头部左上方，轨迹未跨过脸。浅色背景中的角色与环境关系清楚。",
+      "compositionTimeSeconds": 5.8
+    }
+  ],
+  "previouslyReviewedSelectedSources": [
+    {
+      "path": "source/cats/hires-01.png",
+      "bytes": 1521303,
+      "sha256": "f004f7c3c56e01047d4a952d2b5c55e57d0124142b1c52516d1981dcfbe173a0",
+      "width": 1774,
+      "height": 887,
+      "poseIndices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "source/cats/hires-23.png",
+      "bytes": 1430639,
+      "sha256": "93d913e09918effcba5ecaf8e17e661a2df183799e1dfbb41c18e67ea1092155",
+      "width": 1774,
+      "height": 887,
+      "poseIndices": [
+        2,
+        3
+      ]
+    },
+    {
+      "path": "source/cats/hires-45.png",
+      "bytes": 1594325,
+      "sha256": "b98cc7d2773058eb4dceef01084c675c7c39072495b8f242ef22ff8728643bfa",
+      "width": 1774,
+      "height": 887,
+      "poseIndices": [
+        4,
+        5
+      ]
+    },
+    {
+      "path": "source/cats/hires-67.png",
+      "bytes": 1420724,
+      "sha256": "28cdaa29a477c4aa7359d354fe362eab89c3f946e5029b45a1aa0a119efa4d2b",
+      "width": 1774,
+      "height": 887,
+      "poseIndices": [
+        6,
+        7
+      ]
+    }
+  ],
+  "boundInputs": [
+    {
+      "path": "source/cats/generation.json",
+      "bytes": 13353,
+      "sha256": "f8eb5f2e05a1fe42dcc865430cad80b89b115f4c2abfb73e505561ac276318ef"
+    },
+    {
+      "path": "runtime-assets.json",
+      "bytes": 2067,
+      "sha256": "5626c2fd3c8c010b1fd3012a63f03b052fd32efd140b93b96ada4ee551588bed"
+    },
+    {
+      "path": "reports/action-preparation.json",
+      "bytes": 17393,
+      "sha256": "db78f1a8dec9768aad8696098383d8c508cccebe44a9ad29b50d5fb1ad5de650"
+    },
+    {
+      "path": "reports/action-contact-anchors.json",
+      "bytes": 5475,
+      "sha256": "4ebdee58af7de93a449d91fe40970f962af1ec8cfa8bb65bb486c090c3a845bc"
+    },
+    {
+      "path": "reports/layout.json",
+      "bytes": 2020,
+      "sha256": "b8acaaba915690201d41399705c08b10a54c7040b945e07c4510b215f7d4d065"
+    },
+    {
+      "path": "tools/render-film.mjs",
+      "bytes": 16256,
+      "sha256": "abfbb2a2dc62e38ccb20185dd048c678e383c81006f565d2ccdb5632d7a5ff97"
+    },
+    {
+      "path": "sprites/naimiao-star-greeting.webp",
+      "bytes": 3859578,
+      "sha256": "65741e6f33cbb552f5e3c4e24b0e64154c140f2d631eee45b757afc4a6df1144"
+    },
+    {
+      "path": "source/scene/star-garden-stage.png",
+      "bytes": 2084903,
+      "sha256": "0b1e2a60f31f5200204685a762cbb0f3ef46490124e1afa24ba78ac1aa1612da",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "frozenActionFacts": {
+    "actionId": "naimiao-star-greeting",
+    "newSourceSequences": 1,
+    "newSourcePoses": 8,
+    "reusedSourceSequences": 0,
+    "selectedSheetCount": 4,
+    "selectedSheetActualSize": [
+      1774,
+      887
+    ],
+    "frameSize": [
+      1024,
+      1024
+    ],
+    "frameCount": 8,
+    "atlasSize": [
+      4096,
+      2048
+    ],
+    "atlasGrid": [
+      4,
+      2
+    ],
+    "anchor": {
+      "x": 0.5,
+      "y": 0.875
+    },
+    "durationsMs": [
+      260,
+      240,
+      280,
+      320,
+      300,
+      260,
+      320,
+      420
+    ],
+    "standaloneActionDurationMs": 2400,
+    "loop": false,
+    "mainFilmDurationSeconds": 16,
+    "identDurationSeconds": 6,
+    "timingNote": "2400 ms is the standalone action catalog timing. The 16 s film separately arranges holds, star motion and quiet brand display; it is not 16 s of newly drawn character poses."
+  },
+  "observations": [
+    "奶喵面部、奶油白毛、樱花粉围巾与金色星扣保持身份一致；高清源中的细节在所查看的最终合成中可见。",
+    "四张选定源图中单前爪抬起与双前爪举起的支撑关系自然，未看到多余落地前爪；双爪合拢来自两条前肢。",
+    "静态字标与自然猫咪星园形成清楚的左右层级，没有强行让猫咪排列为 MEW 字形。",
+    "主角脚底落在云岸上，尾巴没有盖住伙伴脸部；所查看的静图中未见明显耳尖或尾巴截断。",
+    "所查看的接星、捧爪、开爪与放飞静帧中，独立星光位置与爪位对应，没有覆盖眼睛。",
+    "橘猫与蓝灰猫属于静态舞台原画，本审阅不将它们描述为已制作独立动作。"
+  ],
+  "blockingIssuesObserved": [],
+  "nonBlockingObservations": [
+    "云岸原画已含较丰富的花草与碎光；当前构图可读，后续保持克制，不在本轮追加装饰。"
+  ],
+  "scopeLimitations": [
+    "Six final composition stills were visually inspected; no claim is made that every film frame was visually inspected.",
+    "The selected four source sheets were visually inspected earlier in this same review; atlas geometry and margins are evidenced separately by action-preparation.json.",
+    "These stills were generated by the renderer before final encoding. They are not represented as decoded frames extracted from the final MP4/WebM/WebP.",
+    "This report does not establish continuous-motion smoothness, loop seamlessness, full media decode, browser behavior, physical-device behavior, remote download integrity or production deployment.",
+    "The 6 s ident is a separate motion-poster with no cat scene; the final six-image composition review here concerns the 16 s main film.",
+    "Any source, preparation or renderer change invalidates the corresponding bound visual evidence until reviewed again."
+  ],
+  "artApproval": "awaiting-user-review"
+}

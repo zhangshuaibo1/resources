@@ -1,0 +1,78 @@
+{
+  "repository": "https://github.com/zhangshuaibo1/resources",
+  "tag": "9mew-brand-film-v3.0.0",
+  "packageDirectory": "packages/9mew_brand_film_v3",
+  "sourceFileCount": 145,
+  "assets": [
+    {
+      "name": "9mew_brand_film_v3.zip",
+      "bytes": 74727868,
+      "sha256": "0e9d5c82074f830001ef04ea4e0b996a84373e55fefd64c3fdebd58dcb4fe190"
+    },
+    {
+      "name": "9mew_brand_film_web_v3.zip",
+      "bytes": 15106858,
+      "sha256": "3c8c7029135aae8ace30fd6d184e7734df8ad19a0fd8337e8d16171716022c2b"
+    },
+    {
+      "name": "9mew_brand_film_dark_v3.mp4",
+      "bytes": 992630,
+      "sha256": "7a439c5979a9e5fc14c564bf58e83160ce68493140770e7ed9871930dadeaeeb"
+    },
+    {
+      "name": "9mew_brand_film_dark_v3.webp",
+      "bytes": 882548,
+      "sha256": "723d4bd2dd812088a36275d26ef1f608a2bd15ca8b5c68a9010e9d85d53f0227"
+    },
+    {
+      "name": "9mew_brand_film_light_v3.mp4",
+      "bytes": 943226,
+      "sha256": "85425d5ef73c30654db2206531ba1ad130f7332a32de77475198ff220bfd57b0"
+    },
+    {
+      "name": "9mew_brand_film_light_v3.webp",
+      "bytes": 618068,
+      "sha256": "5a965ecff8c201e4aa48bd8261cc951f3d0b1630197a0c1fedec18e6fba278ae"
+    },
+    {
+      "name": "9mew_brand_ident_dark_v3.mp4",
+      "bytes": 235850,
+      "sha256": "76b6efb9600c8ae11e5ce69bfea3d71ab22102c4ae248d080a99919d66262058"
+    },
+    {
+      "name": "9mew_brand_ident_dark_v3.webp",
+      "bytes": 220950,
+      "sha256": "79ebf0b6c229d7b882bbec8f78538f08bea916ede8d563cf45b04c363d715ba5"
+    },
+    {
+      "name": "9mew_brand_ident_light_v3.mp4",
+      "bytes": 219834,
+      "sha256": "005ee62282b9548e3d266c54a8a94ce6d8b1b2fd3ef0b2b5804fe450d1e9c739"
+    },
+    {
+      "name": "9mew_brand_ident_light_v3.webp",
+      "bytes": 90714,
+      "sha256": "5daf6b17a32511d022aadf56344b11a9ce58d4c71ea7403ced03c2ef50be509b"
+    },
+    {
+      "name": "9mew_brand_film_dark_v3.png",
+      "bytes": 1309492,
+      "sha256": "7b4eb6eb75e1e8e5fcab1143b7f7b0c816ffe967ad39682730d0705e027f80e2"
+    },
+    {
+      "name": "9mew_brand_film_light_v3.png",
+      "bytes": 1272590,
+      "sha256": "d74edc43253fc1d9609a19bc8b92996c45c1773077a253a1c5d82d023fbc4eef"
+    },
+    {
+      "name": "9mew_brand_film_prompt_v3.txt",
+      "bytes": 12224,
+      "sha256": "5dba386de4380dffa20f242b7961d9db3b44c23e7411205bc8cc76ae9eb82f09"
+    },
+    {
+      "name": "9mew_brand_film_v3_SHA256SUMS.txt",
+      "bytes": 1231,
+      "sha256": "9fa0ba61a8b9506106b303f37ad037bce72560b7e85e2de081620334e4f2b836"
+    }
+  ]
+}
