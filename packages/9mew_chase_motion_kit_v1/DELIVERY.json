@@ -1,0 +1,47 @@
+{
+  "status": "CHASE_KIT_DELIVERY_CHECKS_PASSED",
+  "version": "1.0.0",
+  "characterId": "9mew.character.naimiao",
+  "artApproval": "awaiting-user-review",
+  "newSourceSequences": 7,
+  "newSourcePoses": 56,
+  "reusedStates": [
+    "rest"
+  ],
+  "frameSlots": 64,
+  "individualAnimations": 24,
+  "routePreviewFiles": 6,
+  "routeDurationMs": 27000,
+  "reports": [
+    {
+      "path": "reports/encoding-validation.json",
+      "status": "ENCODING_AND_GEOMETRY_PASSED",
+      "sha256": "71712a7944a826e6ae1291d0683b73a78a4ad2567b12f55c1dfa753019786501"
+    },
+    {
+      "path": "reports/visual-review.json",
+      "status": "STATIC_POSE_VISUAL_REVIEW_COMPLETED",
+      "sha256": "b46a5ce31b933ea7d084187571ecfffef3ab47d3a933eb2a7e5136c63c4ca9c9"
+    },
+    {
+      "path": "reports/preview-validation.json",
+      "status": "PREVIEW_ENCODING_PASSED",
+      "sha256": "c95f6d81a0f9ad9b15bd728654e2cd1389963ce09dd487ab39d0ebf7f8a16bda"
+    },
+    {
+      "path": "web/runtime-validation.json",
+      "status": "RUNTIME_CHECKS_PASSED",
+      "sha256": "2f1a2f422d848e952aa807e7ca229ac3c8b0a84e4470fa4ee42286dba98b85f3"
+    },
+    {
+      "path": "web/offline-validation.json",
+      "status": "OFFLINE_PREVIEW_PASSED",
+      "sha256": "6a135b1f782e622155f73bf5b13870d530bf458bf4f40fae6146e8d681e69d4e"
+    },
+    {
+      "path": "web/react-validation.json",
+      "status": "REACT_ADAPTER_CHECKS_PASSED",
+      "sha256": "ab70358a11fc4625566d3e5a07c2e70ac469625103195ba8be888cb508aa99e0"
+    }
+  ]
+}

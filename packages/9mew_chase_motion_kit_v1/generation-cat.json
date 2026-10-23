@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "9mew.generated-source-sequences.v1",
+  "characterId": "9mew.character.naimiao",
+  "kitVersion": "1.0.0",
+  "sourceActionCount": 4,
+  "sourcePoseCount": 32,
+  "reference": {
+    "path": "../9mew_pet_actions_kit_v5/illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+    "role": "sole identity authority; build-time source path, not a runtime URL"
+  },
+  "tool": "image_gen.imagegen",
+  "actualProviderModel": null,
+  "providerJobId": null,
+  "cost": null,
+  "transparentBackground": true,
+  "status": "source art candidate; runtime and encoding review separate",
+  "sequences": [
+    {
+      "id": "chase-run",
+      "file": "source/cat/chase-run.png",
+      "prompt": "Use case: identity-preserve. Create production 2D animation sprite source artwork for the existing 9mew Naimiao kitten. Input image 1 is the sole identity reference; change only pose/action. Preserve its broad round cheeks, very short pink muzzle, huge seated gray-brown eyes with shaped eyelids, outward soft ears, fine fluffy cream-white fur, small sakura-pink silk scarf and tiny gold four-point star clasp. Same elegant soft shaded illustrated rendering as the reference, finely detailed fur, not flat vector, not plastic. No new outfit. Eight complete isolated full-body kitten drawings in a precise 4 columns by 2 rows sprite sheet, temporal reading order left-to-right then second row. Each equal cell spacious, exactly one cat, consistent scale/camera/lighting, ample transparent gutter and outer margins, no neighboring tail or ear overlap. Absolutely transparent background, no floor, no shadows, no labels, no text, no lines, no frames, no other animal or object. All eight primarily FACE SCREEN RIGHT in the same three-quarter side camera; both eyes remain visible where anatomically appropriate. Exactly four legs and one natural fluffy tail per cat; coherent paws, elbows, hips, no extra paws, no human hands.\n\nAction: playful chase gallop. The kitten is eager and delighted, focused toward an imaginary mouse just ahead on the right. Draw a real eight-keyframe running cycle with articulated legs, not repeated standing cats. 1 forepaw contact, forelegs reaching ahead, hind legs recovering; 2 forelegs supporting under shoulders, haunches gathering; 3 hind paws push against ground while forepaws fold; 4 joyful airborne extended phase, two front paws reach forward and hind legs stretch behind; 5 front paws come down together softly, torso slightly low; 6 body compresses under front support and hind paws swing beneath hips; 7 hind-paw takeoff, body lifts and front wrists tuck; 8 gathered airborne phase with all legs naturally folded beneath the belly, preparing to return to frame 1. Head proportion stable, scarf tips and tail respond subtly. Graceful, cute compact kitten energy, anatomically clean silhouettes. Fixed side-view framing, no directional turn.",
+      "generationOutputFile": "exec-98cfb1d8-b5de-453a-8044-60c4b87d6e0e.png",
+      "review": {
+        "observations": [
+          "Eight articulated gallop poses; contact/gather/extend/tuck relationships change.",
+          "Consistent cream fur, broad cheeks, pink scarf, gold star, rightward three-quarter view.",
+          "Top-right extended pose initially appeared close to the canvas edge; alpha>=128 measurement gives 20 px right opaque margin and zero opaque outer-edge pixels. No opaque clipping detected."
+        ],
+        "excludedFrames": [],
+        "approvedForProduction": false
+      },
+      "sha256": "b000db945588fc71a481226da9bb17beb9a65dbb17cc2a15bbad9de0a9e52db5",
+      "bytes": 1703389,
+      "actualDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "actualMode": "RGBA",
+      "sourceFrameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "readOrder": "row-major"
+      },
+      "alpha128Bounds": [
+        17,
+        75,
+        1754,
+        825
+      ],
+      "opaqueEdgePixels": 0
+    },
+    {
+      "id": "chase-look-up",
+      "file": "source/cat/chase-look-up.png",
+      "prompt": "Use case: identity-preserve. Create production 2D animation sprite source artwork for the existing 9mew Naimiao kitten. Input image 1 is the sole identity reference; change only pose/action. Preserve its broad round cheeks, very short pink muzzle, huge seated gray-brown eyes with shaped eyelids, outward soft ears, fine fluffy cream-white fur, small sakura-pink silk scarf and tiny gold four-point star clasp. Same elegant soft shaded illustrated rendering as the reference, finely detailed fur, not flat vector, not plastic. No new outfit. Eight complete isolated full-body kitten drawings in a precise 4 columns by 2 rows sprite sheet, temporal reading order left-to-right then second row. Each equal cell spacious, exactly one cat, consistent scale/camera/lighting, ample transparent gutter and outer margins, no neighboring tail or ear overlap. Absolutely transparent background, no floor, no shadows, no labels, no text, no lines, no frames, no other animal or object. All eight primarily FACE SCREEN RIGHT in the same three-quarter side camera; both eyes remain visible where anatomically appropriate. Exactly four legs and one natural fluffy tail per cat; coherent paws, elbows, hips, no extra paws, no human hands.\n\nAction: alert upward tracking and a playful crouch. Eight successive poses of a kitten stopping its chase, noticing a butterfly above, and preparing to spring after it. Keep a softly closed curious mouth most of the sequence. 1 cat standing on four paws facing right, neck relaxed; 2 eyes move up and chin lifts slightly; 3 chin tips higher looking up-right, ears forward; 4 one forepaw slowly lifts as if reaching toward a butterfly outside this sheet; 5 forepaw reaches above the head, supporting body remains naturally on three paws; 6 raised paw comes down, shoulders lower; 7 playful pounce crouch, chest low, hindquarters bunched, eyes still up-right; 8 deepest spring-ready crouch, rear hocks folded under hips and front paws braced. No butterfly, no other object. Give every individual pose at least 10 percent empty transparent padding inside its equal cell; leave generous empty area around the whole sheet, entire ears, whiskers, feet, tail included. Do not let any cat touch an image edge.",
+      "generationOutputFile": "exec-4cf0ef19-a3d9-47c8-9753-29726edde281.png",
+      "review": {
+        "observations": [
+          "Upward eyes/chin tracking, single forepaw raised and returned, then low crouch.",
+          "No visible duplicate limbs; remains rightward with closed curious mouth."
+        ],
+        "excludedFrames": [],
+        "approvedForProduction": false
+      },
+      "sha256": "66686b51abc7d321665ffc59893b6f910979ff690b1c9063c57d73934336b2e7",
+      "bytes": 1694308,
+      "actualDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "actualMode": "RGBA",
+      "sourceFrameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "readOrder": "row-major"
+      },
+      "alpha128Bounds": [
+        44,
+        42,
+        1746,
+        845
+      ],
+      "opaqueEdgePixels": 0
+    },
+    {
+      "id": "chase-leap",
+      "file": "source/cat/chase-leap.png",
+      "prompt": "Use case: identity-preserve. Create production 2D animation sprite source artwork for the existing 9mew Naimiao kitten. Input image 1 is the sole identity reference; change only pose/action. Preserve its broad round cheeks, very short pink muzzle, huge seated gray-brown eyes with shaped eyelids, outward soft ears, fine fluffy cream-white fur, small sakura-pink silk scarf and tiny gold four-point star clasp. Same elegant soft shaded illustrated rendering as the reference, finely detailed fur, not flat vector, not plastic. No new outfit. Eight complete isolated full-body kitten drawings in a precise 4 columns by 2 rows sprite sheet, temporal reading order left-to-right then second row. Each equal cell spacious, exactly one cat, consistent scale/camera/lighting, ample transparent gutter and outer margins, no neighboring tail or ear overlap. Absolutely transparent background, no floor, no shadows, no labels, no text, no lines, no frames, no other animal or object. All eight primarily FACE SCREEN RIGHT in the same three-quarter side camera; both eyes remain visible where anatomically appropriate. Exactly four legs and one natural fluffy tail per cat; coherent paws, elbows, hips, no extra paws, no human hands.\n\nAction: a graceful upward-right leap after an unseen butterfly. Eight successive distinct keyposes: 1 low pounce-ready crouch, all four paws touching ground; 2 hind legs press down and chest lifts, forepaws preparing to reach; 3 clear spring takeoff, both hind toes push down while front legs reach diagonally up-right; 4 airborne long elegant diagonal body, forepaws reach above the head, hind legs trail down-left; 5 apex with front paws softly bent toward chest and both back paws tuck beneath, belly still naturally down; 6 air-paddling in a gentle rightward arc, head and eyes looking up-right, front paws alternately reach; 7 softly descend with front paws extended toward the invisible ground and hind legs beginning to unfold; 8 quiet four-paw landing, chest low, hind legs gathering, face delighted. Two front paws and two hind paws only. Do not draw duplicated or hidden fifth feet. Keep the camera in the same three-quarter right-facing side view and the head shape consistent in every pose, no front-facing turn. This is a young fluffy cat playing, not a humanoid, no wings, no magical props. Entire body occupies at most 60 percent of each cell, leaving generous clean transparency all around.\n\nCritical layout constraint: make all eight cats visibly SMALLER within their equal cells. Each cat including tail fits in the central 60% of its cell, with at least 20% empty transparent padding on every side. Cats must not touch the outer canvas edge or cell boundaries. This wide clear padding is more important than maximizing cat size.",
+      "generationOutputFile": "exec-5d366fdf-1f2e-4931-a9bf-575d11bd6ecb.png",
+      "review": {
+        "observations": [
+          "Eight poses show crouch, push, long up-right reach, tucked apex, paw-down descent, compressed landing.",
+          "Wide gutters and outer transparent margin, no visible full-body clipping.",
+          "Bodies change their shapes and limbs, rather than only vertical translation."
+        ],
+        "excludedFrames": [],
+        "approvedForProduction": false
+      },
+      "sha256": "2132f68829d35c260a7f1e1b0d6c9d96f918246a69fd8db7ace65897dfabbf02",
+      "bytes": 1089191,
+      "actualDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "actualMode": "RGBA",
+      "sourceFrameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "readOrder": "row-major"
+      },
+      "alpha128Bounds": [
+        68,
+        60,
+        1741,
+        818
+      ],
+      "opaqueEdgePixels": 0
+    },
+    {
+      "id": "chase-float",
+      "file": "source/cat/chase-float.png",
+      "prompt": "Use case: identity-preserve. Create production 2D animation sprite source artwork for the existing 9mew Naimiao kitten. Input image 1 is the sole identity reference; change only pose/action. Preserve its broad round cheeks, very short pink muzzle, huge seated gray-brown eyes with shaped eyelids, outward soft ears, fine fluffy cream-white fur, small sakura-pink silk scarf and tiny gold four-point star clasp. Same elegant soft shaded illustrated rendering as the reference, finely detailed fur, not flat vector, not plastic. No new outfit. Eight complete isolated full-body kitten drawings in a precise 4 columns by 2 rows sprite sheet, temporal reading order left-to-right then second row. Each equal cell spacious, exactly one cat, consistent scale/camera/lighting, ample transparent gutter and outer margins, no neighboring tail or ear overlap. Absolutely transparent background, no floor, no shadows, no labels, no text, no lines, no frames, no other animal or object. All eight primarily FACE SCREEN RIGHT in the same three-quarter side camera; both eyes remain visible where anatomically appropriate. Exactly four legs and one natural fluffy tail per cat; coherent paws, elbows, hips, no extra paws, no human hands.\n\nAction: adorable fantasy airborne pursuit after an unseen butterfly. The kitten can lightly bound through the air in the nine-mew celestial fantasy world, with no wings or equipment. All eight poses are FLOATING, body angled gently 20–30 degrees upward toward screen right, head lifted looking up-right, belly facing down, tail trails behind to left in an elegant fluffy S-curve. Keep the same broad round face and closed gentle delighted mouth. Draw a coherent eight-phase AIR-PADDLING cycle with alternating forepaws reaching, hindlegs lightly tucking, tail subtly following: 1 near forepaw reaching ahead and far forepaw tucked; 2 near wrist bends and far paw begins forward; 3 both forepaws softly gather beneath chin, hindpaws draw in; 4 far forepaw reaches beyond nose while near paw tucks, hind legs extend slightly; 5 near paw starts reaching above far one, back paws fold; 6 both forepaws reach forward at different heights; 7 forepaws float back beneath chest, hindpaws softly stretch behind; 8 near forepaw starts reaching again to return to first pose. A gentle expressive loop, cute and elegant rather than flailing or swimming like a human. No extra paws, no inverted bodies. EXACTLY eight cats in 4 columns × 2 rows, each occupying at most the CENTRAL 60% of its equal cell, with 20% empty transparent padding on every side. All outer image edges must be fully clear; do not enlarge cats to fill the sheet. Full ears, tail and all paws must be inside their cells. No butterfly, no stars, no sparkles, no ground, no background.",
+      "generationOutputFile": "exec-c685dbf7-147a-4e7d-9bae-d775a38e0beb.png",
+      "review": {
+        "observations": [
+          "Eight right-facing air pursuit poses with alternately reaching and gathering forepaws, tucking hind legs.",
+          "All bodies remain belly-down, faces look up-right, no upside-down or winged variants.",
+          "Planned fantasy locomotion; no claim of realistic continuous flying mechanics."
+        ],
+        "excludedFrames": [],
+        "approvedForProduction": false
+      },
+      "sha256": "2f0c3892fafdca1fb3862548f595103e58f5385736615bab124603bba691613c",
+      "bytes": 1488895,
+      "actualDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "actualMode": "RGBA",
+      "sourceFrameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "readOrder": "row-major"
+      },
+      "alpha128Bounds": [
+        40,
+        57,
+        1753,
+        825
+      ],
+      "opaqueEdgePixels": 0
+    }
+  ],
+  "createdAtUtc": "2026-10-23T05:00:48.203854+00:00",
+  "scope": "Four newly generated cat source sequences; chase-land is authored separately by parent agent."
+}

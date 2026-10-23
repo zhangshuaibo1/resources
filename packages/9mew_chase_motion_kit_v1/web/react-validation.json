@@ -1,0 +1,52 @@
+{
+  "status": "REACT_ADAPTER_CHECKS_PASSED",
+  "executedAt": "2026-10-23T05:12:20.676Z",
+  "checks": [
+    {
+      "name": "Strict TypeScript adapter and declaration check",
+      "result": "PASS",
+      "output": ""
+    },
+    {
+      "name": "React adapter bundles with the shared runtime",
+      "result": "PASS",
+      "bundleBytes": 1249466
+    },
+    {
+      "name": "React StrictMode double-effect mount leaves one live playing overlay",
+      "result": "PASS"
+    },
+    {
+      "name": "Controller delivered through onReady pauses playback",
+      "result": "PASS"
+    },
+    {
+      "name": "Unmount removes the old overlay; remount works without reviving it",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors or external requests in mount/unmount smoke",
+      "result": "PASS"
+    }
+  ],
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "esbuild": "0.28.2"
+  },
+  "sourceSHA256": {
+    "adapter": "7fb731c166fe03d4d03f596422ce1df8551f480529f6ba88af8a04545af1f944",
+    "types": "a16d4d8171d658b72fa5a73ce3dafa414db271f07520380b58f9060a14b2c34d",
+    "runtime": "8b24f0314662d044c82f20d608fde74d6782ebfa3e4d8dfc7517e4a352c4d418"
+  },
+  "limits": [
+    "Local Chromium with the listed existing dependencies only.",
+    "No production app or framework-specific deployment tested.",
+    "No new packages installed and no external network requests required."
+  ],
+  "browserVersion": "156.0.8078.47",
+  "errors": []
+}

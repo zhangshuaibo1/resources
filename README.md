@@ -2,6 +2,27 @@
 
 九喵品牌、猫咪头像与动画资源库。
 
+## 九喵 · 追鼠与追蝶网页动画 v1
+
+[打开本版 Release](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-chase-motion-v1.0.0) · [查看源码与素材](https://github.com/zhangshuaibo1/resources/tree/9mew-chase-motion-v1.0.0/packages/9mew_chase_motion_kit_v1)
+
+**27 秒完整追逐路线**：右下追鼠 → 左下发现蝴蝶 → 沿左侧跃到上方 → 追到右上 → 沿右侧回到右下，落地休息。奶喵、老鼠与蝴蝶使用真实姿态帧，网页播放器以连续位置插值完成路线移动。
+
+本版含 **7 个原始序列、56 个原始姿态，以及复用落地尾段的 `rest` 状态**；镜像方向不增加原始动作数。提供 **24 份单独动作导出**、深浅整场 MP4/GIF/WebP、离线 HTML、透明精灵图与可嵌入网页的播放器。
+
+| 下载 | 用途 |
+|---|---|
+| [完整素材与源码包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_motion_kit_v1.zip) | 原画、分帧、动画、源码、提示词和说明；解压后打开 `OPEN_ME.html` |
+| [网页接入包](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_web_v1.zip) | 播放器与运行所需资源 |
+| [单文件离线预览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_preview_v1.html) | 下载后直接用浏览器打开 |
+| [场景提示词 v1](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_scene_prompt_v1.txt) | 可供 Codex 和其他 Agent 继续创作、接入与交付 |
+
+整场预览：**[浅色 MP4](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.mp4)** · **[深色 MP4](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.mp4)** · [浅色 GIF](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.gif) · [深色 GIF](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.gif) · [浅色 WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_light_v1.webp) · [深色 WebP](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_dark_v1.webp)。
+
+[静态总览](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_overview_v1.png) · [附件 SHA-256 校验清单](https://github.com/zhangshuaibo1/resources/releases/download/9mew-chase-motion-v1.0.0/9mew_chase_v1_SHA256SUMS.txt)
+
+当前为 2D 关键帧动画候选与纯前端演示，未部署官网；不承诺骨骼动画或每秒 60 张新原画。既有完整业务提示词 v5 保持不变。本地技术检查已完成，公开下载验收以发布后的实际核验记录为准。
+
 ## 九喵 2D 宠物动作包 v5
 
 [完整发布与下载](https://github.com/zhangshuaibo1/resources/releases/tag/9mew-pet-actions-v5.0.0) · [本版源码与素材](https://github.com/zhangshuaibo1/resources/tree/9mew-pet-actions-v5.0.0/packages/9mew_pet_actions_kit_v5)

@@ -1,0 +1,2709 @@
+{
+  "status": "ENCODING_AND_GEOMETRY_PASSED",
+  "catalogSha256": "4935c7836607d276545421479938c7cd0c04fc636d076665916b41ef7aafbcb8",
+  "newSourceSequences": 7,
+  "reusedSequences": 1,
+  "artApproval": false,
+  "actions": [
+    {
+      "id": "chase-run",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/cat/chase-run.png",
+        "sha256": "b000db945588fc71a481226da9bb17beb9a65dbb17cc2a15bbad9de0a9e52db5",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 26,
+              "y": 88,
+              "right": 449,
+              "bottom": 430,
+              "width": 424,
+              "height": 343,
+              "pixels": 88945
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 460,
+              "height": 457
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 34,
+              "y": 39
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 471,
+              "y": 83,
+              "right": 856,
+              "bottom": 428,
+              "width": 386,
+              "height": 346,
+              "pixels": 81632
+            },
+            "crop": {
+              "left": 460,
+              "top": 0,
+              "width": 407,
+              "height": 457
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 66,
+              "y": 38
+            },
+            "bob": -3
+          },
+          {
+            "sourceBounds": {
+              "x": 877,
+              "y": 106,
+              "right": 1296,
+              "bottom": 407,
+              "width": 420,
+              "height": 302,
+              "pixels": 78336
+            },
+            "crop": {
+              "left": 867,
+              "top": 0,
+              "width": 437,
+              "height": 457
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 51,
+              "y": 53
+            },
+            "bob": -7
+          },
+          {
+            "sourceBounds": {
+              "x": 1312,
+              "y": 74,
+              "right": 1753,
+              "bottom": 372,
+              "width": 442,
+              "height": 299,
+              "pixels": 84671
+            },
+            "crop": {
+              "left": 1304,
+              "top": 0,
+              "width": 470,
+              "height": 457
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 43,
+              "y": 81
+            },
+            "bob": -12
+          },
+          {
+            "sourceBounds": {
+              "x": 16,
+              "y": 520,
+              "right": 465,
+              "bottom": 824,
+              "width": 450,
+              "height": 305,
+              "pixels": 83951
+            },
+            "crop": {
+              "left": 0,
+              "top": 457,
+              "width": 472,
+              "height": 430
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 32,
+              "y": 97
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 478,
+              "y": 511,
+              "right": 890,
+              "bottom": 824,
+              "width": 413,
+              "height": 314,
+              "pixels": 77430
+            },
+            "crop": {
+              "left": 472,
+              "top": 457,
+              "width": 423,
+              "height": 430
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 58,
+              "y": 94
+            },
+            "bob": -3
+          },
+          {
+            "sourceBounds": {
+              "x": 900,
+              "y": 483,
+              "right": 1322,
+              "bottom": 824,
+              "width": 423,
+              "height": 342,
+              "pixels": 82495
+            },
+            "crop": {
+              "left": 895,
+              "top": 457,
+              "width": 439,
+              "height": 430
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 54,
+              "y": 89
+            },
+            "bob": -8
+          },
+          {
+            "sourceBounds": {
+              "x": 1346,
+              "y": 497,
+              "right": 1754,
+              "bottom": 791,
+              "width": 409,
+              "height": 295,
+              "pixels": 73734
+            },
+            "crop": {
+              "left": 1334,
+              "top": 457,
+              "width": 440,
+              "height": 430
+            },
+            "scale": 0.9333333333333333,
+            "position": {
+              "x": 54,
+              "y": 118
+            },
+            "bob": -10
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/chase-run/000.webp",
+          "sha256": "935b4f73f909b50bf1074364953b9832ee53634c4a4a4de3d3a71cc6c5c9d1ba",
+          "pixelSha256": "070695bfe4a3ac0db74678c8e16c7d1c626e48c556d469983c3a2e52e49f420b",
+          "opaqueBounds": {
+            "x": 55,
+            "y": 120,
+            "right": 462,
+            "bottom": 441,
+            "width": 408,
+            "height": 322,
+            "pixels": 80534
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/chase-run/001.webp",
+          "sha256": "07c947d88112adce4d392626e7f09a96e581c77201df9252dd9548f21d50d6a1",
+          "pixelSha256": "f12fbdcb873a4f528c484950e38947b424ed19dcb071762e54e0e16c5df8ccf9",
+          "opaqueBounds": {
+            "x": 67,
+            "y": 114,
+            "right": 445,
+            "bottom": 438,
+            "width": 379,
+            "height": 325,
+            "pixels": 73601
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/chase-run/002.webp",
+          "sha256": "071c40fd9113cacdcd955fc6070f87e2935d728377a627354c61588c2237d615",
+          "pixelSha256": "00baf0356db741c33e0dafb3586e76fe0578c63c5a1c6362961c4ad9f8bc3f0a",
+          "opaqueBounds": {
+            "x": 51,
+            "y": 151,
+            "right": 458,
+            "bottom": 434,
+            "width": 408,
+            "height": 284,
+            "pixels": 70715
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/chase-run/003.webp",
+          "sha256": "1cb654d122fc1f6a455ec5528eeeccd05c34ba4bcaf9ab1ebe2ac99dc86e5d47",
+          "pixelSha256": "0cafa65524a2ba3df41a39070c39d568c44ce5008bf748f8c4e8ce85e8835a15",
+          "opaqueBounds": {
+            "x": 43,
+            "y": 148,
+            "right": 468,
+            "bottom": 431,
+            "width": 426,
+            "height": 284,
+            "pixels": 76613
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/chase-run/004.webp",
+          "sha256": "a69a2e64759589acf79eab7f7289998a30d9900a5199bad59523076237353d94",
+          "pixelSha256": "91d2b7e18661837db63ee5ff0f72347b531cc0568087683f337b994d4a3a2470",
+          "opaqueBounds": {
+            "x": 45,
+            "y": 154,
+            "right": 470,
+            "bottom": 440,
+            "width": 426,
+            "height": 287,
+            "pixels": 75805
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/chase-run/005.webp",
+          "sha256": "8c7ed14bc6e0f88b21822f41ce12444dc053c4cce881111065baa09649013161",
+          "pixelSha256": "d65441cb31d061c9ac32243d8c4756fda037d183e81055b96c71b2bcd064880b",
+          "opaqueBounds": {
+            "x": 61,
+            "y": 141,
+            "right": 452,
+            "bottom": 436,
+            "width": 392,
+            "height": 296,
+            "pixels": 69761
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/chase-run/006.webp",
+          "sha256": "76162e271443ddd470b738d6841cbbdfd31b534e0e834daf339abfb8bf5f6311",
+          "pixelSha256": "4b95233291e8a89a6522c6adca8ae9977082be3cf9b99832516abe28b5c88190",
+          "opaqueBounds": {
+            "x": 54,
+            "y": 111,
+            "right": 463,
+            "bottom": 432,
+            "width": 410,
+            "height": 322,
+            "pixels": 74576
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/chase-run/007.webp",
+          "sha256": "0b9d07fd61dca8e8f13b773837748c8dea93282e1752588660cdc0759a1437a4",
+          "pixelSha256": "6b1766d5c77727db8bed8fbb7737bbe00ebea04309f7138c1377ff08bfefd55d",
+          "opaqueBounds": {
+            "x": 54,
+            "y": 153,
+            "right": 452,
+            "bottom": 430,
+            "width": 399,
+            "height": 278,
+            "pixels": 66579
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/chase-run.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 660,
+          "sha256": "bdb82deb0bf35814f23e871850b87e647aa848d9cd0d8af379538948d3ebc170",
+          "bytes": 409758,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/chase-run-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 660,
+          "sha256": "fb34fb8613a4836be15cd1b7e78902f7b4ce0670c203d53503a0a8904b56759c",
+          "bytes": 238964,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/chase-run-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 660,
+          "sha256": "f2b1a4c7b744ac42ed9aea6be5cb79eeff8875fd81e9fe08caf68bee442cd492",
+          "bytes": 235940,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "c4992b11d1eebb961265d450482b8472ea29cc6774ae8e92616e4795a98b2382"
+    },
+    {
+      "id": "chase-look-up",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/cat/chase-look-up.png",
+        "sha256": "66686b51abc7d321665ffc59893b6f910979ff690b1c9063c57d73934336b2e7",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 43,
+              "y": 47,
+              "right": 399,
+              "bottom": 429,
+              "width": 357,
+              "height": 383,
+              "pixels": 84095
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 441,
+              "height": 440
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 43,
+              "y": 26
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 483,
+              "y": 44,
+              "right": 838,
+              "bottom": 429,
+              "width": 356,
+              "height": 386,
+              "pixels": 83647
+            },
+            "crop": {
+              "left": 441,
+              "top": 0,
+              "width": 442,
+              "height": 440
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 44,
+              "y": 26
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 927,
+              "y": 42,
+              "right": 1290,
+              "bottom": 429,
+              "width": 364,
+              "height": 388,
+              "pixels": 84576
+            },
+            "crop": {
+              "left": 883,
+              "top": 0,
+              "width": 447,
+              "height": 440
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 39,
+              "y": 26
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1370,
+              "y": 41,
+              "right": 1746,
+              "bottom": 429,
+              "width": 377,
+              "height": 389,
+              "pixels": 80667
+            },
+            "crop": {
+              "left": 1330,
+              "top": 0,
+              "width": 444,
+              "height": 440
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 36,
+              "y": 26
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 44,
+              "y": 451,
+              "right": 447,
+              "bottom": 844,
+              "width": 404,
+              "height": 394,
+              "pixels": 86304
+            },
+            "crop": {
+              "left": 0,
+              "top": 440,
+              "width": 467,
+              "height": 447
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 19,
+              "y": 50
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 487,
+              "y": 498,
+              "right": 857,
+              "bottom": 829,
+              "width": 371,
+              "height": 332,
+              "pixels": 78068
+            },
+            "crop": {
+              "left": 467,
+              "top": 440,
+              "width": 426,
+              "height": 447
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 58,
+              "y": 65
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 928,
+              "y": 524,
+              "right": 1297,
+              "bottom": 838,
+              "width": 370,
+              "height": 315,
+              "pixels": 74411
+            },
+            "crop": {
+              "left": 893,
+              "top": 440,
+              "width": 448,
+              "height": 447
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 44,
+              "y": 56
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1385,
+              "y": 555,
+              "right": 1742,
+              "bottom": 837,
+              "width": 358,
+              "height": 283,
+              "pixels": 69142
+            },
+            "crop": {
+              "left": 1341,
+              "top": 440,
+              "width": 433,
+              "height": 447
+            },
+            "scale": 0.9644670050761421,
+            "position": {
+              "x": 41,
+              "y": 57
+            },
+            "bob": 0
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/chase-look-up/000.webp",
+          "sha256": "1a260cbbdc03d6459cf6fbcb78bc45806a67bca0e3cc20c956e2a7abcdba7180",
+          "pixelSha256": "dcbbbf972567d6f68dab75fb98cf44cdbea28f273a196f6bfd02f37df8dcefeb",
+          "opaqueBounds": {
+            "x": 83,
+            "y": 71,
+            "right": 442,
+            "bottom": 440,
+            "width": 360,
+            "height": 370,
+            "pixels": 80225
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/chase-look-up/001.webp",
+          "sha256": "7b759fd3e1cadd4fb445cdafc28087868a209367ffbfeb597dc6752274da8721",
+          "pixelSha256": "4b5da969466ad0785736ef4ffd9fb04bf851dcd14ece6068cb612e9033b86a13",
+          "opaqueBounds": {
+            "x": 84,
+            "y": 67,
+            "right": 434,
+            "bottom": 440,
+            "width": 351,
+            "height": 374,
+            "pixels": 79772
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/chase-look-up/002.webp",
+          "sha256": "be1fd0b38f039b3f0b696e9f4c7a3fea29ee0933ae5d4d891548908739a0248d",
+          "pixelSha256": "b45daafc5be6211d0db28c4cb767a40c74573af75bec948f8ec70394e2eacb07",
+          "opaqueBounds": {
+            "x": 80,
+            "y": 65,
+            "right": 441,
+            "bottom": 440,
+            "width": 362,
+            "height": 376,
+            "pixels": 80781
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/chase-look-up/003.webp",
+          "sha256": "2334003f2b7f30a1e20f5c7e9e2ad0034b0da70ce58823aaaf27fa96c897db77",
+          "pixelSha256": "a581ee5bd6e24c06321a312017bdda19ef4cca0923174bcbbf64d0807a05501f",
+          "opaqueBounds": {
+            "x": 73,
+            "y": 65,
+            "right": 437,
+            "bottom": 440,
+            "width": 365,
+            "height": 376,
+            "pixels": 77224
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/chase-look-up/004.webp",
+          "sha256": "0849816fe047feef8a5726b2d65f4d1a4ac50a826de754df2523a9c0afb4d1a6",
+          "pixelSha256": "14d412206ddac5bf16b73bcb4468d3984909ab6afe7c34f7817927db785c18d3",
+          "opaqueBounds": {
+            "x": 59,
+            "y": 60,
+            "right": 451,
+            "bottom": 440,
+            "width": 393,
+            "height": 381,
+            "pixels": 82518
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/chase-look-up/005.webp",
+          "sha256": "859e062e9d24abdc6f6190b93ab3e83f678233782e8a4b47c059eb5443291d64",
+          "pixelSha256": "83731a1de3f155838a8159df60114f6d157ade6d61e0d1b59642b0b93086c36b",
+          "opaqueBounds": {
+            "x": 75,
+            "y": 120,
+            "right": 440,
+            "bottom": 441,
+            "width": 366,
+            "height": 322,
+            "pixels": 74701
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/chase-look-up/006.webp",
+          "sha256": "1079001ddaaeddb046b642c7a5359fff89c44d15db28a06670f0c12dfe3f1733",
+          "pixelSha256": "069fea57b38a6208dc9d95720018235cc676ff23fca23197c429004b665bf665",
+          "opaqueBounds": {
+            "x": 76,
+            "y": 136,
+            "right": 443,
+            "bottom": 440,
+            "width": 368,
+            "height": 305,
+            "pixels": 71120
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/chase-look-up/007.webp",
+          "sha256": "8b4cc625d1af0d83dec2a470941bd27bf77a48f03cbe4ed2e1e154b163291041",
+          "pixelSha256": "8b0c974bff91599fa61955132e38ca003255a7411208aa30715a516a1d99478c",
+          "opaqueBounds": {
+            "x": 81,
+            "y": 165,
+            "right": 435,
+            "bottom": 440,
+            "width": 355,
+            "height": 276,
+            "pixels": 66123
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/chase-look-up.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1240,
+          "sha256": "8e47549793ffd599d324ed45dc13340e71b9079db329b5f167b359c8d33ab973",
+          "bytes": 441898,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/chase-look-up-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1240,
+          "sha256": "130eb2df274cc20c705f36f4db2a1afe73ceec65f75bce661c754c1a33daf7c3",
+          "bytes": 251121,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/chase-look-up-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1240,
+          "sha256": "338bda40bf976f993d47a0d79105abfb0f4c3dbfe4ba2e55a83828c1b88ba491",
+          "bytes": 248427,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "b140ac816246a1dde9695aeb89f84c1a7b5c8b7d7a602bf6b10439f3cf43add5"
+    },
+    {
+      "id": "chase-leap",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/cat/chase-leap.png",
+        "sha256": "2132f68829d35c260a7f1e1b0d6c9d96f918246a69fd8db7ace65897dfabbf02",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 67,
+              "y": 205,
+              "right": 401,
+              "bottom": 419,
+              "width": 335,
+              "height": 215,
+              "pixels": 46835
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 460,
+              "height": 459
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 1,
+              "y": -16
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 518,
+              "y": 123,
+              "right": 817,
+              "bottom": 418,
+              "width": 300,
+              "height": 296,
+              "pixels": 51944
+            },
+            "crop": {
+              "left": 460,
+              "top": 0,
+              "width": 410,
+              "height": 459
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 30,
+              "y": -15
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 923,
+              "y": 97,
+              "right": 1289,
+              "bottom": 425,
+              "width": 367,
+              "height": 329,
+              "pixels": 52886
+            },
+            "crop": {
+              "left": 870,
+              "top": 0,
+              "width": 465,
+              "height": 459
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": -1,
+              "y": -23
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1380,
+              "y": 60,
+              "right": 1740,
+              "bottom": 408,
+              "width": 361,
+              "height": 349,
+              "pixels": 56620
+            },
+            "crop": {
+              "left": 1335,
+              "top": 0,
+              "width": 439,
+              "height": 459
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 11,
+              "y": -4
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 91,
+              "y": 492,
+              "right": 376,
+              "bottom": 787,
+              "width": 286,
+              "height": 296,
+              "pixels": 47093
+            },
+            "crop": {
+              "left": 0,
+              "top": 459,
+              "width": 438,
+              "height": 428
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 2,
+              "y": 83
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 499,
+              "y": 504,
+              "right": 846,
+              "bottom": 810,
+              "width": 348,
+              "height": 307,
+              "pixels": 50944
+            },
+            "crop": {
+              "left": 438,
+              "top": 459,
+              "width": 456,
+              "height": 428
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 1,
+              "y": 58
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 942,
+              "y": 557,
+              "right": 1283,
+              "bottom": 816,
+              "width": 342,
+              "height": 260,
+              "pixels": 50158
+            },
+            "crop": {
+              "left": 894,
+              "top": 459,
+              "width": 446,
+              "height": 428
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 18,
+              "y": 51
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1397,
+              "y": 573,
+              "right": 1722,
+              "bottom": 817,
+              "width": 326,
+              "height": 245,
+              "pixels": 51216
+            },
+            "crop": {
+              "left": 1340,
+              "top": 459,
+              "width": 434,
+              "height": 428
+            },
+            "scale": 1.0888252148997135,
+            "position": {
+              "x": 17,
+              "y": 50
+            },
+            "bob": 0
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/chase-leap/000.webp",
+          "sha256": "af589b39a6b8d71face5a24ca761cb58886200b4e1bc70554c8d8f1be782066e",
+          "pixelSha256": "c6ac1ed89576d3f2f780ac801741bf016f50d268537c6dc149e49600743fce15",
+          "opaqueBounds": {
+            "x": 73,
+            "y": 206,
+            "right": 451,
+            "bottom": 441,
+            "width": 379,
+            "height": 236,
+            "pixels": 57528
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/chase-leap/001.webp",
+          "sha256": "451100e459d27f36870f8ca15949421bce9ea62e68726f07245ebcf71b068d4d",
+          "pixelSha256": "802659d0ab160a34590dc7f2a310b1445af62d5d977a10c2eb90c3f63728630d",
+          "opaqueBounds": {
+            "x": 91,
+            "y": 119,
+            "right": 422,
+            "bottom": 441,
+            "width": 332,
+            "height": 323,
+            "pixels": 63803
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/chase-leap/002.webp",
+          "sha256": "a3593767430854a90cbd3c2b94e145389ff308002e1dabb9ac61b2ba862dea7a",
+          "pixelSha256": "178170c6e8296dbf2d57e290043c3c65ec6a435dfe7712fde80b78fc35c175c5",
+          "opaqueBounds": {
+            "x": 55,
+            "y": 82,
+            "right": 456,
+            "bottom": 441,
+            "width": 402,
+            "height": 360,
+            "pixels": 64998
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/chase-leap/003.webp",
+          "sha256": "47a346a9b5dbf8adb77b5720e0affffdca12e228573c84a81598ab87de3c0fea",
+          "pixelSha256": "b382321785198892fcd61651f4dc84f09e515122e11bbe649c90617301c54bbd",
+          "opaqueBounds": {
+            "x": 58,
+            "y": 60,
+            "right": 453,
+            "bottom": 442,
+            "width": 396,
+            "height": 383,
+            "pixels": 69592
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/chase-leap/004.webp",
+          "sha256": "cc2c687e53b54df464195b4821480f4fcde83ef8431541a1181cce1fd604633a",
+          "pixelSha256": "d360b65dd3b890de9747d1caaa817d5321b762b522d96a12ff5ed651ae305fb2",
+          "opaqueBounds": {
+            "x": 99,
+            "y": 119,
+            "right": 421,
+            "bottom": 441,
+            "width": 323,
+            "height": 323,
+            "pixels": 57977
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/chase-leap/005.webp",
+          "sha256": "f13b467be29302154bec04414e1d46fe61f363342e72510145d6561e993ca2ae",
+          "pixelSha256": "3edaa437a7f9a4821f6fae18492109996c1d14834e8fc3e96674225577cc035b",
+          "opaqueBounds": {
+            "x": 66,
+            "y": 107,
+            "right": 447,
+            "bottom": 442,
+            "width": 382,
+            "height": 336,
+            "pixels": 62640
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/chase-leap/006.webp",
+          "sha256": "556f0b489282440f63ab28ae1b928b46285b5fa8c3526d25bd3fcc9ad3b8e093",
+          "pixelSha256": "f089d62d83d203968e67a4ba131f7d974517c84ae113978a82dcd9a9a64e39ea",
+          "opaqueBounds": {
+            "x": 69,
+            "y": 156,
+            "right": 449,
+            "bottom": 442,
+            "width": 381,
+            "height": 287,
+            "pixels": 61602
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/chase-leap/007.webp",
+          "sha256": "7aa9c6e8de1723558e7f88674e6f7c5cd22a92b827f5fc517444056bc2441171",
+          "pixelSha256": "49d41626b9b455a4454be3d67ee4f29a98a30cbd3ebf5871a29867171e63b5b7",
+          "opaqueBounds": {
+            "x": 77,
+            "y": 173,
+            "right": 452,
+            "bottom": 442,
+            "width": 376,
+            "height": 270,
+            "pixels": 63046
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/chase-leap.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1060,
+          "sha256": "4bbaa5240af55522e2162a0dd60cc42e873286728a0234926a386f6d86ac47c0",
+          "bytes": 359792,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/chase-leap-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1060,
+          "sha256": "f8c3c9b0fee42e9041e2778781c31af94ca6cbdc531d83b6fcfc8340fe1c5e86",
+          "bytes": 213669,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/chase-leap-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1060,
+          "sha256": "45e75135947b6fa21c98e37dbd2136422d5861fbb25e2cd4d0591e52118310f4",
+          "bytes": 215676,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "713eddf29fe3b3185d61d433bd7a770a156cf81bc580113291efa2a95ff87f8d"
+    },
+    {
+      "id": "chase-float",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/cat/chase-float.png",
+        "sha256": "2f0c3892fafdca1fb3862548f595103e58f5385736615bab124603bba691613c",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 41,
+              "y": 59,
+              "right": 454,
+              "bottom": 403,
+              "width": 414,
+              "height": 345,
+              "pixels": 72170
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 472,
+              "height": 443
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 7,
+              "y": 35
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 490,
+              "y": 60,
+              "right": 876,
+              "bottom": 398,
+              "width": 387,
+              "height": 339,
+              "pixels": 68052
+            },
+            "crop": {
+              "left": 472,
+              "top": 0,
+              "width": 426,
+              "height": 443
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 44,
+              "y": 40
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 919,
+              "y": 60,
+              "right": 1276,
+              "bottom": 394,
+              "width": 358,
+              "height": 335,
+              "pixels": 64087
+            },
+            "crop": {
+              "left": 898,
+              "top": 0,
+              "width": 408,
+              "height": 443
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 56,
+              "y": 44
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1336,
+              "y": 57,
+              "right": 1753,
+              "bottom": 407,
+              "width": 418,
+              "height": 351,
+              "pixels": 70497
+            },
+            "crop": {
+              "left": 1306,
+              "top": 0,
+              "width": 468,
+              "height": 443
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 16,
+              "y": 31
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 40,
+              "y": 479,
+              "right": 425,
+              "bottom": 824,
+              "width": 386,
+              "height": 346,
+              "pixels": 67958
+            },
+            "crop": {
+              "left": 0,
+              "top": 443,
+              "width": 451,
+              "height": 444
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 22,
+              "y": 57
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 476,
+              "y": 478,
+              "right": 891,
+              "bottom": 824,
+              "width": 416,
+              "height": 347,
+              "pixels": 70124
+            },
+            "crop": {
+              "left": 451,
+              "top": 443,
+              "width": 452,
+              "height": 444
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 22,
+              "y": 57
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 915,
+              "y": 490,
+              "right": 1281,
+              "bottom": 814,
+              "width": 367,
+              "height": 325,
+              "pixels": 64624
+            },
+            "crop": {
+              "left": 903,
+              "top": 443,
+              "width": 408,
+              "height": 444
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 60,
+              "y": 67
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1340,
+              "y": 478,
+              "right": 1745,
+              "bottom": 824,
+              "width": 406,
+              "height": 347,
+              "pixels": 69102
+            },
+            "crop": {
+              "left": 1311,
+              "top": 443,
+              "width": 463,
+              "height": 444
+            },
+            "scale": 1.0047846889952152,
+            "position": {
+              "x": 23,
+              "y": 57
+            },
+            "bob": 0
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/chase-float/000.webp",
+          "sha256": "34ca2e64a5dc53090fd0a2a562b127491b85c8366e5ca9e62f13610c9e785245",
+          "pixelSha256": "c7ba452af83c4e8855b8f97f8cf7cc50a20fb724bcf8e47a001441a5eada2b08",
+          "opaqueBounds": {
+            "x": 48,
+            "y": 93,
+            "right": 465,
+            "bottom": 441,
+            "width": 418,
+            "height": 349,
+            "pixels": 74999
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/chase-float/001.webp",
+          "sha256": "8b1b506e590c7cc665e29f0a852f30dedf971ec218e4c5cf4c357aa29359825b",
+          "pixelSha256": "f1328f652eb03cdd3c15cacdf3fe474463e03c9675261100e38628e1366c4db9",
+          "opaqueBounds": {
+            "x": 60,
+            "y": 99,
+            "right": 452,
+            "bottom": 441,
+            "width": 393,
+            "height": 343,
+            "pixels": 71038
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/chase-float/002.webp",
+          "sha256": "ef02b0de6eca6bf66617a82752feada8abcc28bec9ae21819724149676c1d1ac",
+          "pixelSha256": "82a2188cd4495361a304d36dd9e5f9c95834f49062e526aa4e82d54fa1158060",
+          "opaqueBounds": {
+            "x": 77,
+            "y": 103,
+            "right": 447,
+            "bottom": 441,
+            "width": 371,
+            "height": 339,
+            "pixels": 66770
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/chase-float/003.webp",
+          "sha256": "5edaf782038fe42506ff58669a29196512bed332a3f3fe0f718cce3770e995d5",
+          "pixelSha256": "3e9fdf1cbd4fa736a60eabb306edd8de6c033720c534b8791a55bb9fcaa8686d",
+          "opaqueBounds": {
+            "x": 46,
+            "y": 87,
+            "right": 466,
+            "bottom": 441,
+            "width": 421,
+            "height": 355,
+            "pixels": 73344
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/chase-float/004.webp",
+          "sha256": "53718b91b90da4bb0f7276e7dab3ff085c4a23b622f0d03e766a206a68e247a2",
+          "pixelSha256": "dfa2651995b008dfa3b082bbcacb338554bf3de69b0c6027caf86b651d8603ab",
+          "opaqueBounds": {
+            "x": 61,
+            "y": 92,
+            "right": 456,
+            "bottom": 441,
+            "width": 396,
+            "height": 350,
+            "pixels": 70678
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/chase-float/005.webp",
+          "sha256": "7d5e3d89d8e7fef731038c7a79fd0466e866f6da609ea77024286c40cd6c5b7e",
+          "pixelSha256": "73eac29549ff75b39ffce091aad7546a52ba6804486ee782cc6b7a16c95d8103",
+          "opaqueBounds": {
+            "x": 46,
+            "y": 92,
+            "right": 465,
+            "bottom": 441,
+            "width": 420,
+            "height": 350,
+            "pixels": 72956
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/chase-float/006.webp",
+          "sha256": "6abbb47611411277c7b46409eb1fb0c210168ecf873717a4b9d1d00815c09c9a",
+          "pixelSha256": "200b00e6a7bad15a498d2d215c35fc30c3b3d105bcf5977293a7f95c1b3879a1",
+          "opaqueBounds": {
+            "x": 72,
+            "y": 113,
+            "right": 455,
+            "bottom": 441,
+            "width": 384,
+            "height": 329,
+            "pixels": 67345
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/chase-float/007.webp",
+          "sha256": "9b2c44d2ea5774ad078676478782e6247cad730b0f34785326cfcad037745fc2",
+          "pixelSha256": "263bbf3abd3ee349fea9db3918ed6e7455bb1ead5aca82e65aadc5a727576bbd",
+          "opaqueBounds": {
+            "x": 51,
+            "y": 92,
+            "right": 461,
+            "bottom": 440,
+            "width": 411,
+            "height": 349,
+            "pixels": 71841
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/chase-float.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1130,
+          "sha256": "8bdfbd7c6e8748610af152b52f1f5b8c57e595c51c30424d16d4e0b896814ed2",
+          "bytes": 447616,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/chase-float-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1130,
+          "sha256": "362d83ab69daea7f39f787625d6b2ea3ef7da0e72c670b57a1132d14611b15b1",
+          "bytes": 237561,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/chase-float-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1130,
+          "sha256": "06c6f1c2344034a6fa6ccc301ae0ab59a66889eb92a3feb2b06f959d696fb414",
+          "bytes": 242146,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "10588d194cd48aa84affc9f3c4e007c36e1fa2683d91c0351786071d874e2d71"
+    },
+    {
+      "id": "chase-land",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/cat/chase-land.png",
+        "sha256": "62b1a163ade540cb255fe92e3c16422dd3206e1ba353fc709094d632f613fd4d",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 17,
+              "y": 27,
+              "right": 453,
+              "bottom": 435,
+              "width": 437,
+              "height": 409,
+              "pixels": 94688
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 459,
+              "height": 463
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 38,
+              "y": 36
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 464,
+              "y": 86,
+              "right": 893,
+              "bottom": 456,
+              "width": 430,
+              "height": 371,
+              "pixels": 84375
+            },
+            "crop": {
+              "left": 459,
+              "top": 0,
+              "width": 436,
+              "height": 463
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 52,
+              "y": 16
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 897,
+              "y": 90,
+              "right": 1348,
+              "bottom": 457,
+              "width": 452,
+              "height": 368,
+              "pixels": 87053
+            },
+            "crop": {
+              "left": 895,
+              "top": 0,
+              "width": 458,
+              "height": 463
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 45,
+              "y": 15
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1357,
+              "y": 128,
+              "right": 1768,
+              "bottom": 457,
+              "width": 412,
+              "height": 330,
+              "pixels": 81265
+            },
+            "crop": {
+              "left": 1353,
+              "top": 0,
+              "width": 421,
+              "height": 463
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 61,
+              "y": 15
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 45,
+              "y": 477,
+              "right": 452,
+              "bottom": 858,
+              "width": 408,
+              "height": 382,
+              "pixels": 96107
+            },
+            "crop": {
+              "left": 0,
+              "top": 463,
+              "width": 480,
+              "height": 424
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 25,
+              "y": 73
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 508,
+              "y": 469,
+              "right": 867,
+              "bottom": 862,
+              "width": 360,
+              "height": 394,
+              "pixels": 82451
+            },
+            "crop": {
+              "left": 480,
+              "top": 463,
+              "width": 425,
+              "height": 424
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 63,
+              "y": 69
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 942,
+              "y": 469,
+              "right": 1303,
+              "bottom": 865,
+              "width": 362,
+              "height": 397,
+              "pixels": 81583
+            },
+            "crop": {
+              "left": 905,
+              "top": 463,
+              "width": 434,
+              "height": 424
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 54,
+              "y": 67
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 1374,
+              "y": 473,
+              "right": 1730,
+              "bottom": 863,
+              "width": 357,
+              "height": 391,
+              "pixels": 80600
+            },
+            "crop": {
+              "left": 1339,
+              "top": 463,
+              "width": 435,
+              "height": 424
+            },
+            "scale": 0.9290953545232273,
+            "position": {
+              "x": 58,
+              "y": 68
+            },
+            "bob": 0
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/chase-land/000.webp",
+          "sha256": "9aab7263ac8e7c81ee1d52c58cfc0824cfc9cc0de7dec5308aabf54918fa15e8",
+          "pixelSha256": "37eb0ac82f190c2053a9c3df36aac3fa71f743149163a563989a7f22d815972b",
+          "opaqueBounds": {
+            "x": 53,
+            "y": 60,
+            "right": 460,
+            "bottom": 440,
+            "width": 408,
+            "height": 381,
+            "pixels": 84640
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/chase-land/001.webp",
+          "sha256": "fe4fbb0011938374d52740bced81da07dc2b532e4d2bedfd2994ef11852bce6e",
+          "pixelSha256": "831b10b043261d2132737f9be8eae2ecb7d941e049b02ad282eb256859154859",
+          "opaqueBounds": {
+            "x": 54,
+            "y": 94,
+            "right": 456,
+            "bottom": 440,
+            "width": 403,
+            "height": 347,
+            "pixels": 75588
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/chase-land/002.webp",
+          "sha256": "8e072375a71f840e3e731dff3e70d100ea004e27762b3d2209edb209bd66bd56",
+          "pixelSha256": "e3addd5b31532507758abee8f620fd864869e0f9956b8a82a478633fc4241c10",
+          "opaqueBounds": {
+            "x": 45,
+            "y": 95,
+            "right": 469,
+            "bottom": 440,
+            "width": 425,
+            "height": 346,
+            "pixels": 78175
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/chase-land/003.webp",
+          "sha256": "357067f4d4ddc5a91869380d82cee9c87e8c04ce4813b86e44518e5361f3b2b5",
+          "pixelSha256": "e5da09920ccc41ff107c97696ee40f6fcaaa70cbd5e1c754250e776ca36e5b25",
+          "opaqueBounds": {
+            "x": 63,
+            "y": 132,
+            "right": 448,
+            "bottom": 440,
+            "width": 386,
+            "height": 309,
+            "pixels": 72666
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/chase-land/004.webp",
+          "sha256": "3914f6d8122cef82da389ea38e4507d124aa1464daf39d82b884adadde3521c3",
+          "pixelSha256": "cf9a17c4e80b0e55256f9ba9d28cb86798bbdf9b58827f7229a5a3ad1296b53b",
+          "opaqueBounds": {
+            "x": 64,
+            "y": 84,
+            "right": 446,
+            "bottom": 441,
+            "width": 383,
+            "height": 358,
+            "pixels": 86102
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/chase-land/005.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "c12f1b8722e66f3bc58facd4ecee22478c7794abff7561798974f59c6d5b32ae",
+          "opaqueBounds": {
+            "x": 87,
+            "y": 72,
+            "right": 424,
+            "bottom": 441,
+            "width": 338,
+            "height": 370,
+            "pixels": 73475
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/chase-land/006.webp",
+          "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f",
+          "pixelSha256": "c58c4f369f7260c083fbf81f1db37f958fb5398a4eebf964b19225a20d81cf38",
+          "opaqueBounds": {
+            "x": 86,
+            "y": 71,
+            "right": 425,
+            "bottom": 441,
+            "width": 340,
+            "height": 371,
+            "pixels": 72645
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/chase-land/007.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "89b1bbcabfb552b244a9adadd3034530565f590fb077011a04e5ba793d87e835",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/chase-land.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1200,
+          "sha256": "eae82ed0de1ed5c8060307a4ee61933f3cddb0de109804b53b025126fa1b7fbb",
+          "bytes": 397250,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/chase-land-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1200,
+          "sha256": "f3deadbeb72f1ee9850ab69c826bdff667ba13942ee32ca27c5e4ee1d428f6df",
+          "bytes": 244393,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/chase-land-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 1200,
+          "sha256": "26d9ab4f3ebbf525c73618b906cc328adfb6efc4a8a82dba20257b4323dd0c99",
+          "bytes": 243608,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "daafcb325190315869f5210c1bdb9f223067876fc70d788515343980406de35b"
+    },
+    {
+      "id": "mouse-run",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/companions/mouse-run.png",
+        "sha256": "cfdb8876f6934a19b4a496561e1c1a8950ab2f48a7362d8bb8c7f7c1517f8389",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 58,
+              "y": 170,
+              "right": 383,
+              "bottom": 390,
+              "width": 326,
+              "height": 221,
+              "pixels": 38384
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 440,
+              "height": 465
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 11,
+              "y": 13
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 496,
+              "y": 172,
+              "right": 813,
+              "bottom": 392,
+              "width": 318,
+              "height": 221,
+              "pixels": 38074
+            },
+            "crop": {
+              "left": 440,
+              "top": 0,
+              "width": 427,
+              "height": 465
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 14,
+              "y": 11
+            },
+            "bob": -1
+          },
+          {
+            "sourceBounds": {
+              "x": 920,
+              "y": 191,
+              "right": 1255,
+              "bottom": 389,
+              "width": 336,
+              "height": 199,
+              "pixels": 38925
+            },
+            "crop": {
+              "left": 867,
+              "top": 0,
+              "width": 439,
+              "height": 465
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 11,
+              "y": 11
+            },
+            "bob": -3
+          },
+          {
+            "sourceBounds": {
+              "x": 1357,
+              "y": 160,
+              "right": 1712,
+              "bottom": 360,
+              "width": 356,
+              "height": 201,
+              "pixels": 38580
+            },
+            "crop": {
+              "left": 1306,
+              "top": 0,
+              "width": 468,
+              "height": 465
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 7,
+              "y": 24
+            },
+            "bob": -5
+          },
+          {
+            "sourceBounds": {
+              "x": 53,
+              "y": 547,
+              "right": 410,
+              "bottom": 743,
+              "width": 358,
+              "height": 197,
+              "pixels": 40721
+            },
+            "crop": {
+              "left": 0,
+              "top": 465,
+              "width": 449,
+              "height": 422
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 5,
+              "y": 72
+            },
+            "bob": 0
+          },
+          {
+            "sourceBounds": {
+              "x": 487,
+              "y": 546,
+              "right": 828,
+              "bottom": 754,
+              "width": 342,
+              "height": 209,
+              "pixels": 38454
+            },
+            "crop": {
+              "left": 449,
+              "top": 465,
+              "width": 434,
+              "height": 422
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 17,
+              "y": 66
+            },
+            "bob": -1
+          },
+          {
+            "sourceBounds": {
+              "x": 937,
+              "y": 555,
+              "right": 1265,
+              "bottom": 771,
+              "width": 329,
+              "height": 217,
+              "pixels": 39114
+            },
+            "crop": {
+              "left": 883,
+              "top": 465,
+              "width": 438,
+              "height": 422
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 12,
+              "y": 55
+            },
+            "bob": -3
+          },
+          {
+            "sourceBounds": {
+              "x": 1377,
+              "y": 538,
+              "right": 1708,
+              "bottom": 768,
+              "width": 332,
+              "height": 231,
+              "pixels": 40292
+            },
+            "crop": {
+              "left": 1321,
+              "top": 465,
+              "width": 453,
+              "height": 422
+            },
+            "scale": 0.5307262569832403,
+            "position": {
+              "x": 10,
+              "y": 55
+            },
+            "bob": -4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/mouse-run/000.webp",
+          "sha256": "8033f6a4164a8048d9baf4d62b6f9717b05e11cf1957dc3d328066dc73ddd42e",
+          "pixelSha256": "4e6a984c2dc6331e76abd49ca8bdd4f77e339c07a8146939f7a78e01ce63169c",
+          "opaqueBounds": {
+            "x": 42,
+            "y": 103,
+            "right": 225,
+            "bottom": 220,
+            "width": 184,
+            "height": 118,
+            "pixels": 11393
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/mouse-run/001.webp",
+          "sha256": "0ffec9f53c4ac34a922b87117e3484ee1485f4a9225ad2d98a426b3979a0401d",
+          "pixelSha256": "78802fa1d7f47187aa28f5c9325348956bafccbf330aaa153539afa6a2bf7921",
+          "opaqueBounds": {
+            "x": 43,
+            "y": 102,
+            "right": 225,
+            "bottom": 220,
+            "width": 183,
+            "height": 119,
+            "pixels": 11277
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/mouse-run/002.webp",
+          "sha256": "b633fd2975509a1e131972d6852d31ef0b34555ac0e82619523328c16bbe1c57",
+          "pixelSha256": "48cc2ad0463f3fd6421daf9f139a0ed43bb80149391ba752d85490c1884041fa",
+          "opaqueBounds": {
+            "x": 39,
+            "y": 112,
+            "right": 228,
+            "bottom": 217,
+            "width": 190,
+            "height": 106,
+            "pixels": 11474
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/mouse-run/003.webp",
+          "sha256": "777585e728361f769f8dae747790a159fc156028445e45c664bcaca6538372d3",
+          "pixelSha256": "547c03a41d6262da3235a276e4635c157dcfe7a1ec5b400cd8ece0b7e1a0ccbe",
+          "opaqueBounds": {
+            "x": 33,
+            "y": 109,
+            "right": 236,
+            "bottom": 215,
+            "width": 204,
+            "height": 107,
+            "pixels": 11442
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/mouse-run/004.webp",
+          "sha256": "f4b1de5a95c20e4f00a558c949f7e3743c72f19e69a82b335830e25a8bc24a96",
+          "pixelSha256": "d883e73c91a598e1c4463866ef8cbe02d0df643250ffacefb4b2a46cbb8e7ff4",
+          "opaqueBounds": {
+            "x": 32,
+            "y": 115,
+            "right": 233,
+            "bottom": 219,
+            "width": 202,
+            "height": 105,
+            "pixels": 11976
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/mouse-run/005.webp",
+          "sha256": "d7f1b0f3b3c5f81e623b45be026290bdc30969a1f20ff8daa94140f1e2d084e1",
+          "pixelSha256": "0d238f9ae515cab0cf708c04b48e80304c20975e4445fbd38e7b0b3d20a08fc6",
+          "opaqueBounds": {
+            "x": 37,
+            "y": 108,
+            "right": 230,
+            "bottom": 219,
+            "width": 194,
+            "height": 112,
+            "pixels": 11365
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/mouse-run/006.webp",
+          "sha256": "b03106971166a26015f3347ce7ee6776def85c81a6be82f036c558253007303d",
+          "pixelSha256": "f1dfcfab80b6273528bce4ae6cbe17cee127a591080cf41ee71605dc1fb959ba",
+          "opaqueBounds": {
+            "x": 40,
+            "y": 102,
+            "right": 227,
+            "bottom": 217,
+            "width": 188,
+            "height": 116,
+            "pixels": 11490
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/mouse-run/007.webp",
+          "sha256": "e8f8f29626efad204ed79f9d25498cea5e0f2485bb7ba7ef9ef46fc6889be4fc",
+          "pixelSha256": "a58dd85aedd94b4bd811c5034c61cafed815c7fe8f9d59c3469ad171c4dfd28e",
+          "opaqueBounds": {
+            "x": 39,
+            "y": 93,
+            "right": 229,
+            "bottom": 216,
+            "width": 191,
+            "height": 124,
+            "pixels": 11886
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/mouse-run.webp",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 530,
+          "sha256": "771e93dab439501ea632c4135d54356c03cfe6c1fe4c31681fc700d5cb93a947",
+          "bytes": 121982,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/mouse-run-light.gif",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 530,
+          "sha256": "6b1b2490af34a98cf43d9a7db5912d9171d7e4a37f8d298b79a7cf24b578843e",
+          "bytes": 125830,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/mouse-run-dark.gif",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 530,
+          "sha256": "0350b94241631792acda930e065f1e95efacd1cb867cdd85bce4e299182cbe46",
+          "bytes": 122042,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "340a56b0233da30fcfa83b696393dd4788fc9be5f0285cd4fa439d6b0330c308"
+    },
+    {
+      "id": "butterfly-flutter",
+      "source": {
+        "kind": "independent-imagegen-sequence",
+        "path": "source/companions/butterfly-flutter.png",
+        "sha256": "d60484e210d0060f484833b95f844a5fa2456996cd0c76b20db616ed3d486055",
+        "dimensions": {
+          "width": 1774,
+          "height": 887
+        },
+        "placements": [
+          {
+            "sourceBounds": {
+              "x": 153,
+              "y": 42,
+              "right": 504,
+              "bottom": 420,
+              "width": 352,
+              "height": 379,
+              "pixels": 75183
+            },
+            "crop": {
+              "left": 0,
+              "top": 0,
+              "width": 566,
+              "height": 441
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 14,
+              "y": 42
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              383,
+              343
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 627,
+              "y": 79,
+              "right": 916,
+              "bottom": 410,
+              "width": 290,
+              "height": 332,
+              "pixels": 51841
+            },
+            "crop": {
+              "left": 566,
+              "top": 0,
+              "width": 423,
+              "height": 441
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 68,
+              "y": 43
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              810,
+              341
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 1061,
+              "y": 64,
+              "right": 1273,
+              "bottom": 416,
+              "width": 213,
+              "height": 353,
+              "pixels": 36731
+            },
+            "crop": {
+              "left": 989,
+              "top": 0,
+              "width": 348,
+              "height": 441
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 93,
+              "y": 41
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              1171,
+              345
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 1401,
+              "y": 109,
+              "right": 1714,
+              "bottom": 403,
+              "width": 314,
+              "height": 295,
+              "pixels": 44707
+            },
+            "crop": {
+              "left": 1337,
+              "top": 0,
+              "width": 437,
+              "height": 441
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 54,
+              "y": 40
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              1618,
+              349
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 59,
+              "y": 589,
+              "right": 543,
+              "bottom": 829,
+              "width": 485,
+              "height": 241,
+              "pixels": 56338
+            },
+            "crop": {
+              "left": 0,
+              "top": 441,
+              "width": 575,
+              "height": 446
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 21,
+              "y": 52
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              364,
+              760
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 607,
+              "y": 490,
+              "right": 929,
+              "bottom": 808,
+              "width": 323,
+              "height": 319,
+              "pixels": 53226
+            },
+            "crop": {
+              "left": 575,
+              "top": 441,
+              "width": 409,
+              "height": 446
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 69,
+              "y": 56
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              817,
+              750
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 1038,
+              "y": 476,
+              "right": 1280,
+              "bottom": 820,
+              "width": 243,
+              "height": 345,
+              "pixels": 41131
+            },
+            "crop": {
+              "left": 984,
+              "top": 441,
+              "width": 344,
+              "height": 446
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 90,
+              "y": 56
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              1173,
+              749
+            ]
+          },
+          {
+            "sourceBounds": {
+              "x": 1375,
+              "y": 462,
+              "right": 1732,
+              "bottom": 833,
+              "width": 358,
+              "height": 372,
+              "pixels": 73998
+            },
+            "crop": {
+              "left": 1328,
+              "top": 441,
+              "width": 446,
+              "height": 446
+            },
+            "scale": 0.3917525773195876,
+            "position": {
+              "x": 51,
+              "y": 50
+            },
+            "bob": 0,
+            "sourceBodyAnchor": [
+              1615,
+              764
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/butterfly-flutter/000.webp",
+          "sha256": "c998ee79766772b482871398d94a110e3d706a98c9b42691454592eaf275cb61",
+          "pixelSha256": "e1c2f2a581f5fb8f4d28a014eebbc7ea2c484deb5ce0fb536677b9f0d03eba9b",
+          "opaqueBounds": {
+            "x": 74,
+            "y": 58,
+            "right": 212,
+            "bottom": 207,
+            "width": 139,
+            "height": 150,
+            "pixels": 11867
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/butterfly-flutter/001.webp",
+          "sha256": "27270e8ba8a6e132698ca254eb3223fe71cb22ca4e5505ea0041db30f963aee3",
+          "pixelSha256": "e43a4bce985911eaac14b4431ec033f26369b813084e81e4950e2da308b157f4",
+          "opaqueBounds": {
+            "x": 91,
+            "y": 73,
+            "right": 205,
+            "bottom": 204,
+            "width": 115,
+            "height": 132,
+            "pixels": 8237
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/butterfly-flutter/002.webp",
+          "sha256": "f0dd699644c6c78cf51d9ba39ee8e68baa17da885ad90c2a5cddc9d5af9b8089",
+          "pixelSha256": "5ad34b75406557627b6f5806500d84844c50a629a575eb112d8fde8affde3fb7",
+          "opaqueBounds": {
+            "x": 120,
+            "y": 66,
+            "right": 204,
+            "bottom": 204,
+            "width": 85,
+            "height": 139,
+            "pixels": 5873
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/butterfly-flutter/003.webp",
+          "sha256": "31e1093aa6445e05bd67e0db16add90c170931f9eb7241b448d4a769be11287c",
+          "pixelSha256": "5a9acd96350d9cf172a5b69a8bf9ddf586fcc1e65aba5f031de64c60704c6138",
+          "opaqueBounds": {
+            "x": 78,
+            "y": 82,
+            "right": 201,
+            "bottom": 198,
+            "width": 124,
+            "height": 117,
+            "pixels": 7116
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/butterfly-flutter/004.webp",
+          "sha256": "33df9e9d48f4d7ddb231dff7910ef84583a9ccb6f5e2e33bd532e6efc10ae774",
+          "pixelSha256": "cea3d4746f575097fa35882edf33f965b217842917a5738a0f7ba9e1396c0f4f",
+          "opaqueBounds": {
+            "x": 43,
+            "y": 109,
+            "right": 233,
+            "bottom": 204,
+            "width": 191,
+            "height": 96,
+            "pixels": 8968
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/butterfly-flutter/005.webp",
+          "sha256": "a2288be06a9bd5221a8c2246d6cb269f949bf403ea79fd3dd7055124d4639622",
+          "pixelSha256": "699844ae19715e964177fdff4903b7151c68996da64a44a6844cccc1ab660ed1",
+          "opaqueBounds": {
+            "x": 81,
+            "y": 75,
+            "right": 207,
+            "bottom": 200,
+            "width": 127,
+            "height": 126,
+            "pixels": 8456
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/butterfly-flutter/006.webp",
+          "sha256": "9961a125c8dba54744fa243a864e9df547fec57cf8fc6cd71d80656743ea4a7a",
+          "pixelSha256": "c6ab236db6a9f469a7aac2cbd887085f8e17869c24cb6fe1b442c795680dfd00",
+          "opaqueBounds": {
+            "x": 111,
+            "y": 69,
+            "right": 206,
+            "bottom": 204,
+            "width": 96,
+            "height": 136,
+            "pixels": 6577
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/butterfly-flutter/007.webp",
+          "sha256": "d6fca329ffb73e0d18fc95262dab179818820c0da088b2e6a9963d338c6bd538",
+          "pixelSha256": "2cc2d92acfb3fe54f08bec191e77daa9a66d81d81e530e4f67fc82bea6bb1b82",
+          "opaqueBounds": {
+            "x": 69,
+            "y": 58,
+            "right": 209,
+            "bottom": 204,
+            "width": 141,
+            "height": 147,
+            "pixels": 11681
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/butterfly-flutter.webp",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 620,
+          "sha256": "5eb5d4c2dbb8f30e57f07b9ad01cefc54da4047fad9e5e94988e51db21b34476",
+          "bytes": 86170,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/butterfly-flutter-light.gif",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 620,
+          "sha256": "c14d35bee7633af4df9c047fb5f1535699bee699641c13776b402dd7d1fef1dc",
+          "bytes": 93651,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/butterfly-flutter-dark.gif",
+          "width": 256,
+          "height": 256,
+          "frames": 8,
+          "distinctDecodedFrames": 8,
+          "durationMs": 620,
+          "sha256": "69d15c531a98ec6cf5b62dd97c6a34a4e834e3bb92e9192d110486a4d753ad8c",
+          "bytes": 91628,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "f7983cde45f96657fe4c520dba91fad0b158f9150c9601470f576a859dcc3d1b"
+    },
+    {
+      "id": "rest",
+      "source": {
+        "kind": "derived-from-landing",
+        "path": "source/cat/chase-land.png",
+        "sourceActionId": "chase-land",
+        "sourceFrameIndices": [
+          5,
+          5,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "frames": [
+        {
+          "index": 0,
+          "path": "frames/rest/000.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "opaqueBounds": {
+            "x": 87,
+            "y": 72,
+            "right": 424,
+            "bottom": 441,
+            "width": 338,
+            "height": 370,
+            "pixels": 73475
+          }
+        },
+        {
+          "index": 1,
+          "path": "frames/rest/001.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "opaqueBounds": {
+            "x": 87,
+            "y": 72,
+            "right": 424,
+            "bottom": 441,
+            "width": 338,
+            "height": 370,
+            "pixels": 73475
+          }
+        },
+        {
+          "index": 2,
+          "path": "frames/rest/002.webp",
+          "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f",
+          "pixelSha256": "10f8ec01b413aacf1a5b93aedd2fb75c6879b8da496a608da0a482bf576b1dee",
+          "opaqueBounds": {
+            "x": 86,
+            "y": 71,
+            "right": 425,
+            "bottom": 441,
+            "width": 340,
+            "height": 371,
+            "pixels": 72645
+          }
+        },
+        {
+          "index": 3,
+          "path": "frames/rest/003.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        },
+        {
+          "index": 4,
+          "path": "frames/rest/004.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        },
+        {
+          "index": 5,
+          "path": "frames/rest/005.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        },
+        {
+          "index": 6,
+          "path": "frames/rest/006.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        },
+        {
+          "index": 7,
+          "path": "frames/rest/007.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "opaqueBounds": {
+            "x": 89,
+            "y": 76,
+            "right": 422,
+            "bottom": 440,
+            "width": 334,
+            "height": 365,
+            "pixels": 71749
+          }
+        }
+      ],
+      "exports": {
+        "webp": {
+          "path": "animations/rest.webp",
+          "width": 512,
+          "height": 512,
+          "frames": 3,
+          "distinctDecodedFrames": 3,
+          "durationMs": 2500,
+          "sha256": "6b9671fb6cb543cf924f1bfaf057d0dc0251403e342b382044016f6bf809e8d1",
+          "bytes": 140088,
+          "alpha": true
+        },
+        "gifLight": {
+          "path": "animations/rest-light.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 3,
+          "distinctDecodedFrames": 3,
+          "durationMs": 2500,
+          "sha256": "b34c33884f1e5fb9d29e7c6286e6eb5da4075666fcf50d74ca57a12ef3e5af99",
+          "bytes": 88076,
+          "alpha": true
+        },
+        "gifDark": {
+          "path": "animations/rest-dark.gif",
+          "width": 320,
+          "height": 320,
+          "frames": 3,
+          "distinctDecodedFrames": 3,
+          "durationMs": 2500,
+          "sha256": "a6e15d8c074bcade758e310ab37ff606a6e11b44c2dbda58634cdeca6dae7ef6",
+          "bytes": 86021,
+          "alpha": true
+        }
+      },
+      "atlasSha256": "610439cb2e5a186b6efd24e8ecbe338b52e65c02eca808e5768648845b375b9b"
+    }
+  ]
+}

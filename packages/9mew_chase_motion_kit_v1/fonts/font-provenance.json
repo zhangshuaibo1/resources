@@ -1,0 +1,13 @@
+{
+  "source": "Noto Sans SC from prior project font cache",
+  "license": "SIL Open Font License 1.1",
+  "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "glyphCount": 806,
+  "use": "Offline Chinese labels and raster overview rendering; no network font requests",
+  "files": [
+    "9mew-chase.ttf",
+    "9mew-chase.woff",
+    "9mew-chase-medium.ttf"
+  ],
+  "staticRasterWeight": 500
+}

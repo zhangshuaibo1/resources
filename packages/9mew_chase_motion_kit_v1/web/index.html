@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="九喵 2D 宠物追逐动画：追老鼠、追蝴蝶，再回到你身边。">
+  <title>一点好奇心 · 九喵追逐动画</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a class="wordmark" href="#playground" aria-label="九喵动画演示">9mew<span>九喵</span></a>
+      <div class="top-actions"><span class="edition">PLAYFUL MOMENTS · 01</span><button class="icon-button" id="theme" aria-label="切换到浅色主题">浅色</button></div>
+    </header>
+    <section class="intro" aria-labelledby="title">
+      <div><p class="eyebrow"><span></span> 奶喵的小小冒险</p><h1 id="title">追着一点<span>好奇心。</span></h1><p class="lead">从小老鼠的脚步，到蝴蝶的翅膀。<br class="mobile-break">绕过屏幕一圈，再回到你身边。</p></div>
+      <div class="intro-note"><span class="orbit-mark" aria-hidden="true">✦</span><p>27 秒 · 2D 逐帧动作<br><span>透明素材 / 深浅主题 / 可嵌入网页</span></p></div>
+    </section>
+    <section class="playground" id="playground" aria-label="猫咪追逐动作预览">
+      <div class="grid-decoration" aria-hidden="true"></div>
+      <div class="corner top-left"><span>02</span> 向上跃起</div>
+      <div class="corner top-right"><span>03</span> 追逐蝴蝶</div>
+      <div class="corner bottom-left"><span>01</span> 追上小老鼠</div>
+      <div class="corner bottom-right"><span>04</span> 回到你身边</div>
+      <div class="center-note" aria-hidden="true"><div class="little-orbit"><span>✧</span><i></i><b></b></div><p>给页面留一点<br><strong>会动的温柔</strong></p></div>
+      <div class="scene-status" id="load-status" role="status">正在准备奶喵的动作…</div>
+    </section>
+    <section class="controls" aria-label="动画控制">
+      <div class="transport"><button class="primary" id="play" disabled><span id="play-icon" aria-hidden="true">Ⅱ</span><span id="play-label">暂停</span></button><button class="secondary" id="replay" disabled>重新出发 <span aria-hidden="true">↺</span></button></div>
+      <div class="status-block"><div class="phase-row"><span id="phase">准备动作</span><span id="clock">00 / 27s</span></div><div class="progress-track" role="progressbar" aria-label="播放进度" aria-valuemin="0" aria-valuemax="27" aria-valuenow="0" id="progress"><span></span></div></div>
+      <div class="settings"><label>速度<select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><label>大小<select id="size" aria-label="猫咪大小"><option value="120">小</option><option value="160" selected>中</option><option value="200">大</option></select></label><button class="secondary" id="full">铺满屏幕 <span aria-hidden="true">↗</span></button></div>
+    </section>
+    <footer class="footer"><p><span class="dot"></span><span id="mode-note">播放一次后停在右下角，可以随时重播。</span></p><a href="README.md" id="readme-link">网页接入说明 <span aria-hidden="true">↗</span></a></footer>
+  </main>
+  <script type="module" src="demo.js"></script>
+</body>
+</html>

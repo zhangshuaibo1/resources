@@ -1,0 +1,19 @@
+{
+  "assetId": "9mew.chase.cat.land.v1",
+  "source": "source/cat/chase-land.png",
+  "sourceSha256": "62b1a163ade540cb255fe92e3c16422dd3206e1ba353fc709094d632f613fd4d",
+  "sourceMethod": "built-in imagegen returned static 8-pose atlas; animation assembled mechanically",
+  "reference": "refs/mewling_master.png",
+  "referenceSha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+  "providerModel": null,
+  "providerJobId": null,
+  "cost": null,
+  "status": "prototype",
+  "sourcePoseCount": 8,
+  "observations": [
+    "Cream fur, broad cheeky face, gray-brown eyes, sakura scarf and gold star retained.",
+    "Sequence shows extended forepaws, compression on landing, hindpaw settling and seated blink.",
+    "Outer margin is tight in raw atlas; opaque edge test passed. Final extraction gives ample canvas margin."
+  ],
+  "selectedCandidate": "chase-land-candidate-01.png"
+}

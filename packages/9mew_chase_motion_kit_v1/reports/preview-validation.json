@@ -1,0 +1,83 @@
+{
+  "status": "PREVIEW_ENCODING_PASSED",
+  "catalogSha256": "4935c7836607d276545421479938c7cd0c04fc636d076665916b41ef7aafbcb8",
+  "runtimeSha256": "8b24f0314662d044c82f20d608fde74d6782ebfa3e4d8dfc7517e4a352c4d418",
+  "note": "Scene positions and action frames rendered from the exact live webpage sampler; 24fps motion placement does not mean 24 independently drawn poses per second.",
+  "sourceSequenceCount": 7,
+  "newSourcePoses": 56,
+  "reusedRest": true,
+  "files": [
+    {
+      "file": "exports/route-light.mp4",
+      "bytes": 516666,
+      "sha256": "3542b36669a7001b774f390cdb9d2df85fa4b7ef3508c40a4f0cbe7a56e9465f",
+      "theme": "light",
+      "width": 1280,
+      "height": 720,
+      "frames": 648,
+      "fps": 24,
+      "durationMs": 27000,
+      "codec": "h264",
+      "audio": false,
+      "decode": "all_frames_counted"
+    },
+    {
+      "file": "exports/route-light.gif",
+      "bytes": 19027839,
+      "sha256": "aa8d573639876c4c58a0658650e04ec5ab9344b11fd6162109c85de60eca9790",
+      "theme": "light",
+      "width": 800,
+      "height": 450,
+      "frames": 324,
+      "durationMs": 27000,
+      "decode": "all_frames_decoded"
+    },
+    {
+      "file": "exports/route-light.webp",
+      "bytes": 838024,
+      "sha256": "8afca375ac25fa81a309265ae87595cd99284907743d8e904bae0c0d349b1cbb",
+      "theme": "light",
+      "width": 960,
+      "height": 540,
+      "frames": 392,
+      "durationMs": 26999,
+      "decode": "all_frames_decoded"
+    },
+    {
+      "file": "exports/route-dark.mp4",
+      "bytes": 642306,
+      "sha256": "aa0ad255ee94d252e2251775d76d89eaab4170a3bacda5976c99c4d18d31d882",
+      "theme": "dark",
+      "width": 1280,
+      "height": 720,
+      "frames": 648,
+      "fps": 24,
+      "durationMs": 27000,
+      "codec": "h264",
+      "audio": false,
+      "decode": "all_frames_counted"
+    },
+    {
+      "file": "exports/route-dark.gif",
+      "bytes": 32987802,
+      "sha256": "afc0351c1c003a5535064f70f04529711feebb41e348f5ee2240244e3f9e1942",
+      "theme": "dark",
+      "width": 800,
+      "height": 450,
+      "frames": 324,
+      "durationMs": 27000,
+      "decode": "all_frames_decoded"
+    },
+    {
+      "file": "exports/route-dark.webp",
+      "bytes": 1149168,
+      "sha256": "015cc3fbd1185561ea09a3883e028195364f42c54a9fdf5d2d7c9d98e3684278",
+      "theme": "dark",
+      "width": 960,
+      "height": 540,
+      "frames": 400,
+      "durationMs": 26999,
+      "decode": "all_frames_decoded"
+    }
+  ]
+}

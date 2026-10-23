@@ -1,0 +1,8 @@
+{
+  "name": "9mew-screen-chase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build:offline": "node build-offline.mjs", "check:route": "node check-route.mjs"},
+  "description": "Dependency-free 2D cat, mouse and butterfly screen chase. React adapter is optional."
+}

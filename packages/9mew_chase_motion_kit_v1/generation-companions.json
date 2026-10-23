@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "kit": "9mew_chase_motion_kit_v1",
+  "createdAtUtc": "2026-10-23T04:59:38.951Z",
+  "tool": "image_gen.imagegen",
+  "providerModel": null,
+  "cost": null,
+  "unavailableMetadata": [
+    "exact model identifier",
+    "cost",
+    "seed",
+    "generation job ID"
+  ],
+  "generationMode": "built-in image generation with authorized style/derived-image references",
+  "reference": {
+    "role": "style and material only; not subject identity",
+    "sourcePackage": "9mew_pet_actions_kit_v5",
+    "path": "illustrations/mewling_master.png",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a"
+  },
+  "status": "SOURCE_ART_VISUALLY_REVIEWED; encoding and playback are separate",
+  "productionApproval": false,
+  "sequences": [
+    {
+      "id": "mouse-run",
+      "file": "source/companions/mouse-run.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "bytes": 1043322,
+      "sha256": "cfdb8876f6934a19b4a496561e1c1a8950ab2f48a7362d8bb8c7f7c1517f8389",
+      "frameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "exactCellBoundaries": false
+      },
+      "direction": "right",
+      "visualReview": {
+        "inspected": "entire source atlas, all eight visible key poses",
+        "summary": "A single coherent taupe mouse design performs compression, hind push, extended hop and landing. Pink ears, cream muzzle and thin tail remain recognizable; all eight selected silhouettes have clear outer margins.",
+        "limits": [
+          "Natural overlap hides some far-side paws in several poses.",
+          "Source artwork is discrete key poses; smooth continuity requires timed-playback review.",
+          "Do not count left-facing mirror as a new original action."
+        ]
+      },
+      "generation": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: illustration-story. Asset type: transparent 2D animation sprite sheet for an elegant cute website companion.\nImage 1 is a STYLE AND MATERIAL reference only: match its delicately illustrated fluffy fur, refined soft shading, warmly luminous lighting, and appealing large eyes. Do not include the cat, scarf or star.\nCreate exactly EIGHT successive animation key poses of ONE SAME tiny cute round woodland mouse, arranged in a precise FOUR COLUMNS by TWO ROWS atlas, left-to-right then next row. Wide 2:1 canvas, equal cells, generous transparent gutters. Each mouse fits fully inside its cell, same scale, consistent right-facing side/three-quarter view, matching eye and ear proportions.\nCharacter: warm taupe-gray fluffy mouse with small cream muzzle/belly, rosy inner round ears, friendly expressive dark eyes, a tiny pink nose, delicate whiskers and ONE thin gently curved pinkish tail. Compact natural small-mouse body; charming, refined and soft, never a pest, never plastic or toy-like. No clothing or props.\nAction: complete smooth playful scampering RUN cycle, all moving toward the RIGHT. 1 front paw forward back paw under hip; 2 front paws contact and hind knees compress; 3 torso low with hind legs about to push; 4 hind push and forepaws tucked; 5 airborne extended gentle hop; 6 forepaw reaches landing; 7 front paws cushion landing and hind legs swing underneath; 8 return toward pose 1. The four legs articulate coherently, each pose slightly different. Ears and tail follow subtly without changing shape. Ground baseline aligned through cells except gentle airborne phase; no drawn ground/shadow.\nBeautiful high-quality 2D storybook character illustration with fine fur detail and feathered alpha edges. True transparent background. No white rectangle, checkerboard, labels, numbers, grid lines, text, watermarks, motion streaks, duplicates in a cell, cheese, scenery, or additional creatures. All tails and ears must be intact with at least 10% transparent margins. Exactly 4 x 2, eight mouse poses.",
+          "references": [
+            "selected cat style master"
+          ],
+          "transparent_background": true,
+          "file": "source/companions/mouse-run-candidate-01.png",
+          "sha256": "b1f5e46d1c632cb72d5ea8c4961de5806dbf6456fbcbfdae30995a894e85c859",
+          "disposition": "superseded",
+          "reason": "Tight edge/gutter spacing around tail and whisker silhouettes; targeted margin correction requested."
+        },
+        {
+          "attempt": 2,
+          "prompt": "Use case: precise-object-edit. Edit Image 1, the eight-mouse sprite sheet. Retain the exact charming taupe mouse design, fine fur, friendly rounded face and the eight articulated right-facing running poses.\nFix ONLY the atlas composition and cropping: remake the sheet as FOUR EQUAL COLUMNS and TWO EQUAL ROWS, with exactly ONE complete mouse centered within each cell, each at only 65 PERCENT OF CELL WIDTH INCLUDING THE ENTIRE TAIL AND WHISKERS. Leave at least 15 percent empty TRANSPARENT margin on both left and right of every mouse, and ample empty space between rows. Make each mouse noticeably SMALLER on the canvas than in the input. No tail tip, whisker, toe, ear or fur may touch any cell boundary or canvas edge; every entire tail has to be visible. The leftmost mouse must have a generous empty margin before its tail. The rightmost mouse must have empty margin beyond its nose and whiskers. All eight mice exactly same scale. Wide 2:1 canvas. True transparent background, no gray or white background, no checkerboard, no shadows, no labels or grid.\nAnimation is still one consistent natural mouse running toward the RIGHT, eight distinct sequential gait poses. Do not add extra mice or alter species.",
+          "references": [
+            "source/companions/mouse-run-candidate-01.png"
+          ],
+          "transparent_background": true,
+          "disposition": "selected",
+          "reason": "Preserved design/poses while providing safer transparent margins."
+        }
+      ]
+    },
+    {
+      "id": "butterfly-flutter",
+      "file": "source/companions/butterfly-flutter.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "bytes": 1259991,
+      "sha256": "d60484e210d0060f484833b95f844a5fa2456996cd0c76b20db616ed3d486055",
+      "frameCount": 8,
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "exactCellBoundaries": false
+      },
+      "direction": "diagonally-up-right",
+      "approximateSourceThoraxAnchors": [
+        [
+          383,
+          343
+        ],
+        [
+          810,
+          341
+        ],
+        [
+          1171,
+          345
+        ],
+        [
+          1618,
+          349
+        ],
+        [
+          364,
+          760
+        ],
+        [
+          817,
+          750
+        ],
+        [
+          1173,
+          749
+        ],
+        [
+          1615,
+          764
+        ]
+      ],
+      "anchorNote": "Visual estimates for registration guidance, not measured anatomy landmarks. Align thorax/body consistently rather than wing bounding-box centers; fully spread pose extends further across its cell.",
+      "visualReview": {
+        "inspected": "entire source atlas, all eight visible wing states",
+        "summary": "Consistent lavender and powder-blue wings with fine golden veins and peach highlights; open, partially closed and narrow wing states remain readable, with intact antennae and no added characters.",
+        "limits": [
+          "Generated poses are roughly in a four-by-two arrangement rather than exact grid tiles.",
+          "Fine ornament should be reviewed at final 35–60 pixel display size.",
+          "Final animation timing and decode still require the assembly stage."
+        ]
+      },
+      "generation": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: illustration-story. Asset type: transparent 2D sprite sheet for a graceful butterfly in a cute refined website pet chase.\nImage 1 is only a STYLE/PALETTE QUALITY reference for soft luminous high-quality illustration. Do NOT depict a cat, mouse, scarf, star ornament or mammal face.\nCreate exactly EIGHT successive flutter-animation key poses of ONE SAME delicate little butterfly, arranged FOUR EQUAL COLUMNS by TWO EQUAL ROWS, wide 2:1 canvas. One butterfly per cell, identical body size and consistent right-facing THREE-QUARTER SIDE perspective. Each entire butterfly fits inside just the central 60 percent of its cell width and height, with at least 18 percent empty TRANSPARENT padding around all wing tips and antennae. No clipping, overlaps or frame lines.\nButterfly design: softly rounded elegant two forewings and two smaller hindwings, subtle scallop to the tips; pastel periwinkle-lavender with powder-blue inner wings, small blush-peach glow and restrained warm-gold veins. Tiny slender cream-gold body angled diagonally up-right, distinct small round head, two graceful thin antennae, no oversized eyes or human face. Wings have refined painted translucent satin texture, very soft highlights, beautiful coherent wing patterns; simple enough to read at 35 pixels, not overloaded.\nAnimate a full wing beat with genuinely DIFFERENT opening angles, in chronological order: 1 wings widely spread up; 2 partly closing; 3 near vertical closed narrow profile; 4 half-open through downward beat; 5 fully spread down/out; 6 half lifted; 7 nearly closed upward; 8 spreading up toward pose 1. Body stays the same pose and scale throughout, only slight organic bob. The two near wings and two far wings should maintain coherent anatomy, not rotate into different views or become flowers.\nHigh-end soft 2D storybook illustration, airy, adorable and elegant. True transparent alpha background. No text, labels, grid, numbers, ground, shadow, glow cloud, trails, stars, scenery, extra creatures, white rectangle or checkerboard. Exactly EIGHT butterflies in a clean 4 by 2 atlas.",
+          "references": [
+            "selected cat style master"
+          ],
+          "transparent_background": true,
+          "disposition": "selected"
+        }
+      ]
+    }
+  ]
+}

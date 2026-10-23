@@ -1,0 +1,507 @@
+{
+  "status": "RUNTIME_CHECKS_PASSED",
+  "executedAt": "2026-10-23T05:07:01.744Z",
+  "catalogSHA256": "4935c7836607d276545421479938c7cd0c04fc636d076665916b41ef7aafbcb8",
+  "runtimeSHA256": "8b24f0314662d044c82f20d608fde74d6782ebfa3e4d8dfc7517e4a352c4d418",
+  "testSHA256": "cc8d34cbb6e1522029af73b679ab2061ee10c6147ce7501dbd8d76b598000c85",
+  "checks": [
+    {
+      "name": "all real sprite atlases loaded and decoded",
+      "result": "PASS",
+      "evidence": [
+        {
+          "id": "chase-run",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        },
+        {
+          "id": "chase-look-up",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        },
+        {
+          "id": "chase-leap",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        },
+        {
+          "id": "chase-float",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        },
+        {
+          "id": "chase-land",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        },
+        {
+          "id": "mouse-run",
+          "width": 1024,
+          "height": 512,
+          "expectedWidth": 1024,
+          "expectedHeight": 512
+        },
+        {
+          "id": "butterfly-flutter",
+          "width": 1024,
+          "height": 512,
+          "expectedWidth": 1024,
+          "expectedHeight": 512
+        },
+        {
+          "id": "rest",
+          "width": 2048,
+          "height": 1024,
+          "expectedWidth": 2048,
+          "expectedHeight": 1024
+        }
+      ]
+    },
+    {
+      "name": "27-second route stays in safe bounds and returns home",
+      "result": "PASS",
+      "evidence": {
+        "status": "ROUTE_GEOMETRY_PASSED",
+        "catalogPresent": true,
+        "caseCount": 5,
+        "samplesPerCase": 1081,
+        "evidence": [
+          {
+            "width": 1440,
+            "height": 900,
+            "catSize": 160,
+            "seams": [
+              {
+                "phase": "mouse",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "notice",
+                "actor": "cat",
+                "deltaPx": 0.000019047785306102376
+              },
+              {
+                "phase": "ascend",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "ascend",
+                "actor": "butterfly",
+                "deltaPx": 0.000549495793174114
+              },
+              {
+                "phase": "cross",
+                "actor": "cat",
+                "deltaPx": 5.54374530063241e-9
+              },
+              {
+                "phase": "cross",
+                "actor": "butterfly",
+                "deltaPx": 0.00011203312384598538
+              },
+              {
+                "phase": "descend",
+                "actor": "cat",
+                "deltaPx": 9.205357721897215e-9
+              },
+              {
+                "phase": "descend",
+                "actor": "butterfly",
+                "deltaPx": 0.00006502600379427862
+              },
+              {
+                "phase": "land",
+                "actor": "cat",
+                "deltaPx": 7.3026838862306236e-9
+              },
+              {
+                "phase": "rest",
+                "actor": "cat",
+                "deltaPx": 0
+              }
+            ]
+          },
+          {
+            "width": 390,
+            "height": 844,
+            "catSize": 160,
+            "seams": [
+              {
+                "phase": "mouse",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "notice",
+                "actor": "cat",
+                "deltaPx": 0.000012419152917023349
+              },
+              {
+                "phase": "ascend",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "ascend",
+                "actor": "butterfly",
+                "deltaPx": 0.000100174529493621
+              },
+              {
+                "phase": "cross",
+                "actor": "cat",
+                "deltaPx": 4.536386347367741e-9
+              },
+              {
+                "phase": "cross",
+                "actor": "butterfly",
+                "deltaPx": 0.000020423933567578817
+              },
+              {
+                "phase": "descend",
+                "actor": "cat",
+                "deltaPx": 2.2677665255556723e-9
+              },
+              {
+                "phase": "descend",
+                "actor": "butterfly",
+                "deltaPx": 0.00006499522179212268
+              },
+              {
+                "phase": "land",
+                "actor": "cat",
+                "deltaPx": 6.82767315304933e-9
+              },
+              {
+                "phase": "rest",
+                "actor": "cat",
+                "deltaPx": 0
+              }
+            ]
+          },
+          {
+            "width": 358,
+            "height": 475,
+            "catSize": 200,
+            "seams": [
+              {
+                "phase": "mouse",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "notice",
+                "actor": "cat",
+                "deltaPx": 0.000011200094955701374
+              },
+              {
+                "phase": "ascend",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "ascend",
+                "actor": "butterfly",
+                "deltaPx": 0.000090341446595404
+              },
+              {
+                "phase": "cross",
+                "actor": "cat",
+                "deltaPx": 2.1757819523376156e-9
+              },
+              {
+                "phase": "cross",
+                "actor": "butterfly",
+                "deltaPx": 0.00001841913007849434
+              },
+              {
+                "phase": "descend",
+                "actor": "cat",
+                "deltaPx": 1.6597381337284118e-9
+              },
+              {
+                "phase": "descend",
+                "actor": "butterfly",
+                "deltaPx": 0.000030485267740785265
+              },
+              {
+                "phase": "land",
+                "actor": "cat",
+                "deltaPx": 3.2236555907207154e-9
+              },
+              {
+                "phase": "rest",
+                "actor": "cat",
+                "deltaPx": 0
+              }
+            ]
+          },
+          {
+            "width": 320,
+            "height": 568,
+            "catSize": 240,
+            "seams": [
+              {
+                "phase": "mouse",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "notice",
+                "actor": "cat",
+                "deltaPx": 0.000009752463576891893
+              },
+              {
+                "phase": "ascend",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "ascend",
+                "actor": "butterfly",
+                "deltaPx": 0.00007866466108127288
+              },
+              {
+                "phase": "cross",
+                "actor": "cat",
+                "deltaPx": 2.847663804950079e-9
+              },
+              {
+                "phase": "cross",
+                "actor": "butterfly",
+                "deltaPx": 0.000016038426268534178
+              },
+              {
+                "phase": "descend",
+                "actor": "cat",
+                "deltaPx": 1.620588331115402e-9
+              },
+              {
+                "phase": "descend",
+                "actor": "butterfly",
+                "deltaPx": 0.00004060085132162651
+              },
+              {
+                "phase": "land",
+                "actor": "cat",
+                "deltaPx": 4.271084269649707e-9
+              },
+              {
+                "phase": "rest",
+                "actor": "cat",
+                "deltaPx": 0
+              }
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "catSize": 240,
+            "seams": [
+              {
+                "phase": "mouse",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "notice",
+                "actor": "cat",
+                "deltaPx": 0.000023809732416822163
+              },
+              {
+                "phase": "ascend",
+                "actor": "cat",
+                "deltaPx": 0
+              },
+              {
+                "phase": "ascend",
+                "actor": "butterfly",
+                "deltaPx": 0.0007302509882909669
+              },
+              {
+                "phase": "cross",
+                "actor": "cat",
+                "deltaPx": 6.723029735706424e-9
+              },
+              {
+                "phase": "cross",
+                "actor": "butterfly",
+                "deltaPx": 0.0001488861250793794
+              },
+              {
+                "phase": "descend",
+                "actor": "cat",
+                "deltaPx": 1.2188993571599879e-8
+              },
+              {
+                "phase": "descend",
+                "actor": "butterfly",
+                "deltaPx": 0.00007464523530231558
+              },
+              {
+                "phase": "land",
+                "actor": "cat",
+                "deltaPx": 8.56543043184486e-9
+              },
+              {
+                "phase": "rest",
+                "actor": "cat",
+                "deltaPx": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "actual pose frames and route coordinates change while playing",
+      "result": "PASS",
+      "evidence": {
+        "before": {
+          "time": 2516.7,
+          "x": 926.6231025007102,
+          "frame": 1
+        },
+        "after": {
+          "time": 2783.2999999999997,
+          "x": 860.0763450215852,
+          "frame": 4
+        }
+      }
+    },
+    {
+      "name": "pause freezes both frame and location",
+      "result": "PASS"
+    },
+    {
+      "name": "every cat state appears with its expected true frame",
+      "result": "PASS",
+      "evidence": [
+        {
+          "timeMs": 0,
+          "action": "rest",
+          "frame": 0
+        },
+        {
+          "timeMs": 2500,
+          "action": "chase-run",
+          "frame": 0
+        },
+        {
+          "timeMs": 6800,
+          "action": "chase-look-up",
+          "frame": 3
+        },
+        {
+          "timeMs": 7800,
+          "action": "chase-leap",
+          "frame": 3
+        },
+        {
+          "timeMs": 14000,
+          "action": "chase-float",
+          "frame": 1
+        },
+        {
+          "timeMs": 23600,
+          "action": "chase-land",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "name": "light and dark preview render without overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "finite playback completes and replay restarts",
+      "result": "PASS"
+    },
+    {
+      "name": "hidden-document suspension preserves scene time",
+      "result": "PASS"
+    },
+    {
+      "name": "real offscreen scrolling pauses and resumes",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile resize retains progress and fits the viewport",
+      "result": "PASS",
+      "evidence": {
+        "canvas": {
+          "width": 358,
+          "height": 475
+        },
+        "cat": {
+          "x": 88.11955616108317,
+          "y": 205.33590991251742,
+          "width": 94.08,
+          "height": 94.08,
+          "anchorX": 0.5,
+          "anchorY": 0.859375,
+          "action": "chase-float",
+          "frame": 3,
+          "flip": false,
+          "opacity": 1,
+          "rotation": 0,
+          "normalized": {
+            "x": 0.04541594718428958,
+            "y": 0.2918273062997521
+          }
+        }
+      }
+    },
+    {
+      "name": "full-viewport overlay passes real clicks through and cleans old instance",
+      "result": "PASS"
+    },
+    {
+      "name": "speed and size controls update active controller",
+      "result": "PASS"
+    },
+    {
+      "name": "destroy removes overlay and stops time",
+      "result": "PASS"
+    },
+    {
+      "name": "reduced motion stays static until explicit keyboard play",
+      "result": "PASS"
+    },
+    {
+      "name": "missing sprite falls back to the selected original still",
+      "result": "PASS",
+      "evidence": {
+        "drawnAlphaPixels": 10669
+      }
+    },
+    {
+      "name": "no JavaScript errors or external network requests",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Local Chromium only, with mobile viewport emulation; not real mobile-device testing.",
+    "Document visibility is tested with a simulated visibilitychange event; offscreen suspension uses a real scroll.",
+    "Visual quality and identity still require user acceptance. No production deployment or model service was exercised."
+  ],
+  "browserVersion": "156.0.8078.47",
+  "screenshots": [
+    "qa/desktop-dark.png",
+    "qa/desktop-light.png",
+    "qa/mobile-light.png"
+  ],
+  "errors": [],
+  "externalRequests": []
+}

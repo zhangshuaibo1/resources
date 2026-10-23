@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "1.0.0",
+  "characterId": "9mew.character.naimiao",
+  "appearanceVersion": "naimiao.chase.1.0.0",
+  "status": "prototype",
+  "artApproval": "awaiting-user-review",
+  "poster": "refs/mewling_master.webp",
+  "sourceSequenceCount": 7,
+  "reusedSequenceCount": 1,
+  "directionPolicy": "All source sheets face right. Left travel is a horizontal mirror, not another original action.",
+  "animationMethod": "Discrete generated key poses plus time-based webpage route; no AI video or optical-flow claim.",
+  "actions": {
+    "chase-run": {
+      "id": "chase-run",
+      "label": "追着小鼠跑",
+      "sprite": "sprites/chase-run.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        85,
+        80,
+        75,
+        90,
+        85,
+        80,
+        75,
+        90
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/chase-run.png",
+      "frames": [
+        "frames/chase-run/000.webp",
+        "frames/chase-run/001.webp",
+        "frames/chase-run/002.webp",
+        "frames/chase-run/003.webp",
+        "frames/chase-run/004.webp",
+        "frames/chase-run/005.webp",
+        "frames/chase-run/006.webp",
+        "frames/chase-run/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-run.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-run.webp",
+        "gifLight": "animations/chase-run-light.gif",
+        "gifDark": "animations/chase-run-dark.gif"
+      }
+    },
+    "chase-look-up": {
+      "id": "chase-look-up",
+      "label": "发现蝴蝶",
+      "sprite": "sprites/chase-look-up.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        170,
+        170,
+        180,
+        180,
+        190,
+        140,
+        110,
+        100
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-look-up.png",
+      "frames": [
+        "frames/chase-look-up/000.webp",
+        "frames/chase-look-up/001.webp",
+        "frames/chase-look-up/002.webp",
+        "frames/chase-look-up/003.webp",
+        "frames/chase-look-up/004.webp",
+        "frames/chase-look-up/005.webp",
+        "frames/chase-look-up/006.webp",
+        "frames/chase-look-up/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-look-up.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-look-up.webp",
+        "gifLight": "animations/chase-look-up-light.gif",
+        "gifDark": "animations/chase-look-up-dark.gif"
+      }
+    },
+    "chase-leap": {
+      "id": "chase-leap",
+      "label": "起跳追蝶",
+      "sprite": "sprites/chase-leap.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        170,
+        130,
+        100,
+        110,
+        130,
+        140,
+        130,
+        150
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-leap.png",
+      "frames": [
+        "frames/chase-leap/000.webp",
+        "frames/chase-leap/001.webp",
+        "frames/chase-leap/002.webp",
+        "frames/chase-leap/003.webp",
+        "frames/chase-leap/004.webp",
+        "frames/chase-leap/005.webp",
+        "frames/chase-leap/006.webp",
+        "frames/chase-leap/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-leap.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-leap.webp",
+        "gifLight": "animations/chase-leap-light.gif",
+        "gifDark": "animations/chase-leap-dark.gif"
+      }
+    },
+    "chase-float": {
+      "id": "chase-float",
+      "label": "星空轻跃",
+      "sprite": "sprites/chase-float.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        140,
+        140,
+        130,
+        140,
+        150,
+        150,
+        140,
+        140
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/chase-float.png",
+      "frames": [
+        "frames/chase-float/000.webp",
+        "frames/chase-float/001.webp",
+        "frames/chase-float/002.webp",
+        "frames/chase-float/003.webp",
+        "frames/chase-float/004.webp",
+        "frames/chase-float/005.webp",
+        "frames/chase-float/006.webp",
+        "frames/chase-float/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-float.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-float.webp",
+        "gifLight": "animations/chase-float-light.gif",
+        "gifDark": "animations/chase-float-dark.gif"
+      }
+    },
+    "chase-land": {
+      "id": "chase-land",
+      "label": "轻轻落地",
+      "sprite": "sprites/chase-land.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        120,
+        120,
+        130,
+        170,
+        170,
+        170,
+        170,
+        150
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": false,
+      "poster": "posters/chase-land.png",
+      "frames": [
+        "frames/chase-land/000.webp",
+        "frames/chase-land/001.webp",
+        "frames/chase-land/002.webp",
+        "frames/chase-land/003.webp",
+        "frames/chase-land/004.webp",
+        "frames/chase-land/005.webp",
+        "frames/chase-land/006.webp",
+        "frames/chase-land/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/cat/chase-land.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/chase-land.webp",
+        "gifLight": "animations/chase-land-light.gif",
+        "gifDark": "animations/chase-land-dark.gif"
+      }
+    },
+    "mouse-run": {
+      "id": "mouse-run",
+      "label": "小鼠快跑",
+      "sprite": "sprites/mouse-run.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameCount": 8,
+      "durationsMs": [
+        65,
+        65,
+        70,
+        65,
+        65,
+        65,
+        70,
+        65
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/mouse-run.png",
+      "frames": [
+        "frames/mouse-run/000.webp",
+        "frames/mouse-run/001.webp",
+        "frames/mouse-run/002.webp",
+        "frames/mouse-run/003.webp",
+        "frames/mouse-run/004.webp",
+        "frames/mouse-run/005.webp",
+        "frames/mouse-run/006.webp",
+        "frames/mouse-run/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/companions/mouse-run.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/mouse-run.webp",
+        "gifLight": "animations/mouse-run-light.gif",
+        "gifDark": "animations/mouse-run-dark.gif"
+      }
+    },
+    "butterfly-flutter": {
+      "id": "butterfly-flutter",
+      "label": "蝴蝶扇翅",
+      "sprite": "sprites/butterfly-flutter.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameCount": 8,
+      "durationsMs": [
+        95,
+        75,
+        65,
+        75,
+        95,
+        75,
+        65,
+        75
+      ],
+      "anchor": {
+        "x": 0.64,
+        "y": 0.69
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/butterfly-flutter.png",
+      "frames": [
+        "frames/butterfly-flutter/000.webp",
+        "frames/butterfly-flutter/001.webp",
+        "frames/butterfly-flutter/002.webp",
+        "frames/butterfly-flutter/003.webp",
+        "frames/butterfly-flutter/004.webp",
+        "frames/butterfly-flutter/005.webp",
+        "frames/butterfly-flutter/006.webp",
+        "frames/butterfly-flutter/007.webp"
+      ],
+      "sourceKind": "independent-imagegen-sequence",
+      "source": "source/companions/butterfly-flutter.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/butterfly-flutter.webp",
+        "gifLight": "animations/butterfly-flutter-light.gif",
+        "gifDark": "animations/butterfly-flutter-dark.gif"
+      }
+    },
+    "rest": {
+      "id": "rest",
+      "label": "追逐后歇一会",
+      "sprite": "sprites/rest.webp",
+      "columns": 4,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "frameCount": 8,
+      "durationsMs": [
+        280,
+        320,
+        140,
+        200,
+        360,
+        400,
+        400,
+        400
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.859375
+      },
+      "facing": "right",
+      "loop": true,
+      "poster": "posters/rest.png",
+      "frames": [
+        "frames/rest/000.webp",
+        "frames/rest/001.webp",
+        "frames/rest/002.webp",
+        "frames/rest/003.webp",
+        "frames/rest/004.webp",
+        "frames/rest/005.webp",
+        "frames/rest/006.webp",
+        "frames/rest/007.webp"
+      ],
+      "sourceKind": "derived-from-landing",
+      "source": "source/cat/chase-land.png",
+      "status": "prototype",
+      "exports": {
+        "webp": "animations/rest.webp",
+        "gifLight": "animations/rest-light.gif",
+        "gifDark": "animations/rest-dark.gif"
+      }
+    }
+  }
+}

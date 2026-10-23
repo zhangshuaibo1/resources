@@ -1,0 +1,1596 @@
+{
+  "schemaVersion": "9mew.visual-review.v1",
+  "status": "STATIC_POSE_VISUAL_REVIEW_COMPLETED",
+  "reviewedAtUtc": "2026-10-23T05:05:37.460618+00:00",
+  "scope": "Independent source-art and extracted-pose review; no browser/timed-playback certification in this report.",
+  "catalogSha256": "4935c7836607d276545421479938c7cd0c04fc636d076665916b41ef7aafbcb8",
+  "encodingReportSha256": "71712a7944a826e6ae1291d0683b73a78a4ad2567b12f55c1dfa753019786501",
+  "identityReference": {
+    "logicalId": "9mew.character.naimiao.selected-master",
+    "sha256": "2e20839bcda5c5208de4a30654e6e09dcb541076e35c9ef00421c09857319b6a",
+    "role": "sole identity authority"
+  },
+  "sourceSequenceCount": 7,
+  "newSourcePoseCount": 56,
+  "extractedFrameSlots": 64,
+  "distinctExtractedPixelHashes": 56,
+  "derivedSequence": {
+    "id": "rest",
+    "sourceActionId": "chase-land",
+    "sourceFrameIndices": [
+      5,
+      5,
+      6,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "sourceFiles": [
+    {
+      "file": "source/cat/chase-float.png",
+      "sha256": "2f0c3892fafdca1fb3862548f595103e58f5385736615bab124603bba691613c"
+    },
+    {
+      "file": "source/cat/chase-land.png",
+      "sha256": "62b1a163ade540cb255fe92e3c16422dd3206e1ba353fc709094d632f613fd4d"
+    },
+    {
+      "file": "source/cat/chase-leap.png",
+      "sha256": "2132f68829d35c260a7f1e1b0d6c9d96f918246a69fd8db7ace65897dfabbf02"
+    },
+    {
+      "file": "source/cat/chase-look-up.png",
+      "sha256": "66686b51abc7d321665ffc59893b6f910979ff690b1c9063c57d73934336b2e7"
+    },
+    {
+      "file": "source/cat/chase-run.png",
+      "sha256": "b000db945588fc71a481226da9bb17beb9a65dbb17cc2a15bbad9de0a9e52db5"
+    },
+    {
+      "file": "source/companions/butterfly-flutter.png",
+      "sha256": "d60484e210d0060f484833b95f844a5fa2456996cd0c76b20db616ed3d486055"
+    },
+    {
+      "file": "source/companions/mouse-run.png",
+      "sha256": "cfdb8876f6934a19b4a496561e1c1a8950ab2f48a7362d8bb8c7f7c1517f8389"
+    }
+  ],
+  "checks": {
+    "allSevenSelectedSourceSheetsViewed": true,
+    "all64ExtractedFramesViewed": true,
+    "themesInspected": [
+      "#FFF8F2",
+      "#101321"
+    ],
+    "contactCanvasSizePx": 128,
+    "minimumAlpha24CanvasMarginPx": 19,
+    "opaqueOutlineClippingObserved": false,
+    "neighboringSpriteFragmentsObserved": false,
+    "obviousExtraLimbsObserved": false,
+    "grossHeadSizePumpingInStaticPosesObserved": false,
+    "oneUniformScalePerGeneratedSequenceVerified": true,
+    "butterflyBodyAnchor": {
+      "normalizedX": 0.64,
+      "normalizedY": 0.69,
+      "observation": "Thorax visually remains near this common canvas location across changing wing spans; no independent subpixel tracking test performed."
+    }
+  },
+  "identityObservations": [
+    "Main cat keeps broad rounded cheeks, cream-white fine fur, gray-brown eyes, pink scarf and gold star.",
+    "Ear/face angle varies with action; landing/rest turns toward the viewer. No claim of pixel-identical redrawing or automatic user approval.",
+    "Fur edges and colored companion outlines remain legible on both backgrounds at the inspected web-sized canvas."
+  ],
+  "actions": [
+    {
+      "id": "chase-run",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Eight distinct gallop shapes show gathered and extended limbs, rather than only image translation.",
+        "Broad cheeks, gray-brown eyes, cream fur and pink scarf remain recognizable; mouth is playfully open.",
+        "Frame 3 has the longest silhouette; extracted full tail, ear and paw edges remain inside canvas."
+      ],
+      "perSequenceScales": [
+        0.933333333
+      ],
+      "frames": [
+        {
+          "file": "frames/chase-run/000.webp",
+          "sha256": "935b4f73f909b50bf1074364953b9832ee53634c4a4a4de3d3a71cc6c5c9d1ba",
+          "pixelSha256": "ddca4ebc2d5b7210cc51ce4f816c83f4d20ed9180e6b99e33f735341b592527c",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            55,
+            120,
+            463,
+            442
+          ],
+          "alpha128Bounds": [
+            58,
+            122,
+            453,
+            442
+          ],
+          "minimumAlpha24MarginPx": 49
+        },
+        {
+          "file": "frames/chase-run/001.webp",
+          "sha256": "07c947d88112adce4d392626e7f09a96e581c77201df9252dd9548f21d50d6a1",
+          "pixelSha256": "0e071ac776d26594048e9e31e818a060bfb74bac5d95f1425209fc81bf34d50e",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            67,
+            114,
+            446,
+            439
+          ],
+          "alpha128Bounds": [
+            76,
+            116,
+            437,
+            439
+          ],
+          "minimumAlpha24MarginPx": 66
+        },
+        {
+          "file": "frames/chase-run/002.webp",
+          "sha256": "071c40fd9113cacdcd955fc6070f87e2935d728377a627354c61588c2237d615",
+          "pixelSha256": "08e25daa6a102bb94bd2f2732dd2569318c5fb7cd0575a225221754c3dab37bc",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            51,
+            151,
+            459,
+            435
+          ],
+          "alpha128Bounds": [
+            60,
+            153,
+            453,
+            434
+          ],
+          "minimumAlpha24MarginPx": 51
+        },
+        {
+          "file": "frames/chase-run/003.webp",
+          "sha256": "1cb654d122fc1f6a455ec5528eeeccd05c34ba4bcaf9ab1ebe2ac99dc86e5d47",
+          "pixelSha256": "1da6161bc7f05b2a2a0416a3111437dd05dd5d93dbc873c603fbb3396a3d4d1b",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            43,
+            148,
+            469,
+            432
+          ],
+          "alpha128Bounds": [
+            51,
+            151,
+            463,
+            430
+          ],
+          "minimumAlpha24MarginPx": 43
+        },
+        {
+          "file": "frames/chase-run/004.webp",
+          "sha256": "a69a2e64759589acf79eab7f7289998a30d9900a5199bad59523076237353d94",
+          "pixelSha256": "58c7d38c395e6e5028afbde62d31fe4449d630487e86b9e965eb4facf5168a81",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            45,
+            154,
+            471,
+            441
+          ],
+          "alpha128Bounds": [
+            48,
+            155,
+            467,
+            440
+          ],
+          "minimumAlpha24MarginPx": 41
+        },
+        {
+          "file": "frames/chase-run/005.webp",
+          "sha256": "8c7ed14bc6e0f88b21822f41ce12444dc053c4cce881111065baa09649013161",
+          "pixelSha256": "11626255c5f55dcb7c144e475860787491ec394d51f78595c15b865be5df96b7",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            61,
+            141,
+            453,
+            437
+          ],
+          "alpha128Bounds": [
+            65,
+            144,
+            449,
+            437
+          ],
+          "minimumAlpha24MarginPx": 59
+        },
+        {
+          "file": "frames/chase-run/006.webp",
+          "sha256": "76162e271443ddd470b738d6841cbbdfd31b534e0e834daf339abfb8bf5f6311",
+          "pixelSha256": "ce4fb98dbfec11b3f75108bbc0511ee3089cb92770abf4f38873e06d7dbaea1f",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            54,
+            111,
+            464,
+            433
+          ],
+          "alpha128Bounds": [
+            59,
+            113,
+            453,
+            432
+          ],
+          "minimumAlpha24MarginPx": 48
+        },
+        {
+          "file": "frames/chase-run/007.webp",
+          "sha256": "0b9d07fd61dca8e8f13b773837748c8dea93282e1752588660cdc0759a1437a4",
+          "pixelSha256": "5c4fe58b398fffce0d6f60e1e67c07786bf63195c064adaf3d8d0d9c67c4aeef",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            54,
+            153,
+            453,
+            431
+          ],
+          "alpha128Bounds": [
+            66,
+            155,
+            446,
+            430
+          ],
+          "minimumAlpha24MarginPx": 54
+        }
+      ]
+    },
+    {
+      "id": "chase-look-up",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Progression visibly raises eyes/chin and one forepaw before a low crouch.",
+        "No obvious duplicated feet or neighboring-cell fragments were seen in the eight extracted poses."
+      ],
+      "perSequenceScales": [
+        0.964467005
+      ],
+      "frames": [
+        {
+          "file": "frames/chase-look-up/000.webp",
+          "sha256": "1a260cbbdc03d6459cf6fbcb78bc45806a67bca0e3cc20c956e2a7abcdba7180",
+          "pixelSha256": "e7472512747a57b8a86487e1e8ff3a2329e39477cfac7b4b19d34a18519fc1e4",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            83,
+            71,
+            443,
+            441
+          ],
+          "alpha128Bounds": [
+            85,
+            72,
+            428,
+            440
+          ],
+          "minimumAlpha24MarginPx": 69
+        },
+        {
+          "file": "frames/chase-look-up/001.webp",
+          "sha256": "7b759fd3e1cadd4fb445cdafc28087868a209367ffbfeb597dc6752274da8721",
+          "pixelSha256": "dd6b18d62c854c811492d01fe90bacde47309ff71d03bdcb1892463ed55d0adb",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            84,
+            67,
+            435,
+            441
+          ],
+          "alpha128Bounds": [
+            85,
+            68,
+            428,
+            440
+          ],
+          "minimumAlpha24MarginPx": 67
+        },
+        {
+          "file": "frames/chase-look-up/002.webp",
+          "sha256": "be1fd0b38f039b3f0b696e9f4c7a3fea29ee0933ae5d4d891548908739a0248d",
+          "pixelSha256": "11124aa418c341561322dde34c88ef880da176f44bc078fe7f52e53ce758000e",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            80,
+            65,
+            442,
+            441
+          ],
+          "alpha128Bounds": [
+            82,
+            66,
+            432,
+            441
+          ],
+          "minimumAlpha24MarginPx": 65
+        },
+        {
+          "file": "frames/chase-look-up/003.webp",
+          "sha256": "2334003f2b7f30a1e20f5c7e9e2ad0034b0da70ce58823aaaf27fa96c897db77",
+          "pixelSha256": "60c2d8c0161528751264c5d55637ce9415f74639b8f523133de2f868ec187ad8",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            73,
+            65,
+            438,
+            441
+          ],
+          "alpha128Bounds": [
+            75,
+            66,
+            437,
+            440
+          ],
+          "minimumAlpha24MarginPx": 65
+        },
+        {
+          "file": "frames/chase-look-up/004.webp",
+          "sha256": "0849816fe047feef8a5726b2d65f4d1a4ac50a826de754df2523a9c0afb4d1a6",
+          "pixelSha256": "dff7f5e65d589d99d25fbbbead52365ecaaafc1b3f329df6e23d5cf23321e0b0",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            59,
+            60,
+            452,
+            441
+          ],
+          "alpha128Bounds": [
+            61,
+            61,
+            451,
+            441
+          ],
+          "minimumAlpha24MarginPx": 59
+        },
+        {
+          "file": "frames/chase-look-up/005.webp",
+          "sha256": "859e062e9d24abdc6f6190b93ab3e83f678233782e8a4b47c059eb5443291d64",
+          "pixelSha256": "def922b72d64fee307ead9eceee6768a0a07bc26dcaebc466177e1e62aab2555",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            75,
+            120,
+            441,
+            442
+          ],
+          "alpha128Bounds": [
+            77,
+            121,
+            434,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/chase-look-up/006.webp",
+          "sha256": "1079001ddaaeddb046b642c7a5359fff89c44d15db28a06670f0c12dfe3f1733",
+          "pixelSha256": "579d374d33e402741f2beed291f0df79158e2a98b26253a86d63f352719618ce",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            76,
+            136,
+            444,
+            441
+          ],
+          "alpha128Bounds": [
+            78,
+            138,
+            434,
+            440
+          ],
+          "minimumAlpha24MarginPx": 68
+        },
+        {
+          "file": "frames/chase-look-up/007.webp",
+          "sha256": "8b4cc625d1af0d83dec2a470941bd27bf77a48f03cbe4ed2e1e154b163291041",
+          "pixelSha256": "29574d04e15c218a5fb4f313cab313a8b0088ae2e745c484319882e12dd7f92b",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            81,
+            165,
+            436,
+            441
+          ],
+          "alpha128Bounds": [
+            84,
+            168,
+            428,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        }
+      ]
+    },
+    {
+      "id": "chase-leap",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Crouch, push-off, long upward reach, tuck, descent and landing are visibly different body shapes.",
+        "Head size is broadly stable while height and silhouette change with the pose; shared scaling preserves the crouch."
+      ],
+      "perSequenceScales": [
+        1.088825215
+      ],
+      "frames": [
+        {
+          "file": "frames/chase-leap/000.webp",
+          "sha256": "af589b39a6b8d71face5a24ca761cb58886200b4e1bc70554c8d8f1be782066e",
+          "pixelSha256": "3fdfa8b6d3c36fbb888ad3275a3c3b7b6a18166c3e26cffb6d59a504e1fad591",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            73,
+            206,
+            452,
+            442
+          ],
+          "alpha128Bounds": [
+            75,
+            208,
+            439,
+            441
+          ],
+          "minimumAlpha24MarginPx": 60
+        },
+        {
+          "file": "frames/chase-leap/001.webp",
+          "sha256": "451100e459d27f36870f8ca15949421bce9ea62e68726f07245ebcf71b068d4d",
+          "pixelSha256": "affc4a7b7575110f8f9b01438c0105dad7135938368db2f67ec5cb02d09a539a",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            91,
+            119,
+            423,
+            442
+          ],
+          "alpha128Bounds": [
+            94,
+            120,
+            419,
+            442
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/chase-leap/002.webp",
+          "sha256": "a3593767430854a90cbd3c2b94e145389ff308002e1dabb9ac61b2ba862dea7a",
+          "pixelSha256": "a0062365c66b1c9c50408696b02d8f9065f7398358366539143d3c804af99de6",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            55,
+            82,
+            457,
+            442
+          ],
+          "alpha128Bounds": [
+            57,
+            84,
+            456,
+            441
+          ],
+          "minimumAlpha24MarginPx": 55
+        },
+        {
+          "file": "frames/chase-leap/003.webp",
+          "sha256": "47a346a9b5dbf8adb77b5720e0affffdca12e228573c84a81598ab87de3c0fea",
+          "pixelSha256": "63fd859af876b23f34ccc7c6a000f5c81a1c27a1dbf0ba6e469662a718956022",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            58,
+            60,
+            454,
+            443
+          ],
+          "alpha128Bounds": [
+            61,
+            62,
+            454,
+            442
+          ],
+          "minimumAlpha24MarginPx": 58
+        },
+        {
+          "file": "frames/chase-leap/004.webp",
+          "sha256": "cc2c687e53b54df464195b4821480f4fcde83ef8431541a1181cce1fd604633a",
+          "pixelSha256": "7901ff9f455828bcf405c32192ec1e9478bd414fd6494c501a4f5bf5d37417d6",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            99,
+            119,
+            422,
+            442
+          ],
+          "alpha128Bounds": [
+            103,
+            120,
+            412,
+            442
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/chase-leap/005.webp",
+          "sha256": "f13b467be29302154bec04414e1d46fe61f363342e72510145d6561e993ca2ae",
+          "pixelSha256": "bd8830700c9f6255951870d4e47782d3dadc3b54717db0d0bd44e55d959b2767",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            66,
+            107,
+            448,
+            443
+          ],
+          "alpha128Bounds": [
+            69,
+            108,
+            447,
+            442
+          ],
+          "minimumAlpha24MarginPx": 64
+        },
+        {
+          "file": "frames/chase-leap/006.webp",
+          "sha256": "556f0b489282440f63ab28ae1b928b46285b5fa8c3526d25bd3fcc9ad3b8e093",
+          "pixelSha256": "47ac4d8f824145a30e64b28e5c31055d6b87ac625e81886e1fab8a2e831e5421",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            69,
+            156,
+            450,
+            443
+          ],
+          "alpha128Bounds": [
+            71,
+            159,
+            443,
+            442
+          ],
+          "minimumAlpha24MarginPx": 62
+        },
+        {
+          "file": "frames/chase-leap/007.webp",
+          "sha256": "7aa9c6e8de1723558e7f88674e6f7c5cd22a92b827f5fc517444056bc2441171",
+          "pixelSha256": "b8354118673da11d10d7ac7a3269af127cb37875380f99b6d3f47621a292d5ce",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            77,
+            173,
+            453,
+            443
+          ],
+          "alpha128Bounds": [
+            80,
+            176,
+            434,
+            442
+          ],
+          "minimumAlpha24MarginPx": 59
+        }
+      ]
+    },
+    {
+      "id": "chase-float",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Alternating forepaw reach and gather are visible, with all bodies remaining belly-down.",
+        "This sequence communicates deliberate fantasy air pursuit; it is not a depiction of realistic sustained feline flight."
+      ],
+      "perSequenceScales": [
+        1.004784689
+      ],
+      "frames": [
+        {
+          "file": "frames/chase-float/000.webp",
+          "sha256": "34ca2e64a5dc53090fd0a2a562b127491b85c8366e5ca9e62f13610c9e785245",
+          "pixelSha256": "2a8715012646cf28e97f8d07b66da654e0ea69f46cca818af4e75951449943b5",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            48,
+            93,
+            466,
+            442
+          ],
+          "alpha128Bounds": [
+            49,
+            96,
+            464,
+            441
+          ],
+          "minimumAlpha24MarginPx": 46
+        },
+        {
+          "file": "frames/chase-float/001.webp",
+          "sha256": "8b1b506e590c7cc665e29f0a852f30dedf971ec218e4c5cf4c357aa29359825b",
+          "pixelSha256": "7d0b1fb1de6c80c11fe825f6736bd0dc7c749b72897159abe28297d21d826e91",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            60,
+            99,
+            453,
+            442
+          ],
+          "alpha128Bounds": [
+            63,
+            101,
+            452,
+            441
+          ],
+          "minimumAlpha24MarginPx": 59
+        },
+        {
+          "file": "frames/chase-float/002.webp",
+          "sha256": "ef02b0de6eca6bf66617a82752feada8abcc28bec9ae21819724149676c1d1ac",
+          "pixelSha256": "fe78f5ce8588bf198077b4c4f2a1409a3e37e6378cb32003eee6b5d1c152863b",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            77,
+            103,
+            448,
+            442
+          ],
+          "alpha128Bounds": [
+            79,
+            105,
+            437,
+            441
+          ],
+          "minimumAlpha24MarginPx": 64
+        },
+        {
+          "file": "frames/chase-float/003.webp",
+          "sha256": "5edaf782038fe42506ff58669a29196512bed332a3f3fe0f718cce3770e995d5",
+          "pixelSha256": "be1a5c0db43e28d1e674046d43f3e373ecafeab28a459ba21a84b6fec450257a",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            46,
+            87,
+            467,
+            442
+          ],
+          "alpha128Bounds": [
+            47,
+            89,
+            466,
+            441
+          ],
+          "minimumAlpha24MarginPx": 45
+        },
+        {
+          "file": "frames/chase-float/004.webp",
+          "sha256": "53718b91b90da4bb0f7276e7dab3ff085c4a23b622f0d03e766a206a68e247a2",
+          "pixelSha256": "a41dff4a98ed470122b800c12307c10d0e4b9cb2bff782d09a5622626f407cf8",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            61,
+            92,
+            457,
+            442
+          ],
+          "alpha128Bounds": [
+            63,
+            94,
+            450,
+            441
+          ],
+          "minimumAlpha24MarginPx": 55
+        },
+        {
+          "file": "frames/chase-float/005.webp",
+          "sha256": "7d5e3d89d8e7fef731038c7a79fd0466e866f6da609ea77024286c40cd6c5b7e",
+          "pixelSha256": "fb753c1eb8020abdfab73b86105e772d697ee12e21b90a107e96df32bea00a97",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            46,
+            92,
+            466,
+            442
+          ],
+          "alpha128Bounds": [
+            48,
+            93,
+            465,
+            441
+          ],
+          "minimumAlpha24MarginPx": 46
+        },
+        {
+          "file": "frames/chase-float/006.webp",
+          "sha256": "6abbb47611411277c7b46409eb1fb0c210168ecf873717a4b9d1d00815c09c9a",
+          "pixelSha256": "03ac1878c04a39c743659b114f8cec6b55ed3546f67147d5febe5ed08fb46b8f",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            72,
+            113,
+            456,
+            442
+          ],
+          "alpha128Bounds": [
+            73,
+            115,
+            441,
+            441
+          ],
+          "minimumAlpha24MarginPx": 56
+        },
+        {
+          "file": "frames/chase-float/007.webp",
+          "sha256": "9b2c44d2ea5774ad078676478782e6247cad730b0f34785326cfcad037745fc2",
+          "pixelSha256": "4e172201e06702a64cf60926388f3948ab54b1f10b85cd4e6afdc2cffe1c085b",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            51,
+            92,
+            462,
+            441
+          ],
+          "alpha128Bounds": [
+            53,
+            93,
+            461,
+            441
+          ],
+          "minimumAlpha24MarginPx": 50
+        }
+      ]
+    },
+    {
+      "id": "chase-land",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Front paws extend, weight compresses and the cat sits; the late blink is visible.",
+        "Face turns more toward the viewer than the chase views while retaining coat, scarf and facial features."
+      ],
+      "perSequenceScales": [
+        0.929095355
+      ],
+      "frames": [
+        {
+          "file": "frames/chase-land/000.webp",
+          "sha256": "9aab7263ac8e7c81ee1d52c58cfc0824cfc9cc0de7dec5308aabf54918fa15e8",
+          "pixelSha256": "06a1f2ad298078694b70f614eec1677a741767cd0cd45843024159d60b1c0b9e",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            53,
+            60,
+            461,
+            441
+          ],
+          "alpha128Bounds": [
+            54,
+            62,
+            459,
+            441
+          ],
+          "minimumAlpha24MarginPx": 51
+        },
+        {
+          "file": "frames/chase-land/001.webp",
+          "sha256": "fe4fbb0011938374d52740bced81da07dc2b532e4d2bedfd2994ef11852bce6e",
+          "pixelSha256": "f3811613b2cebf4bad383741c190ae3a32d0ebb01ee084dcfab13f95a3704684",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            54,
+            94,
+            457,
+            441
+          ],
+          "alpha128Bounds": [
+            58,
+            96,
+            455,
+            440
+          ],
+          "minimumAlpha24MarginPx": 54
+        },
+        {
+          "file": "frames/chase-land/002.webp",
+          "sha256": "8e072375a71f840e3e731dff3e70d100ea004e27762b3d2209edb209bd66bd56",
+          "pixelSha256": "209ea0dbb9c27de0df4040364438df066be283b0a0ec7319e590f3293a5e2fd5",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            45,
+            95,
+            470,
+            441
+          ],
+          "alpha128Bounds": [
+            48,
+            98,
+            467,
+            440
+          ],
+          "minimumAlpha24MarginPx": 42
+        },
+        {
+          "file": "frames/chase-land/003.webp",
+          "sha256": "357067f4d4ddc5a91869380d82cee9c87e8c04ce4813b86e44518e5361f3b2b5",
+          "pixelSha256": "454cf05aa6d1d9b00a52a0c362befb20f4e40705a45e9c0bff439785918418df",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            63,
+            132,
+            449,
+            441
+          ],
+          "alpha128Bounds": [
+            66,
+            134,
+            447,
+            441
+          ],
+          "minimumAlpha24MarginPx": 63
+        },
+        {
+          "file": "frames/chase-land/004.webp",
+          "sha256": "3914f6d8122cef82da389ea38e4507d124aa1464daf39d82b884adadde3521c3",
+          "pixelSha256": "d37dddb52e7214f237b30d59e8da4559d133ab9d499a23751085af25f405fa80",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            64,
+            84,
+            447,
+            442
+          ],
+          "alpha128Bounds": [
+            68,
+            86,
+            445,
+            441
+          ],
+          "minimumAlpha24MarginPx": 64
+        },
+        {
+          "file": "frames/chase-land/005.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            87,
+            72,
+            425,
+            442
+          ],
+          "alpha128Bounds": [
+            90,
+            75,
+            423,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/chase-land/006.webp",
+          "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f",
+          "pixelSha256": "10f8ec01b413aacf1a5b93aedd2fb75c6879b8da496a608da0a482bf576b1dee",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            86,
+            71,
+            426,
+            442
+          ],
+          "alpha128Bounds": [
+            88,
+            73,
+            424,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/chase-land/007.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        }
+      ]
+    },
+    {
+      "id": "mouse-run",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Round pink ears, gray-beige coat, small paws and a long thin pink tail remain consistent.",
+        "Gait changes include crouch, push, extended and airborne shapes; tail stays fully inside extracted canvas."
+      ],
+      "perSequenceScales": [
+        0.530726257
+      ],
+      "frames": [
+        {
+          "file": "frames/mouse-run/000.webp",
+          "sha256": "8033f6a4164a8048d9baf4d62b6f9717b05e11cf1957dc3d328066dc73ddd42e",
+          "pixelSha256": "075fc4d11e0ccc25d112ed9910f5d6304b4b12c7f1c30a2d781e9e93925804b0",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            42,
+            103,
+            226,
+            221
+          ],
+          "alpha128Bounds": [
+            43,
+            103,
+            211,
+            221
+          ],
+          "minimumAlpha24MarginPx": 30
+        },
+        {
+          "file": "frames/mouse-run/001.webp",
+          "sha256": "0ffec9f53c4ac34a922b87117e3484ee1485f4a9225ad2d98a426b3979a0401d",
+          "pixelSha256": "a5b1fc516b62706775f7c052c31c49ab44d50eba7a73dba991d8e3769b769c83",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            43,
+            102,
+            226,
+            221
+          ],
+          "alpha128Bounds": [
+            44,
+            103,
+            210,
+            220
+          ],
+          "minimumAlpha24MarginPx": 30
+        },
+        {
+          "file": "frames/mouse-run/002.webp",
+          "sha256": "b633fd2975509a1e131972d6852d31ef0b34555ac0e82619523328c16bbe1c57",
+          "pixelSha256": "a95ffdfe27072933a41a232d1a8e0c3e8ca291545d9b6478a5bd92b1be2a5287",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            39,
+            112,
+            229,
+            218
+          ],
+          "alpha128Bounds": [
+            39,
+            113,
+            214,
+            218
+          ],
+          "minimumAlpha24MarginPx": 27
+        },
+        {
+          "file": "frames/mouse-run/003.webp",
+          "sha256": "777585e728361f769f8dae747790a159fc156028445e45c664bcaca6538372d3",
+          "pixelSha256": "d032394c4f02a57158ced96ed9a54c90ae67edf816fa07fa5a5ffb9f5549f0eb",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            33,
+            109,
+            237,
+            216
+          ],
+          "alpha128Bounds": [
+            33,
+            109,
+            219,
+            216
+          ],
+          "minimumAlpha24MarginPx": 19
+        },
+        {
+          "file": "frames/mouse-run/004.webp",
+          "sha256": "f4b1de5a95c20e4f00a558c949f7e3743c72f19e69a82b335830e25a8bc24a96",
+          "pixelSha256": "17df03450d50eac576f21548fdbba908bd0e16b8b03f18e96a9fa75fbf508e55",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            32,
+            115,
+            234,
+            220
+          ],
+          "alpha128Bounds": [
+            33,
+            116,
+            222,
+            220
+          ],
+          "minimumAlpha24MarginPx": 22
+        },
+        {
+          "file": "frames/mouse-run/005.webp",
+          "sha256": "d7f1b0f3b3c5f81e623b45be026290bdc30969a1f20ff8daa94140f1e2d084e1",
+          "pixelSha256": "e7a24eaca65097684412db87fca93629388d046cc9b22c1d5ea91a2d1115a536",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            37,
+            108,
+            231,
+            220
+          ],
+          "alpha128Bounds": [
+            37,
+            109,
+            216,
+            220
+          ],
+          "minimumAlpha24MarginPx": 25
+        },
+        {
+          "file": "frames/mouse-run/006.webp",
+          "sha256": "b03106971166a26015f3347ce7ee6776def85c81a6be82f036c558253007303d",
+          "pixelSha256": "49ada231dc8b021f088bee3616ffe5a49e386e8a5712c1471495f1d591b90925",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            40,
+            102,
+            228,
+            218
+          ],
+          "alpha128Bounds": [
+            40,
+            103,
+            213,
+            218
+          ],
+          "minimumAlpha24MarginPx": 28
+        },
+        {
+          "file": "frames/mouse-run/007.webp",
+          "sha256": "e8f8f29626efad204ed79f9d25498cea5e0f2485bb7ba7ef9ef46fc6889be4fc",
+          "pixelSha256": "ab7bf54963fbcb4d2adbe94a54ccfe5d24e246969e2c5eb95f1c7f20ce468888",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            39,
+            93,
+            230,
+            217
+          ],
+          "alpha128Bounds": [
+            40,
+            94,
+            214,
+            216
+          ],
+          "minimumAlpha24MarginPx": 26
+        }
+      ]
+    },
+    {
+      "id": "butterfly-flutter",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source sheet at native resolution",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "Lavender-blue translucent wings and gold body are readable on light and dark surfaces.",
+        "Wing spread visibly changes across eight poses; thorax remains near the same normalized anchor instead of following the changing wing bounding-box center.",
+        "Antennae and wing-tip outlines appear complete in the reviewed extracted frames."
+      ],
+      "perSequenceScales": [
+        0.391752577
+      ],
+      "frames": [
+        {
+          "file": "frames/butterfly-flutter/000.webp",
+          "sha256": "c998ee79766772b482871398d94a110e3d706a98c9b42691454592eaf275cb61",
+          "pixelSha256": "bfe5ab59e2ad5babd119cedccc66c2c88e6608d8f1e30ca1af3f4596230a61cc",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            74,
+            58,
+            213,
+            208
+          ],
+          "alpha128Bounds": [
+            74,
+            59,
+            212,
+            207
+          ],
+          "minimumAlpha24MarginPx": 43
+        },
+        {
+          "file": "frames/butterfly-flutter/001.webp",
+          "sha256": "27270e8ba8a6e132698ca254eb3223fe71cb22ca4e5505ea0041db30f963aee3",
+          "pixelSha256": "1659e521ab331793ad420b0aea174dce4518971d116db65580275c8176ddc186",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            91,
+            73,
+            206,
+            205
+          ],
+          "alpha128Bounds": [
+            92,
+            74,
+            206,
+            204
+          ],
+          "minimumAlpha24MarginPx": 50
+        },
+        {
+          "file": "frames/butterfly-flutter/002.webp",
+          "sha256": "f0dd699644c6c78cf51d9ba39ee8e68baa17da885ad90c2a5cddc9d5af9b8089",
+          "pixelSha256": "a4929ae84795dd1441762bd51289e5ba1cf981b5ad8bbbd671bca30b2756dfe1",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            120,
+            66,
+            205,
+            205
+          ],
+          "alpha128Bounds": [
+            121,
+            66,
+            204,
+            205
+          ],
+          "minimumAlpha24MarginPx": 51
+        },
+        {
+          "file": "frames/butterfly-flutter/003.webp",
+          "sha256": "31e1093aa6445e05bd67e0db16add90c170931f9eb7241b448d4a769be11287c",
+          "pixelSha256": "822b832bd10778473bf7d32022d8d42908c675f4fb82acbe85281ddc1398971b",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            78,
+            82,
+            202,
+            199
+          ],
+          "alpha128Bounds": [
+            79,
+            83,
+            202,
+            198
+          ],
+          "minimumAlpha24MarginPx": 54
+        },
+        {
+          "file": "frames/butterfly-flutter/004.webp",
+          "sha256": "33df9e9d48f4d7ddb231dff7910ef84583a9ccb6f5e2e33bd532e6efc10ae774",
+          "pixelSha256": "75cc478c4ad2c0fc90ff152498903147bc39f736adbfa7a19784146f2b88753f",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            43,
+            109,
+            234,
+            205
+          ],
+          "alpha128Bounds": [
+            43,
+            110,
+            234,
+            205
+          ],
+          "minimumAlpha24MarginPx": 22
+        },
+        {
+          "file": "frames/butterfly-flutter/005.webp",
+          "sha256": "a2288be06a9bd5221a8c2246d6cb269f949bf403ea79fd3dd7055124d4639622",
+          "pixelSha256": "f4c216652cc6f6722170879e68864be299789edead8e48831dbffc4538c0d59e",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            81,
+            75,
+            208,
+            201
+          ],
+          "alpha128Bounds": [
+            81,
+            75,
+            208,
+            200
+          ],
+          "minimumAlpha24MarginPx": 48
+        },
+        {
+          "file": "frames/butterfly-flutter/006.webp",
+          "sha256": "9961a125c8dba54744fa243a864e9df547fec57cf8fc6cd71d80656743ea4a7a",
+          "pixelSha256": "5f5999ffc06778596e2a9c90249cc5424f8bb1fe91fa0d4352411016daa452f1",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            111,
+            69,
+            207,
+            205
+          ],
+          "alpha128Bounds": [
+            111,
+            70,
+            206,
+            205
+          ],
+          "minimumAlpha24MarginPx": 49
+        },
+        {
+          "file": "frames/butterfly-flutter/007.webp",
+          "sha256": "d6fca329ffb73e0d18fc95262dab179818820c0da088b2e6a9963d338c6bd538",
+          "pixelSha256": "eb5f10a15e962b7edfc09c7cc03a4bb0d648d366e5fa9ef20dd3423ed22990db",
+          "width": 256,
+          "height": 256,
+          "alpha24Bounds": [
+            69,
+            58,
+            210,
+            205
+          ],
+          "alpha128Bounds": [
+            70,
+            58,
+            210,
+            204
+          ],
+          "minimumAlpha24MarginPx": 46
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "frameSlots": 8,
+      "reviewedFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inspection": [
+        "source landing relationship",
+        "extracted frame contacts at 128px canvas on both themes"
+      ],
+      "observations": [
+        "The seated blink sequence reuses landing poses 5, 6 and 7; repeated holds are not new drawings.",
+        "Body remains consistently seated, and the closed-eye frame does not introduce a different face."
+      ],
+      "perSequenceScales": [],
+      "frames": [
+        {
+          "file": "frames/rest/000.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            87,
+            72,
+            425,
+            442
+          ],
+          "alpha128Bounds": [
+            90,
+            75,
+            423,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/rest/001.webp",
+          "sha256": "94f54d788ecd215e2997e6c9c228fd423199a222efea239f22e4fabba666a5b3",
+          "pixelSha256": "2a5a3773febe06e31da01739609edcc878311f55abbcd9d76de4e87ff0de3c53",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            87,
+            72,
+            425,
+            442
+          ],
+          "alpha128Bounds": [
+            90,
+            75,
+            423,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/rest/002.webp",
+          "sha256": "dbceb47fbcbc99fa9e1c70d15c5fee0a5adcc64840b8d4639aa37fb9989d724f",
+          "pixelSha256": "10f8ec01b413aacf1a5b93aedd2fb75c6879b8da496a608da0a482bf576b1dee",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            86,
+            71,
+            426,
+            442
+          ],
+          "alpha128Bounds": [
+            88,
+            73,
+            424,
+            441
+          ],
+          "minimumAlpha24MarginPx": 70
+        },
+        {
+          "file": "frames/rest/003.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        },
+        {
+          "file": "frames/rest/004.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        },
+        {
+          "file": "frames/rest/005.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        },
+        {
+          "file": "frames/rest/006.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        },
+        {
+          "file": "frames/rest/007.webp",
+          "sha256": "952653059b305622a655908cb379ef42deac767bd3b5e9269ada4c6b23742e8f",
+          "pixelSha256": "48f28c5606c1d294b09877674defd277fb29f1c5eb56a59e23dc205ee4c07cd2",
+          "width": 512,
+          "height": 512,
+          "alpha24Bounds": [
+            89,
+            76,
+            423,
+            441
+          ],
+          "alpha128Bounds": [
+            91,
+            78,
+            421,
+            441
+          ],
+          "minimumAlpha24MarginPx": 71
+        }
+      ]
+    }
+  ],
+  "blockingFindings": [],
+  "limitations": [
+    "This report inspects static source sheets and all extracted poses; it does not certify timed loop seams, frame cadence, inter-action transitions, viewport route motion or browser behavior.",
+    "Discrete generated key poses may show visible pose changes; they must not be described as continuous high-frame-count or skeletal animation.",
+    "No aesthetic similarity percentage or production approval is inferred from hashes or geometry checks."
+  ],
+  "timedPlayback": {
+    "performedByThisReviewer": false,
+    "status": "separate runtime review required"
+  },
+  "productionApproval": false,
+  "userVisualApproval": "not inferred"
+}

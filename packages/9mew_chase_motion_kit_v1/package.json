@@ -1,0 +1,16 @@
+{
+  "name": "9mew-chase-motion-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:assets": "node tools/build-assets.cjs",
+    "build:previews": "node tools/render-previews.mjs",
+    "build:offline": "node web/build-offline.mjs --out OPEN_ME.html"
+  },
+  "dependencies": {
+    "sharp": "0.35.5",
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "engines": { "node": ">=20" }
+}
