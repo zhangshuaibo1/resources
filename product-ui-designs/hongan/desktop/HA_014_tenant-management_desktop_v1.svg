@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fbfbfc"/><stop offset="1" stop-color="#f2f3f5"/></linearGradient>
+ <linearGradient id="red" x2="1" y2="1"><stop stop-color="#ef3438"/><stop offset="1" stop-color="#b90f19"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="12" flood-color="#17202a" flood-opacity=".07"/></filter>
+ <style>
+ .cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#20232a}
+ .muted{fill:#858b95;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif}
+ .small{font-size:14px}.mid{font-size:17px}.bold{font-weight:700}.head{font-size:29px;font-weight:700}
+ </style>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<!-- sidebar -->
+<rect width="250" height="1000" fill="#17191e"/>
+<circle cx="51" cy="53" r="22" fill="url(#red)"/><path d="M43 43a14 14 0 1 0 18 19M51 39l10 14-12 1" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<text x="83" y="49" fill="#fff" font-size="21" font-weight="700" class="cn">红安</text><text x="83" y="72" fill="#aeb2ba" font-size="13">HONGAN</text>
+<g class="cn" font-size="17" fill="#d5d7dc">
+ <text x="70" y="143">控制台</text><text x="70" y="213" fill="#fff" font-weight="700">租户管理</text><text x="70" y="283">项目管理</text>
+ <text x="70" y="353">审核中心</text><text x="70" y="423">策略与规则</text><text x="70" y="493">风险控制</text>
+ <text x="70" y="563">模型管理</text><text x="70" y="633">API 与集成</text><text x="70" y="703">数据统计</text><text x="70" y="773">系统运维</text>
+</g>
+<g fill="none" stroke="#aeb2ba" stroke-width="2" opacity=".9">
+ <rect x="29" y="119" width="22" height="22" rx="5"/><circle cx="40" cy="130" r="5"/>
+ <circle cx="40" cy="199" r="9"/><path d="M29 199h22M40 188v22"/>
+ <rect x="29" y="259" width="22" height="22" rx="5"/><path d="M34 270h12M40 264v12"/>
+ <rect x="29" y="329" width="22" height="22" rx="5"/><path d="M34 340h12"/>
+ <path d="M29 399h22v22H29zM34 410h12M40 404v12"/>
+ <circle cx="40" cy="480" r="10"/><path d="M40 465v30M25 480h30"/>
+ <path d="M29 552h22v22H29zM34 557l12 12M46 557l-12 12"/>
+ <path d="M29 622l11-7 11 7v18H29z"/>
+ <path d="M29 692h22v22H29zM33 708l5-7 4 4 5-9"/>
+ <circle cx="40" cy="760" r="10"/><circle cx="40" cy="760" r="3"/>
+</g>
+<rect x="8" y="174" width="234" height="54" rx="10" fill="url(#red)"/>
+<rect x="250" width="1350" height="82" fill="#fff"/>
+<text x="290" y="48" class="cn mid" font-weight="700">红安管理平台</text>
+<circle cx="1434" cy="41" r="17" fill="#f1f2f4"/><text x="1428" y="47" class="muted small">?</text>
+<circle cx="1490" cy="41" r="17" fill="#f1f2f4"/><circle cx="1498" cy="29" r="5" fill="#d71920"/>
+<circle cx="1543" cy="41" r="17" fill="#e6e8eb"/><text x="1570" y="47" class="cn small">平台管理员</text>
+<!-- main -->
+<text x="290" y="143" class="cn head">租户管理</text>
+<text x="290" y="176" class="muted mid">管理平台租户（企业 / 组织），配置资源配额、套餐与访问权限</text>
+<rect x="1378" y="112" width="180" height="54" rx="10" fill="url(#red)"/>
+<text x="1412" y="146" fill="#fff" font-size="17" font-weight="700" class="cn">＋ 创建租户</text>
+<!-- stat cards -->
+<g filter="url(#shadow)">
+ <rect x="290" y="205" width="285" height="132" rx="15" fill="#fff"/>
+ <rect x="594" y="205" width="285" height="132" rx="15" fill="#fff"/>
+ <rect x="898" y="205" width="285" height="132" rx="15" fill="#fff"/>
+ <rect x="1202" y="205" width="285" height="132" rx="15" fill="#fff"/>
+</g>
+<g class="cn">
+ <text x="318" y="245" class="muted mid">租户总数</text><text x="318" y="294" font-size="37" font-weight="700">356</text><text x="318" y="320" fill="#16834a" font-size="14">↑ 12.6% 较上月</text>
+ <text x="622" y="245" class="muted mid">企业租户</text><text x="622" y="294" font-size="37" font-weight="700">298</text><text x="622" y="320" fill="#16834a" font-size="14">↑ 11.2% 较上月</text>
+ <text x="926" y="245" class="muted mid">试用中</text><text x="926" y="294" font-size="37" font-weight="700">24</text><text x="926" y="320" fill="#c62828" font-size="14">↓ 17.2% 较上月</text>
+ <text x="1230" y="245" class="muted mid">付费租户</text><text x="1230" y="294" font-size="37" font-weight="700">310</text><text x="1230" y="320" fill="#16834a" font-size="14">↑ 15.7% 较上月</text>
+</g>
+<!-- filters -->
+<rect x="290" y="368" width="1268" height="68" rx="12" fill="#fff"/>
+<text x="318" y="410" class="cn mid bold" fill="#c51b25">全部租户</text><rect x="316" y="426" width="83" height="3" fill="#c51b25"/>
+<text x="440" y="410" class="cn mid">企业租户</text><text x="570" y="410" class="cn mid">试用租户</text><text x="690" y="410" class="cn mid">付费租户</text><text x="810" y="410" class="muted mid">已停用</text>
+<rect x="1010" y="382" width="360" height="42" rx="8" fill="#fafbfc" stroke="#e6e8eb"/>
+<circle cx="1035" cy="402" r="7" fill="none" stroke="#969ca5" stroke-width="2"/><path d="M1040 407l7 7" stroke="#969ca5" stroke-width="2"/>
+<text x="1058" y="408" class="muted small">搜索租户名称、联系人、域名等</text>
+<rect x="1386" y="382" width="145" height="42" rx="8" fill="#fff" stroke="#e6e8eb"/>
+<text x="1423" y="408" class="cn small">筛选  ▾</text>
+<!-- table -->
+<rect x="290" y="454" width="1268" height="460" rx="14" fill="#fff" filter="url(#shadow)"/>
+<rect x="290" y="454" width="1268" height="58" rx="14" fill="#f7f8fa"/>
+<g class="cn muted small" font-weight="700">
+ <text x="318" y="490">租户名称</text><text x="575" y="490">租户类型</text><text x="720" y="490">套餐方案</text><text x="870" y="490">资源配额（本月）</text><text x="1160" y="490">状态</text><text x="1280" y="490">创建时间</text><text x="1430" y="490">操作</text>
+</g>
+<g stroke="#eef0f2">
+ <path d="M290 512H1558M290 590H1558M290 668H1558M290 746H1558M290 824H1558"/>
+</g>
+<g class="cn">
+ <g transform="translate(0 0)">
+ <circle cx="340" cy="551" r="20" fill="#fff0f0"/><text x="333" y="558" fill="#cf202b" font-size="20" font-weight="700">S</text>
+ <text x="375" y="546" class="bold mid">星辰科技有限公司</text><text x="375" y="570" class="muted small">xingchen.cn</text>
+ <rect x="570" y="533" width="82" height="30" rx="15" fill="#fff0f0"/><text x="583" y="554" fill="#c91e28" class="small">企业租户</text>
+ <text x="720" y="554" class="mid">专业版</text><text x="870" y="546" class="small">文本 1,240,300 / 2,000,000</text><rect x="870" y="558" width="220" height="8" rx="4" fill="#eceef1"/><rect x="870" y="558" width="136" height="8" rx="4" fill="#d72a32"/>
+ <rect x="1150" y="535" width="62" height="27" rx="13" fill="#e8f6ed"/><text x="1164" y="554" fill="#16834a" class="small">正常</text><text x="1280" y="554" class="small">2026-01-12</text><text x="1430" y="554" class="muted mid">⋯</text>
+ </g>
+ <g transform="translate(0 78)">
+ <circle cx="340" cy="551" r="20" fill="#edf4ff"/><text x="332" y="558" fill="#2876d8" font-size="20" font-weight="700">M</text>
+ <text x="375" y="546" class="bold mid">智远传媒集团</text><text x="375" y="570" class="muted small">zhiyuan.com</text>
+ <rect x="570" y="533" width="82" height="30" rx="15" fill="#fff0f0"/><text x="583" y="554" fill="#c91e28" class="small">企业租户</text>
+ <text x="720" y="554" class="mid">旗舰版</text><text x="870" y="546" class="small">文本 3,860,200 / 5,000,000</text><rect x="870" y="558" width="220" height="8" rx="4" fill="#eceef1"/><rect x="870" y="558" width="170" height="8" rx="4" fill="#d72a32"/>
+ <rect x="1150" y="535" width="62" height="27" rx="13" fill="#e8f6ed"/><text x="1164" y="554" fill="#16834a" class="small">正常</text><text x="1280" y="554" class="small">2026-01-08</text><text x="1430" y="554" class="muted mid">⋯</text>
+ </g>
+ <g transform="translate(0 156)">
+ <circle cx="340" cy="551" r="20" fill="#fff5e9"/><text x="332" y="558" fill="#e28a27" font-size="20" font-weight="700">Y</text>
+ <text x="375" y="546" class="bold mid">云创互联网</text><text x="375" y="570" class="muted small">yunchuang.cn</text>
+ <rect x="570" y="533" width="82" height="30" rx="15" fill="#fff0f0"/><text x="583" y="554" fill="#c91e28" class="small">企业租户</text>
+ <text x="720" y="554" class="mid">专业版</text><text x="870" y="546" class="small">图片 186,320 / 500,000</text><rect x="870" y="558" width="220" height="8" rx="4" fill="#eceef1"/><rect x="870" y="558" width="82" height="8" rx="4" fill="#d72a32"/>
+ <rect x="1150" y="535" width="62" height="27" rx="13" fill="#e8f6ed"/><text x="1164" y="554" fill="#16834a" class="small">正常</text><text x="1280" y="554" class="small">2026-01-05</text><text x="1430" y="554" class="muted mid">⋯</text>
+ </g>
+ <g transform="translate(0 234)">
+ <circle cx="340" cy="551" r="20" fill="#f2edff"/><text x="332" y="558" fill="#8054cf" font-size="20" font-weight="700">G</text>
+ <text x="375" y="546" class="bold mid">乐游游戏工作室</text><text x="375" y="570" class="muted small">leyou.com</text>
+ <rect x="570" y="533" width="82" height="30" rx="15" fill="#edf4ff"/><text x="583" y="554" fill="#2876d8" class="small">试用租户</text>
+ <text x="720" y="554" class="mid">试用版（14天）</text><text x="870" y="546" class="small">文本 12,400 / 50,000</text><rect x="870" y="558" width="220" height="8" rx="4" fill="#eceef1"/><rect x="870" y="558" width="55" height="8" rx="4" fill="#d72a32"/>
+ <rect x="1150" y="535" width="62" height="27" rx="13" fill="#fff4e5"/><text x="1164" y="554" fill="#bd7617" class="small">试用中</text><text x="1280" y="554" class="small">2026-01-26</text><text x="1430" y="554" class="muted mid">⋯</text>
+ </g>
+ <g transform="translate(0 312)">
+ <circle cx="340" cy="551" r="20" fill="#edf4ff"/><text x="332" y="558" fill="#2876d8" font-size="20" font-weight="700">M</text>
+ <text x="375" y="546" class="bold mid">明德教育科技</text><text x="375" y="570" class="muted small">mingdeedu.cn</text>
+ <rect x="570" y="533" width="82" height="30" rx="15" fill="#fff0f0"/><text x="583" y="554" fill="#c91e28" class="small">企业租户</text>
+ <text x="720" y="554" class="mid">标准版</text><text x="870" y="546" class="small">视频 32,800 / 200,000</text><rect x="870" y="558" width="220" height="8" rx="4" fill="#eceef1"/><rect x="870" y="558" width="35" height="8" rx="4" fill="#d72a32"/>
+ <rect x="1150" y="535" width="62" height="27" rx="13" fill="#e8f6ed"/><text x="1164" y="554" fill="#16834a" class="small">正常</text><text x="1280" y="554" class="small">2025-12-28</text><text x="1430" y="554" class="muted mid">⋯</text>
+ </g>
+</g>
+<rect x="290" y="934" width="1268" height="42" rx="10" fill="#fff"/>
+<text x="318" y="961" class="muted small">共 356 条记录</text>
+<text x="1110" y="961" class="cn small">每页 10 条</text><rect x="1240" y="941" width="35" height="29" rx="7" fill="#cf1f29"/><text x="1252" y="961" fill="#fff" class="small">1</text>
+<text x="1290" y="961" class="cn small">2　3　4　5　…　36　›</text>
+</svg>
