@@ -23,10 +23,10 @@
 | HA-011 | API 接入与 SDK | Desktop | planned | — |
 | HA-012 | 用量与账单 | Desktop | planned | — |
 | HA-013 | 平台超级管理后台 | Desktop | planned | — |
-| HA-014 | 租户管理 | Desktop | generated_local | 本地文件：红安_HONGAN_第三批独立页面/13_租户管理.png |
+| HA-014 | 租户管理 | Desktop | committed | [独立 SVG 页面](./desktop/HA_014_tenant-management_desktop_v1.svg) |
 
 ## 下一批页面
 项目管理、成员与权限、敏感词库、地理风险、行为风控、Webhook、申诉复核、系统监控、审核质量分析、API Key 安全、策略版本管理。
 
 ## 说明
-每个页面应单独生成并检查中文、布局和业务逻辑。只有图片实际进入 GitHub 仓库后，才将状态改为 committed。
+每个页面应单独生成并检查中文、布局和业务逻辑。此处 HA-014 为独立 SVG 矢量概念页面，可直接浏览器打开或导入 Figma/Illustrator 继续编辑。之前生成的 PNG 初稿仍在本地工作区，尚未作为二进制文件上传。
